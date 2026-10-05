@@ -1,0 +1,187 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Pods With Recovery",
+   "x": 0.0,
+   "length": 0.34231,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.174775,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": 0.0,
+   "length": 0.104775,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0123952,
+   "compmass": 0.00752612137,
+   "compcgx": 0.0767368446
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 0.104775,
+   "length": 0.07,
+   "instances": 1,
+   "fore": 0.0123952,
+   "aft": 0.0123952,
+   "compmass": 0.00158860811,
+   "compcgx": 0.035
+  },
+  {
+   "index": 4,
+   "cls": "PodSet",
+   "name": "Pod Set",
+   "x": -0.142535,
+   "length": 0.31731,
+   "instances": 2,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 5,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": -0.142535,
+   "length": 0.06731,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0093472,
+   "compmass": 0.00321493074,
+   "compcgx": 0.049699737
+  },
+  {
+   "index": 6,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": -0.075225,
+   "length": 0.25,
+   "instances": 1,
+   "fore": 0.0093472,
+   "aft": 0.0093472,
+   "compmass": 0.0178319815,
+   "compcgx": 0.125
+  },
+  {
+   "index": 7,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal Fin Set",
+   "x": 0.134775,
+   "length": 0.04,
+   "instances": 1,
+   "bodyr": 0.0093472,
+   "compmass": 0.001224,
+   "compcgx": 0.0325
+  },
+  {
+   "index": 8,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal Fin Set",
+   "x": 0.134775,
+   "length": 0.04,
+   "instances": 1,
+   "bodyr": 0.0093472,
+   "compmass": 0.001224,
+   "compcgx": 0.0325
+  },
+  {
+   "index": 9,
+   "cls": "Streamer",
+   "name": "Streamer",
+   "x": 0.0367496676,
+   "length": 0.0260506648,
+   "instances": 1,
+   "compmass": 0.00311225184,
+   "compcgx": 0.0130253324
+  },
+  {
+   "index": 10,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.124775,
+   "length": 0.05,
+   "instances": 1,
+   "ro": 0.0068707,
+   "ri": 0.0065405,
+   "compmass": 0.00062215182,
+   "compcgx": 0.025
+  },
+  {
+   "index": 11,
+   "cls": "CenteringRing",
+   "name": "Centering Ring",
+   "x": 0.129775,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.0073472,
+   "ri": 0.0068707,
+   "compmass": 7.2364764e-05,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 12,
+   "cls": "CenteringRing",
+   "name": "Centering Ring",
+   "x": 0.169775,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.0073472,
+   "ri": 0.0068707,
+   "compmass": 7.2364764e-05,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 13,
+   "cls": "LaunchLug",
+   "name": "Launch Lug",
+   "x": 0.144775,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.000320442451,
+   "compcgx": 0.015
+  },
+  {
+   "index": 14,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.104775,
+   "length": 0.07,
+   "instances": 1,
+   "ro": 0.0093472,
+   "ri": 0.009017,
+   "compmass": 0.00119269332,
+   "compcgx": 0.035
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0653759561,
+   "structCG": 0.0543776033,
+   "launchMass": 0.0897659561,
+   "launchCG": 0.0817598383,
+   "cp_m03": 0.137397122,
+   "cna_m03": 41.6626151,
+   "refLen": 0.0247904,
+   "length": 0.34231
+  }
+ ],
+ "or_version": "24.12"
+}

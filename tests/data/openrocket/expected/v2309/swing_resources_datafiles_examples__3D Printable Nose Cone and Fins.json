@@ -1,0 +1,244 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "3D Printable Nose Cone and Fins",
+   "x": 0.0,
+   "length": 0.354,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.3286,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Printable nose cone",
+   "x": 0.0,
+   "length": 0.1,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0123952,
+   "compmass": 0.0156079469,
+   "compcgx": 0.0777477469
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Screw Eye",
+   "x": 0.117,
+   "length": 0.016,
+   "instances": 1,
+   "compmass": 0.0009,
+   "compcgx": 0.008
+  },
+  {
+   "index": 4,
+   "cls": "BodyTube",
+   "name": "Paper Body Tube -- DO NOT PRINT",
+   "x": 0.1,
+   "length": 0.1524,
+   "instances": 1,
+   "fore": 0.0123952,
+   "aft": 0.0123952,
+   "compmass": 0.0034586268,
+   "compcgx": 0.0762
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Parachute",
+   "x": 0.132,
+   "length": 0.042,
+   "instances": 1,
+   "compmass": 0.00355907054,
+   "compcgx": 0.021
+  },
+  {
+   "index": 6,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.16,
+   "length": 0.052,
+   "instances": 1,
+   "compmass": 0.00072,
+   "compcgx": 0.026
+  },
+  {
+   "index": 7,
+   "cls": "MassComponent",
+   "name": "Wadding",
+   "x": 0.21,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.002,
+   "compcgx": 0.015
+  },
+  {
+   "index": 8,
+   "cls": "BodyTube",
+   "name": "Printable Fin Can and Motor Mount",
+   "x": 0.2524,
+   "length": 0.0762,
+   "instances": 1,
+   "fore": 0.0123952,
+   "aft": 0.0123952,
+   "compmass": 0.00574304651,
+   "compcgx": 0.0381
+  },
+  {
+   "index": 9,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.2599,
+   "length": 0.035,
+   "instances": 1,
+   "compmass": 0.000824668072,
+   "compcgx": 0.0175
+  },
+  {
+   "index": 10,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.2778,
+   "length": 0.0508,
+   "instances": 3,
+   "bodyr": 0.0123952,
+   "compmass": 0.0113157,
+   "compcgx": 0.0381
+  },
+  {
+   "index": 11,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.2786,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.0115952,
+   "ri": 0.01085,
+   "compmass": 0.000328417443,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 12,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.3236,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.0115952,
+   "ri": 0.01085,
+   "compmass": 0.000328417443,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 13,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.2586,
+   "length": 0.075,
+   "instances": 1,
+   "ro": 0.01085,
+   "ri": 0.00935,
+   "compmass": 0.00892408663,
+   "compcgx": 0.0375
+  },
+  {
+   "index": 14,
+   "cls": "EngineBlock",
+   "name": "Engine block",
+   "x": 0.2606,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.00935,
+   "ri": 0.00635,
+   "compmass": 0.000924806337,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 15,
+   "cls": "TubeCoupler",
+   "name": "Tube Coupler",
+   "x": 0.2384,
+   "length": 0.0254,
+   "instances": 1,
+   "ro": 0.0120523,
+   "ri": 0.0108323,
+   "compmass": 0.00278481762,
+   "compcgx": 0.0127
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0574196043,
+   "structCG": 0.214561205,
+   "launchMass": 0.0737696043,
+   "launchCG": 0.233852135,
+   "cp_m03": 0.26084975,
+   "cna_m03": 12.1258076,
+   "refLen": 0.0247904,
+   "length": 0.354
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.0574196043,
+   "structCG": 0.214561205,
+   "launchMass": 0.0756396043,
+   "launchCG": 0.235527032,
+   "cp_m03": 0.26084975,
+   "cna_m03": 12.1258076,
+   "refLen": 0.0247904,
+   "length": 0.354
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3 - too short delay",
+   "structMass": 0.0574196043,
+   "structCG": 0.214561205,
+   "launchMass": 0.0805196043,
+   "launchCG": 0.239531474,
+   "cp_m03": 0.26084975,
+   "cna_m03": 12.1258076,
+   "refLen": 0.0247904,
+   "length": 0.354
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 0.0574196043,
+   "structCG": 0.214561205,
+   "launchMass": 0.0805196043,
+   "launchCG": 0.239531474,
+   "cp_m03": 0.26084975,
+   "cna_m03": 12.1258076,
+   "refLen": 0.0247904,
+   "length": 0.354
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 0.0574196043,
+   "structCG": 0.214561205,
+   "launchMass": 0.0805196043,
+   "launchCG": 0.239531474,
+   "cp_m03": 0.26084975,
+   "cna_m03": 12.1258076,
+   "refLen": 0.0247904,
+   "length": 0.354
+  }
+ ],
+ "or_version": "24.12"
+}

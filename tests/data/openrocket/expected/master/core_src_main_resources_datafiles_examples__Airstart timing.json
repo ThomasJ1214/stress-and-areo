@@ -1,0 +1,270 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Airstart timing",
+   "x": 0.0,
+   "length": 2.56620279,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 2.5654,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.5334,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0974344,
+   "compmass": 0.907967407,
+   "compcgx": 0.332472595
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Mass component",
+   "x": 0.1778,
+   "length": 0.1012,
+   "instances": 1,
+   "compmass": 4.08233133,
+   "compcgx": 0.0506
+  },
+  {
+   "index": 4,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.5334,
+   "length": 0.762,
+   "instances": 1,
+   "fore": 0.0974344,
+   "aft": 0.0974344,
+   "compmass": 0.899297677,
+   "compcgx": 0.381
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Elliptical 16-Gore 96\" Parachute",
+   "x": 0.7366,
+   "length": 0.0341722077,
+   "instances": 1,
+   "compmass": 0.204897271,
+   "compcgx": 0.0170861038
+  },
+  {
+   "index": 6,
+   "cls": "BodyTube",
+   "name": "AV Bay",
+   "x": 1.2954,
+   "length": 0.0508,
+   "instances": 1,
+   "fore": 0.0974344,
+   "aft": 0.0974344,
+   "compmass": 0.0599531785,
+   "compcgx": 0.0254
+  },
+  {
+   "index": 7,
+   "cls": "TubeCoupler",
+   "name": "Tube coupler",
+   "x": 1.1176,
+   "length": 0.4064,
+   "instances": 1,
+   "ro": 0.0950341,
+   "ri": 0.093345,
+   "compmass": 0.507810486,
+   "compcgx": 0.2032
+  },
+  {
+   "index": 8,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 1.1176,
+   "length": 0.009525,
+   "instances": 1,
+   "ro": 0.093345,
+   "ri": 0.0,
+   "compmass": 0.164262159,
+   "compcgx": 0.0047625
+  },
+  {
+   "index": 9,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 1.514475,
+   "length": 0.009525,
+   "instances": 1,
+   "ro": 0.093345,
+   "ri": 0.0,
+   "compmass": 0.164262159,
+   "compcgx": 0.0047625
+  },
+  {
+   "index": 10,
+   "cls": "MassComponent",
+   "name": "electronics",
+   "x": 1.2954,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.340194278,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 11,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 1.3462,
+   "length": 1.2192,
+   "instances": 1,
+   "fore": 0.0974344,
+   "aft": 0.0974344,
+   "compmass": 1.43887628,
+   "compcgx": 0.6096
+  },
+  {
+   "index": 12,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore 18\" Parachute",
+   "x": 1.4224,
+   "length": 0.00345687581,
+   "instances": 1,
+   "compmass": 0.0112534198,
+   "compcgx": 0.00172843791
+  },
+  {
+   "index": 13,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 2.22504,
+   "length": 0.34036,
+   "instances": 3,
+   "bodyr": 0.0974344,
+   "compmass": 0.282274564,
+   "compcgx": 0.195773713
+  },
+  {
+   "index": 14,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 2.289175,
+   "length": 0.009525,
+   "instances": 1,
+   "ro": 0.0954024,
+   "ri": 0.0289052,
+   "compmass": 0.155831929,
+   "compcgx": 0.0047625
+  },
+  {
+   "index": 15,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 2.543175,
+   "length": 0.009525,
+   "instances": 1,
+   "ro": 0.0954024,
+   "ri": 0.0289052,
+   "compmass": 0.155831929,
+   "compcgx": 0.0047625
+  },
+  {
+   "index": 16,
+   "cls": "InnerTube",
+   "name": "54mm center",
+   "x": 2.1971,
+   "length": 0.3683,
+   "instances": 1,
+   "ro": 0.0289052,
+   "ri": 0.0273304,
+   "compmass": 0.0982366036,
+   "compcgx": 0.18415
+  },
+  {
+   "index": 17,
+   "cls": "InnerTube",
+   "name": "38mm airstart",
+   "x": 2.2098,
+   "length": 0.3556,
+   "instances": 3,
+   "ro": 0.0209423,
+   "ri": 0.0193675,
+   "compmass": 0.265937108,
+   "compcgx": 0.1778
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 9.85929244,
+   "structCG": 0.920262936,
+   "launchMass": 12.7457564,
+   "launchCG": 1.25485546,
+   "cp_m03": 1.54262767,
+   "cna_m03": 5.12159831,
+   "refLen": 0.1948688,
+   "length": 2.56620279
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 9.85929244,
+   "structCG": 0.920262936,
+   "launchMass": 12.7457564,
+   "launchCG": 1.25485546,
+   "cp_m03": 1.54262767,
+   "cna_m03": 5.12159831,
+   "refLen": 0.1948688,
+   "length": 2.56620279
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3",
+   "structMass": 9.85929244,
+   "structCG": 0.920262936,
+   "launchMass": 12.7457564,
+   "launchCG": 1.25485546,
+   "cp_m03": 1.54262767,
+   "cna_m03": 5.12159831,
+   "refLen": 0.1948688,
+   "length": 2.56620279
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 9.85929244,
+   "structCG": 0.920262936,
+   "launchMass": 12.7457564,
+   "launchCG": 1.25485546,
+   "cp_m03": 1.54262767,
+   "cna_m03": 5.12159831,
+   "refLen": 0.1948688,
+   "length": 2.56620279
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 9.85929244,
+   "structCG": 0.920262936,
+   "launchMass": 12.7457564,
+   "launchCG": 1.25485546,
+   "cp_m03": 1.54262767,
+   "cna_m03": 5.12159831,
+   "refLen": 0.1948688,
+   "length": 2.56620279
+  }
+ ],
+ "or_version": "24.12"
+}

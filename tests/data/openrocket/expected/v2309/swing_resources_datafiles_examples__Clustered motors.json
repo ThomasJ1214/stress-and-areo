@@ -1,0 +1,256 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Clustered motors",
+   "x": 0.0,
+   "length": 0.705,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.7,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.1,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0275,
+   "compmass": 0.0416295047,
+   "compcgx": 0.0784090118
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.1,
+   "length": 0.6,
+   "instances": 1,
+   "fore": 0.0275,
+   "aft": 0.0275,
+   "compmass": 0.0692155693,
+   "compcgx": 0.3
+  },
+  {
+   "index": 4,
+   "cls": "InnerTube",
+   "name": "Clustered Inner Tube",
+   "x": 0.63,
+   "length": 0.075,
+   "instances": 4,
+   "ro": 0.0095,
+   "ri": 0.009,
+   "compmass": 0.00592818534,
+   "compcgx": 0.0375
+  },
+  {
+   "index": 5,
+   "cls": "EngineBlock",
+   "name": "Engine block",
+   "x": 0.632,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.009,
+   "ri": 0.006,
+   "compmass": 0.000480663676,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 6,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.698,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0265,
+   "ri": 0.0095,
+   "compmass": 0.0026148104,
+   "compcgx": 0.001
+  },
+  {
+   "index": 7,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.653,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0265,
+   "ri": 0.0095,
+   "compmass": 0.0026148104,
+   "compcgx": 0.001
+  },
+  {
+   "index": 8,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.135,
+   "length": 0.052,
+   "instances": 1,
+   "compmass": 0.00258,
+   "compcgx": 0.026
+  },
+  {
+   "index": 9,
+   "cls": "Parachute",
+   "name": "Parachute",
+   "x": 0.14,
+   "length": 0.042,
+   "instances": 1,
+   "compmass": 0.0102194683,
+   "compcgx": 0.021
+  },
+  {
+   "index": 10,
+   "cls": "MassComponent",
+   "name": "Wadding",
+   "x": 0.19,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.002,
+   "compcgx": 0.015
+  },
+  {
+   "index": 11,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.3825,
+   "length": 0.035,
+   "instances": 1,
+   "compmass": 0.000448619431,
+   "compcgx": 0.0175
+  },
+  {
+   "index": 12,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.655,
+   "length": 0.035,
+   "instances": 1,
+   "compmass": 0.000448619431,
+   "compcgx": 0.0175
+  },
+  {
+   "index": 13,
+   "cls": "InnerTube",
+   "name": "Pressure distribution tube",
+   "x": 0.22,
+   "length": 0.38,
+   "instances": 1,
+   "ro": 0.01,
+   "ri": 0.0095,
+   "compmass": 0.00791492853,
+   "compcgx": 0.19
+  },
+  {
+   "index": 14,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.593,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0265,
+   "ri": 0.01,
+   "compmass": 0.00257315288,
+   "compcgx": 0.001
+  },
+  {
+   "index": 15,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.228,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0265,
+   "ri": 0.01,
+   "compmass": 0.00257315288,
+   "compcgx": 0.001
+  },
+  {
+   "index": 16,
+   "cls": "EllipticalFinSet",
+   "name": "Elliptical fin set",
+   "x": 0.64,
+   "length": 0.06,
+   "instances": 3,
+   "bodyr": 0.0275,
+   "compmass": 0.0172722833,
+   "compcgx": 0.03
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.16995576,
+   "structCG": 0.350398815,
+   "launchMass": 0.23535576,
+   "launchCG": 0.440042329,
+   "cp_m03": 0.522907508,
+   "cna_m03": 9.28903561,
+   "refLen": 0.055,
+   "length": 0.705
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.16995576,
+   "structCG": 0.350398815,
+   "launchMass": 0.24555576,
+   "launchCG": 0.449719025,
+   "cp_m03": 0.522907508,
+   "cna_m03": 9.28903561,
+   "refLen": 0.055,
+   "length": 0.705
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3 - too short delay",
+   "structMass": 0.16995576,
+   "structCG": 0.350398815,
+   "launchMass": 0.26235576,
+   "launchCG": 0.464016863,
+   "cp_m03": 0.522907508,
+   "cna_m03": 9.28903561,
+   "refLen": 0.055,
+   "length": 0.705
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 0.16995576,
+   "structCG": 0.350398815,
+   "launchMass": 0.26235576,
+   "launchCG": 0.464016863,
+   "cp_m03": 0.522907508,
+   "cna_m03": 9.28903561,
+   "refLen": 0.055,
+   "length": 0.705
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 0.16995576,
+   "structCG": 0.350398815,
+   "launchMass": 0.26235576,
+   "launchCG": 0.464016863,
+   "cp_m03": 0.522907508,
+   "cna_m03": 9.28903561,
+   "refLen": 0.055,
+   "length": 0.705
+  }
+ ],
+ "or_version": "24.12"
+}

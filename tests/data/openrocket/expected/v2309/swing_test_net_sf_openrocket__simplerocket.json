@@ -1,0 +1,220 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "A simple model rocket",
+   "x": 0.0,
+   "length": 0.425,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.4,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.1,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0125,
+   "compmass": 0.0131559762,
+   "compcgx": 0.0760200608
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.1,
+   "length": 0.3,
+   "instances": 1,
+   "fore": 0.0125,
+   "aft": 0.0125,
+   "compmass": 0.0153812376,
+   "compcgx": 0.15
+  },
+  {
+   "index": 4,
+   "cls": "MassComponent",
+   "name": "Extra mass",
+   "x": 0.1,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.015
+  },
+  {
+   "index": 5,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.35,
+   "length": 0.05,
+   "instances": 3,
+   "bodyr": 0.0125,
+   "compmass": 0.00612,
+   "compcgx": 0.0375
+  },
+  {
+   "index": 6,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.33,
+   "length": 0.075,
+   "instances": 1,
+   "ro": 0.0095,
+   "ri": 0.009,
+   "compmass": 0.00148204633,
+   "compcgx": 0.0375
+  },
+  {
+   "index": 7,
+   "cls": "EngineBlock",
+   "name": "Engine block",
+   "x": 0.332,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.009,
+   "ri": 0.006,
+   "compmass": 0.000480663676,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 8,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.398,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0115,
+   "ri": 0.0095,
+   "compmass": 0.000179447772,
+   "compcgx": 0.001
+  },
+  {
+   "index": 9,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.353,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0115,
+   "ri": 0.0095,
+   "compmass": 0.000179447772,
+   "compcgx": 0.001
+  },
+  {
+   "index": 10,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.12,
+   "length": 0.052,
+   "instances": 1,
+   "compmass": 0.00072,
+   "compcgx": 0.026
+  },
+  {
+   "index": 11,
+   "cls": "Parachute",
+   "name": "Parachute",
+   "x": 0.132,
+   "length": 0.042,
+   "instances": 1,
+   "compmass": 0.00797595093,
+   "compcgx": 0.021
+  },
+  {
+   "index": 12,
+   "cls": "MassComponent",
+   "name": "Wadding",
+   "x": 0.18,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.002,
+   "compcgx": 0.015
+  },
+  {
+   "index": 13,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.2325,
+   "length": 0.035,
+   "instances": 1,
+   "compmass": 0.000448619431,
+   "compcgx": 0.0175
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0481233897,
+   "structCG": 0.205411155,
+   "launchMass": 0.0620133897,
+   "launchCG": 0.242948356,
+   "cp_m03": 0.320018184,
+   "cna_m03": 11.9519314,
+   "refLen": 0.025,
+   "length": 0.425
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.0481233897,
+   "structCG": 0.205411155,
+   "launchMass": 0.0481233897,
+   "launchCG": 0.205411155,
+   "cp_m03": 0.320018184,
+   "cna_m03": 11.9519314,
+   "refLen": 0.025,
+   "length": 0.425
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3 - too short delay",
+   "structMass": 0.0481233897,
+   "structCG": 0.205411155,
+   "launchMass": 0.0481233897,
+   "launchCG": 0.205411155,
+   "cp_m03": 0.320018184,
+   "cna_m03": 11.9519314,
+   "refLen": 0.025,
+   "length": 0.425
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 0.0481233897,
+   "structCG": 0.205411155,
+   "launchMass": 0.0481233897,
+   "launchCG": 0.205411155,
+   "cp_m03": 0.320018184,
+   "cna_m03": 11.9519314,
+   "refLen": 0.025,
+   "length": 0.425
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 0.0481233897,
+   "structCG": 0.205411155,
+   "launchMass": 0.0481233897,
+   "launchCG": 0.205411155,
+   "cp_m03": 0.320018184,
+   "cna_m03": 11.9519314,
+   "refLen": 0.025,
+   "length": 0.425
+  }
+ ],
+ "or_version": "24.12"
+}

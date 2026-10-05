@@ -1,0 +1,130 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Presets",
+   "x": 0.0,
+   "length": 0.57698,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.56388,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.10668,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0168275,
+   "compmass": 0.0102059613,
+   "compcgx": 0.0813759951
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.10668,
+   "length": 0.4572,
+   "instances": 1,
+   "fore": 0.0168275,
+   "aft": 0.0168275,
+   "compmass": 0.0218291328,
+   "compcgx": 0.2286
+  },
+  {
+   "index": 4,
+   "cls": "Parachute",
+   "name": "18 In. Nylon Chute",
+   "x": 0.13208,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.00414528,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 5,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.313055,
+   "length": 0.04445,
+   "instances": 1,
+   "compmass": 0.000214061676,
+   "compcgx": 0.022225
+  },
+  {
+   "index": 6,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.51388,
+   "length": 0.05,
+   "instances": 3,
+   "bodyr": 0.0168275,
+   "compmass": 0.010955975,
+   "compcgx": 0.0340961407
+  },
+  {
+   "index": 7,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.56261,
+   "length": 0.00127,
+   "instances": 1,
+   "ro": 0.0162687,
+   "ri": 0.0124206,
+   "compmass": 0.000289284127,
+   "compcgx": 0.000635
+  },
+  {
+   "index": 8,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.51181,
+   "length": 0.00127,
+   "instances": 1,
+   "ro": 0.0162687,
+   "ri": 0.0124206,
+   "compmass": 0.000289284127,
+   "compcgx": 0.000635
+  },
+  {
+   "index": 9,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.50038,
+   "length": 0.06985,
+   "instances": 1,
+   "ro": 0.0123952,
+   "ri": 0.012065,
+   "compmass": 0.00141747616,
+   "compcgx": 0.034925
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0493464553,
+   "structCG": 0.322091263,
+   "launchMass": 0.0919464553,
+   "launchCG": 0.420841239,
+   "cp_m03": 0.451703242,
+   "cna_m03": 11.4472139,
+   "refLen": 0.033655,
+   "length": 0.57698
+  }
+ ],
+ "or_version": "24.12"
+}

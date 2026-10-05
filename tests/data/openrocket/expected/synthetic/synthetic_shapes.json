@@ -1,0 +1,206 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Synthetic shapes",
+   "x": 0.0,
+   "length": 1.55485,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 1.5,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Haack nose",
+   "x": 0.0,
+   "length": 0.3,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.04,
+   "compmass": 0.256172964,
+   "compcgx": 0.222634162
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Avionics",
+   "x": 0.22,
+   "length": 0.1,
+   "instances": 1,
+   "compmass": 0.25,
+   "compcgx": 0.05
+  },
+  {
+   "index": 4,
+   "cls": "BodyTube",
+   "name": "Upper tube",
+   "x": 0.3,
+   "length": 0.6,
+   "instances": 1,
+   "fore": 0.04,
+   "aft": 0.04,
+   "compmass": 0.543998184,
+   "compcgx": 0.3
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Main",
+   "x": 0.54,
+   "length": 0.0332409972,
+   "instances": 1,
+   "compmass": 0.0941752148,
+   "compcgx": 0.0166204986
+  },
+  {
+   "index": 6,
+   "cls": "ShockCord",
+   "name": "Cord",
+   "x": 0.32,
+   "length": 0.05,
+   "instances": 1,
+   "compmass": 0.036,
+   "compcgx": 0.025
+  },
+  {
+   "index": 7,
+   "cls": "LaunchLug",
+   "name": "Lug",
+   "x": 0.4,
+   "length": 0.05,
+   "instances": 2,
+   "compmass": 0.000694291976,
+   "compcgx": 0.125
+  },
+  {
+   "index": 8,
+   "cls": "Transition",
+   "name": "Power boattail-ish reducer",
+   "x": 0.9,
+   "length": 0.1,
+   "instances": 1,
+   "fore": 0.04,
+   "aft": 0.03,
+   "compmass": 0.0583805209,
+   "compcgx": 0.0272854211
+  },
+  {
+   "index": 9,
+   "cls": "BodyTube",
+   "name": "Lower tube",
+   "x": 1.0,
+   "length": 0.5,
+   "instances": 1,
+   "fore": 0.03,
+   "aft": 0.03,
+   "compmass": 0.254999149,
+   "compcgx": 0.25
+  },
+  {
+   "index": 10,
+   "cls": "InnerTube",
+   "name": "MMT cluster",
+   "x": 1.25,
+   "length": 0.25,
+   "instances": 3,
+   "ro": 0.0095,
+   "ri": 0.009,
+   "compmass": 0.0148204633,
+   "compcgx": 0.125
+  },
+  {
+   "index": 11,
+   "cls": "CenteringRing",
+   "name": "CR front",
+   "x": 1.255,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.0285,
+   "ri": 0.0095,
+   "compmass": 0.00771198165,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 12,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 1.0,
+   "length": 0.004,
+   "instances": 2,
+   "ro": 0.0285,
+   "ri": 0.0,
+   "compmass": 0.013881567,
+   "compcgx": 0.007
+  },
+  {
+   "index": 13,
+   "cls": "EllipticalFinSet",
+   "name": "Elliptical fins",
+   "x": 1.38,
+   "length": 0.12,
+   "instances": 4,
+   "bodyr": 0.03,
+   "compmass": 0.105344976,
+   "compcgx": 0.06
+  },
+  {
+   "index": 14,
+   "cls": "RailButton",
+   "name": "Buttons",
+   "x": 1.25,
+   "length": 0.0,
+   "instances": 2,
+   "compmass": 0.0016531802,
+   "compcgx": 0.15
+  },
+  {
+   "index": 15,
+   "cls": "PodSet",
+   "name": "Side pods",
+   "x": 1.1,
+   "length": 0.2,
+   "instances": 2,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 16,
+   "cls": "BodyTube",
+   "name": "Pod tube",
+   "x": 1.1,
+   "length": 0.2,
+   "instances": 1,
+   "fore": 0.012,
+   "aft": 0.012,
+   "compmass": 0.00982690182,
+   "compcgx": 0.1
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Synthetic sim",
+   "structMass": 1.6574863,
+   "structCG": 0.670093587,
+   "launchMass": 1.7267863,
+   "launchCG": 0.702195715,
+   "cp_m03": 1.15354344,
+   "cna_m03": 8.2781011,
+   "refLen": 0.08,
+   "length": 1.55485
+  }
+ ],
+ "or_version": "24.12"
+}

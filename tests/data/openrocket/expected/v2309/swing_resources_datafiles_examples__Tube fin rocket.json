@@ -1,0 +1,116 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Tube fin rocket",
+   "x": 0.0,
+   "length": 0.577088,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.577088,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.119888,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0123952,
+   "compmass": 0.00710356663,
+   "compcgx": 0.0758051699
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.119888,
+   "length": 0.4572,
+   "instances": 1,
+   "fore": 0.0123952,
+   "aft": 0.0123952,
+   "compmass": 0.0103758804,
+   "compcgx": 0.2286
+  },
+  {
+   "index": 4,
+   "cls": "ShockCord",
+   "name": "Shock Cord",
+   "x": 0.135763,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.00219456,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Parachute kit, plastic, 12 in., PN 85564",
+   "x": 0.161163,
+   "length": 0.0560697882,
+   "instances": 1,
+   "compmass": 0.00231820211,
+   "compcgx": 0.0280348941
+  },
+  {
+   "index": 6,
+   "cls": "EngineBlock",
+   "name": "Engine Block",
+   "x": 0.507238,
+   "length": 0.00635,
+   "instances": 1,
+   "ro": 0.012065,
+   "ri": 0.009398,
+   "compmass": 0.00128043027,
+   "compcgx": 0.003175
+  },
+  {
+   "index": 7,
+   "cls": "TubeFinSet",
+   "name": "Tube fin set",
+   "x": 0.500888,
+   "length": 0.0762,
+   "instances": 6,
+   "ro": 0.0123952,
+   "compmass": 0.0103758804,
+   "compcgx": 0.0381
+  },
+  {
+   "index": 8,
+   "cls": "LaunchLug",
+   "name": "Launch Lug",
+   "x": 0.4199255,
+   "length": 0.060325,
+   "instances": 1,
+   "compmass": 0.000152908369,
+   "compcgx": 0.0301625
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0338014282,
+   "structCG": 0.332328366,
+   "launchMass": 0.0764014282,
+   "launchCG": 0.452827035,
+   "cp_m03": 0.496639644,
+   "cna_m03": 39.846894,
+   "refLen": 0.0247904,
+   "length": 0.577088
+  }
+ ],
+ "or_version": "24.12"
+}

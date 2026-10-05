@@ -1,0 +1,276 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Deployable Payload Example",
+   "x": 0.0,
+   "length": 0.5066,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Deployable Payload",
+   "x": 0.0,
+   "length": 0.2016,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.1,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0125,
+   "compmass": 0.0131559762,
+   "compcgx": 0.0760200608
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 0.1,
+   "length": 0.1016,
+   "instances": 1,
+   "fore": 0.0125,
+   "aft": 0.0125,
+   "compmass": 0.00998413225,
+   "compcgx": 0.0508
+  },
+  {
+   "index": 4,
+   "cls": "MassComponent",
+   "name": "Payload",
+   "x": 0.1383,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.0141747616,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 5,
+   "cls": "TubeCoupler",
+   "name": "Tube Coupler",
+   "x": 0.1762,
+   "length": 0.0508,
+   "instances": 1,
+   "ro": 0.0105,
+   "ri": 0.0105,
+   "compmass": 0.0,
+   "compcgx": 0.0254
+  },
+  {
+   "index": 6,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 0.225,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0105,
+   "ri": 0.0,
+   "compmass": 0.000471050402,
+   "compcgx": 0.001
+  },
+  {
+   "index": 7,
+   "cls": "Parachute",
+   "name": "Parachute, plastic, preassembled, 10 in., PN 2262",
+   "x": 0.2524,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.00169368258,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 8,
+   "cls": "AxialStage",
+   "name": "Booster",
+   "x": 0.2016,
+   "length": 0.3,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 9,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.2016,
+   "length": 0.3,
+   "instances": 1,
+   "fore": 0.0125,
+   "aft": 0.0125,
+   "compmass": 0.0153812376,
+   "compcgx": 0.15
+  },
+  {
+   "index": 10,
+   "cls": "Parachute",
+   "name": "Parachute kit, plastic, 8 in., PN 2260",
+   "x": 0.2844,
+   "length": 0.042,
+   "instances": 1,
+   "compmass": 0.00116442405,
+   "compcgx": 0.021
+  },
+  {
+   "index": 11,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.3232,
+   "length": 0.052,
+   "instances": 1,
+   "compmass": 0.00072,
+   "compcgx": 0.026
+  },
+  {
+   "index": 12,
+   "cls": "MassComponent",
+   "name": "Wadding",
+   "x": 0.3832,
+   "length": 0.03,
+   "instances": 1,
+   "compmass": 0.002,
+   "compcgx": 0.015
+  },
+  {
+   "index": 13,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.3341,
+   "length": 0.035,
+   "instances": 1,
+   "compmass": 0.000448619431,
+   "compcgx": 0.0175
+  },
+  {
+   "index": 14,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.4508,
+   "length": 0.0508,
+   "instances": 3,
+   "bodyr": 0.0125,
+   "compmass": 0.003847338,
+   "compcgx": 0.02794
+  },
+  {
+   "index": 15,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.4546,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0115,
+   "ri": 0.0095,
+   "compmass": 0.000179447772,
+   "compcgx": 0.001
+  },
+  {
+   "index": 16,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.4996,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0115,
+   "ri": 0.0095,
+   "compmass": 0.000179447772,
+   "compcgx": 0.001
+  },
+  {
+   "index": 17,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.4316,
+   "length": 0.075,
+   "instances": 1,
+   "ro": 0.0095,
+   "ri": 0.009,
+   "compmass": 0.00148204633,
+   "compcgx": 0.0375
+  },
+  {
+   "index": 18,
+   "cls": "EngineBlock",
+   "name": "Engine block",
+   "x": 0.4336,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.009,
+   "ri": 0.006,
+   "compmass": 0.000480663676,
+   "compcgx": 0.0025
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0653628276,
+   "structCG": 0.230802713,
+   "launchMass": 0.0817128276,
+   "launchCG": 0.279584352,
+   "cp_m03": 0.396006433,
+   "cna_m03": 11.4766812,
+   "refLen": 0.025,
+   "length": 0.5066
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.0653628276,
+   "structCG": 0.230802713,
+   "launchMass": 0.0842628276,
+   "launchCG": 0.285486004,
+   "cp_m03": 0.396006433,
+   "cna_m03": 11.4766812,
+   "refLen": 0.025,
+   "length": 0.5066
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3 - too short delay",
+   "structMass": 0.0653628276,
+   "structCG": 0.230802713,
+   "launchMass": 0.0884628276,
+   "launchCG": 0.294464677,
+   "cp_m03": 0.396006433,
+   "cna_m03": 11.4766812,
+   "refLen": 0.025,
+   "length": 0.5066
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 0.0653628276,
+   "structCG": 0.230802713,
+   "launchMass": 0.0884628276,
+   "launchCG": 0.294464677,
+   "cp_m03": 0.396006433,
+   "cna_m03": 11.4766812,
+   "refLen": 0.025,
+   "length": 0.5066
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 0.0653628276,
+   "structCG": 0.230802713,
+   "launchMass": 0.0884628276,
+   "launchCG": 0.294464677,
+   "cp_m03": 0.396006433,
+   "cna_m03": 11.4766812,
+   "refLen": 0.025,
+   "length": 0.5066
+  }
+ ],
+ "or_version": "24.12"
+}

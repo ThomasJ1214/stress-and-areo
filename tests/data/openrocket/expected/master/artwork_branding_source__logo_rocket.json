@@ -1,0 +1,107 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Rocket",
+   "x": 0.0,
+   "length": 0.19812,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.1778,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": 0.0,
+   "length": 0.0762,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0127,
+   "compmass": 0.00494855262,
+   "compcgx": 0.0484790059
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 0.0762,
+   "length": 0.0254,
+   "instances": 1,
+   "fore": 0.0127,
+   "aft": 0.0127,
+   "compmass": 0.00253944233,
+   "compcgx": 0.0127
+  },
+  {
+   "index": 4,
+   "cls": "PodSet",
+   "name": "Pod Set",
+   "x": 0.13462,
+   "length": 0.0635,
+   "instances": 3,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 5,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": 0.13462,
+   "length": 0.0127,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.00635,
+   "compmass": 0.000447206254,
+   "compcgx": 0.00743757636
+  },
+  {
+   "index": 6,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.14732,
+   "length": 0.0508,
+   "instances": 1,
+   "fore": 0.00635,
+   "aft": 0.0,
+   "compmass": 0.00143712999,
+   "compcgx": 0.0176891276
+  },
+  {
+   "index": 7,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.1016,
+   "length": 0.0762,
+   "instances": 1,
+   "fore": 0.0127,
+   "aft": 0.00635,
+   "compmass": 0.00626457643,
+   "compcgx": 0.0339663429
+  },
+  {
+   "index": 8,
+   "cls": "FreeformFinSet",
+   "name": "Freeform Fin Set.8",
+   "x": 0.127,
+   "length": 0.0508,
+   "instances": 3,
+   "bodyr": 0.0119987763,
+   "compmass": 0.106052638,
+   "compcgx": 0.0242205709
+  }
+ ],
+ "sims": [],
+ "or_version": "24.12"
+}

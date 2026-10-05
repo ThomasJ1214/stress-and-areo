@@ -1,0 +1,208 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "TARC payload rocket",
+   "x": 0.0,
+   "length": 1.0668,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Payload",
+   "x": 0.0,
+   "length": 0.3048,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.1778,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0281559,
+   "compmass": 0.0313219066,
+   "compcgx": 0.133161725
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.1778,
+   "length": 0.127,
+   "instances": 1,
+   "fore": 0.0281559,
+   "aft": 0.0281559,
+   "compmass": 0.0133104136,
+   "compcgx": 0.0635
+  },
+  {
+   "index": 4,
+   "cls": "MassComponent",
+   "name": "Mass component",
+   "x": 0.1778,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.05,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 5,
+   "cls": "TubeCoupler",
+   "name": "Tube coupler",
+   "x": 0.254,
+   "length": 0.1016,
+   "instances": 1,
+   "ro": 0.0275844,
+   "ri": 0.0267208,
+   "compmass": 0.0167848137,
+   "compcgx": 0.0508
+  },
+  {
+   "index": 6,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 0.352425,
+   "length": 0.003175,
+   "instances": 1,
+   "ro": 0.0267208,
+   "ri": 0.0,
+   "compmass": 0.00448676233,
+   "compcgx": 0.0015875
+  },
+  {
+   "index": 7,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore 12\" Parachute",
+   "x": 0.37338,
+   "length": 0.0294665504,
+   "instances": 1,
+   "compmass": 0.00620151995,
+   "compcgx": 0.0147332752
+  },
+  {
+   "index": 8,
+   "cls": "AxialStage",
+   "name": "Booster stage",
+   "x": 0.3048,
+   "length": 0.762,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 9,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.3048,
+   "length": 0.762,
+   "instances": 1,
+   "fore": 0.0281559,
+   "aft": 0.0281559,
+   "compmass": 0.0798624816,
+   "compcgx": 0.381
+  },
+  {
+   "index": 10,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore 15\" Parachute",
+   "x": 0.4318,
+   "length": 0.031571304,
+   "instances": 1,
+   "compmass": 0.00856487488,
+   "compcgx": 0.015785652
+  },
+  {
+   "index": 11,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.8382,
+   "length": 0.2286,
+   "instances": 1,
+   "ro": 0.0160655,
+   "ri": 0.0145415,
+   "compmass": 0.0321156589,
+   "compcgx": 0.1143
+  },
+  {
+   "index": 12,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.9378,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0276225,
+   "ri": 0.0160655,
+   "compmass": 0.00215722805,
+   "compcgx": 0.001
+  },
+  {
+   "index": 13,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 1.0521,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.0276225,
+   "ri": 0.0160655,
+   "compmass": 0.00215722805,
+   "compcgx": 0.001
+  },
+  {
+   "index": 14,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set #1",
+   "x": 0.98505,
+   "length": 0.0754,
+   "instances": 1,
+   "bodyr": 0.0281559,
+   "compmass": 0.004155,
+   "compcgx": 0.0375338667
+  },
+  {
+   "index": 15,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set #2",
+   "x": 0.98505,
+   "length": 0.0754,
+   "instances": 1,
+   "bodyr": 0.0281559,
+   "compmass": 0.004155,
+   "compcgx": 0.0375338667
+  },
+  {
+   "index": 16,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set #3",
+   "x": 0.98505,
+   "length": 0.0754,
+   "instances": 1,
+   "bodyr": 0.0281559,
+   "compmass": 0.004155,
+   "compcgx": 0.0375338667
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.268475092,
+   "structCG": 0.50684005,
+   "launchMass": 0.358275092,
+   "launchCG": 0.634909806,
+   "cp_m03": 0.78634174,
+   "cna_m03": 8.32498901,
+   "refLen": 0.0563118,
+   "length": 1.0668
+  }
+ ],
+ "or_version": "24.12"
+}

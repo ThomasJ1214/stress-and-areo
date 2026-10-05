@@ -1,0 +1,333 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Pods--airframes and winglets",
+   "x": 0.0,
+   "length": 0.441325,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.441325,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": 0.0,
+   "length": 0.136525,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0168275,
+   "compmass": 0.0174510065,
+   "compcgx": 0.112296405
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Mass Component",
+   "x": 0.0254,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.00992233308,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 4,
+   "cls": "FreeformFinSet",
+   "name": "Cockpit",
+   "x": 0.086525,
+   "length": 0.05,
+   "instances": 1,
+   "bodyr": 0.0145998433,
+   "compmass": 0.000172126096,
+   "compcgx": 0.0191163051
+  },
+  {
+   "index": 5,
+   "cls": "BodyTube",
+   "name": "Airframe",
+   "x": 0.136525,
+   "length": 0.3048,
+   "instances": 1,
+   "fore": 0.0168275,
+   "aft": 0.0168275,
+   "compmass": 0.0151307671,
+   "compcgx": 0.1524
+  },
+  {
+   "index": 6,
+   "cls": "Parachute",
+   "name": "Parachute kit, plastic, 12 in., PN 2263",
+   "x": 0.161925,
+   "length": 0.107898263,
+   "instances": 1,
+   "compmass": 0.00231820211,
+   "compcgx": 0.0539491316
+  },
+  {
+   "index": 7,
+   "cls": "ShockCord",
+   "name": "Shock Cord",
+   "x": 0.263525,
+   "length": 0.0508,
+   "instances": 1,
+   "compmass": 0.001292352,
+   "compcgx": 0.0254
+  },
+  {
+   "index": 8,
+   "cls": "LaunchLug",
+   "name": "Launch Lug",
+   "x": 0.384175,
+   "length": 0.0523875,
+   "instances": 1,
+   "compmass": 0.000132788846,
+   "compcgx": 0.02619375
+  },
+  {
+   "index": 9,
+   "cls": "FreeformFinSet",
+   "name": "Wings",
+   "x": 0.263525,
+   "length": 0.1778,
+   "instances": 2,
+   "bodyr": 0.0168275,
+   "compmass": 0.00253189606,
+   "compcgx": 0.121287018
+  },
+  {
+   "index": 10,
+   "cls": "PodSet",
+   "name": "Wing pods",
+   "x": 0.352425,
+   "length": 0.0762,
+   "instances": 2,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 11,
+   "cls": "NoseCone",
+   "name": "Pod nose",
+   "x": 0.352425,
+   "length": 0.0254,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0068707,
+   "compmass": 0.00214322013,
+   "compcgx": 0.0214636223
+  },
+  {
+   "index": 12,
+   "cls": "BodyTube",
+   "name": "Pod body",
+   "x": 0.377825,
+   "length": 0.0381,
+   "instances": 1,
+   "fore": 0.0068707,
+   "aft": 0.0068707,
+   "compmass": 0.000509580409,
+   "compcgx": 0.01905
+  },
+  {
+   "index": 13,
+   "cls": "NoseCone",
+   "name": "Pod tail",
+   "x": 0.415925,
+   "length": 0.0127,
+   "instances": 1,
+   "fore": 0.0068707,
+   "aft": 0.0,
+   "compmass": 0.000297371117,
+   "compcgx": -0.00049278839
+  },
+  {
+   "index": 14,
+   "cls": "TrapezoidFinSet",
+   "name": "Vertical stabilizer",
+   "x": 0.390525,
+   "length": 0.0508,
+   "instances": 1,
+   "bodyr": 0.0168275,
+   "compmass": 0.000485774028,
+   "compcgx": 0.0308666667
+  },
+  {
+   "index": 15,
+   "cls": "PodSet",
+   "name": "Horizontal stab pod",
+   "x": 0.441325,
+   "length": 0.0,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 16,
+   "cls": "BodyTube",
+   "name": "(phantom body)",
+   "x": 0.441325,
+   "length": 0.0,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.0,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 17,
+   "cls": "TrapezoidFinSet",
+   "name": "Horizontal stabilizer",
+   "x": 0.413385,
+   "length": 0.02794,
+   "instances": 2,
+   "bodyr": 0.0,
+   "compmass": 0.000310895378,
+   "compcgx": 0.0161925
+  },
+  {
+   "index": 18,
+   "cls": "TrapezoidFinSet",
+   "name": "Left ventral fin",
+   "x": 0.365125,
+   "length": 0.0762,
+   "instances": 1,
+   "bodyr": 0.0168275,
+   "compmass": 0.000364330521,
+   "compcgx": 0.0437444444
+  },
+  {
+   "index": 19,
+   "cls": "TrapezoidFinSet",
+   "name": "Right ventral fin",
+   "x": 0.365125,
+   "length": 0.0762,
+   "instances": 1,
+   "bodyr": 0.0168275,
+   "compmass": 0.000364330521,
+   "compcgx": 0.0437444444
+  },
+  {
+   "index": 20,
+   "cls": "InnerTube",
+   "name": "18mm Motor mount",
+   "x": 0.371475,
+   "length": 0.06985,
+   "instances": 1,
+   "ro": 0.0093472,
+   "ri": 0.009017,
+   "compmass": 0.00119013755,
+   "compcgx": 0.034925
+  },
+  {
+   "index": 21,
+   "cls": "CenteringRing",
+   "name": "Forward centering ring",
+   "x": 0.37465,
+   "length": 0.00127,
+   "instances": 1,
+   "ro": 0.0162687,
+   "ri": 0.0093726,
+   "compmass": 0.000463513677,
+   "compcgx": 0.000635
+  },
+  {
+   "index": 22,
+   "cls": "CenteringRing",
+   "name": "Aft centering ring",
+   "x": 0.4384675,
+   "length": 0.00127,
+   "instances": 1,
+   "ro": 0.0162687,
+   "ri": 0.0093726,
+   "compmass": 0.000463513677,
+   "compcgx": 0.000635
+  },
+  {
+   "index": 23,
+   "cls": "EngineBlock",
+   "name": "Engine Block",
+   "x": 0.371475,
+   "length": 0.00635,
+   "instances": 1,
+   "ro": 0.0091948,
+   "ri": 0.008255,
+   "compmass": 0.000214938821,
+   "compcgx": 0.003175
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.0587092493,
+   "structCG": 0.212237045,
+   "launchMass": 0.0725992493,
+   "launchCG": 0.250585695,
+   "cp_m03": 0.342379799,
+   "cna_m03": 23.0701588,
+   "refLen": 0.033655,
+   "length": 0.441325
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.0587092493,
+   "structCG": 0.212237045,
+   "launchMass": 0.0769292493,
+   "launchCG": 0.25970897,
+   "cp_m03": 0.342379799,
+   "cna_m03": 23.0701588,
+   "refLen": 0.033655,
+   "length": 0.441325
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3",
+   "structMass": 0.0587092493,
+   "structCG": 0.212237045,
+   "launchMass": 0.0818092493,
+   "launchCG": 0.26883354,
+   "cp_m03": 0.342379799,
+   "cna_m03": 23.0701588,
+   "refLen": 0.033655,
+   "length": 0.441325
+  },
+  {
+   "index": 3,
+   "name": "Simulation 4",
+   "structMass": 0.0587092493,
+   "structCG": 0.212237045,
+   "launchMass": 0.0824092493,
+   "launchCG": 0.268615421,
+   "cp_m03": 0.342379799,
+   "cna_m03": 23.0701588,
+   "refLen": 0.033655,
+   "length": 0.441325
+  },
+  {
+   "index": 4,
+   "name": "Simulation 5",
+   "structMass": 0.0587092493,
+   "structCG": 0.212237045,
+   "launchMass": 0.0844092493,
+   "launchCG": 0.271620058,
+   "cp_m03": 0.342379799,
+   "cna_m03": 23.0701588,
+   "refLen": 0.033655,
+   "length": 0.441325
+  }
+ ],
+ "or_version": "24.12"
+}

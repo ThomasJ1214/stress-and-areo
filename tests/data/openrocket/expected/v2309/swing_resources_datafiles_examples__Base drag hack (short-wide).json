@@ -1,0 +1,230 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Base drag hack (short-wide)",
+   "x": 0.0,
+   "length": 0.414024885,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 0.414024885,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose Cone",
+   "x": 0.0,
+   "length": 0.0454269231,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.03937,
+   "compmass": 0.0384913692,
+   "compcgx": 0.0409751743
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Tungsten .5 oz Nose Weight",
+   "x": 0.003175,
+   "length": 0.0127,
+   "instances": 1,
+   "compmass": 0.0141747616,
+   "compcgx": 0.00635
+  },
+  {
+   "index": 4,
+   "cls": "MassComponent",
+   "name": "Tungsten .5 oz Nose Weight",
+   "x": 0.003175,
+   "length": 0.0127,
+   "instances": 1,
+   "compmass": 0.0141747616,
+   "compcgx": 0.00635
+  },
+  {
+   "index": 5,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 0.0454269231,
+   "length": 0.121138462,
+   "instances": 1,
+   "fore": 0.03937,
+   "aft": 0.03937,
+   "compmass": 0.0122471395,
+   "compcgx": 0.0605692308
+  },
+  {
+   "index": 6,
+   "cls": "ShockCord",
+   "name": "Shock Cord",
+   "x": 0.0508,
+   "length": 0.00508,
+   "instances": 1,
+   "compmass": 0.002322576,
+   "compcgx": 0.00254
+  },
+  {
+   "index": 7,
+   "cls": "Parachute",
+   "name": "18\" Mylar Parachute",
+   "x": 0.05588,
+   "length": 0.00762,
+   "instances": 1,
+   "compmass": 0.00289997547,
+   "compcgx": 0.00381
+  },
+  {
+   "index": 8,
+   "cls": "MassComponent",
+   "name": "9\" Nomex Blanket",
+   "x": 0.0635,
+   "length": 0.00254,
+   "instances": 1,
+   "compmass": 0.0153087425,
+   "compcgx": 0.00127
+  },
+  {
+   "index": 9,
+   "cls": "LaunchLug",
+   "name": "Launch Lug",
+   "x": 0.0901211538,
+   "length": 0.03175,
+   "instances": 1,
+   "compmass": 8.04780888e-05,
+   "compcgx": 0.015875
+  },
+  {
+   "index": 10,
+   "cls": "FreeformFinSet",
+   "name": "Freeform Fiin Set (4)",
+   "x": 0.12763087,
+   "length": 0.066675,
+   "instances": 4,
+   "bodyr": 0.03937,
+   "compmass": 0.0170814039,
+   "compcgx": 0.0463066426
+  },
+  {
+   "index": 11,
+   "cls": "CenteringRing",
+   "name": "Centering Ring",
+   "x": 0.0871903846,
+   "length": 0.0015875,
+   "instances": 1,
+   "ro": 0.0387643077,
+   "ri": 0.0123952,
+   "compmass": 0.00551695256,
+   "compcgx": 0.00079375
+  },
+  {
+   "index": 12,
+   "cls": "CenteringRing",
+   "name": "Centering Ring",
+   "x": 0.163390385,
+   "length": 0.0015875,
+   "instances": 1,
+   "ro": 0.0387643077,
+   "ri": 0.0123952,
+   "compmass": 0.00551695256,
+   "compcgx": 0.00079375
+  },
+  {
+   "index": 13,
+   "cls": "InnerTube",
+   "name": "24mm Motor Mount Tube",
+   "x": 0.0732081731,
+   "length": 0.09525,
+   "instances": 1,
+   "ro": 0.0123952,
+   "ri": 0.012065,
+   "compmass": 0.00216164175,
+   "compcgx": 0.047625
+  },
+  {
+   "index": 14,
+   "cls": "EngineBlock",
+   "name": "Engine Block",
+   "x": 0.0747956731,
+   "length": 0.00635,
+   "instances": 1,
+   "ro": 0.012065,
+   "ri": 0.0111867462,
+   "compmass": 0.000267648369,
+   "compcgx": 0.003175
+  },
+  {
+   "index": 15,
+   "cls": "EngineBlock",
+   "name": "Engine Adapter [Remove for \"E\" Engine]",
+   "x": 0.0811456731,
+   "length": 0.0254,
+   "instances": 1,
+   "ro": 0.012065,
+   "ri": 0.0111867462,
+   "compmass": 0.00107059348,
+   "compcgx": 0.0127
+  },
+  {
+   "index": 16,
+   "cls": "Transition",
+   "name": "Base-Drag Hack Transition",
+   "x": 0.166565385,
+   "length": 0.2474595,
+   "instances": 1,
+   "fore": 1.51423077e-05,
+   "aft": 0.03937,
+   "compmass": 0.000944361246,
+   "compcgx": 0.164969415
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.131314997,
+   "structCG": 0.0699635812,
+   "launchMass": 0.166614997,
+   "launchCG": 0.0850303228,
+   "cp_m03": 0.166225001,
+   "cna_m03": 8.2988685,
+   "refLen": 0.07874,
+   "length": 0.414024885
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.131314997,
+   "structCG": 0.0699635812,
+   "launchMass": 0.173914997,
+   "launchCG": 0.0873829049,
+   "cp_m03": 0.166225001,
+   "cna_m03": 8.2988685,
+   "refLen": 0.07874,
+   "length": 0.414024885
+  },
+  {
+   "index": 2,
+   "name": "Simulation 3",
+   "structMass": 0.131314997,
+   "structCG": 0.0699635812,
+   "launchMass": 0.191214997,
+   "launchCG": 0.0883251853,
+   "cp_m03": 0.166225001,
+   "cna_m03": 8.2988685,
+   "refLen": 0.07874,
+   "length": 0.414024885
+  }
+ ],
+ "or_version": "24.12"
+}

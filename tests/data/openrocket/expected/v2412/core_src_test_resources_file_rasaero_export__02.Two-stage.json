@@ -1,0 +1,302 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Two-stage rocket",
+   "x": 0.0,
+   "length": 1.8118574,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Dart",
+   "x": 0.0,
+   "length": 0.87,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.225,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.019875,
+   "compmass": 0.0211311906,
+   "compcgx": 0.178527149
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.225,
+   "length": 0.0075,
+   "instances": 1,
+   "fore": 0.019875,
+   "aft": 0.019875,
+   "compmass": 0.00176643901,
+   "compcgx": 0.00375
+  },
+  {
+   "index": 4,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.2325,
+   "length": 0.1275,
+   "instances": 1,
+   "fore": 0.019875,
+   "aft": 0.019875,
+   "compmass": 0.0300294632,
+   "compcgx": 0.06375
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Iris Ultra Compact 30\" Parachute",
+   "x": 0.2685,
+   "length": 0.192159793,
+   "instances": 1,
+   "compmass": 0.0208594991,
+   "compcgx": 0.0960798963
+  },
+  {
+   "index": 6,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.372,
+   "length": 0.003,
+   "instances": 4,
+   "bodyr": 0.019875,
+   "compmass": 0.000272646,
+   "compcgx": 0.0178333333
+  },
+  {
+   "index": 7,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.36,
+   "length": 0.03,
+   "instances": 1,
+   "fore": 0.019875,
+   "aft": 0.019125,
+   "compmass": 0.00692353931,
+   "compcgx": 0.0148958306
+  },
+  {
+   "index": 8,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.39,
+   "length": 0.33,
+   "instances": 1,
+   "fore": 0.019125,
+   "aft": 0.019125,
+   "compmass": 0.0294436543,
+   "compcgx": 0.165
+  },
+  {
+   "index": 9,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.72,
+   "length": 0.015,
+   "instances": 1,
+   "fore": 0.019125,
+   "aft": 0.02325,
+   "compmass": 0.00391464324,
+   "compcgx": 0.00776264765
+  },
+  {
+   "index": 10,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.735,
+   "length": 0.135,
+   "instances": 1,
+   "fore": 0.02325,
+   "aft": 0.02325,
+   "compmass": 0.0360636462,
+   "compcgx": 0.0675
+  },
+  {
+   "index": 11,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.7395,
+   "length": 0.126,
+   "instances": 4,
+   "bodyr": 0.02325,
+   "compmass": 0.0421362,
+   "compcgx": 0.078925
+  },
+  {
+   "index": 12,
+   "cls": "AxialStage",
+   "name": "Booster",
+   "x": 0.87,
+   "length": 0.9418574,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 13,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.87,
+   "length": 0.1417574,
+   "instances": 1,
+   "fore": 0.02325,
+   "aft": 0.05025,
+   "compmass": 0.106848326,
+   "compcgx": 0.0874895711
+  },
+  {
+   "index": 14,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 1.0117574,
+   "length": 0.1524,
+   "instances": 1,
+   "fore": 0.05025,
+   "aft": 0.05025,
+   "compmass": 0.0641371974,
+   "compcgx": 0.0762
+  },
+  {
+   "index": 15,
+   "cls": "ShockCord",
+   "name": "Shock Cord",
+   "x": 1.0371574,
+   "length": 0.1016,
+   "instances": 1,
+   "compmass": 0.217724309,
+   "compcgx": 0.0508
+  },
+  {
+   "index": 16,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore 36\" Parachute",
+   "x": 1.0867574,
+   "length": 0.0247770261,
+   "instances": 1,
+   "compmass": 0.0342136788,
+   "compcgx": 0.012388513
+  },
+  {
+   "index": 17,
+   "cls": "RailButton",
+   "name": "Rail Button",
+   "x": 1.0371574,
+   "length": 0.0,
+   "instances": 2,
+   "compmass": 0.00089,
+   "compcgx": 0.371475
+  },
+  {
+   "index": 18,
+   "cls": "BodyTube",
+   "name": "Body Tube",
+   "x": 1.1641574,
+   "length": 0.0254,
+   "instances": 1,
+   "fore": 0.05025,
+   "aft": 0.05025,
+   "compmass": 0.0106895329,
+   "compcgx": 0.0127
+  },
+  {
+   "index": 19,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 1.1895574,
+   "length": 0.6096,
+   "instances": 1,
+   "fore": 0.05025,
+   "aft": 0.05025,
+   "compmass": 0.38091635,
+   "compcgx": 0.3048
+  },
+  {
+   "index": 20,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 1.6247074,
+   "length": 0.003,
+   "instances": 1,
+   "ro": 0.04725,
+   "ri": 0.02,
+   "compmass": 0.0117446164,
+   "compcgx": 0.0015
+  },
+  {
+   "index": 21,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 1.7861574,
+   "length": 0.003,
+   "instances": 1,
+   "ro": 0.04725,
+   "ri": 0.02,
+   "compmass": 0.0117446164,
+   "compcgx": 0.0015
+  },
+  {
+   "index": 22,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 1.5798574,
+   "length": 0.2193,
+   "instances": 1,
+   "ro": 0.02,
+   "ri": 0.02,
+   "compmass": 0.0,
+   "compcgx": 0.10965
+  },
+  {
+   "index": 23,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 1.6191574,
+   "length": 0.1425,
+   "instances": 4,
+   "bodyr": 0.05025,
+   "compmass": 0.164132892,
+   "compcgx": 0.07125
+  },
+  {
+   "index": 24,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 1.7991574,
+   "length": 0.0127,
+   "instances": 1,
+   "fore": 0.05025,
+   "aft": 0.025,
+   "compmass": 0.00996222979,
+   "compcgx": 0.00498089637
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 2.56550341,
+   "structCG": 0.854120893,
+   "launchMass": 3.13420341,
+   "launchCG": 0.968088583,
+   "cp_m03": 1.42220707,
+   "cna_m03": 15.9208561,
+   "refLen": 0.1005,
+   "length": 1.8118574
+  }
+ ],
+ "or_version": "24.12"
+}

@@ -1,0 +1,311 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Simulation scripting",
+   "x": 0.0,
+   "length": 2.705,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Primary stage",
+   "x": 0.0,
+   "length": 2.705,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.53,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.07,
+   "compmass": 0.512705216,
+   "compcgx": 0.33352741
+  },
+  {
+   "index": 3,
+   "cls": "MassComponent",
+   "name": "Nose cone payload",
+   "x": 0.14,
+   "length": 0.5,
+   "instances": 1,
+   "compmass": 0.65,
+   "compcgx": 0.25
+  },
+  {
+   "index": 4,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.53,
+   "length": 0.505,
+   "instances": 1,
+   "fore": 0.07,
+   "aft": 0.07,
+   "compmass": 0.738914373,
+   "compcgx": 0.2525
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Main parachute",
+   "x": 0.7,
+   "length": 0.0340695787,
+   "instances": 1,
+   "compmass": 0.0890379966,
+   "compcgx": 0.0170347894
+  },
+  {
+   "index": 6,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.74,
+   "length": 0.028,
+   "instances": 1,
+   "compmass": 0.12192,
+   "compcgx": 0.014
+  },
+  {
+   "index": 7,
+   "cls": "MassComponent",
+   "name": "Payload",
+   "x": 0.78,
+   "length": 0.4,
+   "instances": 1,
+   "compmass": 1.1,
+   "compcgx": 0.2
+  },
+  {
+   "index": 8,
+   "cls": "TrapezoidFinSet",
+   "name": "CONTROL",
+   "x": 0.81,
+   "length": 0.05,
+   "instances": 2,
+   "bodyr": 0.07,
+   "compmass": 0.04692,
+   "compcgx": 0.025
+  },
+  {
+   "index": 9,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 0.774,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.0,
+   "compmass": 0.0451289785,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 10,
+   "cls": "TubeCoupler",
+   "name": "Tube coupler",
+   "x": 0.905,
+   "length": 0.28,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.061,
+   "compmass": 0.305905673,
+   "compcgx": 0.14
+  },
+  {
+   "index": 11,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 1.035,
+   "length": 0.605,
+   "instances": 1,
+   "fore": 0.07,
+   "aft": 0.07,
+   "compmass": 0.885234051,
+   "compcgx": 0.3025
+  },
+  {
+   "index": 12,
+   "cls": "Parachute",
+   "name": "Drogue parachute",
+   "x": 1.255,
+   "length": 0.00968097319,
+   "instances": 1,
+   "compmass": 0.0176060796,
+   "compcgx": 0.0048404866
+  },
+  {
+   "index": 13,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 1.295,
+   "length": 0.028,
+   "instances": 1,
+   "compmass": 0.12192,
+   "compcgx": 0.014
+  },
+  {
+   "index": 14,
+   "cls": "TubeCoupler",
+   "name": "Tube coupler",
+   "x": 1.505,
+   "length": 0.28,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.061,
+   "compmass": 0.305905673,
+   "compcgx": 0.14
+  },
+  {
+   "index": 15,
+   "cls": "Bulkhead",
+   "name": "Bulkhead",
+   "x": 1.325,
+   "length": 0.002,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.0,
+   "compmass": 0.018317056,
+   "compcgx": 0.001
+  },
+  {
+   "index": 16,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 1.64,
+   "length": 1.065,
+   "instances": 1,
+   "fore": 0.07,
+   "aft": 0.07,
+   "compmass": 1.55830457,
+   "compcgx": 0.5325
+  },
+  {
+   "index": 17,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 1.845,
+   "length": 0.86,
+   "instances": 1,
+   "ro": 0.04,
+   "ri": 0.0381,
+   "compmass": 0.276631766,
+   "compcgx": 0.43
+  },
+  {
+   "index": 18,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 2.7,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.04,
+   "compmass": 0.0284510485,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 19,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 1.92,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.04,
+   "compmass": 0.0284510485,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 20,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 2.47,
+   "length": 0.005,
+   "instances": 1,
+   "ro": 0.065,
+   "ri": 0.04,
+   "compmass": 0.0284510485,
+   "compcgx": 0.0025
+  },
+  {
+   "index": 21,
+   "cls": "TrapezoidFinSet",
+   "name": "Main fin set #1",
+   "x": 2.1800377,
+   "length": 0.495,
+   "instances": 1,
+   "bodyr": 0.07,
+   "compmass": 0.189864404,
+   "compcgx": 0.28744089
+  },
+  {
+   "index": 22,
+   "cls": "TrapezoidFinSet",
+   "name": "Main fin set #2",
+   "x": 2.1800377,
+   "length": 0.495,
+   "instances": 1,
+   "bodyr": 0.07,
+   "compmass": 0.189864404,
+   "compcgx": 0.28744089
+  },
+  {
+   "index": 23,
+   "cls": "TrapezoidFinSet",
+   "name": "Main fin set #3",
+   "x": 2.1800377,
+   "length": 0.495,
+   "instances": 1,
+   "bodyr": 0.07,
+   "compmass": 0.189864404,
+   "compcgx": 0.28744089
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "No controlling",
+   "structMass": 7.00364146,
+   "structCG": 1.35988525,
+   "launchMass": 12.0615615,
+   "launchCG": 1.64152156,
+   "cp_m03": 1.81973727,
+   "cna_m03": 17.7477918,
+   "refLen": 0.14,
+   "length": 2.705
+  },
+  {
+   "index": 1,
+   "name": "Active roll control",
+   "structMass": 7.00364146,
+   "structCG": 1.35988525,
+   "launchMass": 12.0615615,
+   "launchCG": 1.64152156,
+   "cp_m03": 1.81973727,
+   "cna_m03": 17.7477918,
+   "refLen": 0.14,
+   "length": 2.705
+  },
+  {
+   "index": 2,
+   "name": "Roll control + air-start",
+   "structMass": 7.00364146,
+   "structCG": 1.35988525,
+   "launchMass": 12.0615615,
+   "launchCG": 1.64152156,
+   "cp_m03": 1.81973727,
+   "cna_m03": 17.7477918,
+   "refLen": 0.14,
+   "length": 2.705
+  }
+ ],
+ "or_version": "24.12"
+}

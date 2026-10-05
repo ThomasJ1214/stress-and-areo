@@ -1,0 +1,162 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "X-Ray",
+   "x": 0.0,
+   "length": 1.1339476,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Stage",
+   "x": 0.0,
+   "length": 1.1339476,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.188941573,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.033528,
+   "compmass": 0.0646305606,
+   "compcgx": 0.131557356
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Payload section tube",
+   "x": 0.188941573,
+   "length": 0.254,
+   "instances": 1,
+   "fore": 0.033528,
+   "aft": 0.033528,
+   "compmass": 0.0436562032,
+   "compcgx": 0.127
+  },
+  {
+   "index": 4,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 0.442941573,
+   "length": 0.0687060266,
+   "instances": 1,
+   "fore": 0.033528,
+   "aft": 0.025146,
+   "compmass": 0.0468332621,
+   "compcgx": 0.0341274003
+  },
+  {
+   "index": 5,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.5116476,
+   "length": 0.6096,
+   "instances": 1,
+   "fore": 0.025146,
+   "aft": 0.025146,
+   "compmass": 0.0819958133,
+   "compcgx": 0.3048
+  },
+  {
+   "index": 6,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.5497476,
+   "length": 0.3048,
+   "instances": 1,
+   "compmass": 0.003096768,
+   "compcgx": 0.1524
+  },
+  {
+   "index": 7,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore Parachute [Cd 1.5 (.35oz) 4.1 in^3]]",
+   "x": 0.6068976,
+   "length": 0.0386136288,
+   "instances": 1,
+   "compmass": 0.00620151995,
+   "compcgx": 0.0193068144
+  },
+  {
+   "index": 8,
+   "cls": "Parachute",
+   "name": "Elliptical 12-Gore Parachute [Cd 1.5 (1.9 oz) 10.7 in^3]",
+   "x": 0.649059653,
+   "length": 0.099067036,
+   "instances": 1,
+   "compmass": 0.0342136788,
+   "compcgx": 0.049533518
+  },
+  {
+   "index": 9,
+   "cls": "LaunchLug",
+   "name": "Launch lug",
+   "x": 0.649059653,
+   "length": 0.137412053,
+   "instances": 1,
+   "compmass": 0.0137065067,
+   "compcgx": 0.0687060266
+  },
+  {
+   "index": 10,
+   "cls": "TrapezoidFinSet",
+   "name": "Fin set",
+   "x": 0.975247293,
+   "length": 0.146000307,
+   "instances": 4,
+   "bodyr": 0.025146,
+   "compmass": 0.117834067,
+   "compcgx": 0.0934743745
+  },
+  {
+   "index": 11,
+   "cls": "Transition",
+   "name": "Transition",
+   "x": 1.1212476,
+   "length": 0.0127,
+   "instances": 1,
+   "fore": 0.025146,
+   "aft": 0.01905,
+   "compmass": 0.00390133237,
+   "compcgx": 0.00604261652
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 1",
+   "structMass": 0.43944094,
+   "structCG": 0.671535151,
+   "launchMass": 0.52644094,
+   "launchCG": 0.740182622,
+   "cp_m03": 0.991313769,
+   "cna_m03": 28.1804755,
+   "refLen": 0.067056,
+   "length": 1.1339476
+  },
+  {
+   "index": 1,
+   "name": "Simulation 2",
+   "structMass": 0.43944094,
+   "structCG": 0.671535151,
+   "launchMass": 0.56764094,
+   "launchCG": 0.763429798,
+   "cp_m03": 0.991313769,
+   "cna_m03": 28.1804755,
+   "refLen": 0.067056,
+   "length": 1.1339476
+  }
+ ],
+ "or_version": "24.12"
+}

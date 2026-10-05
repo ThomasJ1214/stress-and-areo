@@ -1,0 +1,196 @@
+{
+ "components": [
+  {
+   "index": 0,
+   "cls": "Rocket",
+   "name": "Chute release",
+   "x": 0.0,
+   "length": 1.10214664,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 1,
+   "cls": "AxialStage",
+   "name": "Sustainer",
+   "x": 0.0,
+   "length": 1.03505,
+   "instances": 1,
+   "compmass": 0.0,
+   "compcgx": 0.0
+  },
+  {
+   "index": 2,
+   "cls": "NoseCone",
+   "name": "Nose cone",
+   "x": 0.0,
+   "length": 0.24765,
+   "instances": 1,
+   "fore": 0.0,
+   "aft": 0.03175,
+   "compmass": 0.496122276,
+   "compcgx": 0.182376453
+  },
+  {
+   "index": 3,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.24765,
+   "length": 0.3937,
+   "instances": 1,
+   "fore": 0.03175,
+   "aft": 0.03175,
+   "compmass": 0.0598392995,
+   "compcgx": 0.19685
+  },
+  {
+   "index": 4,
+   "cls": "ShockCord",
+   "name": "Shock cord",
+   "x": 0.31115,
+   "length": 0.1143,
+   "instances": 1,
+   "compmass": 0.00453592692,
+   "compcgx": 0.05715
+  },
+  {
+   "index": 5,
+   "cls": "Parachute",
+   "name": "Reefed Parachute",
+   "x": 0.24765,
+   "length": 0.025,
+   "instances": 1,
+   "compmass": 0.00663494011,
+   "compcgx": 0.0125
+  },
+  {
+   "index": 6,
+   "cls": "Parachute",
+   "name": "Opened Elliptical Parachute [Cd 1.55 (3.1 oz) 15.9 in^3]",
+   "x": 0.42545,
+   "length": 0.0870912504,
+   "instances": 1,
+   "compmass": 0.0348638309,
+   "compcgx": 0.0435456252
+  },
+  {
+   "index": 7,
+   "cls": "MassComponent",
+   "name": "Wadding",
+   "x": 0.51435,
+   "length": 0.053975,
+   "instances": 1,
+   "compmass": 0.0368664367,
+   "compcgx": 0.0269875
+  },
+  {
+   "index": 8,
+   "cls": "BodyTube",
+   "name": "Body tube",
+   "x": 0.64135,
+   "length": 0.3937,
+   "instances": 1,
+   "fore": 0.03175,
+   "aft": 0.03175,
+   "compmass": 0.0598392995,
+   "compcgx": 0.19685
+  },
+  {
+   "index": 9,
+   "cls": "TubeCoupler",
+   "name": "Tube Coupler",
+   "x": 0.60325,
+   "length": 0.0762,
+   "instances": 1,
+   "ro": 0.0308864,
+   "ri": 0.0298704,
+   "compmass": 0.013216767,
+   "compcgx": 0.0381
+  },
+  {
+   "index": 10,
+   "cls": "RailButton",
+   "name": "Rail Button",
+   "x": 0.6604,
+   "length": 0.0,
+   "instances": 2,
+   "compmass": 0.00089,
+   "compcgx": 0.18415
+  },
+  {
+   "index": 11,
+   "cls": "TrapezoidFinSet",
+   "name": "Trapezoidal fin set",
+   "x": 0.90085672,
+   "length": 0.13419328,
+   "instances": 3,
+   "bodyr": 0.03175,
+   "compmass": 0.113794411,
+   "compcgx": 0.0946637777
+  },
+  {
+   "index": 12,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 0.9008618,
+   "length": 0.00508,
+   "instances": 1,
+   "ro": 0.0308864,
+   "ri": 0.0153416,
+   "compmass": 0.00722510857,
+   "compcgx": 0.00254
+  },
+  {
+   "index": 13,
+   "cls": "CenteringRing",
+   "name": "Centering ring",
+   "x": 1.025525,
+   "length": 0.00508,
+   "instances": 1,
+   "ro": 0.0308864,
+   "ri": 0.0153416,
+   "compmass": 0.00722510857,
+   "compcgx": 0.00254
+  },
+  {
+   "index": 14,
+   "cls": "InnerTube",
+   "name": "Inner Tube",
+   "x": 0.83185,
+   "length": 0.2032,
+   "instances": 1,
+   "ro": 0.0153416,
+   "ri": 0.014478,
+   "compmass": 0.0147034691,
+   "compcgx": 0.1016
+  }
+ ],
+ "sims": [
+  {
+   "index": 0,
+   "name": "Simulation 2",
+   "structMass": 0.910751564,
+   "structCG": 0.421265938,
+   "launchMass": 1.03375156,
+   "launchCG": 0.488052792,
+   "cp_m03": 0.833796533,
+   "cna_m03": 12.7164391,
+   "refLen": 0.0635,
+   "length": 1.10214664
+  },
+  {
+   "index": 1,
+   "name": "Simulation 3",
+   "structMass": 0.910751564,
+   "structCG": 0.421265938,
+   "launchMass": 1.03895156,
+   "launchCG": 0.490774685,
+   "cp_m03": 0.833796533,
+   "cna_m03": 12.7164391,
+   "refLen": 0.0635,
+   "length": 1.10214664
+  }
+ ],
+ "or_version": "24.12"
+}
