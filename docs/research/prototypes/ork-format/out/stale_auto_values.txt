@@ -1,0 +1,156 @@
+STALE master/artwork_branding_source__logo_rocket.ork                        Body Tube                      fore saved=0.025 resolved=0.0127
+STALE master/artwork_branding_source__logo_rocket.ork                        Body Tube                      aft saved=0.025 resolved=0.0127
+STALE master/artwork_branding_source__logo_rocket.ork                        Transition                     fore saved=0.025 resolved=0.00635
+STALE master/artwork_branding_source__logo_rocket.ork                        Transition                     fore saved=0.025 resolved=0.0127
+STALE master/core_src_main_resources_datafiles_examples__Dual parachute depl Body tube                      fore saved=0.025 resolved=0.028321
+STALE master/core_src_main_resources_datafiles_examples__Dual parachute depl Body tube                      aft saved=0.025 resolved=0.028321
+STALE master/core_src_main_resources_datafiles_examples__Dual parachute depl Elliptical 12-Gore 42" Parachu packedradius saved=0.0240094 resolved=0.0273304 (packedlength 0.1129 -> 0.0871)
+STALE master/core_src_test_resources_file_rasaero_export__01.One-stage.ork   Transition                     aft saved=0.0252833 resolved=0.025146
+STALE master/core_src_test_resources_file_rasaero_export__01.One-stage.ork   Elliptical 12-Gore Parachute [ packedradius saved=0.01778 resolved=0.02413 (packedlength 0.07112 -> 0.03861)
+STALE master/core_src_test_resources_file_rasaero_export__01.One-stage.ork   Elliptical 12-Gore Parachute [ packedradius saved=0.02032 resolved=0.02413 (packedlength 0.1397 -> 0.09907)
+STALE master/core_src_test_resources_file_rasaero_export__01.One-stage.ork   Transition                     fore saved=0.025 resolved=0.025146
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Nose cone                      aft saved=0.025 resolved=0.019875
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body tube                      fore saved=0.025 resolved=0.019875
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body tube                      aft saved=0.025 resolved=0.019875
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Iris Ultra Compact 30" Parachu packedradius saved=0.02413 resolved=0.016875 (packedlength 0.09398 -> 0.1922)
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     fore saved=0.025 resolved=0.019875
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     aft saved=0.025 resolved=0.019125
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     fore saved=0.025 resolved=0.019125
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     aft saved=0.025 resolved=0.02325
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     fore saved=0.05625 resolved=0.02325
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     aft saved=0.025 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body Tube                      fore saved=0.025 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body Tube                      aft saved=0.025 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Elliptical 12-Gore 36" Parachu packedradius saved=0.02032 resolved=0.04825 (packedlength 0.1397 -> 0.02478)
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body Tube                      fore saved=0.025 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Body Tube                      aft saved=0.025 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork   Transition                     fore saved=0.05625 resolved=0.05025
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork UltraLight 66" Hemispherical S packedradius saved=0.03175 resolved=0.04953 (packedlength 0.1019 -> 0.04185)
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     fore saved=0.025 resolved=0.0508
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     fore saved=0.025 resolved=0.0254
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     aft saved=0.01905 resolved=0.0508
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     fore saved=0.025 resolved=0.0508
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     aft saved=0.01905 resolved=0.0508
+STALE master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork Transition                     fore saved=0.025 resolved=0.0508
+STALE master/test-writing__asimple.ork                                       Body tube                      fore saved=0.025 resolved=0.0125
+STALE master/test-writing__asimple.ork                                       Body tube                      aft saved=0.025 resolved=0.0125
+STALE synthetic/synthetic_shapes.ork                                         Haack nose                     aft saved=0.01 resolved=0.04
+STALE synthetic/synthetic_shapes.ork                                         Main                           packedradius saved=0.02 resolved=0.038 (packedlength 0.12 -> 0.03324)
+STALE synthetic/synthetic_shapes.ork                                         Lower tube                     fore saved=0.01 resolved=0.03
+STALE synthetic/synthetic_shapes.ork                                         Lower tube                     aft saved=0.01 resolved=0.03
+STALE synthetic/synthetic_shapes_plain.ork                                   Haack nose                     aft saved=0.01 resolved=0.04
+STALE synthetic/synthetic_shapes_plain.ork                                   Main                           packedradius saved=0.02 resolved=0.038 (packedlength 0.12 -> 0.03324)
+STALE synthetic/synthetic_shapes_plain.ork                                   Lower tube                     fore saved=0.01 resolved=0.03
+STALE synthetic/synthetic_shapes_plain.ork                                   Lower tube                     aft saved=0.01 resolved=0.03
+STALE v2309/core_resources-src_pix_icon__logo_rocket.ork                     Body Tube                      fore saved=0.025 resolved=0.0127
+STALE v2309/core_resources-src_pix_icon__logo_rocket.ork                     Body Tube                      aft saved=0.025 resolved=0.0127
+STALE v2309/core_resources-src_pix_icon__logo_rocket.ork                     Transition                     fore saved=0.025 resolved=0.00635
+STALE v2309/core_resources-src_pix_icon__logo_rocket.ork                     Transition                     fore saved=0.025 resolved=0.0127
+STALE v2309/core_test-writing__asimple.ork                                   Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2309/core_test-writing__asimple.ork                                   Body tube                      aft saved=0.025 resolved=0.0125
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__01.One-stage.or Transition                     aft saved=0.0252833 resolved=0.025146
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__01.One-stage.or Elliptical 12-Gore Parachute [ packedradius saved=0.01778 resolved=0.02413 (packedlength 0.07112 -> 0.03861)
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__01.One-stage.or Elliptical 12-Gore Parachute [ packedradius saved=0.02032 resolved=0.02413 (packedlength 0.1397 -> 0.09907)
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__01.One-stage.or Transition                     fore saved=0.025 resolved=0.025146
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Nose cone                      aft saved=0.025 resolved=0.019875
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body tube                      fore saved=0.025 resolved=0.019875
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body tube                      aft saved=0.025 resolved=0.019875
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Iris Ultra Compact 30" Parachu packedradius saved=0.02413 resolved=0.016875 (packedlength 0.09398 -> 0.1922)
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     fore saved=0.025 resolved=0.019875
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     aft saved=0.025 resolved=0.019125
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     fore saved=0.025 resolved=0.019125
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     aft saved=0.025 resolved=0.02325
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     fore saved=0.05625 resolved=0.02325
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     aft saved=0.025 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body Tube                      fore saved=0.025 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body Tube                      aft saved=0.025 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Elliptical 12-Gore 36" Parachu packedradius saved=0.02032 resolved=0.04825 (packedlength 0.1397 -> 0.02478)
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body Tube                      fore saved=0.025 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Body Tube                      aft saved=0.025 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.or Transition                     fore saved=0.05625 resolved=0.05025
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. UltraLight 66" Hemispherical S packedradius saved=0.03175 resolved=0.04953 (packedlength 0.1019 -> 0.04185)
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     fore saved=0.025 resolved=0.0508
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     fore saved=0.025 resolved=0.0254
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     aft saved=0.01905 resolved=0.0508
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     fore saved=0.025 resolved=0.0508
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     aft saved=0.01905 resolved=0.0508
+STALE v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage. Transition                     fore saved=0.025 resolved=0.0508
+STALE v2309/swing_resources_datafiles_examples__A simple model rocket.ork    Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__A simple model rocket.ork    Body tube                      aft saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Airstart timing.ork          Elliptical 16-Gore 96" Parachu packedradius saved=0.03937 resolved=0.0954024 (packedlength 0.2007 -> 0.03417)
+STALE v2309/swing_resources_datafiles_examples__Airstart timing.ork          Elliptical 12-Gore 18" Parachu packedradius saved=0.02032 resolved=0.0954024 (packedlength 0.0762 -> 0.003457)
+STALE v2309/swing_resources_datafiles_examples__Base drag hack (short-wide). Nose Cone                      aft saved=0.025 resolved=0.03937
+STALE v2309/swing_resources_datafiles_examples__Clustered motors.ork         Body tube                      fore saved=0.025 resolved=0.0275
+STALE v2309/swing_resources_datafiles_examples__Clustered motors.ork         Body tube                      aft saved=0.025 resolved=0.0275
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Nose cone                      aft saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      fore saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      aft saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Elliptical 12-Gore 42" Parachu packedradius saved=0.02413 resolved=0.0273304 (packedlength 0.1448 -> 0.1129)
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      fore saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      aft saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Apex 12" Drouge Parachute      packedradius saved=0.02286 resolved=0.0273304 (packedlength 0.06985 -> 0.04887)
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      fore saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Dual parachute deployment.or Body tube                      aft saved=0.025 resolved=0.028321
+STALE v2309/swing_resources_datafiles_examples__Parallel booster staging.ork Nose Cone                      aft saved=0.0283972 resolved=0.028702
+STALE v2309/swing_resources_datafiles_examples__Pods--airframes and winglets Pod tail                       fore saved=0.0068961 resolved=0.0068707
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Nose Cone                      aft saved=0.025 resolved=0.017018
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Parachute kit, plastic, 12 in. packedradius saved=0.01778 resolved=0.01651 (packedlength 0.07112 -> 0.08248)
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Shock Cord                     packedradius saved=0.0125 resolved=0.01651 (packedlength 0.025 -> 0.01433)
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Nose Cone                      aft saved=0.025 resolved=0.0068707
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Nose Cone                      aft saved=0.025 resolved=0.0068707
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Phantom Engine Strake Transiti fore saved=0.025 resolved=0.017018
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Engine Strake Body Tube        fore saved=0.025 resolved=0.0096393
+STALE v2309/swing_resources_datafiles_examples__Pods--powered with recovery  Engine Strake Body Tube        aft saved=0.025 resolved=0.0096393
+STALE v2309/swing_resources_datafiles_examples__Simulation extensions.ork    Nose cone                      aft saved=0.025 resolved=0.07
+STALE v2309/swing_resources_datafiles_examples__Simulation extensions.ork    Main parachute                 packedradius saved=0.03048 resolved=0.065 (packedlength 0.1549 -> 0.03407)
+STALE v2309/swing_resources_datafiles_examples__Simulation extensions.ork    Drogue parachute               packedradius saved=0.02032 resolved=0.065 (packedlength 0.09906 -> 0.009681)
+STALE v2309/swing_resources_datafiles_examples__Simulation scripting.ork     Nose cone                      aft saved=0.025 resolved=0.07
+STALE v2309/swing_resources_datafiles_examples__Simulation scripting.ork     Main parachute                 packedradius saved=0.03048 resolved=0.065 (packedlength 0.1549 -> 0.03407)
+STALE v2309/swing_resources_datafiles_examples__Simulation scripting.ork     Drogue parachute               packedradius saved=0.02032 resolved=0.065 (packedlength 0.09906 -> 0.009681)
+STALE v2309/swing_resources_datafiles_examples__TARC payload rocket.ork      Nose cone                      aft saved=0.025 resolved=0.0281559
+STALE v2309/swing_resources_datafiles_examples__TARC payload rocket.ork      Elliptical 12-Gore 12" Parachu packedradius saved=0.01778 resolved=0.0276225 (packedlength 0.07112 -> 0.02947)
+STALE v2309/swing_resources_datafiles_examples__TARC payload rocket.ork      Elliptical 12-Gore 15" Parachu packedradius saved=0.01778 resolved=0.0276225 (packedlength 0.0762 -> 0.03157)
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      aft saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      aft saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Three-stage rocket.ork       Body tube                      aft saved=0.025 resolved=0.0125
+STALE v2309/swing_resources_datafiles_examples__Tube fin rocket.ork          Parachute kit, plastic, 12 in. packedradius saved=0.0125 resolved=0.012065 (packedlength 0.05224 -> 0.05607)
+STALE v2412/core_resources-src_pix_icon__logo_rocket.ork                     Body Tube                      fore saved=0.025 resolved=0.0127
+STALE v2412/core_resources-src_pix_icon__logo_rocket.ork                     Body Tube                      aft saved=0.025 resolved=0.0127
+STALE v2412/core_resources-src_pix_icon__logo_rocket.ork                     Transition                     fore saved=0.025 resolved=0.00635
+STALE v2412/core_resources-src_pix_icon__logo_rocket.ork                     Transition                     fore saved=0.025 resolved=0.0127
+STALE v2412/core_src_main_resources_datafiles_examples__Dual parachute deplo Body tube                      fore saved=0.025 resolved=0.028321
+STALE v2412/core_src_main_resources_datafiles_examples__Dual parachute deplo Body tube                      aft saved=0.025 resolved=0.028321
+STALE v2412/core_src_main_resources_datafiles_examples__Dual parachute deplo Elliptical 12-Gore 42" Parachu packedradius saved=0.0240094 resolved=0.0273304 (packedlength 0.1129 -> 0.0871)
+STALE v2412/core_src_test_resources_file_rasaero_export__01.One-stage.ork    Transition                     aft saved=0.0252833 resolved=0.025146
+STALE v2412/core_src_test_resources_file_rasaero_export__01.One-stage.ork    Elliptical 12-Gore Parachute [ packedradius saved=0.01778 resolved=0.02413 (packedlength 0.07112 -> 0.03861)
+STALE v2412/core_src_test_resources_file_rasaero_export__01.One-stage.ork    Elliptical 12-Gore Parachute [ packedradius saved=0.02032 resolved=0.02413 (packedlength 0.1397 -> 0.09907)
+STALE v2412/core_src_test_resources_file_rasaero_export__01.One-stage.ork    Transition                     fore saved=0.025 resolved=0.025146
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Nose cone                      aft saved=0.025 resolved=0.019875
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body tube                      fore saved=0.025 resolved=0.019875
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body tube                      aft saved=0.025 resolved=0.019875
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Iris Ultra Compact 30" Parachu packedradius saved=0.02413 resolved=0.016875 (packedlength 0.09398 -> 0.1922)
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     fore saved=0.025 resolved=0.019875
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     aft saved=0.025 resolved=0.019125
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     fore saved=0.025 resolved=0.019125
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     aft saved=0.025 resolved=0.02325
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     fore saved=0.05625 resolved=0.02325
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     aft saved=0.025 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body Tube                      fore saved=0.025 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body Tube                      aft saved=0.025 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Elliptical 12-Gore 36" Parachu packedradius saved=0.02032 resolved=0.04825 (packedlength 0.1397 -> 0.02478)
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body Tube                      fore saved=0.025 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Body Tube                      aft saved=0.025 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork    Transition                     fore saved=0.05625 resolved=0.05025
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  UltraLight 66" Hemispherical S packedradius saved=0.03175 resolved=0.04953 (packedlength 0.1019 -> 0.04185)
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     fore saved=0.025 resolved=0.0508
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     fore saved=0.025 resolved=0.0254
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     aft saved=0.01905 resolved=0.0508
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     fore saved=0.025 resolved=0.0508
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     aft saved=0.01905 resolved=0.0508
+STALE v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork  Transition                     fore saved=0.025 resolved=0.0508
+STALE v2412/test-writing__asimple.ork                                        Body tube                      fore saved=0.025 resolved=0.0125
+STALE v2412/test-writing__asimple.ork                                        Body tube                      aft saved=0.025 resolved=0.0125
+auto values: 252 stale: 155

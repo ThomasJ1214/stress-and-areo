@@ -1,0 +1,764 @@
+[
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 1",
+  "motor_config": null,
+  "max_altitude_m": 593.0490711552073,
+  "max_velocity_mps": 135.41510785539253,
+  "max_accel_mps2": 721.9114243938498,
+  "max_mach": 0.3979320037140048,
+  "time_to_apogee_s": 10.323000000000116,
+  "flight_time_s": 65.42231970266029,
+  "ground_hit_velocity_mps": 4.184083927740085,
+  "launch_rod_velocity_mps": 52.928931822395604,
+  "deployment_velocity_mps": 23.53520493849907,
+  "optimum_delay_s": 10.03800000000013,
+  "n_branches": 1,
+  "n_points_branch0": 5662,
+  "sim_wall_time_s": 10.416,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.0136
+   ],
+   [
+    "Launch rod clearance",
+    0.1192
+   ],
+   [
+    "Motor burnout",
+    0.329
+   ],
+   [
+    "Apogee",
+    10.367
+   ],
+   [
+    "Recovery device deployment",
+    10.368
+   ],
+   [
+    "Warning",
+    30.6712
+   ],
+   [
+    "Recovery device deployment",
+    30.6712
+   ],
+   [
+    "Ground hit",
+    65.4223
+   ],
+   [
+    "Simulation end",
+    65.4223
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (23.5 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_1.csv"
+ },
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 2",
+  "motor_config": null,
+  "max_altitude_m": 698.3501905230594,
+  "max_velocity_mps": 141.02161507386353,
+  "max_accel_mps2": 144.0881134962391,
+  "max_mach": 0.4147285480951521,
+  "time_to_apogee_s": 11.450000000000491,
+  "flight_time_s": 70.73289081396288,
+  "ground_hit_velocity_mps": 4.175910009902208,
+  "launch_rod_velocity_mps": 29.18838633252429,
+  "deployment_velocity_mps": 23.487360095379394,
+  "optimum_delay_s": 10.154000000000506,
+  "n_branches": 1,
+  "n_points_branch0": 6459,
+  "sim_wall_time_s": 9.541,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.0308
+   ],
+   [
+    "Launch rod clearance",
+    0.2288
+   ],
+   [
+    "Motor burnout",
+    1.34
+   ],
+   [
+    "Apogee",
+    11.494
+   ],
+   [
+    "Recovery device deployment",
+    11.495
+   ],
+   [
+    "Warning",
+    36.2823
+   ],
+   [
+    "Recovery device deployment",
+    36.2823
+   ],
+   [
+    "Ground hit",
+    70.7329
+   ],
+   [
+    "Simulation end",
+    70.7329
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (23.5 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_2.csv"
+ },
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 3",
+  "motor_config": null,
+  "max_altitude_m": 2224.694584018371,
+  "max_velocity_mps": 388.6066821175809,
+  "max_accel_mps2": 504.50211634275485,
+  "max_mach": 1.1467410920320706,
+  "time_to_apogee_s": 17.377500000001262,
+  "flight_time_s": 130.631437336923,
+  "ground_hit_velocity_mps": 4.428335812686755,
+  "launch_rod_velocity_mps": 53.73651668620418,
+  "deployment_velocity_mps": 24.908684937511318,
+  "optimum_delay_s": 15.369500000001239,
+  "n_branches": 1,
+  "n_points_branch0": 9321,
+  "sim_wall_time_s": 13.315,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.022
+   ],
+   [
+    "Launch rod clearance",
+    0.1304
+   ],
+   [
+    "Warning",
+    1.25
+   ],
+   [
+    "Motor burnout",
+    2.052
+   ],
+   [
+    "Apogee",
+    17.4215
+   ],
+   [
+    "Recovery device deployment",
+    17.4225
+   ],
+   [
+    "Warning",
+    98.6722
+   ],
+   [
+    "Recovery device deployment",
+    98.6722
+   ],
+   [
+    "Ground hit",
+    130.6314
+   ],
+   [
+    "Simulation end",
+    130.6314
+   ]
+  ],
+  "warnings": [
+   "Body calculations may not be entirely accurate at supersonic speeds.",
+   "Recovery device deployment at high speed (24.9 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_3.csv"
+ },
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 4",
+  "motor_config": null,
+  "max_altitude_m": 897.6669450538631,
+  "max_velocity_mps": 190.8332164927064,
+  "max_accel_mps2": 1003.5204580107755,
+  "max_mach": 0.5608455882405273,
+  "time_to_apogee_s": 12.207000000000745,
+  "flight_time_s": 79.25010556264782,
+  "ground_hit_velocity_mps": 4.226628556959906,
+  "launch_rod_velocity_mps": 62.88831252119328,
+  "deployment_velocity_mps": 23.775166680196616,
+  "optimum_delay_s": 11.922000000000759,
+  "n_branches": 1,
+  "n_points_branch0": 6591,
+  "sim_wall_time_s": 9.54,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.0124
+   ],
+   [
+    "Launch rod clearance",
+    0.1016
+   ],
+   [
+    "Motor burnout",
+    0.329
+   ],
+   [
+    "Apogee",
+    12.251
+   ],
+   [
+    "Recovery device deployment",
+    12.252
+   ],
+   [
+    "Warning",
+    44.8562
+   ],
+   [
+    "Recovery device deployment",
+    44.8562
+   ],
+   [
+    "Ground hit",
+    79.2501
+   ],
+   [
+    "Simulation end",
+    79.2501
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (23.8 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_4.csv"
+ },
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 5",
+  "motor_config": null,
+  "max_altitude_m": 1158.9690470559622,
+  "max_velocity_mps": 242.77695115444143,
+  "max_accel_mps2": 867.1861665604844,
+  "max_mach": 0.7135731561628632,
+  "time_to_apogee_s": 13.468393000001168,
+  "flight_time_s": 90.8907339126598,
+  "ground_hit_velocity_mps": 4.284943039068762,
+  "launch_rod_velocity_mps": 69.35521287916342,
+  "deployment_velocity_mps": 24.109242628646722,
+  "optimum_delay_s": 13.172393000001183,
+  "n_branches": 1,
+  "n_points_branch0": 7237,
+  "sim_wall_time_s": 11.173,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.014
+   ],
+   [
+    "Launch rod clearance",
+    0.0976
+   ],
+   [
+    "Motor burnout",
+    0.34
+   ],
+   [
+    "Apogee",
+    13.5124
+   ],
+   [
+    "Recovery device deployment",
+    13.5134
+   ],
+   [
+    "Warning",
+    55.9402
+   ],
+   [
+    "Recovery device deployment",
+    55.9402
+   ],
+   [
+    "Ground hit",
+    90.8907
+   ],
+   [
+    "Simulation end",
+    90.8907
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (24.1 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_5.csv"
+ },
+ {
+  "ork": "Dual parachute deployment.ork",
+  "sim": "Simulation 6",
+  "motor_config": null,
+  "max_altitude_m": 227.40603179115158,
+  "max_velocity_mps": 58.53780021123432,
+  "max_accel_mps2": 61.85291925900298,
+  "max_mach": 0.17209530954021335,
+  "time_to_apogee_s": 7.333999999999461,
+  "flight_time_s": 47.324669593344545,
+  "ground_hit_velocity_mps": 4.090198524095,
+  "launch_rod_velocity_mps": 18.93133452689265,
+  "deployment_velocity_mps": 22.689029688088034,
+  "optimum_delay_s": 4.939999999999456,
+  "n_branches": 1,
+  "n_points_branch0": 4591,
+  "sim_wall_time_s": 6.173,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 3.048,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.0484
+   ],
+   [
+    "Launch rod clearance",
+    0.3452
+   ],
+   [
+    "Motor burnout",
+    2.44
+   ],
+   [
+    "Apogee",
+    7.38
+   ],
+   [
+    "Recovery device deployment",
+    7.381
+   ],
+   [
+    "Warning",
+    12.4704
+   ],
+   [
+    "Recovery device deployment",
+    12.4704
+   ],
+   [
+    "Ground hit",
+    47.3247
+   ],
+   [
+    "Simulation end",
+    47.3247
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (22.7 m/s):  \"Elliptical 12-Gore 42\" Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__Dual_parachute_deployment__Simulation_6.csv"
+ },
+ {
+  "ork": "A simple model rocket.ork",
+  "sim": "Simulation 1",
+  "motor_config": null,
+  "max_altitude_m": 51.053596858780566,
+  "max_velocity_mps": 29.363565744611265,
+  "max_accel_mps2": 143.73840351075992,
+  "max_mach": 0.08627636835173012,
+  "time_to_apogee_s": 3.4719999999998388,
+  "flight_time_s": 15.961981601464714,
+  "ground_hit_velocity_mps": 4.163054935378089,
+  "launch_rod_velocity_mps": 15.267181785949797,
+  "deployment_velocity_mps": 2.5291326904101386,
+  "optimum_delay_s": 2.7879999999998337,
+  "n_branches": 1,
+  "n_points_branch0": 2422,
+  "sim_wall_time_s": 1.689,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 1.0,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.1032
+   ],
+   [
+    "Launch rod clearance",
+    0.246
+   ],
+   [
+    "Motor burnout",
+    0.73
+   ],
+   [
+    "Apogee",
+    3.518
+   ],
+   [
+    "Ejection charge",
+    3.73
+   ],
+   [
+    "Recovery device deployment",
+    3.731
+   ],
+   [
+    "Ground hit",
+    15.962
+   ],
+   [
+    "Simulation end",
+    15.962
+   ]
+  ],
+  "warnings": [],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__A_simple_model_rocket__Simulation_1.csv"
+ },
+ {
+  "ork": "A simple model rocket.ork",
+  "sim": "Simulation 2",
+  "motor_config": null,
+  "max_altitude_m": 136.4138325111549,
+  "max_velocity_mps": 53.349197841509714,
+  "max_accel_mps2": 182.93992612696024,
+  "max_mach": 0.15678815417058053,
+  "time_to_apogee_s": 5.309309797111774,
+  "flight_time_s": 38.26429634279106,
+  "ground_hit_velocity_mps": 4.157950330896181,
+  "launch_rod_velocity_mps": 17.556374024257487,
+  "deployment_velocity_mps": 3.546880518323947,
+  "optimum_delay_s": 4.362499999999961,
+  "n_branches": 1,
+  "n_points_branch0": 3056,
+  "sim_wall_time_s": 4.728,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 1.0,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.072
+   ],
+   [
+    "Launch rod clearance",
+    0.1852
+   ],
+   [
+    "Motor burnout",
+    1.03
+   ],
+   [
+    "Ejection charge",
+    5.03
+   ],
+   [
+    "Recovery device deployment",
+    5.031
+   ],
+   [
+    "Apogee",
+    5.3093
+   ],
+   [
+    "Ground hit",
+    38.2643
+   ],
+   [
+    "Simulation end",
+    38.2643
+   ]
+  ],
+  "warnings": [],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__A_simple_model_rocket__Simulation_2.csv"
+ },
+ {
+  "ork": "A simple model rocket.ork",
+  "sim": "Simulation 3 - too short delay",
+  "motor_config": null,
+  "max_altitude_m": 280.1656359454636,
+  "max_velocity_mps": 95.45329226509304,
+  "max_accel_mps2": 191.40906424497103,
+  "max_mach": 0.28075271696220855,
+  "time_to_apogee_s": 5.426914592399118,
+  "flight_time_s": 72.94873384510228,
+  "ground_hit_velocity_mps": 4.137469097678367,
+  "launch_rod_velocity_mps": 17.392004417244898,
+  "deployment_velocity_mps": 32.05538660949612,
+  "optimum_delay_s": 5.980499999999672,
+  "n_branches": 1,
+  "n_points_branch0": 3208,
+  "sim_wall_time_s": 5.018,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 1.0,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.078
+   ],
+   [
+    "Launch rod clearance",
+    0.2064
+   ],
+   [
+    "Motor burnout",
+    1.86
+   ],
+   [
+    "Ejection charge",
+    4.86
+   ],
+   [
+    "Warning",
+    4.861
+   ],
+   [
+    "Recovery device deployment",
+    4.861
+   ],
+   [
+    "Apogee",
+    5.4269
+   ],
+   [
+    "Ground hit",
+    72.9487
+   ],
+   [
+    "Simulation end",
+    72.9487
+   ]
+  ],
+  "warnings": [
+   "Recovery device deployment at high speed (32.1 m/s):  \"Parachute\""
+  ],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__A_simple_model_rocket__Simulation_3_-_too_short_delay.csv"
+ },
+ {
+  "ork": "A simple model rocket.ork",
+  "sim": "Simulation 4",
+  "motor_config": null,
+  "max_altitude_m": 319.1224110929936,
+  "max_velocity_mps": 95.45329226509304,
+  "max_accel_mps2": 191.40906424497103,
+  "max_mach": 0.28075271696220855,
+  "time_to_apogee_s": 7.316500327766271,
+  "flight_time_s": 84.12153185184968,
+  "ground_hit_velocity_mps": 4.137469130111634,
+  "launch_rod_velocity_mps": 17.392004417244898,
+  "deployment_velocity_mps": 9.70661256944886,
+  "optimum_delay_s": 5.980499999999893,
+  "n_branches": 1,
+  "n_points_branch0": 4230,
+  "sim_wall_time_s": 5.612,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 1.0,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.078
+   ],
+   [
+    "Launch rod clearance",
+    0.2064
+   ],
+   [
+    "Motor burnout",
+    1.86
+   ],
+   [
+    "Ejection charge",
+    6.86
+   ],
+   [
+    "Recovery device deployment",
+    6.861
+   ],
+   [
+    "Apogee",
+    7.3175
+   ],
+   [
+    "Ground hit",
+    84.1215
+   ],
+   [
+    "Simulation end",
+    84.1215
+   ]
+  ],
+  "warnings": [],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__A_simple_model_rocket__Simulation_4.csv"
+ },
+ {
+  "ork": "A simple model rocket.ork",
+  "sim": "Simulation 5",
+  "motor_config": null,
+  "max_altitude_m": 322.3505229077715,
+  "max_velocity_mps": 95.45329226509304,
+  "max_accel_mps2": 191.40906424497103,
+  "max_mach": 0.28075271696220855,
+  "time_to_apogee_s": 7.839999999999357,
+  "flight_time_s": 84.82652103174881,
+  "ground_hit_velocity_mps": 4.1374691118738625,
+  "launch_rod_velocity_mps": 17.392004417244898,
+  "deployment_velocity_mps": 9.582838160658453,
+  "optimum_delay_s": 6.023999999999352,
+  "n_branches": 1,
+  "n_points_branch0": 5217,
+  "sim_wall_time_s": 3.305,
+  "time_step_opt": 0.002,
+  "wind_avg_opt": 0.0,
+  "launch_rod_length_opt": 1.0,
+  "events": [
+   [
+    "Launch",
+    0.0
+   ],
+   [
+    "Motor ignition",
+    0.0
+   ],
+   [
+    "Lift-off",
+    0.078
+   ],
+   [
+    "Launch rod clearance",
+    0.2064
+   ],
+   [
+    "Motor burnout",
+    1.86
+   ],
+   [
+    "Apogee",
+    7.884
+   ],
+   [
+    "Ejection charge",
+    8.86
+   ],
+   [
+    "Recovery device deployment",
+    8.861
+   ],
+   [
+    "Ground hit",
+    84.8265
+   ],
+   [
+    "Simulation end",
+    84.8265
+   ]
+  ],
+  "warnings": [],
+  "csv": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/openrocket-methods/runs/24.12_nowind_dt0.002__A_simple_model_rocket__Simulation_5.csv"
+ }
+]

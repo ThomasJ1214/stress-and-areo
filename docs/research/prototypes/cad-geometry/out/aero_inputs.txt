@@ -1,0 +1,8 @@
+planform side (x-z) area 20497.517588451625 expected 20500 | top (x-y) 19998.758316039337 expected 20000 (0.032s)
+wetted area mesh (incl end caps) 75721.66292474256  B-rep exact incl caps 74418.07
+A_enc max 5233.427921432799 expected 5234.961502895601
+protuberance frontal area (max A_enc - pi R^2) = 206.87967568912973
+integral dA/dx over bump (net CN_alpha contribution, per rad, /Aref): 1.482162682049175e-10
+payload total mass 0.4952 kg, CG x 121.005 mm, CG z 6.000 mm
+CAD inertia about CG: Ixx 4.9322e-04  Iyy 2.6824e-03  Izz 2.7208e-03  Ixz 4.043e-07 kg m^2
+"tube with mass override" style: Iax 7.5366e-04 (+52.8%), Itr 2.9559e-03 (+10.2% vs Iyy)

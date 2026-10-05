@@ -1,0 +1,65 @@
+quantity                          n      max err       median   worst case
+x_abs [m]                      1499    6.035e-05    0.000e+00   core_src_main_resources_datafiles_examples__S | trapezoidfinset:CONTROL ours=0.81 OR=0.81006
+instance count                 1499    0.000e+00    0.000e+00   artwork_branding_source__logo_rocket.ork | rocket:Rocket ours=1 OR=1
+length [m]                     1428    4.615e-10    0.000e+00   swing_resources_datafiles_examples__Base drag | bodytube:Body Tube ours=0.121138 OR=0.121138
+fore radius [m]                 343    7.692e-15    0.000e+00   swing_resources_datafiles_examples__Base drag | transition:Base-Drag Hack Transition ours=1.51423e-05 OR=1.51423e-05
+aft radius [m]                  343    1.388e-17    0.000e+00   core_src_main_resources_datafiles_examples__A | nosecone:Nose cone ours=0.0974344 OR=0.0974344
+component mass (rel)           1313    2.341e-01    5.955e-10   artwork_branding_source__logo_rocket.ork | freeformfinset:Freeform Fin Set.8 ours=0.0812247 OR=0.106053
+component cg x [m]             1293    1.920e-03    0.000e+00   artwork_branding_source__logo_rocket.ork | freeformfinset:Freeform Fin Set.8 ours=0.0223007 OR=0.0242206
+fin body radius [m]             194    7.720e-12    0.000e+00   artwork_branding_source__logo_rocket.ork | freeformfinset:Freeform Fin Set.8 ours=0.0119988 OR=0.0119988
+ring/tube outer radius [m]      472    7.692e-12    0.000e+00   swing_resources_datafiles_examples__Base drag | centeringring:Centering Ring ours=0.0387643 OR=0.0387643
+ring inner radius [m]           469    4.615e-11    0.000e+00   swing_resources_datafiles_examples__Base drag | engineblock:Engine Block ours=0.0111867 OR=0.0111867
+structure mass (rel)            212    6.413e-06    7.025e-10   core_src_main_resources_datafiles_examples__S | No controlling ours=7.00369 OR=7.00364
+structure CG [m]                212    4.755e-06    2.571e-10   core_src_main_resources_datafiles_examples__S | No controlling ours=1.35989 OR=1.35989
+reference length [m]            212    2.776e-17    0.000e+00   core_src_main_resources_datafiles_examples__A | Simulation 1 ours=0.194869 OR=0.194869
+
+== x_abs [m]: 21 above tolerance
+   6.035e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:CONTROL                  ours=0.81 OR=0.81006
+   6.035e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:CONTROL                  ours=0.81 OR=0.81006
+   6.035e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:CONTROL                  ours=0.81 OR=0.81006
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=2.18 OR=2.18004
+   3.770e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=2.18 OR=2.18004
+
+== component mass (rel): 3 above tolerance
+   2.341e-01 artwork_branding_source__logo_rocket.ork           freeformfinset:Freeform Fin Set.8        ours=0.0812247 OR=0.106053
+   2.341e-01 core_resources-src_pix_icon__logo_rocket.ork       freeformfinset:Freeform Fin Set.8        ours=0.0812247 OR=0.106053
+   2.341e-01 core_resources-src_pix_icon__logo_rocket.ork       freeformfinset:Freeform Fin Set.8        ours=0.0812247 OR=0.106053
+
+== component cg x [m]: 21 above tolerance
+   1.920e-03 artwork_branding_source__logo_rocket.ork           freeformfinset:Freeform Fin Set.8        ours=0.0223007 OR=0.0242206
+   1.920e-03 core_resources-src_pix_icon__logo_rocket.ork       freeformfinset:Freeform Fin Set.8        ours=0.0223007 OR=0.0242206
+   1.920e-03 core_resources-src_pix_icon__logo_rocket.ork       freeformfinset:Freeform Fin Set.8        ours=0.0223007 OR=0.0242206
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 swing_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation extensions.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #1          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #2          ours=0.287409 OR=0.287441
+   3.193e-05 core_src_main_resources_datafiles_examples__Simulation scripting.ork trapezoidfinset:Main fin set #3          ours=0.287409 OR=0.287441
