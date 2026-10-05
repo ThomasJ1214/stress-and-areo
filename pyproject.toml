@@ -1,0 +1,53 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stressaero"
+version = "0.1.0"
+description = "Stress & Aero: aerodynamic, flight and structural analysis of rockets from OpenRocket and CAD files"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { file = "LICENSE" }
+dependencies = [
+    "numpy>=2.2",
+    "scipy>=1.14",
+    "defusedxml>=0.7",
+    "PySide6>=6.8",
+    "pyvista>=0.45",
+    "pyvistaqt>=0.11",
+    "pyqtgraph>=0.13",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-qt>=4.4",
+    "hypothesis>=6.100",
+    "ruff>=0.6",
+    "pyinstaller>=6.10",
+]
+
+[project.scripts]
+stressaero = "stressaero.ui.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stressaero"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "gui: needs a display (run under xvfb-run on Linux)",
+    "oracle: needs Java + the OpenRocket jar (regenerates/compares oracle data)",
+    "slow: long-running test",
+]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+src = ["src", "tests", "tools"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E741"]

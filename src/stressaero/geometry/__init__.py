@@ -1,0 +1,1 @@
+"""stressaero.geometry package."""
