@@ -1,0 +1,253 @@
+{
+ "OCP-XCAF/payload_assembly.step": {
+  "mass_kg": 0.49517878721399644,
+  "dm_rel": 1.0313498972783583e-14,
+  "dcg_mm": 3.369803487131832e-13,
+  "dI_rel_fro": 8.235883339743022e-15,
+  "t_read": 0.06500964499991824,
+  "leaves": [
+   [
+    "=>[0:1:1:2]",
+    "body_tube"
+   ],
+   [
+    "=>[0:1:1:3]",
+    "fwd_bulkhead"
+   ],
+   [
+    "=>[0:1:1:4]",
+    "aft_bulkhead"
+   ],
+   [
+    "=>[0:1:1:5]",
+    "sled"
+   ],
+   [
+    "=>[0:1:1:6]",
+    "battery"
+   ],
+   [
+    "=>[0:1:1:7]",
+    "camera_shroud"
+   ],
+   [
+    "rod_left",
+    "threaded_rod"
+   ],
+   [
+    "rod_right",
+    "threaded_rod"
+   ]
+  ]
+ },
+ "OCP-XCAF/payload_assembly.step/per_part": {
+  "body_tube": {
+   "dV_rel": 2.1497316535837686e-14,
+   "dc_mm": 7.666763109404094e-13
+  },
+  "fwd_bulkhead": {
+   "dV_rel": 2.6731408587821006e-16,
+   "dc_mm": 2.953296246280049e-15
+  },
+  "aft_bulkhead": {
+   "dV_rel": 2.6731408587821006e-16,
+   "dc_mm": 2.9197163375894197e-15
+  },
+  "sled": {
+   "dV_rel": -1.5956047399525056e-16,
+   "dc_mm": 1.869849304631843e-16
+  },
+  "battery": {
+   "dV_rel": 0.0,
+   "dc_mm": 3.194058774083498e-16
+  },
+  "camera_shroud": {
+   "dV_rel": 2.0597610013065414e-14,
+   "dc_mm": 4.195056325173644e-13
+  },
+  "rod_left": {
+   "dV_rel": 1.351546008431846e-16,
+   "dc_mm": 0.0
+  },
+  "rod_right": {
+   "dV_rel": 1.351546008431846e-16,
+   "dc_mm": 0.0
+  }
+ },
+ "OCP-XCAF/payload_assembly_inch.step": {
+  "mass_kg": 0.49517878721223774,
+  "dm_rel": -3.541341658154711e-12,
+  "dcg_mm": 1.757244207227519e-11,
+  "dI_rel_fro": 3.663696572574188e-12,
+  "t_read": 0.03290063100030238,
+  "leaves": [
+   [
+    "=>[0:1:1:2]",
+    "body_tube"
+   ],
+   [
+    "=>[0:1:1:3]",
+    "fwd_bulkhead"
+   ],
+   [
+    "=>[0:1:1:4]",
+    "aft_bulkhead"
+   ],
+   [
+    "=>[0:1:1:5]",
+    "sled"
+   ],
+   [
+    "=>[0:1:1:6]",
+    "battery"
+   ],
+   [
+    "=>[0:1:1:7]",
+    "camera_shroud"
+   ],
+   [
+    "rod_left",
+    "threaded_rod"
+   ],
+   [
+    "rod_right",
+    "threaded_rod"
+   ]
+  ]
+ },
+ "OCP-XCAF/payload_assembly_inch.step/per_part": {
+  "body_tube": {
+   "dV_rel": -4.106937615981942e-12,
+   "dc_mm": 4.692949954002497e-12
+  },
+  "fwd_bulkhead": {
+   "dV_rel": 2.54483009756056e-13,
+   "dc_mm": 6.99446412327384e-13
+  },
+  "aft_bulkhead": {
+   "dV_rel": 2.627697464182805e-13,
+   "dc_mm": 1.0118128758772288e-11
+  },
+  "sled": {
+   "dV_rel": 1.807820170366189e-13,
+   "dc_mm": 8.000711207578477e-12
+  },
+  "battery": {
+   "dV_rel": -2.650527416595391e-14,
+   "dc_mm": 1.2169609130086009e-11
+  },
+  "camera_shroud": {
+   "dV_rel": 1.3863238874895382e-12,
+   "dc_mm": 1.8396486427215842e-12
+  },
+  "rod_left": {
+   "dV_rel": -8.051429881430193e-12,
+   "dc_mm": 5.714270206998761e-12
+  },
+  "rod_right": {
+   "dV_rel": -8.051429881430193e-12,
+   "dc_mm": 5.714270206998761e-12
+  }
+ },
+ "OCP-plain/payload": {
+  "nsolids": 8,
+  "V_total": 288438.876776984
+ },
+ "gmsh/payload_assembly.step": {
+  "mass_kg": 0.49517878721399644,
+  "dm_rel": 1.0313498972783583e-14,
+  "dcg_mm": 3.369803487131832e-13,
+  "dI_rel_fro": 8.235883339743022e-15,
+  "t_read": 0.04135141400001885,
+  "names": [
+   "Shapes/payload_assembly/=>[0:1:1:2]/body_tube",
+   "Shapes/payload_assembly/=>[0:1:1:3]/fwd_bulkhead",
+   "Shapes/payload_assembly/=>[0:1:1:4]/aft_bulkhead",
+   "Shapes/payload_assembly/=>[0:1:1:5]/sled",
+   "Shapes/payload_assembly/=>[0:1:1:6]/battery",
+   "Shapes/payload_assembly/=>[0:1:1:7]/camera_shroud",
+   "Shapes/payload_assembly/rod_left/threaded_rod",
+   "Shapes/payload_assembly/rod_right/threaded_rod"
+  ]
+ },
+ "gmsh/payload_assembly_inch.step": {
+  "mass_kg": 0.49517878721223774,
+  "dm_rel": -3.541341658154711e-12,
+  "dcg_mm": 1.757244207227519e-11,
+  "dI_rel_fro": 3.663696572574188e-12,
+  "t_read": 0.03305691600007776,
+  "names": [
+   "Shapes/payload_assembly/=>[0:1:1:2]/body_tube",
+   "Shapes/payload_assembly/=>[0:1:1:3]/fwd_bulkhead",
+   "Shapes/payload_assembly/=>[0:1:1:4]/aft_bulkhead",
+   "Shapes/payload_assembly/=>[0:1:1:5]/sled",
+   "Shapes/payload_assembly/=>[0:1:1:6]/battery",
+   "Shapes/payload_assembly/=>[0:1:1:7]/camera_shroud",
+   "Shapes/payload_assembly/rod_left/threaded_rod",
+   "Shapes/payload_assembly/rod_right/threaded_rod"
+  ]
+ },
+ "build123d/payload": {
+  "t_read": 0.03917751100016176,
+  "type": "Compound",
+  "label": "payload_assembly",
+  "leaves": [
+   [
+    "body_tube",
+    122522.113
+   ],
+   [
+    "fwd_bulkhead",
+    27218.759
+   ],
+   [
+    "aft_bulkhead",
+    27218.759
+   ],
+   [
+    "sled",
+    45600.0
+   ],
+   [
+    "battery",
+    42000.0
+   ],
+   [
+    "camera_shroud",
+    10420.663
+   ],
+   [
+    "threaded_rod",
+    6729.291
+   ],
+   [
+    "threaded_rod",
+    6729.291
+   ]
+  ],
+  "n_solids": 8
+ },
+ "trimesh-cascadio/payload": {
+  "t_read": 0.08726138299971353,
+  "geometry_names": [
+   "body_tube",
+   "fwd_bulkhead",
+   "aft_bulkhead",
+   "sled",
+   "battery",
+   "camera_shroud",
+   "threaded_rod",
+   "threaded_rod_1"
+  ],
+  "graph_nodes": [
+   "rod_right",
+   "rod_left",
+   "=>[0:1:1:7]",
+   "=>[0:1:1:6]",
+   "=>[0:1:1:5]",
+   "=>[0:1:1:4]",
+   "=>[0:1:1:3]",
+   "=>[0:1:1:2]"
+  ]
+ }
+}

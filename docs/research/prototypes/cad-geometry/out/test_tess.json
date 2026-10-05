@@ -1,0 +1,318 @@
+{
+ "BRepMesh/ogive_solid/d=0.5": {
+  "dV_rel": -0.008998657693291535,
+  "dc_over_L": 0.0004516611467269039,
+  "dI_rel_fro": 0.01317314035102867,
+  "tris": 2395,
+  "t_mesh": 0.02744858200003364,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 2
+ },
+ "BRepMesh/ogive_solid/d=0.1": {
+  "dV_rel": -0.0018126368339726083,
+  "dc_over_L": 7.816915341282712e-05,
+  "dI_rel_fro": 0.002628414697478734,
+  "tris": 11801,
+  "t_mesh": 0.17380836800020916,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 2
+ },
+ "BRepMesh/ogive_solid/d=0.02": {
+  "dV_rel": -0.00037139147228514025,
+  "dc_over_L": 1.88728028427661e-05,
+  "dI_rel_fro": 0.0005484563725700292,
+  "tris": 55889,
+  "t_mesh": 1.2320823939999173,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 2
+ },
+ "BRepMesh/ogive_solid/d=0.01": {
+  "dV_rel": -0.00018483592837991087,
+  "dc_over_L": 8.291980724851177e-06,
+  "dI_rel_fro": 0.00026802426352380554,
+  "tris": 111185,
+  "t_mesh": 3.144624783999916,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 2
+ },
+ "BRepMesh/ogive_hollow/d=0.5": {
+  "dV_rel": -0.004614674104370889,
+  "dc_over_L": 0.0006196897008744711,
+  "dI_rel_fro": 0.008894980340924247,
+  "tris": 4672,
+  "t_mesh": 0.06258810500003165,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 3
+ },
+ "BRepMesh/ogive_hollow/d=0.1": {
+  "dV_rel": -0.0005753637062270244,
+  "dc_over_L": 6.437604781625041e-05,
+  "dI_rel_fro": 0.0015570900459857926,
+  "tris": 22480,
+  "t_mesh": 0.21530455400034043,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 3
+ },
+ "BRepMesh/ogive_hollow/d=0.02": {
+  "dV_rel": -0.00017591454208491637,
+  "dc_over_L": 5.087765882315474e-05,
+  "dI_rel_fro": 0.0004211810769590708,
+  "tris": 109148,
+  "t_mesh": 1.6408401849998882,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 3
+ },
+ "BRepMesh/ogive_hollow/d=0.01": {
+  "dV_rel": -7.778368365467937e-05,
+  "dc_over_L": 1.2436768090878096e-05,
+  "dI_rel_fro": 0.000177762466204376,
+  "tris": 218026,
+  "t_mesh": 4.088921628000207,
+  "watertight_raw": false,
+  "watertight_welded": false,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 3
+ },
+ "BRepMesh/fin/d=0.5": {
+  "dV_rel": 0.0,
+  "dc_over_L": 2.210301112503471e-19,
+  "dI_rel_fro": 4.0750340989820346e-18,
+  "tris": 12,
+  "t_mesh": 0.0017078119999496266,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 6
+ },
+ "BRepMesh/fin/d=0.1": {
+  "dV_rel": 0.0,
+  "dc_over_L": 2.210301112503471e-19,
+  "dI_rel_fro": 4.0750340989820346e-18,
+  "tris": 12,
+  "t_mesh": 0.004233268000007229,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 6
+ },
+ "BRepMesh/fin/d=0.02": {
+  "dV_rel": 0.0,
+  "dc_over_L": 2.210301112503471e-19,
+  "dI_rel_fro": 4.0750340989820346e-18,
+  "tris": 12,
+  "t_mesh": 0.006271494999964489,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 6
+ },
+ "BRepMesh/fin/d=0.01": {
+  "dV_rel": 0.0,
+  "dc_over_L": 2.210301112503471e-19,
+  "dI_rel_fro": 4.0750340989820346e-18,
+  "tris": 12,
+  "t_mesh": 0.0021546769999076787,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 2,
+  "n_faces_brep": 6
+ },
+ "BRepMesh/tube/d=0.5": {
+  "dV_rel": -0.0025657448465496,
+  "dc_over_L": 2.078095703899109e-17,
+  "dI_rel_fro": 0.0035546497013760826,
+  "tris": 228,
+  "t_mesh": 0.003420148999794037,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 0,
+  "n_faces_brep": 4
+ },
+ "BRepMesh/tube/d=0.1": {
+  "dV_rel": -0.0011584663374023412,
+  "dc_over_L": 2.984021321329324e-17,
+  "dI_rel_fro": 0.0013528857718155976,
+  "tris": 500,
+  "t_mesh": 0.006546513000103005,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 0,
+  "n_faces_brep": 4
+ },
+ "BRepMesh/tube/d=0.02": {
+  "dV_rel": -0.0001494602999901021,
+  "dc_over_L": 6.876596788497326e-17,
+  "dI_rel_fro": 0.00019011164839605706,
+  "tris": 1112,
+  "t_mesh": 0.015943020000122488,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 0,
+  "n_faces_brep": 4
+ },
+ "BRepMesh/tube/d=0.01": {
+  "dV_rel": -8.585282286592315e-05,
+  "dc_over_L": 3.247014539169556e-17,
+  "dI_rel_fro": 0.00010598046507066842,
+  "tris": 1572,
+  "t_mesh": 0.03279841400035366,
+  "watertight_raw": false,
+  "watertight_welded": true,
+  "winding_ok": true,
+  "euler": 0,
+  "n_faces_brep": 4
+ },
+ "gmsh2D/ogive_solid/curv=30": {
+  "dV_rel": -0.0039810697876126325,
+  "dc_over_L": 0.00020644957318257778,
+  "dI_rel_fro": 0.00425170956667089,
+  "tris": 11260,
+  "t_mesh": 12.362304494,
+  "watertight": false
+ },
+ "gmsh2D/ogive_solid/curv=90": {
+  "dV_rel": -0.0004626606472533098,
+  "dc_over_L": 1.699707300410897e-05,
+  "dI_rel_fro": 0.0005124343230617154,
+  "tris": 63794,
+  "t_mesh": 93.29517937499986,
+  "watertight": false
+ },
+ "gmsh2D/ogive_hollow/curv=30": {
+  "dV_rel": -0.003712364809002584,
+  "dc_over_L": 0.00028257482472002806,
+  "dI_rel_fro": 0.00440024189626576,
+  "tris": 22286,
+  "t_mesh": 12.860029227000268,
+  "watertight": false
+ },
+ "gmsh2D/ogive_hollow/curv=90": {
+  "dV_rel": -0.0004453731395284283,
+  "dc_over_L": 2.6388299297541817e-05,
+  "dI_rel_fro": 0.0005263045512351785,
+  "tris": 124342,
+  "t_mesh": 115.93132049299948,
+  "watertight": false
+ },
+ "gmsh2D/fin/curv=30": {
+  "dV_rel": 1.0169153358405969e-13,
+  "dc_over_L": 3.859348443020374e-14,
+  "dI_rel_fro": 2.0753990089416476e-13,
+  "tris": 436,
+  "t_mesh": 0.012728361999506888,
+  "watertight": true
+ },
+ "gmsh2D/fin/curv=90": {
+  "dV_rel": 1.0169153358405969e-13,
+  "dc_over_L": 3.859348443020374e-14,
+  "dI_rel_fro": 2.0753990089416476e-13,
+  "tris": 436,
+  "t_mesh": 0.024132771999575198,
+  "watertight": true
+ },
+ "gmsh2D/tube/curv=30": {
+  "dV_rel": -0.0052361691135559205,
+  "dc_over_L": 7.88341898148703e-05,
+  "dI_rel_fro": 0.005795174830030563,
+  "tris": 5346,
+  "t_mesh": 0.13627412299956632,
+  "watertight": true
+ },
+ "gmsh2D/tube/curv=90": {
+  "dV_rel": -0.0006110937249549218,
+  "dc_over_L": 4.2316248950561046e-06,
+  "dI_rel_fro": 0.0006769226463825508,
+  "tris": 47160,
+  "t_mesh": 1.027525587999662,
+  "watertight": true
+ },
+ "STLread/trimesh": {
+  "dV_rel": -0.00037139004686248707,
+  "dc_over_L": 1.8872084935439837e-05,
+  "dI_rel_fro": 0.0005484542127703678,
+  "watertight": false,
+  "verts": 27946,
+  "t_read": 0.1794676929994239
+ },
+ "STLread/numpy-stl": {
+  "dV_rel": -0.00037469155621857946,
+  "dc_over_L": 2.583901346117498e-05,
+  "dI_rel_fro": 0.0007080004388344884,
+  "note": "numpy-stl: triangle soup, no topology/watertight check",
+  "t_read": 0.8124265659998855
+ },
+ "STLread/meshio": {
+  "dV_rel": -0.00037139004686248707,
+  "dc_over_L": 1.8872084935439837e-05,
+  "dI_rel_fro": 0.0005484542127703678,
+  "watertight": false,
+  "verts": 27946,
+  "note": "meshio returns raw points (duplicated per triangle?)",
+  "t_read": 0.2978228100000706
+ },
+ "STLread/pyvista": {
+  "dV_rel": -0.00037139004685907617,
+  "n_points": 27946,
+  "open_edges": 0,
+  "t_read": 0.5542743549995066
+ },
+ "roundtrip/obj": {
+  "ok": true,
+  "dV_rel_vs_stl": -1.6895515524864196e-12,
+  "watertight": false,
+  "size": 2147513
+ },
+ "roundtrip/ply": {
+  "ok": true,
+  "dV_rel_vs_stl": 0.0,
+  "watertight": false,
+  "size": 1173926
+ },
+ "roundtrip/off": {
+  "ok": true,
+  "dV_rel_vs_stl": -2.514213619771458e-15,
+  "watertight": false,
+  "size": 2259255
+ },
+ "roundtrip/3mf": {
+  "ok": true,
+  "dV_rel_vs_stl": 0.0,
+  "watertight": false,
+  "size": 997416
+ },
+ "roundtrip/glb": {
+  "ok": true,
+  "dV_rel_vs_stl": 0.0,
+  "watertight": false,
+  "size": 1007256
+ }
+}

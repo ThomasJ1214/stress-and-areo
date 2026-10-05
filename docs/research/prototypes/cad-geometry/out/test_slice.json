@@ -1,0 +1,82 @@
+{
+ "ogive_solid/brep_exact": {
+  "t": 6.141215620999901,
+  "max_rel_A_mat": 1.5107662532157259e-05,
+  "max_rel_I": 1.8660515609131607e-05
+ },
+ "ogive_solid/trimesh d=0.1": {
+  "t": 0.7123930970001311,
+  "tris": 11855,
+  "max_rel_A_mat": 0.012259307054954366,
+  "max_rel_A_enc": 0.012259307054953943,
+  "max_rel_I": 0.023629878892617327,
+  "median_rel_A_mat": 0.0018413473201219297
+ },
+ "ogive_solid/manifold3d d=0.1": {
+  "t": 0.09082443500028603,
+  "status": "Error.NoError",
+  "max_rel_A_mat": 0.01225931830074848,
+  "max_rel_A_enc": 0.01225931830074848
+ },
+ "ogive_solid/trimesh d=0.02": {
+  "t": 1.2469385430003967,
+  "tris": 55889,
+  "max_rel_A_mat": 0.003572919651511191,
+  "max_rel_A_enc": 0.0035729196515113322,
+  "max_rel_I": 0.007839476514367514,
+  "median_rel_A_mat": 0.00037975772507920034
+ },
+ "ogive_solid/manifold3d d=0.02": {
+  "t": 0.14275314000042272,
+  "status": "Error.NoError",
+  "max_rel_A_mat": 0.0035728995284940264,
+  "max_rel_A_enc": 0.0035728995284940264
+ },
+ "ogive_hollow/brep_exact": {
+  "t": 12.063164561999656,
+  "max_rel_A_mat": 0.0001473695062292707,
+  "max_rel_I": 9.636685884643628e-05
+ },
+ "ogive_hollow/trimesh d=0.1": {
+  "t": 1.325080008000441,
+  "tris": 22760,
+  "max_rel_A_mat": 0.012338002247966646,
+  "max_rel_A_enc": 0.012259307054953943,
+  "max_rel_I": 0.023629878892617327,
+  "median_rel_A_mat": 0.0038750666484292876
+ },
+ "ogive_hollow/manifold3d d=0.1": {
+  "t": 0.17802155099980155,
+  "status": "Error.NoError",
+  "max_rel_A_mat": 0.012338105002156043,
+  "max_rel_A_enc": 0.01225931830074848
+ },
+ "ogive_hollow/trimesh d=0.02": {
+  "t": 2.0939313449998735,
+  "tris": 109148,
+  "max_rel_A_mat": 0.003572919651511191,
+  "max_rel_A_enc": 0.0035729196515113322,
+  "max_rel_I": 0.007839476514367514,
+  "median_rel_A_mat": 0.0004500967853540141
+ },
+ "ogive_hollow/manifold3d d=0.02": {
+  "t": 0.28273288299988053,
+  "status": "Error.NoError",
+  "max_rel_A_mat": 0.0035728995284940264,
+  "max_rel_A_enc": 0.0035728995284940264
+ },
+ "payload/brep_exact": {
+  "t": 5.678702997000073,
+  "max_rel_A_mat": 3.233341322028547e-14,
+  "max_rel_Iyy": 6.744774896692207e-14,
+  "max_rel_Izz": 2.71636486577704e-13
+ },
+ "payload/trimesh d=0.02 (per-part slices, 2D union)": {
+  "t": 3.9098132330000226,
+  "tris": 2776,
+  "max_rel_A_mat": 0.00033092314357016655,
+  "max_rel_A_enc": 0.0003309231435714331,
+  "max_rel_Iyy": 0.0006617148799582784,
+  "max_rel_Izz": 0.0006617148799582784
+ }
+}
