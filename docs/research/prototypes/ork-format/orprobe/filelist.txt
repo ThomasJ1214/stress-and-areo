@@ -1,0 +1,71 @@
+../samples/master/artwork_branding_source__logo_rocket.ork
+../samples/master/core_src_main_resources_datafiles_examples__3D printable nose cone and fins.ork
+../samples/master/core_src_main_resources_datafiles_examples__A simple model rocket.ork
+../samples/master/core_src_main_resources_datafiles_examples__ARC payload rocket.ork
+../samples/master/core_src_main_resources_datafiles_examples__Airstart timing.ork
+../samples/master/core_src_main_resources_datafiles_examples__Chute release.ork
+../samples/master/core_src_main_resources_datafiles_examples__Clustered motors.ork
+../samples/master/core_src_main_resources_datafiles_examples__Deployable payload.ork
+../samples/master/core_src_main_resources_datafiles_examples__Dual parachute deployment.ork
+../samples/master/core_src_main_resources_datafiles_examples__Parallel booster staging.ork
+../samples/master/core_src_main_resources_datafiles_examples__Pods--airframes and winglets.ork
+../samples/master/core_src_main_resources_datafiles_examples__Pods--powered with recovery deployment.ork
+../samples/master/core_src_main_resources_datafiles_examples__Simulation extensions.ork
+../samples/master/core_src_main_resources_datafiles_examples__Simulation scripting.ork
+../samples/master/core_src_main_resources_datafiles_examples__Three stage low power rocket.ork
+../samples/master/core_src_main_resources_datafiles_examples__Tube fin rocket.ork
+../samples/master/core_src_main_resources_datafiles_examples__Two stage high power rocket.ork
+../samples/master/core_src_test_resources_file_rasaero_export__01.One-stage.ork
+../samples/master/core_src_test_resources_file_rasaero_export__02.Two-stage.ork
+../samples/master/core_src_test_resources_file_rasaero_export__03.Three-stage.ork
+../samples/master/swing_src_test_resources__simplerocket.ork
+../samples/master/test-writing__apocd.ork
+../samples/master/test-writing__asimple.ork
+../samples/v2309/core_resources-src_pix_icon__logo_rocket.ork
+../samples/v2309/core_test-writing__apocd.ork
+../samples/v2309/core_test-writing__asimple.ork
+../samples/v2309/core_test_net_sf_openrocket_file_rasaero_export__01.One-stage.ork
+../samples/v2309/core_test_net_sf_openrocket_file_rasaero_export__02.Two-stage.ork
+../samples/v2309/core_test_net_sf_openrocket_file_rasaero_export__03.Three-stage.ork
+../samples/v2309/swing_resources_datafiles_examples__3D Printable Nose Cone and Fins.ork
+../samples/v2309/swing_resources_datafiles_examples__A simple model rocket.ork
+../samples/v2309/swing_resources_datafiles_examples__Airstart timing.ork
+../samples/v2309/swing_resources_datafiles_examples__Base drag hack (short-wide).ork
+../samples/v2309/swing_resources_datafiles_examples__Chute release.ork
+../samples/v2309/swing_resources_datafiles_examples__Clustered motors.ork
+../samples/v2309/swing_resources_datafiles_examples__Dual parachute deployment.ork
+../samples/v2309/swing_resources_datafiles_examples__Parallel booster staging.ork
+../samples/v2309/swing_resources_datafiles_examples__Pods--airframes and winglets.ork
+../samples/v2309/swing_resources_datafiles_examples__Pods--powered with recovery deployment.ork
+../samples/v2309/swing_resources_datafiles_examples__Presets.ork
+../samples/v2309/swing_resources_datafiles_examples__Simulation extensions.ork
+../samples/v2309/swing_resources_datafiles_examples__Simulation scripting.ork
+../samples/v2309/swing_resources_datafiles_examples__TARC payload rocket.ork
+../samples/v2309/swing_resources_datafiles_examples__Three-stage rocket.ork
+../samples/v2309/swing_resources_datafiles_examples__Tube fin rocket.ork
+../samples/v2309/swing_resources_datafiles_examples__Two-stage rocket.ork
+../samples/v2309/swing_test_net_sf_openrocket__simplerocket.ork
+../samples/v2412/core_resources-src_pix_icon__logo_rocket.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__3D printable nose cone and fins.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__A simple model rocket.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__ARC payload rocket.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Airstart timing.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Base drag hack (short-wide).ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Chute release.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Clustered motors.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Deployable payload.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Dual parachute deployment.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Parallel booster staging.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Pods--airframes and winglets.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Pods--powered with recovery deployment.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Simulation extensions.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Simulation scripting.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Three stage low power rocket.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Tube fin rocket.ork
+../samples/v2412/core_src_main_resources_datafiles_examples__Two stage high power rocket.ork
+../samples/v2412/core_src_test_resources_file_rasaero_export__01.One-stage.ork
+../samples/v2412/core_src_test_resources_file_rasaero_export__02.Two-stage.ork
+../samples/v2412/core_src_test_resources_file_rasaero_export__03.Three-stage.ork
+../samples/v2412/swing_src_test_resources__simplerocket.ork
+../samples/v2412/test-writing__apocd.ork
+../samples/v2412/test-writing__asimple.ork

@@ -1,0 +1,218 @@
+21:39:30.718 [DatabaseLoadingThread] INFO info.openrocket.core.database.MotorDatabaseLoader -- Starting reading serialized motor database
+21:39:30.717 [DatabaseLoadingThread] INFO info.openrocket.core.database.ComponentPresetDatabaseLoader -- Loading component presets from datafiles/components
+21:39:30.731 [DatabaseLoadingThread] DEBUG info.openrocket.core.util.JarUtil -- Found jar file using codeSource
+21:39:30.731 [DatabaseLoadingThread] DEBUG info.openrocket.core.util.JarUtil -- Found jar file using codeSource
+21:39:30.743 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.MotorDatabaseLoader -- Reading motors from file datafiles/thrustcurves/thrustcurves.ser
+21:39:30.748 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: semroc.orc
+21:39:30.752 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file semroc.orc
+21:39:30.945 [main] INFO info.openrocket.core.startup.providers.TranslatorProvider -- Using default locale en_US
+21:39:30.987 [main] INFO info.openrocket.core.startup.providers.TranslatorProvider -- Set up translation for locale en_US, debug.currentFile=messages.properties
+21:39:31.131 [main] INFO info.openrocket.core.file.openrocket.importt.OpenRocketLoader -- Loading .ork file
+21:39:31.384 [DatabaseLoadingThread] INFO info.openrocket.core.database.MotorDatabaseLoader -- Ending reading serialized motor database, motorCount=1936
+21:39:31.387 [DatabaseLoadingThread] INFO info.openrocket.core.database.MotorDatabaseLoader -- Starting reading user-defined motors
+21:39:31.389 [DatabaseLoadingThread] INFO info.openrocket.core.database.MotorDatabaseLoader -- Ending reading user-defined motors, motorCount=1936
+21:39:31.465 [main] DEBUG info.openrocket.core.file.DatabaseMotorFinder -- type Single-use, manufacturer Estes, designation C6, diameter NaN, length NaN, digest c8743ef3fa99e14a89885cbe0ead47b2, warnings Messages[Illegal material group specified, ignoring.]
+21:39:31.471 [main] DEBUG info.openrocket.core.file.DatabaseMotorFinder -- motor is C6
+21:39:31.595 [main] INFO info.openrocket.core.file.openrocket.importt.OpenRocketLoader -- Loading done
+FILE	../samples/synthetic/synthetic_shapes.ork
+COMP	0	Rocket	Synthetic shapes	0.00000000	1.55485000	1	compmass=0.00000000	compcgx=0.00000000
+COMP	1	AxialStage	Sustainer	0.00000000	1.50000000	1	compmass=0.00000000	compcgx=0.00000000
+COMP	2	NoseCone	Haack nose	0.00000000	0.300000000	1	fore=0.00000000	aft=0.0400000000	compmass=0.256172964	compcgx=0.222634162
+COMP	3	MassComponent	Avionics	0.220000000	0.100000000	1	compmass=0.250000000	compcgx=0.0500000000
+COMP	4	BodyTube	Upper tube	0.300000000	0.600000000	1	fore=0.0400000000	aft=0.0400000000	compmass=0.543998184	compcgx=0.300000000
+COMP	5	Parachute	Main	0.540000000	0.0332409972	1	compmass=0.0941752148	compcgx=0.0166204986
+COMP	6	ShockCord	Cord	0.320000000	0.0500000000	1	compmass=0.0360000000	compcgx=0.0250000000
+COMP	7	LaunchLug	Lug	0.400000000	0.0500000000	2	compmass=0.000694291976	compcgx=0.125000000
+COMP	8	Transition	Power boattail-ish reducer	0.900000000	0.100000000	1	fore=0.0400000000	aft=0.0300000000	compmass=0.0583805209	compcgx=0.0272854211
+COMP	9	BodyTube	Lower tube	1.00000000	0.500000000	1	fore=0.0300000000	aft=0.0300000000	compmass=0.254999149	compcgx=0.250000000
+COMP	10	InnerTube	MMT cluster	1.25000000	0.250000000	3	ro=0.00950000000	ri=0.00900000000	compmass=0.0148204633	compcgx=0.125000000
+COMP	11	CenteringRing	CR front	1.25500000	0.00500000000	1	ro=0.0285000000	ri=0.00950000000	compmass=0.00771198165	compcgx=0.00250000000
+COMP	12	Bulkhead	Bulkhead	1.00000000	0.00400000000	2	ro=0.0285000000	ri=0.00000000	compmass=0.0138815670	compcgx=0.00700000000
+COMP	13	EllipticalFinSet	Elliptical fins	1.38000000	0.120000000	4	bodyr=0.0300000000	compmass=0.105344976	compcgx=0.0600000000
+COMP	14	RailButton	Buttons	1.25000000	0.00000000	2	compmass=0.00165318020	compcgx=0.150000000
+COMP	15	PodSet	Side pods	1.10000000	0.200000000	2	compmass=0.00000000	compcgx=0.00000000
+COMP	16	BodyTube	Pod tube	1.10000000	0.200000000	1	fore=0.0120000000	aft=0.0120000000	compmass=0.00982690182	compcgx=0.100000000
+SIM	0	Synthetic sim	structMass=1.65748630	structCG=0.670093587	launchMass=1.72678630	launchCG=0.702195715	CP(M0.3)=1.15354344	CNa=8.27810110	refLen=0.0800000000	length=1.55485000
+21:39:31.642 [main] INFO info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving .ork file
+21:39:31.646 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Storing file version 1.10
+21:39:31.648 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Rocket
+21:39:31.652 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Stage
+21:39:31.653 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Nose Cone
+21:39:31.660 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Mass Component
+21:39:31.662 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:31.663 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Parachute
+21:39:31.667 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Shock Cord
+21:39:31.669 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Launch Lug
+21:39:31.672 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Transition
+21:39:31.674 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:31.675 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Inner Tube
+21:39:31.679 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Centering Ring
+21:39:31.681 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Bulkhead
+21:39:31.682 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Elliptical Fin Set
+21:39:31.684 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Rail Button
+21:39:31.686 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Pod Set
+21:39:31.686 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:31.689 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving Photo Settings
+21:39:31.690 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving Document Preferences
+21:39:31.692 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Writing complete, flushing buffers
+RESAVED	../samples/synthetic/synthetic_shapes.ork.resaved.ork
+21:39:31.700 [main] DEBUG info.openrocket.core.document.Simulation -- Simulation: calling simulator
+21:39:31.717 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- >>Starting simulation of branch: Sustainer
+21:39:31.722 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- Queueing Ignition Event for:             MMT cluster/d5ef2edc /   C6 - Armed @: 0.0
+21:39:31.723 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine --   Igniting motor:             MMT cluster/d5ef2edc /   C6 - Armed @0.0
+21:39:31.893 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file semroc.orc contained 1676 presets
+21:39:31.904 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: BMS.ORC
+21:39:31.904 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file BMS.ORC
+21:39:31.954 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file BMS.ORC contained 298 presets
+21:39:31.956 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: mpc.orc
+21:39:31.956 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file mpc.orc
+21:39:31.964 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file mpc.orc contained 49 presets
+21:39:31.965 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: ROCKETARIUM.ORC
+21:39:31.965 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file ROCKETARIUM.ORC
+21:39:31.986 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file ROCKETARIUM.ORC contained 161 presets
+21:39:31.988 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: estes_classic.orc
+21:39:31.988 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file estes_classic.orc
+21:39:32.078 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file estes_classic.orc contained 422 presets
+21:39:32.080 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: generic_materials.orc
+21:39:32.083 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file generic_materials.orc
+21:39:32.097 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file generic_materials.orc contained 0 presets
+21:39:32.098 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: loc_precision.orc
+21:39:32.098 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file loc_precision.orc
+21:39:32.118 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file loc_precision.orc contained 113 presets
+21:39:32.119 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: estes_ps2.orc
+21:39:32.119 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file estes_ps2.orc
+21:39:32.125 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file estes_ps2.orc contained 30 presets
+21:39:32.125 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: giantleaprocketry.orc
+21:39:32.125 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file giantleaprocketry.orc
+21:39:32.136 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file giantleaprocketry.orc contained 92 presets
+21:39:32.137 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: publicmissiles.orc
+21:39:32.137 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file publicmissiles.orc
+21:39:32.183 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file publicmissiles.orc contained 139 presets
+21:39:32.185 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: quest.orc
+21:39:32.185 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file quest.orc
+21:39:32.224 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file quest.orc contained 71 presets
+21:39:32.225 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: top_flight.orc
+21:39:32.226 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file top_flight.orc
+21:39:32.245 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file top_flight.orc contained 47 presets
+21:39:32.245 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: madcow.orc
+21:39:32.245 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file madcow.orc
+21:39:32.313 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file madcow.orc contained 240 presets
+21:39:32.315 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: bluetube.orc
+21:39:32.315 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file bluetube.orc
+21:39:32.331 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file bluetube.orc contained 53 presets
+21:39:32.332 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: competition_chutes.orc
+21:39:32.332 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file competition_chutes.orc
+21:39:32.355 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file competition_chutes.orc contained 52 presets
+21:39:32.356 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: apogee.orc
+21:39:32.356 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file apogee.orc
+21:39:32.361 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file apogee.orc contained 6 presets
+21:39:32.362 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: publicmissiles-legacy.orc
+21:39:32.362 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file publicmissiles-legacy.orc
+21:39:32.410 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file publicmissiles-legacy.orc contained 114 presets
+21:39:32.411 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Quest-legacy.orc
+21:39:32.411 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Quest-legacy.orc
+21:39:32.439 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Quest-legacy.orc contained 46 presets
+21:39:32.439 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: RailButton_Database.orc
+21:39:32.439 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file RailButton_Database.orc
+21:39:32.449 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file RailButton_Database.orc contained 8 presets
+21:39:32.449 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Rocketman.orc
+21:39:32.449 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Rocketman.orc
+21:39:32.500 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Rocketman.orc contained 107 presets
+21:39:32.501 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: LocPrecision-legacy.orc
+21:39:32.501 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file LocPrecision-legacy.orc
+21:39:32.523 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file LocPrecision-legacy.orc contained 85 presets
+21:39:32.530 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: b2_Rocketry_Parachutes..orc
+21:39:32.530 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file b2_Rocketry_Parachutes..orc
+21:39:32.538 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file b2_Rocketry_Parachutes..orc contained 19 presets
+21:39:32.539 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Front_Range_Rocket_Recovery.orc
+21:39:32.539 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Front_Range_Rocket_Recovery.orc
+21:39:32.562 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Front_Range_Rocket_Recovery.orc contained 16 presets
+21:39:32.563 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: bluetube-legacy.orc
+21:39:32.563 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file bluetube-legacy.orc
+21:39:32.570 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file bluetube-legacy.orc contained 21 presets
+21:39:32.573 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Estes-legacy.orc
+21:39:32.573 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Estes-legacy.orc
+21:39:32.608 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Estes-legacy.orc contained 68 presets
+21:39:32.609 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: semroc-legacy.orc
+21:39:32.610 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file semroc-legacy.orc
+21:39:32.853 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file semroc-legacy.orc contained 874 presets
+21:39:32.855 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: bms-legacy.orc
+21:39:32.855 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file bms-legacy.orc
+21:39:32.871 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file bms-legacy.orc contained 170 presets
+21:39:32.872 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Spherachutes_Parachutes.orc
+21:39:32.872 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Spherachutes_Parachutes.orc
+21:39:32.880 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Spherachutes_Parachutes.orc contained 46 presets
+21:39:32.880 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: fliskits-legacy.orc
+21:39:32.880 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file fliskits-legacy.orc
+21:39:32.900 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file fliskits-legacy.orc contained 160 presets
+21:39:32.901 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: giantleaprocketry-legacy.orc
+21:39:32.901 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file giantleaprocketry-legacy.orc
+21:39:32.902 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file giantleaprocketry-legacy.orc contained 6 presets
+21:39:32.903 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- loading from file: Fruity_Chutes_Enhanced.orc
+21:39:32.903 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- Loading presets from file Fruity_Chutes_Enhanced.orc
+21:39:32.911 [DatabaseLoadingThread] DEBUG info.openrocket.core.preset.xml.OpenRocketComponentLoader -- ComponentPreset file Fruity_Chutes_Enhanced.orc contained 42 presets
+21:39:32.932 [DatabaseLoadingThread] INFO info.openrocket.core.database.ComponentPresetDatabaseLoader -- Starting reading user-defined component presets
+21:39:32.933 [DatabaseLoadingThread] INFO info.openrocket.core.database.ComponentPresetDatabaseLoader -- Ending reading user-defined component presets, presetCount=0
+21:39:32.938 [DatabaseLoadingThread] DEBUG info.openrocket.core.database.ComponentPresetDatabaseLoader -- Time to load presets: 2219ms 5231 loaded from 31 files
+21:39:34.435 [main] DEBUG info.openrocket.core.simulation.BasicEventSimulationEngine --  detected Motor Burnout for motor C6@ 1.86  on stage 0: Sustainer
+21:39:34.438 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- <<Finished simulating branch: Sustainer    curTime:6.861999999999999    finTime:6.861999999999999
+21:39:34.439 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- Warnings at the end of simulation:  Messages[Flight Event occurred after landing: Motor burnout,Flight Event occurred after landing: Ejection charge]
+21:39:34.443 [main] DEBUG info.openrocket.core.simulation.FlightData -- Computed flight values: maxAltitude=0.52078925431749 maxVelocity=1.4893736295419726 maxAcceleration=14.775584382331113 maxMachNumber=0.009559682482679696 timeToApogee=0.9075000000000001 flightTime=6.861999999999999 groundHitVelocity=1.4893736295419726 launchRodVelocity=NaN optimumDelay=-0.8545
+21:39:34.445 [main] DEBUG info.openrocket.core.document.Simulation -- Simulation: returning from simulator, simulation took 2743ms
+SIMRUN	0	apogee=0.520789254	maxV=1.48937363	maxMach=0.00955968248	tApogee=0.907500000	flightTime=6.86200000	rodV=NaN	groundV=1.48937363	warnings=2
+21:39:34.453 [main] INFO info.openrocket.core.file.openrocket.importt.OpenRocketLoader -- Loading .ork file
+21:39:34.467 [main] DEBUG info.openrocket.core.file.DatabaseMotorFinder -- type Single-use, manufacturer Estes, designation C6, diameter NaN, length NaN, digest c8743ef3fa99e14a89885cbe0ead47b2, warnings Messages[Illegal material group specified, ignoring.]
+21:39:34.469 [main] DEBUG info.openrocket.core.file.DatabaseMotorFinder -- motor is C6
+21:39:34.481 [main] INFO info.openrocket.core.file.openrocket.importt.OpenRocketLoader -- Loading done
+FILE	../samples/synthetic/synthetic_shapes_plain.ork
+COMP	0	Rocket	Synthetic shapes	0.00000000	1.55485000	1	compmass=0.00000000	compcgx=0.00000000
+COMP	1	AxialStage	Sustainer	0.00000000	1.50000000	1	compmass=0.00000000	compcgx=0.00000000
+COMP	2	NoseCone	Haack nose	0.00000000	0.300000000	1	fore=0.00000000	aft=0.0400000000	compmass=0.256172964	compcgx=0.222634162
+COMP	3	MassComponent	Avionics	0.220000000	0.100000000	1	compmass=0.250000000	compcgx=0.0500000000
+COMP	4	BodyTube	Upper tube	0.300000000	0.600000000	1	fore=0.0400000000	aft=0.0400000000	compmass=0.543998184	compcgx=0.300000000
+COMP	5	Parachute	Main	0.540000000	0.0332409972	1	compmass=0.0941752148	compcgx=0.0166204986
+COMP	6	ShockCord	Cord	0.320000000	0.0500000000	1	compmass=0.0360000000	compcgx=0.0250000000
+COMP	7	LaunchLug	Lug	0.400000000	0.0500000000	2	compmass=0.000694291976	compcgx=0.125000000
+COMP	8	Transition	Power boattail-ish reducer	0.900000000	0.100000000	1	fore=0.0400000000	aft=0.0300000000	compmass=0.0583805209	compcgx=0.0272854211
+COMP	9	BodyTube	Lower tube	1.00000000	0.500000000	1	fore=0.0300000000	aft=0.0300000000	compmass=0.254999149	compcgx=0.250000000
+COMP	10	InnerTube	MMT cluster	1.25000000	0.250000000	3	ro=0.00950000000	ri=0.00900000000	compmass=0.0148204633	compcgx=0.125000000
+COMP	11	CenteringRing	CR front	1.25500000	0.00500000000	1	ro=0.0285000000	ri=0.00950000000	compmass=0.00771198165	compcgx=0.00250000000
+COMP	12	Bulkhead	Bulkhead	1.00000000	0.00400000000	2	ro=0.0285000000	ri=0.00000000	compmass=0.0138815670	compcgx=0.00700000000
+COMP	13	EllipticalFinSet	Elliptical fins	1.38000000	0.120000000	4	bodyr=0.0300000000	compmass=0.105344976	compcgx=0.0600000000
+COMP	14	RailButton	Buttons	1.25000000	0.00000000	2	compmass=0.00165318020	compcgx=0.150000000
+COMP	15	PodSet	Side pods	1.10000000	0.200000000	2	compmass=0.00000000	compcgx=0.00000000
+COMP	16	BodyTube	Pod tube	1.10000000	0.200000000	1	fore=0.0120000000	aft=0.0120000000	compmass=0.00982690182	compcgx=0.100000000
+SIM	0	Synthetic sim	structMass=1.65748630	structCG=0.670093587	launchMass=1.72678630	launchCG=0.702195715	CP(M0.3)=1.15354344	CNa=8.27810110	refLen=0.0800000000	length=1.55485000
+21:39:34.488 [main] INFO info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving .ork file
+21:39:34.488 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Storing file version 1.10
+21:39:34.488 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Rocket
+21:39:34.489 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Stage
+21:39:34.489 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Nose Cone
+21:39:34.489 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Mass Component
+21:39:34.489 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:34.490 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Parachute
+21:39:34.491 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Shock Cord
+21:39:34.492 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Launch Lug
+21:39:34.492 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Transition
+21:39:34.493 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:34.493 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Inner Tube
+21:39:34.494 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Centering Ring
+21:39:34.494 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Bulkhead
+21:39:34.495 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Elliptical Fin Set
+21:39:34.496 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Rail Button
+21:39:34.496 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Pod Set
+21:39:34.496 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving component Body Tube
+21:39:34.497 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving Photo Settings
+21:39:34.497 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Saving Document Preferences
+21:39:34.497 [main] DEBUG info.openrocket.core.file.openrocket.OpenRocketSaver -- Writing complete, flushing buffers
+RESAVED	../samples/synthetic/synthetic_shapes_plain.ork.resaved.ork
+21:39:34.499 [main] DEBUG info.openrocket.core.document.Simulation -- Simulation: calling simulator
+21:39:34.500 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- >>Starting simulation of branch: Sustainer
+21:39:34.502 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- Queueing Ignition Event for:             MMT cluster/d5ef2edc /   C6 - Armed @: 0.0
+21:39:34.502 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine --   Igniting motor:             MMT cluster/d5ef2edc /   C6 - Armed @0.0
+21:39:35.568 [main] DEBUG info.openrocket.core.simulation.BasicEventSimulationEngine --  detected Motor Burnout for motor C6@ 1.86  on stage 0: Sustainer
+21:39:35.569 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- <<Finished simulating branch: Sustainer    curTime:6.861999999999999    finTime:6.861999999999999
+21:39:35.569 [main] INFO info.openrocket.core.simulation.BasicEventSimulationEngine -- Warnings at the end of simulation:  Messages[Flight Event occurred after landing: Motor burnout,Flight Event occurred after landing: Ejection charge]
+21:39:35.569 [main] DEBUG info.openrocket.core.simulation.FlightData -- Computed flight values: maxAltitude=0.52078925431749 maxVelocity=1.4893736295419726 maxAcceleration=14.775584382331113 maxMachNumber=0.009559682482679696 timeToApogee=0.9075000000000001 flightTime=6.861999999999999 groundHitVelocity=1.4893736295419726 launchRodVelocity=NaN optimumDelay=-0.8545
+21:39:35.569 [main] DEBUG info.openrocket.core.document.Simulation -- Simulation: returning from simulator, simulation took 1070ms
+SIMRUN	0	apogee=0.520789254	maxV=1.48937363	maxMach=0.00955968248	tApogee=0.907500000	flightTime=6.86200000	rodV=NaN	groundV=1.48937363	warnings=2
