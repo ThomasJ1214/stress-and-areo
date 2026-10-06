@@ -15,7 +15,7 @@ def _demo_path() -> Path:
     return Path(str(resources.files("stressaero.data.samples").joinpath(DEMO_ROCKET)))
 
 
-def selftest() -> int:
+def selftest(out_path: str | None = None) -> int:
     """Headless smoke test used by CI on the frozen executable (no window is shown)."""
     import pyvista  # noqa: F401  - ensure the rendering stack imports in the frozen app
 
@@ -28,7 +28,10 @@ def selftest() -> int:
     mass = structure_mass(imp.rocket, cfg)
     meshes = rocket_meshes(imp.rocket, cfg)
     n = sum(1 for _ in imp.rocket.root.walk())
-    print(f"SELFTEST OK {n} components {len(meshes)} meshes {mass.mass * 1000:.1f} g")
+    line = f"SELFTEST OK {n} components {len(meshes)} meshes {mass.mass * 1000:.1f} g"
+    print(line)  # no-op in the windowed Windows build (no console)
+    if out_path:
+        Path(out_path).write_text(line + "\n", encoding="utf-8")
     return 0
 
 
@@ -36,10 +39,11 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="stressaero", description="Stress & Aero rocket analysis")
     parser.add_argument("path", nargs="?", help=".ork or .saproj file to open")
     parser.add_argument("--selftest", action="store_true", help="run a headless smoke test and exit")
+    parser.add_argument("--selftest-out", help="also write the self-test result to this file")
     parser.add_argument("--demo", action="store_true", help="open the bundled demo rocket")
     args = parser.parse_args(argv)
     if args.selftest:
-        return selftest()
+        return selftest(args.selftest_out)
 
     from PySide6.QtCore import QTimer
     from PySide6.QtWidgets import QApplication

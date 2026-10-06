@@ -26,3 +26,24 @@ jobs:
           ruff format --check src tests tools
       - name: Tests
         run: xvfb-run -a pytest
+
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -e ".[dev]"
+      - name: Tests (no on-screen rendering on the hosted runner)
+        run: pytest -m "not gui and not oracle"
+      - name: Build app and installer
+        shell: pwsh
+        run: ./packaging/build_windows.ps1
+      - name: Upload installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: StressAero-Setup
+          path: dist/StressAero-Setup-*.exe
+          if-no-files-found: error

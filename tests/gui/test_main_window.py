@@ -83,3 +83,9 @@ def test_corrupt_project_shows_error_and_keeps_window(window, monkeypatch, tmp_p
 def test_selftest_entry_point(capsys):
     assert main(["--selftest"]) == 0
     assert "SELFTEST OK" in capsys.readouterr().out
+
+
+def test_selftest_writes_result_file(tmp_path):
+    out = tmp_path / "selftest.txt"
+    assert main(["--selftest", "--selftest-out", str(out)]) == 0
+    assert out.read_text(encoding="utf-8").startswith("SELFTEST OK")
