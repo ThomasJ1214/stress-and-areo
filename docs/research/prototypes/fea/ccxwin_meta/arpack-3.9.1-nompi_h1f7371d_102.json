@@ -1,0 +1,194 @@
+{
+    "arch": "x86_64",
+    "build": "nompi_h1f7371d_102",
+    "build_number": 102,
+    "build_string": "nompi_h1f7371d_102",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "libblas >=3.9.0,<4.0a0",
+        "libgcc >=13",
+        "libgfortran",
+        "libgfortran5 >=13.3.0",
+        "liblapack >=3.9.0,<4.0a0",
+        "libstdcxx >=13",
+        "ucrt >=10.0.20348.0"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/arpack-3.9.1-nompi_h1f7371d_102",
+    "files": [
+        "Library/mingw-w64/bin/libarpack.dll",
+        "Library/mingw-w64/include/arpack/arpack.h",
+        "Library/mingw-w64/include/arpack/arpack.hpp",
+        "Library/mingw-w64/include/arpack/arpackdef.h",
+        "Library/mingw-w64/include/arpack/arpackicb.h",
+        "Library/mingw-w64/include/arpack/debug.h",
+        "Library/mingw-w64/include/arpack/debugF90.h",
+        "Library/mingw-w64/include/arpack/debug_c.h",
+        "Library/mingw-w64/include/arpack/debug_c.hpp",
+        "Library/mingw-w64/include/arpack/stat.h",
+        "Library/mingw-w64/include/arpack/statF90.h",
+        "Library/mingw-w64/include/arpack/stat_c.h",
+        "Library/mingw-w64/include/arpack/stat_c.hpp",
+        "Library/mingw-w64/lib/cmake/arpackng/arpackng-config-version.cmake",
+        "Library/mingw-w64/lib/cmake/arpackng/arpackng-config.cmake",
+        "Library/mingw-w64/lib/cmake/arpackng/arpackngTargets-release.cmake",
+        "Library/mingw-w64/lib/cmake/arpackng/arpackngTargets.cmake",
+        "Library/mingw-w64/lib/libarpack.dll.a",
+        "Library/mingw-w64/lib/pkgconfig/arpack.pc"
+    ],
+    "fn": "arpack-3.9.1-nompi_h1f7371d_102.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/arpack-3.9.1-nompi_h1f7371d_102",
+        "type": 1
+    },
+    "md5": "27e7f6df5aed21fe9d319f171a5cdbd3",
+    "name": "arpack",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/arpack-3.9.1-nompi_h1f7371d_102.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/mingw-w64/bin/libarpack.dll",
+                "path_type": "hardlink",
+                "sha256": "2f656d5db107aa88dabaa46042dd6608dddb8c06515e43c964e70fd6075de22c",
+                "sha256_in_prefix": "2f656d5db107aa88dabaa46042dd6608dddb8c06515e43c964e70fd6075de22c",
+                "size_in_bytes": 495870
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/arpack.h",
+                "path_type": "hardlink",
+                "sha256": "49a7cb415103c1444b54cfd67a013e6084a45f4e4b1fd64e12a47e7cb6c7781d",
+                "sha256_in_prefix": "49a7cb415103c1444b54cfd67a013e6084a45f4e4b1fd64e12a47e7cb6c7781d",
+                "size_in_bytes": 3680
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/arpack.hpp",
+                "path_type": "hardlink",
+                "sha256": "0833b3b1a7d176699e724d27aa449062273bc7c9dcff9459d19deef2e241b398",
+                "sha256_in_prefix": "0833b3b1a7d176699e724d27aa449062273bc7c9dcff9459d19deef2e241b398",
+                "size_in_bytes": 12466
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/arpackdef.h",
+                "path_type": "hardlink",
+                "sha256": "aaf34ce80e43a7192303244f8e01fb8f1e875eb7128c6d9f82bdb204ec1da085",
+                "sha256_in_prefix": "aaf34ce80e43a7192303244f8e01fb8f1e875eb7128c6d9f82bdb204ec1da085",
+                "size_in_bytes": 1047
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/arpackicb.h",
+                "path_type": "hardlink",
+                "sha256": "dae233ead90a672d625eebd70d300555714603b2ebc3e03697fff985ac70a11a",
+                "sha256_in_prefix": "dae233ead90a672d625eebd70d300555714603b2ebc3e03697fff985ac70a11a",
+                "size_in_bytes": 206
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/debug.h",
+                "path_type": "hardlink",
+                "sha256": "1ab93d4df8c25e490eaa0cd7028cded5a644465e22c171f5df2875d4f09228ee",
+                "sha256_in_prefix": "1ab93d4df8c25e490eaa0cd7028cded5a644465e22c171f5df2875d4f09228ee",
+                "size_in_bytes": 856
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/debugF90.h",
+                "path_type": "hardlink",
+                "sha256": "b04ad40e097045cdc8a0feee873366725afe49b815b6a3b3696eb9de1426ea96",
+                "sha256_in_prefix": "b04ad40e097045cdc8a0feee873366725afe49b815b6a3b3696eb9de1426ea96",
+                "size_in_bytes": 863
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/debug_c.h",
+                "path_type": "hardlink",
+                "sha256": "b204721a1ec2a9e89f6aae1020bbfefd6b09089dca5db633b4c630fe46455504",
+                "sha256_in_prefix": "b204721a1ec2a9e89f6aae1020bbfefd6b09089dca5db633b4c630fe46455504",
+                "size_in_bytes": 542
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/debug_c.hpp",
+                "path_type": "hardlink",
+                "sha256": "dcb3a8903393f39ec32fd07dae78a910a82c70e008a0959e0a8933bd5bb05307",
+                "sha256_in_prefix": "dcb3a8903393f39ec32fd07dae78a910a82c70e008a0959e0a8933bd5bb05307",
+                "size_in_bytes": 562
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/stat.h",
+                "path_type": "hardlink",
+                "sha256": "3e91c0175b11429b914b410fa6b7d46cc43187a618d535f656af338d2be0e355",
+                "sha256_in_prefix": "3e91c0175b11429b914b410fa6b7d46cc43187a618d535f656af338d2be0e355",
+                "size_in_bytes": 1042
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/statF90.h",
+                "path_type": "hardlink",
+                "sha256": "f39883abcc51f99508d16f6bb7d76a30644e0ae49551e4ee3c4fb0e2722f80d1",
+                "sha256_in_prefix": "f39883abcc51f99508d16f6bb7d76a30644e0ae49551e4ee3c4fb0e2722f80d1",
+                "size_in_bytes": 1050
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/stat_c.h",
+                "path_type": "hardlink",
+                "sha256": "b6a7596ae64a59d3b09f61b31e5d1f4a766a210b7ef2262190cda72bd124784a",
+                "sha256_in_prefix": "b6a7596ae64a59d3b09f61b31e5d1f4a766a210b7ef2262190cda72bd124784a",
+                "size_in_bytes": 834
+            },
+            {
+                "_path": "Library/mingw-w64/include/arpack/stat_c.hpp",
+                "path_type": "hardlink",
+                "sha256": "a3066eff992a0f3be24908bb7f16531bceb685a2e09e4821b51afa987e8b8a1f",
+                "sha256_in_prefix": "a3066eff992a0f3be24908bb7f16531bceb685a2e09e4821b51afa987e8b8a1f",
+                "size_in_bytes": 870
+            },
+            {
+                "_path": "Library/mingw-w64/lib/cmake/arpackng/arpackng-config-version.cmake",
+                "path_type": "hardlink",
+                "sha256": "a0b8d6760f429ba49780960fa10f1bcd8e1377c3b034da97db3b1aaf58459cc1",
+                "sha256_in_prefix": "a0b8d6760f429ba49780960fa10f1bcd8e1377c3b034da97db3b1aaf58459cc1",
+                "size_in_bytes": 376
+            },
+            {
+                "_path": "Library/mingw-w64/lib/cmake/arpackng/arpackng-config.cmake",
+                "path_type": "hardlink",
+                "sha256": "3664b2ff8d4b014aa1140f70c8b76833778673642ec2c14b5867ebc584931c92",
+                "sha256_in_prefix": "3664b2ff8d4b014aa1140f70c8b76833778673642ec2c14b5867ebc584931c92",
+                "size_in_bytes": 1112
+            },
+            {
+                "_path": "Library/mingw-w64/lib/cmake/arpackng/arpackngTargets-release.cmake",
+                "path_type": "hardlink",
+                "sha256": "cb76dc9ac7f4a0c3135c1e50bf4f154ea3a52eb62fea90b2ff0aa5a775b199da",
+                "sha256_in_prefix": "cb76dc9ac7f4a0c3135c1e50bf4f154ea3a52eb62fea90b2ff0aa5a775b199da",
+                "size_in_bytes": 882
+            },
+            {
+                "_path": "Library/mingw-w64/lib/cmake/arpackng/arpackngTargets.cmake",
+                "path_type": "hardlink",
+                "sha256": "12115c592e030b9764bbb029d55f14342e9b21c9b2d021ca15b56bac39b3a630",
+                "sha256_in_prefix": "12115c592e030b9764bbb029d55f14342e9b21c9b2d021ca15b56bac39b3a630",
+                "size_in_bytes": 4299
+            },
+            {
+                "_path": "Library/mingw-w64/lib/libarpack.dll.a",
+                "path_type": "hardlink",
+                "sha256": "3cb32c673bf664bdf9dd8316020dbb942d8aa0cc81846710adc3dcb363e90406",
+                "sha256_in_prefix": "3cb32c673bf664bdf9dd8316020dbb942d8aa0cc81846710adc3dcb363e90406",
+                "size_in_bytes": 64546
+            },
+            {
+                "_path": "Library/mingw-w64/lib/pkgconfig/arpack.pc",
+                "path_type": "hardlink",
+                "sha256": "5b91a1e72374f83fd5af92a54fbd31a087556eb91d20b305a0de530ac089e2f2",
+                "sha256_in_prefix": "2c7e999cc8374471daf40330d9cd476775532fb1699d8f20550686d1470ba42a",
+                "size_in_bytes": 492
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "393a0f11fe53c9a4ce8e003f0f9816ce098179d4c06eacffd573afbb0f2e2f0c",
+    "size": 162939,
+    "subdir": "win-64",
+    "timestamp": 1736084372,
+    "url": "https://conda.anaconda.org/conda-forge/win-64/arpack-3.9.1-nompi_h1f7371d_102.conda",
+    "version": "3.9.1"
+}

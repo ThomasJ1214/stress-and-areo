@@ -1,0 +1,52 @@
+{
+    "arch": "x86_64",
+    "build": "11_h0adab6e_openblas",
+    "build_number": 11,
+    "build_string": "11_h0adab6e_openblas",
+    "channel": "conda-forge",
+    "constrains": [
+        "blas 2.311 openblas",
+        "libcblas 3.11.0 11*_openblas",
+        "liblapack 3.11.0 11*_openblas",
+        "liblapacke 3.11.0 11*_openblas",
+        "mkl <2027"
+    ],
+    "depends": [
+        "libopenblas >=0.3.34,<0.3.35.0a0",
+        "libopenblas >=0.3.34,<1.0a0"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas",
+    "files": [
+        "Library/bin/libblas.dll"
+    ],
+    "fn": "libblas-3.11.0-11_h0adab6e_openblas.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas",
+        "type": 1
+    },
+    "md5": "33c7f7e9c63eaebaa05e2b3d3b10345c",
+    "name": "libblas",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/bin/libblas.dll",
+                "path_type": "hardlink",
+                "sha256": "c2567feb14c731f582929f36be6d56b5f93848b9084c9ab234ed3720d8a09ee3",
+                "sha256_in_prefix": "c2567feb14c731f582929f36be6d56b5f93848b9084c9ab234ed3720d8a09ee3",
+                "size_in_bytes": 108032
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "libblas[build=\"*openblas\"]",
+    "sha256": "64bf8d49bdd385193c68b56b0a11a256f1d7fa5711edfc9e9c7bcbf2ca25f636",
+    "size": 67011,
+    "subdir": "win-64",
+    "timestamp": 1789061527,
+    "track_features": "blas_openblas blas_openblas_2",
+    "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas.conda",
+    "version": "3.11.0"
+}

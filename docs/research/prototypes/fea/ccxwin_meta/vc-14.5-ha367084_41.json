@@ -1,0 +1,36 @@
+{
+    "arch": "x86_64",
+    "build": "ha367084_41",
+    "build_number": 41,
+    "build_string": "ha367084_41",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "vc14_runtime >=14.51.36247"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/vc-14.5-ha367084_41",
+    "files": [],
+    "fn": "vc-14.5-ha367084_41.conda",
+    "license": "BSD-3-Clause",
+    "license_family": "BSD",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/vc-14.5-ha367084_41",
+        "type": 1
+    },
+    "md5": "aa805b5522c2a98fa286e551a1f48546",
+    "name": "vc",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/vc-14.5-ha367084_41.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "35444c55a92e2f7f7ba26bc70f81e56e52344f7d064c0fd4b40a46a58517b79c",
+    "size": 21383,
+    "subdir": "win-64",
+    "timestamp": 1785359368,
+    "track_features": "vc14",
+    "url": "https://conda.anaconda.org/conda-forge/win-64/vc-14.5-ha367084_41.conda",
+    "version": "14.5"
+}

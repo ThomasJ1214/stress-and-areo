@@ -1,0 +1,63 @@
+{
+    "arch": "x86_64",
+    "build": "h7c9de5e_7",
+    "build_number": 7,
+    "build_string": "h7c9de5e_7",
+    "channel": "conda-forge",
+    "constrains": [
+        "libgfortran 16.2.0"
+    ],
+    "depends": [
+        "libgcc >=16.2.0",
+        "libwinpthread >=12.0.0.r4.gg4f2fc60ca"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran5-16.2.0-h7c9de5e_7",
+    "files": [
+        "Library/bin/libgfortran-5.dll",
+        "Library/lib/libgfortran.dll.a",
+        "Library/share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION"
+    ],
+    "fn": "libgfortran5-16.2.0-h7c9de5e_7.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran5-16.2.0-h7c9de5e_7",
+        "type": 1
+    },
+    "md5": "237c6a7be7b5bae7f4b5b70635ef4f79",
+    "name": "libgfortran5",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran5-16.2.0-h7c9de5e_7.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/bin/libgfortran-5.dll",
+                "path_type": "hardlink",
+                "sha256": "ca362c35ded9d4e3f63d81ef10a9ff2af62cee08e8afd5049bdb9612399cd11e",
+                "sha256_in_prefix": "ca362c35ded9d4e3f63d81ef10a9ff2af62cee08e8afd5049bdb9612399cd11e",
+                "size_in_bytes": 14164166
+            },
+            {
+                "_path": "Library/lib/libgfortran.dll.a",
+                "path_type": "hardlink",
+                "sha256": "59ba409a9023edaa3a848fd79fb90cb382be94311fc5aeeb9f91c8997eab4e49",
+                "sha256_in_prefix": "59ba409a9023edaa3a848fd79fb90cb382be94311fc5aeeb9f91c8997eab4e49",
+                "size_in_bytes": 1210512
+            },
+            {
+                "_path": "Library/share/licenses/libgfortran/RUNTIME.LIBRARY.EXCEPTION",
+                "path_type": "hardlink",
+                "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+                "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+                "size_in_bytes": 3324
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "e9b86fe14cb9938abd08f0b1685b04457339f71d9f00783fe9258a1eb0229963",
+    "size": 2814898,
+    "subdir": "win-64",
+    "timestamp": 1790304412,
+    "url": "https://conda.anaconda.org/conda-forge/win-64/libgfortran5-16.2.0-h7c9de5e_7.conda",
+    "version": "16.2.0"
+}

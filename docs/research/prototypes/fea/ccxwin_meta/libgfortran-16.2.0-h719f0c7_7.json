@@ -1,0 +1,36 @@
+{
+    "arch": "x86_64",
+    "build": "h719f0c7_7",
+    "build_number": 7,
+    "build_string": "h719f0c7_7",
+    "channel": "conda-forge",
+    "constrains": [
+        "libgfortran-ng ==16.2.0 *_7"
+    ],
+    "depends": [
+        "libgfortran5 16.2.0 h7c9de5e_7"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran-16.2.0-h719f0c7_7",
+    "files": [],
+    "fn": "libgfortran-16.2.0-h719f0c7_7.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran-16.2.0-h719f0c7_7",
+        "type": 1
+    },
+    "md5": "e31b16a4cf5f2288271ce16decd80460",
+    "name": "libgfortran",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libgfortran-16.2.0-h719f0c7_7.tar.bz2",
+    "paths_data": {
+        "paths": [],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "8e0d3445b5bdde22b6dfc2a7766b9336e448b240ff2015cd2cc73ca85f9b2130",
+    "size": 50071,
+    "subdir": "win-64",
+    "timestamp": 1790304566,
+    "url": "https://conda.anaconda.org/conda-forge/win-64/libgfortran-16.2.0-h719f0c7_7.conda",
+    "version": "16.2.0"
+}

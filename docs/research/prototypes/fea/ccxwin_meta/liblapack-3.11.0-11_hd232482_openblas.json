@@ -1,0 +1,49 @@
+{
+    "arch": "x86_64",
+    "build": "11_hd232482_openblas",
+    "build_number": 11,
+    "build_string": "11_hd232482_openblas",
+    "channel": "conda-forge",
+    "constrains": [
+        "blas 2.311 openblas",
+        "libcblas 3.11.0 11*_openblas",
+        "liblapacke 3.11.0 11*_openblas"
+    ],
+    "depends": [
+        "libblas 3.11.0 11_h0adab6e_openblas"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas",
+    "files": [
+        "Library/bin/liblapack.dll"
+    ],
+    "fn": "liblapack-3.11.0-11_hd232482_openblas.conda",
+    "license": "BSD-3-Clause",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas",
+        "type": 1
+    },
+    "md5": "d90cd8cda6c69b8221e5fbefad5e554d",
+    "name": "liblapack",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/bin/liblapack.dll",
+                "path_type": "hardlink",
+                "sha256": "91e7e84358229a902aca9efdd6b87e5bdd1528f1f7c9935bd490e2ecf24b0d8a",
+                "sha256_in_prefix": "91e7e84358229a902aca9efdd6b87e5bdd1528f1f7c9935bd490e2ecf24b0d8a",
+                "size_in_bytes": 180736
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "0021c607d065b309d5fd19b48f0ebaf94ef3a680feecc3a728ab15900746efa8",
+    "size": 79611,
+    "subdir": "win-64",
+    "timestamp": 1789061550,
+    "track_features": "blas_openblas",
+    "url": "https://conda.anaconda.org/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas.conda",
+    "version": "3.11.0"
+}

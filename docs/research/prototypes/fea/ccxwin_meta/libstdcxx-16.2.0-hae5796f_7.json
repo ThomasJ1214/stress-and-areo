@@ -1,0 +1,63 @@
+{
+    "arch": "x86_64",
+    "build": "hae5796f_7",
+    "build_number": 7,
+    "build_string": "hae5796f_7",
+    "channel": "conda-forge",
+    "constrains": [
+        "libstdcxx-ng ==16.2.0 *_7"
+    ],
+    "depends": [
+        "libgcc 16.2.0 h110b43a_7",
+        "libwinpthread >=12.0.0.r4.gg4f2fc60ca"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libstdcxx-16.2.0-hae5796f_7",
+    "files": [
+        "Library/bin/libstdc++-6.dll",
+        "Library/lib/libstdc++.dll.a",
+        "Library/share/licenses/libstdc++/RUNTIME.LIBRARY.EXCEPTION"
+    ],
+    "fn": "libstdcxx-16.2.0-hae5796f_7.conda",
+    "license": "GPL-3.0-only WITH GCC-exception-3.1",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libstdcxx-16.2.0-hae5796f_7",
+        "type": 1
+    },
+    "md5": "cdc259116f09ebebe2442f855aa03cfd",
+    "name": "libstdcxx",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/libstdcxx-16.2.0-hae5796f_7.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/bin/libstdc++-6.dll",
+                "path_type": "hardlink",
+                "sha256": "89c1bdaec7f8d051c18c1ecd526fc2c9a3771f5ccd133d7df0c6cf999fcfaded",
+                "sha256_in_prefix": "89c1bdaec7f8d051c18c1ecd526fc2c9a3771f5ccd133d7df0c6cf999fcfaded",
+                "size_in_bytes": 30159295
+            },
+            {
+                "_path": "Library/lib/libstdc++.dll.a",
+                "path_type": "hardlink",
+                "sha256": "991546bce8d82edc572190e5cc970e01c7e28098535add244d182e1dfd071b35",
+                "sha256_in_prefix": "991546bce8d82edc572190e5cc970e01c7e28098535add244d182e1dfd071b35",
+                "size_in_bytes": 4919538
+            },
+            {
+                "_path": "Library/share/licenses/libstdc++/RUNTIME.LIBRARY.EXCEPTION",
+                "path_type": "hardlink",
+                "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+                "sha256_in_prefix": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74",
+                "size_in_bytes": 3324
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "",
+    "sha256": "5984f81dcb289446fb3cdb0117c0680bded57eaa98da193f705400ec94fc71ae",
+    "size": 7217469,
+    "subdir": "win-64",
+    "timestamp": 1790304423,
+    "url": "https://conda.anaconda.org/conda-forge/win-64/libstdcxx-16.2.0-hae5796f_7.conda",
+    "version": "16.2.0"
+}

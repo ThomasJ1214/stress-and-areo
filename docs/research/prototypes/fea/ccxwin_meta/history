@@ -1,0 +1,20 @@
+==> 2026-10-05 22:45:38 <==
+# cmd: ./bin/micromamba create -y -p /tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/ccxwin --platform win-64 -c conda-forge calculix libblas=*=*openblas
+# conda version: 3.8.0
++https://conda.anaconda.org/conda-forge/win-64::ucrt-10.0.26100.0-h57928b3_0
++https://conda.anaconda.org/conda-forge/win-64::vcomp14-14.51.36247-habf1de7_41
++https://conda.anaconda.org/conda-forge/win-64::libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10
++https://conda.anaconda.org/conda-forge/win-64::vc14_runtime-14.51.36247-habf1de7_41
++https://conda.anaconda.org/conda-forge/win-64::libgomp-16.2.0-h8ee18e1_7
++https://conda.anaconda.org/conda-forge/win-64::vc-14.5-ha367084_41
++https://conda.anaconda.org/conda-forge/win-64::_openmp_mutex-4.5-20_gnu
++https://conda.anaconda.org/conda-forge/win-64::libopenblas-0.3.34-pthreads_h952cde7_2
++https://conda.anaconda.org/conda-forge/win-64::libgcc-16.2.0-h110b43a_7
++https://conda.anaconda.org/conda-forge/win-64::libblas-3.11.0-11_h0adab6e_openblas
++https://conda.anaconda.org/conda-forge/win-64::libstdcxx-16.2.0-hae5796f_7
++https://conda.anaconda.org/conda-forge/win-64::libgfortran5-16.2.0-h7c9de5e_7
++https://conda.anaconda.org/conda-forge/win-64::liblapack-3.11.0-11_hd232482_openblas
++https://conda.anaconda.org/conda-forge/win-64::libgfortran-16.2.0-h719f0c7_7
++https://conda.anaconda.org/conda-forge/win-64::arpack-3.9.1-nompi_h1f7371d_102
++https://conda.anaconda.org/conda-forge/win-64::calculix-2.23-pl5321h7abefab_8
+# update specs: ["calculix", "libblas[build=\"*openblas\"]"]

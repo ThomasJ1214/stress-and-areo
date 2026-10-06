@@ -1,0 +1,239 @@
+<HEAD>
+<TITLE>CalculiX:
+A Three-Dimensional Structural Finite Element Program</TITLE>
+</HEAD>
+
+<BODY>
+<CENTER><h2>
+CalculiX</h2></CENTER>
+<p>
+<CENTER><h2>A Free Software Three-Dimensional Structural Finite Element Program
+</h2></CENTER><p>
+
+<CENTER><h4>Authors:
+<p>
+<a href="authors.htm">Guido Dhondt</a> (Finite Element Solver)<br>
+Klaus Wittig(Pre- and Postprocessor)</h4></CENTER><br>
+<hr>
+<br>
+<center><h3><b>Version 2.23  of CalculiX is available!</b></h3></center> 
+<hr>
+<br>
+<center><img src="GSStress.gif" alt="Maximum principal stress in a paraglider"></center><p>
+<center>Maximum principal stress in a paraglider (thanks to Thomas Ripplinger)</center>
+<hr>
+<br>
+
+<b>Notice:</b> The authors acknowledge that naming conventions and input style formats
+for CalculiX are based on those used by ABAQUS, a proprietary, general purpose
+finite element code originally developed and supported by Hibbitt, Karlsson & Sorensen, Inc (HKS)
+(<a href="https://www.3ds.com/products-services/simulia/products/abaqus">https://www.3ds.com/products-services/simulia/products/abaqus</a>) and are used with kind permission from HKS. Results obtained 
+from CalculiX are in no way connected to ABAQUS.<br><br>
+<hr>
+<br>
+
+For a <b>reference</b> describing the theory behind CalculiX CrunchiX the user is
+referred to:<br>
+Dhondt, G. <i>The Finite Element Method for Three-Dimensional Thermomechanical
+Applications</i>, Wiley, 2004.
+<hr>
+<br>
+
+At the World Conference for Computational Mechanics in Munich (19-24 July
+2026) a  <a href="20260722_WCCM26_CalculiX.pdf"> presentation</a>  was held on the future of CalculiX
+<hr>
+<br>
+
+
+Click here to get
+<ul>
+<li>a quick overview of the <a href="ov_prepo.htm"> pre- and postprocessor.</a> 
+<li>a quick overview of the <a href="ov_calcu.htm">finite element capabilities</a> of CalculiX</a>
+<li>an overview of <a href="new_calc.htm">new features in Version 2.23 </a> of CalculiX</a>
+<li>some <a href="examples.htm">example problems </a>showing you the kind of problems you can solve with CalculiX.
+</ul>
+
+<hr>
+Available downloads for the graphical interface (CalculiX GraphiX: cgx):
+<ul>
+<li> <a href="cgx_2.23.INSTALL"> a short installation guide (ASCII)</a>
+<li> <a href="cgx_2.23.all.tar.bz2"> the source code, documentation (tex) and examples </a>
+<li> <a href="cgx_2.23.bz2"> a Linux executable</a>
+<li> <a href="cgx_2.23.pdf"> the documentation (pdf)</a>
+<li> <a href="cgx_2.23.htm.tar.bz2"> the documentation (html) </a>
+<li> <a href="cgx_2.23.exa.tar.bz2"> examples </a>
+<li> <a href="tutorial.txt"> a tutorial (ASCII) </a>
+<li> for a Windows executable: look
+  at <a href="http://www.bconverged.com/calculix">www.bconverged.com/calculix<a/>,
+     <a href="http://sourceforge.net/projects/calculixforwin">sourceforge.net/projects/calculixforwin<a/>
+       or <a href="https://github.com/GeneralElectric/CalculiX">github.com<a/>.
+For an update of the bconverged distribution replace the executables in
+  the bconverged download by the following <a href="calculix_2.23_4win.zip">
+    files </a> (ccx, cgx and the CAD converters from Pascal Mossier). It
+       should be noted that the programs can also be executed without the
+       installation of the bconverged distribution.
+
+</ul>
+
+<br><hr>
+Available downloads for the solver (CalculiX CrunchiX: ccx):
+<ul>
+<li> <a href="ccx_2.23.README.INSTALL"> a short installation guide (ASCII)</a>
+<li> <a href="ccx_2.23.src.tar.bz2"> the source code </a>
+<li> <a href="ccx_2.23.tar.bz2"> a Linux executable </a>
+<li> <a href="ccx_2.23.doc.tar.bz2"> the documentation (tex) </a>
+<li> <a href="ccx_2.23.htm.tar.bz2"> the documentation (html) </a>
+<li> <a href="ccx_2.23.ps.tar.bz2"> the documentation (postscript) </a>
+<li> <a href="ccx_2.23.pdf"> the documentation (pdf)</a>
+<li> <a href="ccx_2.23.test.tar.bz2"> test examples </a>
+<li> <a href="ccx_2.23.fluidtest.tar.bz2"> large fluid test examples for
+    the Finite Element  Method </a>
+<li> <a href="ccx_2.23.structest.tar.bz2"> large structural test examples </a>
+<li> <a href="ccx_2.23.SPOOLEScorrection.tar.bz2"> a correction to SPOOLES.2.2 for
+    large input decks </a>
+<li> for a Windows executable: look
+  at <a href="http://www.bconverged.com/calculix">www.bconverged.com/calculix<a/>,
+     <a href="http://sourceforge.net/projects/calculixforwin">sourceforge.net/projects/calculixforwin<a/>
+    or <a href="https://github.com/GeneralElectric/CalculiX">github.com<a/>.
+For an update of the bconverged distribution replace the executables in
+  the bconverged download by the following <a href="calculix_2.23_4win.zip">
+    files </a>  (ccx, cgx and the CAD converters from Pascal Mossier). It
+       should be noted that the programs can also be executed without the
+       installation of the bconverged distribution.
+</ul>
+If you compile the program from scratch using the source code, you will need
+the source code for the sparse linear equation solver
+(<a href="http://www.netlib.org/linalg/spooles/spooles.2.2.html">SPOOLES.2.2(serial
+  version)</a>) and the eigenvalue solver
+(<a href="https://github.com/opencollab/arpack-ng">ARPACK (serial
+  version)</a>) too. A new free sparse linear equation
+solver, <a href="https://gitlab.inria.fr/solverstack/pastix">PaStiX</a> has
+been tested and has prove to accelerate execution times up to a factor of 8!
+To reach this acceleration hwloc, parsec, scotch and PaStiX4CalculiX have to
+be downloaded and installed. This yields an acceleration up to a factor of
+4. For the factor of 8 the CUDA library from Nvidia has to be installed in
+order to compute on the GPU (only works for Nvidia cards). For details the
+user should consult the README.INSTALL file.
+<br><hr><br>
+
+Other documentation (not exhaustive):
+<ul>
+<li> <a href="INST_CGX_2_8_MAC_02_10_2015.pdf"> an installation guide for cgx
+	      on Max OS X Mavericks </a>.
+<li> <a href="INST_CCX_2_8_MAC_02_10_2015.pdf"> an installation guide for ccx
+	      on Max OS X Mavericks </a>.
+</ul>
+<br><hr><br>
+
+Available add-ons:
+<ul>
+<li>  <a href="cgxCadTools.tar.bz2"> a STEP-to-fbd, IGES-to-fbd, fbd-to-STEP
+    and fbd-to-IGES converter</a> (including Linux binaries). If you have questions on this tool please contact <A HREF="mailto:pascal.mossier@gmail.com"><EM>pascal.mossier@gmail.com</EM></A>.
+<li> <a href="vda2fbd-1.0.tar.gz"> a vda to fbd
+converter</a>. After exporting a CAD model in vda format, you can use this program to convert it in fbd format and read
+it into cgx. If you have questions on this tool please contact <A HREF="mailto:johannes.barner@web.de"><EM>johannes.barner@web.de</EM></A>.
+<li> <a href="acis2fbd.tar.gz"> a acis to fbd
+converter</a>. After exporting a CAD model in acis format (available in
+autoCAD), you can use this program to convert it in fbd format and read
+it into cgx. Splines and nurbs are not covered yet. This feature was coded by Roland Felde. Many thanks!
+<li> <a href="interpol3d.tar.bz2"> a three-dimensional interpolation
+    program</a>. Interpolates the results from a master frd-file onto the
+  nodes in a slave frd-file.
+</ul>
+<br><hr><br>
+
+Other software using CalculiX (not exhaustive):
+<ul>
+<li> An <a href="https://github.com/precice/calculix-adapter">adapter</a> allows to couple CalculiX via 
+<a  href="http://www.precice.org/">preCICE</a> to other solvers (e.g. OpenFOAM, SU2, or any in-house solver) for fluid-structure interaction.
+</ul>
+<br><hr><br>
+A discourse discussion group for CalculiX has been setup. That way you can share
+problems and experiences with other CalculiX users. To join the group go
+to  <a href="https://calculix.discourse.group">https://calculix.discourse.group</a>.
+<br><hr>
+<br>
+For some essential parts of a finite element program such as mathematical
+solvers, very good source code has been written by people devoting their whole
+life to it. Therefore, we are especially grateful to those who agreed to have
+their code included or referred to, specifically (in alphabetical order of the
+first author):<ul>
+<li> Daniele Amato for the implementation of the crack propagation procedure.  
+<li> C.C. Ashcraft, R.G. Grimes, D.J. Pierce and D.K. Wah for the SPOOLES sparse matrix solver.
+<li> Johannes Barner for the vda2fbd converter.
+<li> Jeff Baylor for the Windows executable of cgx and ccx, starting from Version 1.5.
+<li> Otto-Ernst Bernhardi for the implementation of the C3D8R element (hourglass
+  control), the C3D8I element, the box general beam section and the
+  Johnson-Cook hardening model.
+<li> Catharina Czech for selective mass scaling in explicit dynamics.  
+<li> M. De Marchi for the Windows executable of ccx, Version 1.2.
+<li> Franz-Josef Ertl for sensitivity, feasible direction and robust design analyses.
+<li> R. Felde for the acis2fbd converter.
+<li> Reinhold Fischer for the contact implementation in modal dynamics calculations.
+<li> B. Graf for the installation guides for Max OS X Mavericks.
+<li> Marc Hassler for 3-D submodels with 2-D axisymmetric master results and the
+  implementation of the mass matrix for the U1 element.
+<li> Jaro Hokkanen for face-to-face penalty contact.
+<li> Hibbitt, Karlsson & Sorensen, Inc. for allowing us to use the ABAQUS input
+  format.
+<li> Bora Kamaci for the projection algorithms in the automatic remeshing routines.  
+<li> Sven Kassbohm for the Ciarlet elastic model for large strains.
+<li> R.B. Lehoucq, D.C. Sorensen and C. Yang for the ARPACK eigenvalue solver.
+<li> Sascha Merz for the implementation of the Zienkiewicz-Zhu error estimator.
+<li> Carlo Monjaraz-Tec for work on conventional explicit dynamics and
+  massless contact explicit dynamics.
+<li> Pascal Mossier for the cadTools.
+<li> Conrad Mottl for implementing multistage MPC's.
+<li> Yannick Muller for the implementation of aerodynamic networks.
+<li> Tobias Opel for work on the PaStiX-CalculiX interface.   
+<li> Matteo Pacher for work on implicit dynamics.
+<li> Vito Pasquariello for the Coulomb friction in penalty contact.
+<li> Hugo Pfoertner for fminsi (minimization of functions; lgpl applies).
+<li> Axel Philipp for the external face extraction within an existing mesh (cgx).
+<li> Samoela Rakotonanahary for auxiliary routines in face-to-face penalty
+  contact.
+<li> Gil Rama for the us3 shell element.
+<li> Ernst Rank and Martin Ruecker for the C-version of the iterative solver.
+<li> T. Roesener, who found a way for stepped colors in Linux.
+<li> Tobias Roessler for detecting a very mean error in the CalculiX-Mortar interface.  
+<li> Dave Rossi for the Windows executable of ccx, Version 1.1.
+<li> Tarik Sahin for the mesh refinement algorithm.
+<li> Stefan Sicklinger for modifications in penalty contact.
+<li> Saskia Sitzmann for the implementation of the Sutherland-Hodgman
+  algorithm and Mortar contact.
+<li> Manfred Spraul for generating the rmp archives, enhancements in the
+numcheck.awk script and the multithreading capability.
+<li> Scott W. Sloan for the profile reduction algorithms.
+<li> Robert Taylor for the permission to use his profile solver (included up to
+  version 1.7).
+<li> Peter Wauligmann for discovering, linking and improving the PaStiX solver. 
+<li> Xinan Zhou for supporting me with the wedge element implementation.
+</ul>
+
+The use of Transactions of Mathematical Software (TOMS) routines 496 (lzhes),
+581 (hybsvd) and 584 (cubtri) is gratefully acknowledged.
+Appropriate references have been included in the <a href="ccx_2.23.ps.tar.bz2">User's Manual</a>.<p>
+Material data can be found at <a href="http://www.matweb.com">www.matweb.com</a>.
+<p>
+Finally, the authors would like to thank MTU Aero Engines for the permission to publish this work.
+<p>
+<hr>
+<br>
+Here you find the text of the <a href="gpl-2.0.txt"> GNU GENERAL PUBLIC LICENSE Version
+  2</a> <br><br>
+
+<hr>
+<br>
+<center><img src="turbs.gif" alt="Von Mises stress in a turbine segment"></center><p>
+<center>Von Mises stress in a turbine segment</center>
+<hr>
+<br>
+<center><h4><b>If you have any comments or suggestions, or if you would like to contribute to this project, please contact us!<br>
+Email: <A HREF="mailto:guido.dhondt@calculix.de"><EM>guido.dhondt@calculix.de</EM></A>
+(CalculiX CrunchiX) and <A HREF="mailto:klaus.wittig@calculix.de"><EM>klaus.wittig@calculix.de</EM></A> (CalculiX GraphiX).
+</b></h4></center><p><hr>
+<br>
+<a href="legaldisclosure.txt">Legal Disclosure</a><br>
+<a href="privacypolicy.txt">Privacy Policy</a><br><br>
+<a href="http://www.calculix.de">Back to the CalculiX home page</a>
+</BODY>

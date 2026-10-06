@@ -1,0 +1,5 @@
+/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/bench/it2.dat:         6  3.855000E-01  3.667065E-02  5.506128E-02
+/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/bench/pd.dat:         6  3.863623E-01  3.186421E-02  7.594857E-02
+/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/bench/px2.dat:         6  3.863623E-01  3.186421E-02  7.594857E-02
+/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/bench/sp1.dat:         6  3.863623E-01  3.186421E-02  7.594857E-02
+/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/bench/sp2.dat:         6  3.863623E-01  3.186421E-02  7.594857E-02

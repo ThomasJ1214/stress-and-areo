@@ -1,0 +1,501 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Mon Sep 28 09:16:29 2026
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 135694
+ number of nonzero lower triangular matrix elements
+ 5254440
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+Cholesky preconditioning
+
+alpha=0.000000
+Solving the system of equations using the iterative solver
+
+iteration= 0, error= 0.000000e+00, limit=1.107909e-04
+iteration= 1, error= 1.097938e-01, limit=1.107909e-04
+iteration= 2, error= 1.129483e-01, limit=1.107909e-04
+iteration= 3, error= 1.448238e-01, limit=1.107909e-04
+iteration= 4, error= 1.460489e-01, limit=1.107909e-04
+iteration= 5, error= 1.314393e-01, limit=1.107909e-04
+iteration= 6, error= 1.447972e-01, limit=1.107909e-04
+iteration= 7, error= 1.359710e-01, limit=1.107909e-04
+iteration= 8, error= 1.442267e-01, limit=1.107909e-04
+iteration= 9, error= 1.439509e-01, limit=1.107909e-04
+iteration= 10, error= 1.703195e-01, limit=1.107909e-04
+iteration= 11, error= 1.933466e-01, limit=1.107909e-04
+iteration= 12, error= 1.118254e-01, limit=1.107909e-04
+iteration= 13, error= 1.429324e-01, limit=1.107909e-04
+iteration= 14, error= 1.487915e-01, limit=1.107909e-04
+iteration= 15, error= 1.591035e-01, limit=1.107909e-04
+iteration= 16, error= 2.202238e-01, limit=1.107909e-04
+iteration= 17, error= 1.673171e-01, limit=1.107909e-04
+iteration= 18, error= 1.360755e-01, limit=1.107909e-04
+iteration= 19, error= 1.334643e-01, limit=1.107909e-04
+iteration= 20, error= 1.021416e-01, limit=1.107909e-04
+iteration= 21, error= 1.087885e-01, limit=1.107909e-04
+iteration= 22, error= 1.451857e-01, limit=1.107909e-04
+iteration= 23, error= 1.457679e-01, limit=1.107909e-04
+iteration= 24, error= 1.485942e-01, limit=1.107909e-04
+iteration= 25, error= 1.647030e-01, limit=1.107909e-04
+iteration= 26, error= 1.492171e-01, limit=1.107909e-04
+iteration= 27, error= 1.454794e-01, limit=1.107909e-04
+iteration= 28, error= 1.157775e-01, limit=1.107909e-04
+iteration= 29, error= 1.346047e-01, limit=1.107909e-04
+iteration= 30, error= 1.554018e-01, limit=1.107909e-04
+iteration= 31, error= 1.274177e-01, limit=1.107909e-04
+iteration= 32, error= 1.230050e-01, limit=1.107909e-04
+iteration= 33, error= 1.303446e-01, limit=1.107909e-04
+iteration= 34, error= 1.402581e-01, limit=1.107909e-04
+iteration= 35, error= 1.243035e-01, limit=1.107909e-04
+iteration= 36, error= 1.454373e-01, limit=1.107909e-04
+iteration= 37, error= 1.421497e-01, limit=1.107909e-04
+iteration= 38, error= 1.075332e-01, limit=1.107909e-04
+iteration= 39, error= 1.100394e-01, limit=1.107909e-04
+iteration= 40, error= 8.856393e-02, limit=1.107909e-04
+iteration= 41, error= 1.075175e-01, limit=1.107909e-04
+iteration= 42, error= 1.451231e-01, limit=1.107909e-04
+iteration= 43, error= 2.406293e-01, limit=1.107909e-04
+iteration= 44, error= 2.769622e-01, limit=1.107909e-04
+iteration= 45, error= 2.967810e-01, limit=1.107909e-04
+iteration= 46, error= 2.699392e-01, limit=1.107909e-04
+iteration= 47, error= 1.711499e-01, limit=1.107909e-04
+iteration= 48, error= 1.679664e-01, limit=1.107909e-04
+iteration= 49, error= 1.271594e-01, limit=1.107909e-04
+iteration= 50, error= 1.441508e-01, limit=1.107909e-04
+iteration= 51, error= 1.379644e-01, limit=1.107909e-04
+iteration= 52, error= 1.663532e-01, limit=1.107909e-04
+iteration= 53, error= 1.543699e-01, limit=1.107909e-04
+iteration= 54, error= 1.193254e-01, limit=1.107909e-04
+iteration= 55, error= 1.161591e-01, limit=1.107909e-04
+iteration= 56, error= 1.087090e-01, limit=1.107909e-04
+iteration= 57, error= 1.446270e-01, limit=1.107909e-04
+iteration= 58, error= 1.697803e-01, limit=1.107909e-04
+iteration= 59, error= 1.721944e-01, limit=1.107909e-04
+iteration= 60, error= 1.681868e-01, limit=1.107909e-04
+iteration= 61, error= 1.474963e-01, limit=1.107909e-04
+iteration= 62, error= 1.423144e-01, limit=1.107909e-04
+iteration= 63, error= 1.000167e-01, limit=1.107909e-04
+iteration= 64, error= 8.324213e-02, limit=1.107909e-04
+iteration= 65, error= 8.644743e-02, limit=1.107909e-04
+iteration= 66, error= 8.996125e-02, limit=1.107909e-04
+iteration= 67, error= 1.034609e-01, limit=1.107909e-04
+iteration= 68, error= 8.751286e-02, limit=1.107909e-04
+iteration= 69, error= 8.518237e-02, limit=1.107909e-04
+iteration= 70, error= 7.089747e-02, limit=1.107909e-04
+iteration= 71, error= 7.545804e-02, limit=1.107909e-04
+iteration= 72, error= 7.725818e-02, limit=1.107909e-04
+iteration= 73, error= 7.069066e-02, limit=1.107909e-04
+iteration= 74, error= 7.516765e-02, limit=1.107909e-04
+iteration= 75, error= 6.354501e-02, limit=1.107909e-04
+iteration= 76, error= 5.728205e-02, limit=1.107909e-04
+iteration= 77, error= 4.469041e-02, limit=1.107909e-04
+iteration= 78, error= 3.712438e-02, limit=1.107909e-04
+iteration= 79, error= 2.645806e-02, limit=1.107909e-04
+iteration= 80, error= 2.016051e-02, limit=1.107909e-04
+iteration= 81, error= 1.780883e-02, limit=1.107909e-04
+iteration= 82, error= 1.394191e-02, limit=1.107909e-04
+iteration= 83, error= 1.109470e-02, limit=1.107909e-04
+iteration= 84, error= 8.853553e-03, limit=1.107909e-04
+iteration= 85, error= 7.284506e-03, limit=1.107909e-04
+iteration= 86, error= 6.004193e-03, limit=1.107909e-04
+iteration= 87, error= 5.519248e-03, limit=1.107909e-04
+iteration= 88, error= 4.975970e-03, limit=1.107909e-04
+iteration= 89, error= 3.826370e-03, limit=1.107909e-04
+iteration= 90, error= 2.913052e-03, limit=1.107909e-04
+iteration= 91, error= 2.857187e-03, limit=1.107909e-04
+iteration= 92, error= 2.183019e-03, limit=1.107909e-04
+iteration= 93, error= 1.786456e-03, limit=1.107909e-04
+iteration= 94, error= 1.795411e-03, limit=1.107909e-04
+iteration= 95, error= 1.755847e-03, limit=1.107909e-04
+iteration= 96, error= 2.045636e-03, limit=1.107909e-04
+iteration= 97, error= 1.437379e-03, limit=1.107909e-04
+iteration= 98, error= 9.061269e-04, limit=1.107909e-04
+iteration= 99, error= 7.600563e-04, limit=1.107909e-04
+iteration= 100, error= 7.720777e-04, limit=1.107909e-04
+iteration= 101, error= 8.248375e-04, limit=1.107909e-04
+iteration= 102, error= 9.886186e-04, limit=1.107909e-04
+iteration= 103, error= 1.084240e-03, limit=1.107909e-04
+iteration= 104, error= 1.236525e-03, limit=1.107909e-04
+iteration= 105, error= 1.514263e-03, limit=1.107909e-04
+iteration= 106, error= 2.045822e-03, limit=1.107909e-04
+iteration= 107, error= 1.668422e-03, limit=1.107909e-04
+iteration= 108, error= 1.197407e-03, limit=1.107909e-04
+iteration= 109, error= 1.027747e-03, limit=1.107909e-04
+iteration= 110, error= 9.867539e-04, limit=1.107909e-04
+iteration= 111, error= 8.422201e-04, limit=1.107909e-04
+iteration= 112, error= 1.315030e-03, limit=1.107909e-04
+iteration= 113, error= 1.491466e-03, limit=1.107909e-04
+iteration= 114, error= 1.813777e-03, limit=1.107909e-04
+iteration= 115, error= 2.037292e-03, limit=1.107909e-04
+iteration= 116, error= 1.653834e-03, limit=1.107909e-04
+iteration= 117, error= 1.429493e-03, limit=1.107909e-04
+iteration= 118, error= 1.220975e-03, limit=1.107909e-04
+iteration= 119, error= 1.016981e-03, limit=1.107909e-04
+iteration= 120, error= 9.952926e-04, limit=1.107909e-04
+iteration= 121, error= 1.017058e-03, limit=1.107909e-04
+iteration= 122, error= 1.017546e-03, limit=1.107909e-04
+iteration= 123, error= 1.108727e-03, limit=1.107909e-04
+iteration= 124, error= 9.778656e-04, limit=1.107909e-04
+iteration= 125, error= 9.233506e-04, limit=1.107909e-04
+iteration= 126, error= 9.109581e-04, limit=1.107909e-04
+iteration= 127, error= 1.069001e-03, limit=1.107909e-04
+iteration= 128, error= 1.057071e-03, limit=1.107909e-04
+iteration= 129, error= 1.005678e-03, limit=1.107909e-04
+iteration= 130, error= 1.103828e-03, limit=1.107909e-04
+iteration= 131, error= 1.111670e-03, limit=1.107909e-04
+iteration= 132, error= 9.074389e-04, limit=1.107909e-04
+iteration= 133, error= 8.256674e-04, limit=1.107909e-04
+iteration= 134, error= 1.089049e-03, limit=1.107909e-04
+iteration= 135, error= 1.516413e-03, limit=1.107909e-04
+iteration= 136, error= 1.915701e-03, limit=1.107909e-04
+iteration= 137, error= 2.296535e-03, limit=1.107909e-04
+iteration= 138, error= 2.314162e-03, limit=1.107909e-04
+iteration= 139, error= 2.039276e-03, limit=1.107909e-04
+iteration= 140, error= 1.694606e-03, limit=1.107909e-04
+iteration= 141, error= 1.269555e-03, limit=1.107909e-04
+iteration= 142, error= 1.167694e-03, limit=1.107909e-04
+iteration= 143, error= 9.815414e-04, limit=1.107909e-04
+iteration= 144, error= 1.023846e-03, limit=1.107909e-04
+iteration= 145, error= 1.008395e-03, limit=1.107909e-04
+iteration= 146, error= 8.367228e-04, limit=1.107909e-04
+iteration= 147, error= 7.904138e-04, limit=1.107909e-04
+iteration= 148, error= 6.884004e-04, limit=1.107909e-04
+iteration= 149, error= 7.177261e-04, limit=1.107909e-04
+iteration= 150, error= 7.490966e-04, limit=1.107909e-04
+iteration= 151, error= 8.603062e-04, limit=1.107909e-04
+iteration= 152, error= 9.939605e-04, limit=1.107909e-04
+iteration= 153, error= 1.180096e-03, limit=1.107909e-04
+iteration= 154, error= 1.194945e-03, limit=1.107909e-04
+iteration= 155, error= 1.251363e-03, limit=1.107909e-04
+iteration= 156, error= 1.237935e-03, limit=1.107909e-04
+iteration= 157, error= 1.285559e-03, limit=1.107909e-04
+iteration= 158, error= 1.314424e-03, limit=1.107909e-04
+iteration= 159, error= 1.261449e-03, limit=1.107909e-04
+iteration= 160, error= 1.033105e-03, limit=1.107909e-04
+iteration= 161, error= 9.368976e-04, limit=1.107909e-04
+iteration= 162, error= 7.421586e-04, limit=1.107909e-04
+iteration= 163, error= 5.383951e-04, limit=1.107909e-04
+iteration= 164, error= 5.569974e-04, limit=1.107909e-04
+iteration= 165, error= 5.701431e-04, limit=1.107909e-04
+iteration= 166, error= 5.498592e-04, limit=1.107909e-04
+iteration= 167, error= 7.260400e-04, limit=1.107909e-04
+iteration= 168, error= 7.971854e-04, limit=1.107909e-04
+iteration= 169, error= 7.974265e-04, limit=1.107909e-04
+iteration= 170, error= 6.876746e-04, limit=1.107909e-04
+iteration= 171, error= 7.459709e-04, limit=1.107909e-04
+iteration= 172, error= 5.856006e-04, limit=1.107909e-04
+iteration= 173, error= 6.565314e-04, limit=1.107909e-04
+iteration= 174, error= 4.424950e-04, limit=1.107909e-04
+iteration= 175, error= 5.298443e-04, limit=1.107909e-04
+iteration= 176, error= 4.589781e-04, limit=1.107909e-04
+iteration= 177, error= 5.947539e-04, limit=1.107909e-04
+iteration= 178, error= 4.984669e-04, limit=1.107909e-04
+iteration= 179, error= 5.261216e-04, limit=1.107909e-04
+iteration= 180, error= 4.400715e-04, limit=1.107909e-04
+iteration= 181, error= 4.636980e-04, limit=1.107909e-04
+iteration= 182, error= 4.501233e-04, limit=1.107909e-04
+iteration= 183, error= 4.961098e-04, limit=1.107909e-04
+iteration= 184, error= 4.880228e-04, limit=1.107909e-04
+iteration= 185, error= 4.930916e-04, limit=1.107909e-04
+iteration= 186, error= 5.923720e-04, limit=1.107909e-04
+iteration= 187, error= 5.825741e-04, limit=1.107909e-04
+iteration= 188, error= 6.143450e-04, limit=1.107909e-04
+iteration= 189, error= 6.062403e-04, limit=1.107909e-04
+iteration= 190, error= 5.103107e-04, limit=1.107909e-04
+iteration= 191, error= 5.178163e-04, limit=1.107909e-04
+iteration= 192, error= 4.084548e-04, limit=1.107909e-04
+iteration= 193, error= 4.158453e-04, limit=1.107909e-04
+iteration= 194, error= 3.748488e-04, limit=1.107909e-04
+iteration= 195, error= 3.458872e-04, limit=1.107909e-04
+iteration= 196, error= 3.245318e-04, limit=1.107909e-04
+iteration= 197, error= 3.440170e-04, limit=1.107909e-04
+iteration= 198, error= 4.933240e-04, limit=1.107909e-04
+iteration= 199, error= 4.793881e-04, limit=1.107909e-04
+iteration= 200, error= 4.579580e-04, limit=1.107909e-04
+iteration= 201, error= 5.289561e-04, limit=1.107909e-04
+iteration= 202, error= 4.816144e-04, limit=1.107909e-04
+iteration= 203, error= 4.183110e-04, limit=1.107909e-04
+iteration= 204, error= 4.169631e-04, limit=1.107909e-04
+iteration= 205, error= 3.811302e-04, limit=1.107909e-04
+iteration= 206, error= 2.767415e-04, limit=1.107909e-04
+iteration= 207, error= 1.999083e-04, limit=1.107909e-04
+iteration= 208, error= 1.959965e-04, limit=1.107909e-04
+iteration= 209, error= 2.042032e-04, limit=1.107909e-04
+iteration= 210, error= 2.347604e-04, limit=1.107909e-04
+iteration= 211, error= 2.879023e-04, limit=1.107909e-04
+iteration= 212, error= 2.551926e-04, limit=1.107909e-04
+iteration= 213, error= 2.632011e-04, limit=1.107909e-04
+iteration= 214, error= 3.853182e-04, limit=1.107909e-04
+iteration= 215, error= 4.613189e-04, limit=1.107909e-04
+iteration= 216, error= 5.383789e-04, limit=1.107909e-04
+iteration= 217, error= 6.288594e-04, limit=1.107909e-04
+iteration= 218, error= 5.709264e-04, limit=1.107909e-04
+iteration= 219, error= 5.100751e-04, limit=1.107909e-04
+iteration= 220, error= 5.410782e-04, limit=1.107909e-04
+iteration= 221, error= 4.286897e-04, limit=1.107909e-04
+iteration= 222, error= 4.461725e-04, limit=1.107909e-04
+iteration= 223, error= 4.151009e-04, limit=1.107909e-04
+iteration= 224, error= 4.002131e-04, limit=1.107909e-04
+iteration= 225, error= 3.340119e-04, limit=1.107909e-04
+iteration= 226, error= 3.360326e-04, limit=1.107909e-04
+iteration= 227, error= 3.876580e-04, limit=1.107909e-04
+iteration= 228, error= 5.110729e-04, limit=1.107909e-04
+iteration= 229, error= 5.731012e-04, limit=1.107909e-04
+iteration= 230, error= 5.747175e-04, limit=1.107909e-04
+iteration= 231, error= 5.605681e-04, limit=1.107909e-04
+iteration= 232, error= 4.430349e-04, limit=1.107909e-04
+iteration= 233, error= 3.424994e-04, limit=1.107909e-04
+iteration= 234, error= 4.028062e-04, limit=1.107909e-04
+iteration= 235, error= 4.499289e-04, limit=1.107909e-04
+iteration= 236, error= 6.297009e-04, limit=1.107909e-04
+iteration= 237, error= 8.174762e-04, limit=1.107909e-04
+iteration= 238, error= 8.731828e-04, limit=1.107909e-04
+iteration= 239, error= 9.891953e-04, limit=1.107909e-04
+iteration= 240, error= 8.651653e-04, limit=1.107909e-04
+iteration= 241, error= 7.270733e-04, limit=1.107909e-04
+iteration= 242, error= 6.339634e-04, limit=1.107909e-04
+iteration= 243, error= 4.933623e-04, limit=1.107909e-04
+iteration= 244, error= 3.216016e-04, limit=1.107909e-04
+iteration= 245, error= 2.558230e-04, limit=1.107909e-04
+iteration= 246, error= 2.220070e-04, limit=1.107909e-04
+iteration= 247, error= 1.997775e-04, limit=1.107909e-04
+iteration= 248, error= 1.916989e-04, limit=1.107909e-04
+iteration= 249, error= 1.962981e-04, limit=1.107909e-04
+iteration= 250, error= 2.255419e-04, limit=1.107909e-04
+iteration= 251, error= 1.959008e-04, limit=1.107909e-04
+iteration= 252, error= 2.114703e-04, limit=1.107909e-04
+iteration= 253, error= 2.233693e-04, limit=1.107909e-04
+iteration= 254, error= 2.070890e-04, limit=1.107909e-04
+iteration= 255, error= 2.116876e-04, limit=1.107909e-04
+iteration= 256, error= 2.112721e-04, limit=1.107909e-04
+iteration= 257, error= 2.621801e-04, limit=1.107909e-04
+iteration= 258, error= 2.912821e-04, limit=1.107909e-04
+iteration= 259, error= 3.180638e-04, limit=1.107909e-04
+iteration= 260, error= 4.145690e-04, limit=1.107909e-04
+iteration= 261, error= 4.143814e-04, limit=1.107909e-04
+iteration= 262, error= 4.857424e-04, limit=1.107909e-04
+iteration= 263, error= 5.104202e-04, limit=1.107909e-04
+iteration= 264, error= 5.509628e-04, limit=1.107909e-04
+iteration= 265, error= 5.999016e-04, limit=1.107909e-04
+iteration= 266, error= 5.618455e-04, limit=1.107909e-04
+iteration= 267, error= 5.567626e-04, limit=1.107909e-04
+iteration= 268, error= 5.080899e-04, limit=1.107909e-04
+iteration= 269, error= 4.617037e-04, limit=1.107909e-04
+iteration= 270, error= 4.985479e-04, limit=1.107909e-04
+iteration= 271, error= 4.058485e-04, limit=1.107909e-04
+iteration= 272, error= 4.224974e-04, limit=1.107909e-04
+iteration= 273, error= 3.331078e-04, limit=1.107909e-04
+iteration= 274, error= 3.213322e-04, limit=1.107909e-04
+iteration= 275, error= 4.030196e-04, limit=1.107909e-04
+iteration= 276, error= 3.541091e-04, limit=1.107909e-04
+iteration= 277, error= 4.400408e-04, limit=1.107909e-04
+iteration= 278, error= 5.056841e-04, limit=1.107909e-04
+iteration= 279, error= 3.875463e-04, limit=1.107909e-04
+iteration= 280, error= 4.472375e-04, limit=1.107909e-04
+iteration= 281, error= 3.797203e-04, limit=1.107909e-04
+iteration= 282, error= 2.956749e-04, limit=1.107909e-04
+iteration= 283, error= 2.878584e-04, limit=1.107909e-04
+iteration= 284, error= 2.692406e-04, limit=1.107909e-04
+iteration= 285, error= 1.925978e-04, limit=1.107909e-04
+iteration= 286, error= 1.927285e-04, limit=1.107909e-04
+iteration= 287, error= 1.945670e-04, limit=1.107909e-04
+iteration= 288, error= 1.937135e-04, limit=1.107909e-04
+iteration= 289, error= 2.333774e-04, limit=1.107909e-04
+iteration= 290, error= 2.492720e-04, limit=1.107909e-04
+iteration= 291, error= 2.817504e-04, limit=1.107909e-04
+iteration= 292, error= 3.200147e-04, limit=1.107909e-04
+iteration= 293, error= 3.286842e-04, limit=1.107909e-04
+iteration= 294, error= 3.341530e-04, limit=1.107909e-04
+iteration= 295, error= 2.942581e-04, limit=1.107909e-04
+iteration= 296, error= 3.359128e-04, limit=1.107909e-04
+iteration= 297, error= 3.713625e-04, limit=1.107909e-04
+iteration= 298, error= 4.539360e-04, limit=1.107909e-04
+iteration= 299, error= 5.005688e-04, limit=1.107909e-04
+iteration= 300, error= 6.233493e-04, limit=1.107909e-04
+iteration= 301, error= 6.726591e-04, limit=1.107909e-04
+iteration= 302, error= 7.575439e-04, limit=1.107909e-04
+iteration= 303, error= 7.079540e-04, limit=1.107909e-04
+iteration= 304, error= 6.221123e-04, limit=1.107909e-04
+iteration= 305, error= 5.202225e-04, limit=1.107909e-04
+iteration= 306, error= 3.932319e-04, limit=1.107909e-04
+iteration= 307, error= 3.005559e-04, limit=1.107909e-04
+iteration= 308, error= 2.370659e-04, limit=1.107909e-04
+iteration= 309, error= 2.850131e-04, limit=1.107909e-04
+iteration= 310, error= 3.736722e-04, limit=1.107909e-04
+iteration= 311, error= 3.735958e-04, limit=1.107909e-04
+iteration= 312, error= 4.432629e-04, limit=1.107909e-04
+iteration= 313, error= 5.340151e-04, limit=1.107909e-04
+iteration= 314, error= 3.992474e-04, limit=1.107909e-04
+iteration= 315, error= 4.184632e-04, limit=1.107909e-04
+iteration= 316, error= 4.144901e-04, limit=1.107909e-04
+iteration= 317, error= 3.815307e-04, limit=1.107909e-04
+iteration= 318, error= 3.905913e-04, limit=1.107909e-04
+iteration= 319, error= 4.124480e-04, limit=1.107909e-04
+iteration= 320, error= 4.821958e-04, limit=1.107909e-04
+iteration= 321, error= 4.145900e-04, limit=1.107909e-04
+iteration= 322, error= 5.292910e-04, limit=1.107909e-04
+iteration= 323, error= 7.494214e-04, limit=1.107909e-04
+iteration= 324, error= 1.107243e-03, limit=1.107909e-04
+iteration= 325, error= 1.209821e-03, limit=1.107909e-04
+iteration= 326, error= 1.144748e-03, limit=1.107909e-04
+iteration= 327, error= 1.018527e-03, limit=1.107909e-04
+iteration= 328, error= 6.532935e-04, limit=1.107909e-04
+iteration= 329, error= 4.293020e-04, limit=1.107909e-04
+iteration= 330, error= 3.295396e-04, limit=1.107909e-04
+iteration= 331, error= 3.857081e-04, limit=1.107909e-04
+iteration= 332, error= 3.224797e-04, limit=1.107909e-04
+iteration= 333, error= 3.059609e-04, limit=1.107909e-04
+iteration= 334, error= 2.866972e-04, limit=1.107909e-04
+iteration= 335, error= 2.780006e-04, limit=1.107909e-04
+iteration= 336, error= 3.008245e-04, limit=1.107909e-04
+iteration= 337, error= 3.814556e-04, limit=1.107909e-04
+iteration= 338, error= 3.769797e-04, limit=1.107909e-04
+iteration= 339, error= 3.849479e-04, limit=1.107909e-04
+iteration= 340, error= 3.531494e-04, limit=1.107909e-04
+iteration= 341, error= 3.133564e-04, limit=1.107909e-04
+iteration= 342, error= 2.905297e-04, limit=1.107909e-04
+iteration= 343, error= 2.629294e-04, limit=1.107909e-04
+iteration= 344, error= 2.630244e-04, limit=1.107909e-04
+iteration= 345, error= 3.075170e-04, limit=1.107909e-04
+iteration= 346, error= 3.068625e-04, limit=1.107909e-04
+iteration= 347, error= 4.019391e-04, limit=1.107909e-04
+iteration= 348, error= 4.230717e-04, limit=1.107909e-04
+iteration= 349, error= 4.195376e-04, limit=1.107909e-04
+iteration= 350, error= 4.003044e-04, limit=1.107909e-04
+iteration= 351, error= 2.791305e-04, limit=1.107909e-04
+iteration= 352, error= 2.113595e-04, limit=1.107909e-04
+iteration= 353, error= 1.476149e-04, limit=1.107909e-04
+iteration= 354, error= 1.375266e-04, limit=1.107909e-04
+iteration= 355, error= 1.476702e-04, limit=1.107909e-04
+iteration= 356, error= 1.362735e-04, limit=1.107909e-04
+iteration= 357, error= 1.653996e-04, limit=1.107909e-04
+iteration= 358, error= 1.425573e-04, limit=1.107909e-04
+iteration= 359, error= 1.271110e-04, limit=1.107909e-04
+iteration= 360, error= 1.483067e-04, limit=1.107909e-04
+iteration= 361, error= 1.431803e-04, limit=1.107909e-04
+iteration= 362, error= 1.495954e-04, limit=1.107909e-04
+iteration= 363, error= 1.818671e-04, limit=1.107909e-04
+iteration= 364, error= 1.642581e-04, limit=1.107909e-04
+iteration= 365, error= 1.709799e-04, limit=1.107909e-04
+iteration= 366, error= 1.515380e-04, limit=1.107909e-04
+iteration= 367, error= 1.510066e-04, limit=1.107909e-04
+iteration= 368, error= 1.777619e-04, limit=1.107909e-04
+iteration= 369, error= 2.496499e-04, limit=1.107909e-04
+iteration= 370, error= 3.053003e-04, limit=1.107909e-04
+iteration= 371, error= 3.061364e-04, limit=1.107909e-04
+iteration= 372, error= 3.343506e-04, limit=1.107909e-04
+iteration= 373, error= 2.893616e-04, limit=1.107909e-04
+iteration= 374, error= 2.189890e-04, limit=1.107909e-04
+iteration= 375, error= 1.651770e-04, limit=1.107909e-04
+iteration= 376, error= 1.569852e-04, limit=1.107909e-04
+iteration= 377, error= 2.001820e-04, limit=1.107909e-04
+iteration= 378, error= 1.905001e-04, limit=1.107909e-04
+iteration= 379, error= 2.031106e-04, limit=1.107909e-04
+iteration= 380, error= 2.364515e-04, limit=1.107909e-04
+iteration= 381, error= 2.553168e-04, limit=1.107909e-04
+iteration= 382, error= 3.017889e-04, limit=1.107909e-04
+iteration= 383, error= 3.719344e-04, limit=1.107909e-04
+iteration= 384, error= 2.936583e-04, limit=1.107909e-04
+iteration= 385, error= 3.225765e-04, limit=1.107909e-04
+iteration= 386, error= 4.100927e-04, limit=1.107909e-04
+iteration= 387, error= 4.985033e-04, limit=1.107909e-04
+iteration= 388, error= 4.169040e-04, limit=1.107909e-04
+iteration= 389, error= 5.204918e-04, limit=1.107909e-04
+iteration= 390, error= 5.478054e-04, limit=1.107909e-04
+iteration= 391, error= 5.775841e-04, limit=1.107909e-04
+iteration= 392, error= 6.203102e-04, limit=1.107909e-04
+iteration= 393, error= 5.516919e-04, limit=1.107909e-04
+iteration= 394, error= 5.210645e-04, limit=1.107909e-04
+iteration= 395, error= 4.668209e-04, limit=1.107909e-04
+iteration= 396, error= 5.783380e-04, limit=1.107909e-04
+iteration= 397, error= 6.560504e-04, limit=1.107909e-04
+iteration= 398, error= 5.311862e-04, limit=1.107909e-04
+iteration= 399, error= 5.777658e-04, limit=1.107909e-04
+iteration= 400, error= 6.030514e-04, limit=1.107909e-04
+iteration= 401, error= 3.957050e-04, limit=1.107909e-04
+iteration= 402, error= 3.471127e-04, limit=1.107909e-04
+iteration= 403, error= 3.247960e-04, limit=1.107909e-04
+iteration= 404, error= 1.601009e-04, limit=1.107909e-04
+iteration= 405, error= 1.129939e-04, limit=1.107909e-04
+iteration= 406, error= 1.147922e-04, limit=1.107909e-04
+iteration= 407, error= 1.128118e-04, limit=1.107909e-04
+iteration= 408, error= 1.332350e-04, limit=1.107909e-04
+iteration= 409, error= 1.444193e-04, limit=1.107909e-04
+iteration= 410, error= 1.414141e-04, limit=1.107909e-04
+iteration= 411, error= 1.580184e-04, limit=1.107909e-04
+iteration= 412, error= 1.557783e-04, limit=1.107909e-04
+iteration= 413, error= 1.640030e-04, limit=1.107909e-04
+iteration= 414, error= 1.549296e-04, limit=1.107909e-04
+iteration= 415, error= 1.240724e-04, limit=1.107909e-04
+iteration= 416, error= 1.141690e-04, limit=1.107909e-04
+iteration= 417, error= 1.035742e-04, limit=1.107909e-04
+error condition (0=good, 1=bad) = 0
+# of iterations = 417
+ Using up to 2 cpu(s) for the stress calculation.
+
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:        45400
+   elements:        36265
+   one-dimensional elements:            0
+   two-dimensional elements:            0
+   integration points per element:            4
+   degrees of freedom per node:            3
+   layers per element:            1
+
+   distributed facial loads:          230
+   distributed volumetric loads:            0
+   concentrated loads:            0
+   single point constraints:          506
+   multiple point constraints:            1
+   terms in all multiple point constraints:            1
+   tie constraints:            0
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:            0
+
+   sets:            3
+   terms in all sets:       120252
+
+   materials:            1
+   constants per material and temperature:            9
+   temperature points per material:            1
+   plastic data points per material:            0
+
+   orientations:            1
+   amplitudes:            2
+   data points in all amplitudes:            2
+   print requests:            1
+   transformations:            0
+   property cards:            0
+
+
+ STEP            1
+
+ Static analysis was selected
+
+
+ Job finished
+
+________________________________________
+
+Total CalculiX Time: 30.440456
+________________________________________

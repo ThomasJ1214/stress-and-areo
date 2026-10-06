@@ -1,0 +1,148 @@
+{
+    "arch": "x86_64",
+    "build": "pl5321h7abefab_8",
+    "build_number": 8,
+    "build_string": "pl5321h7abefab_8",
+    "channel": "conda-forge",
+    "constrains": [],
+    "depends": [
+        "arpack",
+        "libgcc >=15",
+        "ucrt >=10.0.20348.0",
+        "libwinpthread >=12.0.0.r4.gg4f2fc60ca",
+        "libgfortran5 >=15.3.0",
+        "libgfortran",
+        "arpack >=3.9.1,<3.10.0a0 nompi_*",
+        "libblas >=3.9.0,<4.0a0",
+        "liblapack >=3.9.0,<4.0a0"
+    ],
+    "extracted_package_dir": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/calculix-2.23-pl5321h7abefab_8",
+    "files": [
+        "Library/bin/ccx.exe",
+        "etc/conda/test-files/calculix/1/axirot.inp",
+        "etc/conda/test-files/calculix/1/axirotload.inp",
+        "etc/conda/test-files/calculix/1/bleedtap.inp",
+        "etc/conda/test-files/calculix/1/cfd.dat.ref",
+        "etc/conda/test-files/calculix/1/cfd.inp",
+        "etc/conda/test-files/calculix/1/contact.dat.ref",
+        "etc/conda/test-files/calculix/1/contact.inp",
+        "etc/conda/test-files/calculix/1/hcfnoinput.inp",
+        "etc/conda/test-files/calculix/1/mohr.inp",
+        "etc/conda/test-files/calculix/1/restart.inp",
+        "etc/conda/test-files/calculix/1/run_test.py",
+        "etc/conda/test-files/calculix/1/smoketest.inp"
+    ],
+    "fn": "calculix-2.23-pl5321h7abefab_8.conda",
+    "license": "GPL-2.0-or-later",
+    "link": {
+        "source": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/calculix-2.23-pl5321h7abefab_8",
+        "type": 1
+    },
+    "md5": "8ea7527d2491d3c7449b57986341d70b",
+    "name": "calculix",
+    "package_tarball_full_path": "/tmp/claude-0/-home-user-stress-and-areo/045926a7-bc8f-54ef-a52e-f5484ae3b45a/scratchpad/research/fea/mamba/pkgs/https/conda.anaconda.org/conda-forge/win-64/calculix-2.23-pl5321h7abefab_8.tar.bz2",
+    "paths_data": {
+        "paths": [
+            {
+                "_path": "Library/bin/ccx.exe",
+                "path_type": "hardlink",
+                "sha256": "2e9c75bb1b97f8fa202ce8d00a83fd87ae3a6f250f23412a283f3872598bb8ee",
+                "sha256_in_prefix": "2e9c75bb1b97f8fa202ce8d00a83fd87ae3a6f250f23412a283f3872598bb8ee",
+                "size_in_bytes": 7649366
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/axirot.inp",
+                "path_type": "hardlink",
+                "sha256": "3acf010f626e358e204e61f0333c139dce4a64f4887c5ac6d02c4ee2b002bba1",
+                "sha256_in_prefix": "3acf010f626e358e204e61f0333c139dce4a64f4887c5ac6d02c4ee2b002bba1",
+                "size_in_bytes": 1399
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/axirotload.inp",
+                "path_type": "hardlink",
+                "sha256": "d4195acaea8171e8442552450fc4deadb20940cd077e70bfb70c9d44eba24782",
+                "sha256_in_prefix": "d4195acaea8171e8442552450fc4deadb20940cd077e70bfb70c9d44eba24782",
+                "size_in_bytes": 655
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/bleedtap.inp",
+                "path_type": "hardlink",
+                "sha256": "508f70818d50ab069619e4a2b928fdb89ac18c8ef998ca3e0c912d6cfd09216e",
+                "sha256_in_prefix": "508f70818d50ab069619e4a2b928fdb89ac18c8ef998ca3e0c912d6cfd09216e",
+                "size_in_bytes": 2243
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/cfd.dat.ref",
+                "path_type": "hardlink",
+                "sha256": "1b2336c5c204f0c2fd4c112f69e73ee6cdb5c07800c5c2855cfc02ebba7dc678",
+                "sha256_in_prefix": "1b2336c5c204f0c2fd4c112f69e73ee6cdb5c07800c5c2855cfc02ebba7dc678",
+                "size_in_bytes": 816
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/cfd.inp",
+                "path_type": "hardlink",
+                "sha256": "3b433ac29bf77c6622a7b9758ab9be765c2d7106340f3e702ee63292588310ac",
+                "sha256_in_prefix": "3b433ac29bf77c6622a7b9758ab9be765c2d7106340f3e702ee63292588310ac",
+                "size_in_bytes": 32038
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/contact.dat.ref",
+                "path_type": "hardlink",
+                "sha256": "2aa48a3f023f90b8ad5c80db18ce9c32213b11b349dfda2915597afa96c502da",
+                "sha256_in_prefix": "2aa48a3f023f90b8ad5c80db18ce9c32213b11b349dfda2915597afa96c502da",
+                "size_in_bytes": 2326
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/contact.inp",
+                "path_type": "hardlink",
+                "sha256": "b8df0e66f79dfebf2c760b72a58d405b18331ea7beb65f8f7f6a4a30b4c28138",
+                "sha256_in_prefix": "b8df0e66f79dfebf2c760b72a58d405b18331ea7beb65f8f7f6a4a30b4c28138",
+                "size_in_bytes": 4392
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/hcfnoinput.inp",
+                "path_type": "hardlink",
+                "sha256": "c0496abb05569d59c745a17a251cd515b1bfd1bc7e67f8a1a5bf0c5850183301",
+                "sha256_in_prefix": "c0496abb05569d59c745a17a251cd515b1bfd1bc7e67f8a1a5bf0c5850183301",
+                "size_in_bytes": 831
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/mohr.inp",
+                "path_type": "hardlink",
+                "sha256": "026ef8b9696630a31225c2134fbcbba5a5afa26ecbcbbeda2d676b4ad3074506",
+                "sha256_in_prefix": "026ef8b9696630a31225c2134fbcbba5a5afa26ecbcbbeda2d676b4ad3074506",
+                "size_in_bytes": 2231
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/restart.inp",
+                "path_type": "hardlink",
+                "sha256": "2b8c7a9ae3899e7ebcfcdd17c30beb8a75686485bb004a1fcb5995f50621ff99",
+                "sha256_in_prefix": "2b8c7a9ae3899e7ebcfcdd17c30beb8a75686485bb004a1fcb5995f50621ff99",
+                "size_in_bytes": 1173
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/run_test.py",
+                "path_type": "hardlink",
+                "sha256": "f7b0212828987ff15faf0ec3f044f0c4341bffa9f491de09f3ca3e15c9a96bad",
+                "sha256_in_prefix": "f7b0212828987ff15faf0ec3f044f0c4341bffa9f491de09f3ca3e15c9a96bad",
+                "size_in_bytes": 16715
+            },
+            {
+                "_path": "etc/conda/test-files/calculix/1/smoketest.inp",
+                "path_type": "hardlink",
+                "sha256": "f0e530e2c58264eb82983236d801dc94e5fcfec6ca4fa3a7d03fc9a441361ffb",
+                "sha256_in_prefix": "f0e530e2c58264eb82983236d801dc94e5fcfec6ca4fa3a7d03fc9a441361ffb",
+                "size_in_bytes": 840
+            }
+        ],
+        "paths_version": 1
+    },
+    "platform": "win",
+    "requested_spec": "calculix",
+    "sha256": "a6c1e75c092893d73d0bb3902cba9db7e14ba3fe4d2f8cd74cdfbc1bc041d1d1",
+    "size": 2625351,
+    "subdir": "win-64",
+    "timestamp": 1790587018,
+    "url": "https://conda.anaconda.org/conda-forge/win-64/calculix-2.23-pl5321h7abefab_8.conda",
+    "version": "2.23"
+}
