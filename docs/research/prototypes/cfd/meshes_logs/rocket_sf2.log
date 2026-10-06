@@ -1,0 +1,194 @@
+[mesh] marker nose: 2 surfaces
+[mesh] marker body: 1 surfaces
+[mesh] marker fins: 16 surfaces
+[mesh] marker base: 1 surfaces
+[mesh] marker farfield: 3 surfaces
+Info    : Meshing 1D...
+Info    : [  0%] Meshing curve 1 (Circle)
+Info    : [  0%] Meshing curve 2 (Line)
+Info    : [  0%] Meshing curve 3 (Circle)
+Info    : [  0%] Meshing curve 4 (Line)
+Info    : [ 10%] Meshing curve 5 (Circle)
+Info    : [ 10%] Meshing curve 6 (Line)
+Info    : [ 10%] Meshing curve 7 (Ellipse)
+Info    : [ 10%] Meshing curve 8 (Line)
+Info    : [ 20%] Meshing curve 9 (Circle)
+Info    : [ 20%] Meshing curve 10 (Line)
+Info    : [ 20%] Meshing curve 11 (Ellipse)
+Info    : [ 20%] Meshing curve 12 (Line)
+Info    : [ 20%] Meshing curve 13 (Circle)
+Info    : [ 30%] Meshing curve 14 (Line)
+Info    : [ 30%] Meshing curve 15 (Ellipse)
+Info    : [ 30%] Meshing curve 16 (Line)
+Info    : [ 30%] Meshing curve 17 (Circle)
+Info    : [ 30%] Meshing curve 18 (Line)
+Info    : [ 30%] Meshing curve 19 (Ellipse)
+Info    : [ 30%] Meshing curve 20 (Line)
+Info    : [ 40%] Meshing curve 21 (Circle)
+Info    : [ 40%] Meshing curve 22 (Line)
+Info    : [ 40%] Meshing curve 23 (Line)
+Info    : [ 40%] Meshing curve 24 (Line)
+Info    : [ 40%] Meshing curve 25 (Line)
+Info    : [ 50%] Meshing curve 26 (Line)
+Info    : [ 50%] Meshing curve 27 (Line)
+Info    : [ 50%] Meshing curve 28 (Line)
+Info    : [ 50%] Meshing curve 29 (Line)
+Info    : [ 50%] Meshing curve 30 (Line)
+Info    : [ 60%] Meshing curve 31 (Line)
+Info    : [ 60%] Meshing curve 32 (Line)
+Info    : [ 60%] Meshing curve 33 (Line)
+Info    : [ 60%] Meshing curve 34 (Line)
+Info    : [ 60%] Meshing curve 35 (Line)
+Info    : [ 70%] Meshing curve 36 (Line)
+Info    : [ 70%] Meshing curve 37 (Line)
+Info    : [ 70%] Meshing curve 38 (Line)
+Info    : [ 70%] Meshing curve 39 (Line)
+Info    : [ 70%] Meshing curve 40 (Line)
+Info    : [ 70%] Meshing curve 41 (Line)
+Info    : [ 70%] Meshing curve 42 (Line)
+Info    : [ 80%] Meshing curve 43 (Line)
+Info    : [ 80%] Meshing curve 44 (Line)
+Info    : [ 80%] Meshing curve 45 (Line)
+Info    : [ 80%] Meshing curve 46 (Line)
+Info    : [ 80%] Meshing curve 47 (Line)
+Info    : [ 90%] Meshing curve 48 (Line)
+Info    : [ 90%] Meshing curve 49 (Line)
+Info    : [ 90%] Meshing curve 50 (Line)
+Info    : [ 90%] Meshing curve 51 (Line)
+Info    : [ 90%] Meshing curve 52 (Line)
+Info    : [ 90%] Meshing curve 53 (Line)
+Info    : [100%] Meshing curve 54 (Circle)
+Info    : [100%] Meshing curve 55 (Line)
+Info    : [100%] Meshing curve 56 (Circle)
+Info    : Done meshing 1D (Wall 7.28977s, CPU 8.86474s)
+Info    : 2739 nodes 2795 elements
+[mesh] generate(1) done in 7.4s
+Info    : Meshing 2D...
+Info    : [  0%] Meshing surface 2 (Cylinder, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 1 (Cone, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 3 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 4 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 5 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 6 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 7 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 8 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 9 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 10 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 11 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 12 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 13 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 14 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 15 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 16 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 17 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 18 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 19 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 20 (Plane, Frontal-Delaunay)
+Info    : [  0%] Meshing surface 21 (Cylinder, Frontal-Delaunay)
+Info    : [ 90%] Meshing surface 22 (Plane, Frontal-Delaunay)
+Info    : [100%] Meshing surface 23 (Plane, Frontal-Delaunay)
+Info    : Done meshing 2D (Wall 4.08339s, CPU 7.09457s)
+Info    : 53909 nodes 110605 elements
+[mesh] generate(2) done in 4.2s
+[mesh] surface triangles on walls: 20102
+Info    : Meshing 3D...
+Info    : 3D Meshing 1 volume with 1 connected component
+Info    : Input mesh hash c59556a6ae8cf81
+Info    : Creating an empty mesh with 53909 vertices
+Info    : Initialization of tet. mesh
+Info    : Delaunay of      53905 points on   2 threads - mesh.nvert: 4         
+Info    : Recovering 24 missing facet(s)
+Info    : Recover Delaunay
+Info    : 1 out of 2 volumes will be refined
+Info    : All volumes of the BRep were found and colorized accordingly
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of     141604 points on   2 threads - mesh.nvert: 53909     
+Info    :           -     125379 points filtered
+Info    :           =      16225 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of     122866 points on   2 threads - mesh.nvert: 70134     
+Info    :           -      90909 points filtered
+Info    :           =      31957 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      98525 points on   2 threads - mesh.nvert: 102091    
+Info    :           -      64647 points filtered
+Info    :           =      33878 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      67793 points on   2 threads - mesh.nvert: 135969    
+Info    :           -      39067 points filtered
+Info    :           =      28726 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      75279 points on   2 threads - mesh.nvert: 164695    
+Info    :           -      48610 points filtered
+Info    :           =      26669 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of      36277 points on   2 threads - mesh.nvert: 191364    
+Info    :           -      22121 points filtered
+Info    :           =      14156 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of       9500 points on   2 threads - mesh.nvert: 205520    
+Info    :           -       5019 points filtered
+Info    :           =       4481 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of       1445 points on   1 threads - mesh.nvert: 210001    
+Info    :           -        632 points filtered
+Info    :           =        813 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of        160 points on   1 threads - mesh.nvert: 210814    
+Info    :           -         64 points filtered
+Info    :           =         96 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of         15 points on   1 threads - mesh.nvert: 210910    
+Info    :           -          7 points filtered
+Info    :           =          8 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Delaunay of          4 points on   1 threads - mesh.nvert: 210918    
+Info    :           -          2 points filtered
+Info    :           =          2 points added
+Info    : Computing mesh sizes...
+Info    : Done computing mesh sizes
+Info    : Improving      42286 tet. on   2 thrd (S & ER)
+Info    : Improving       1851 tet. on   2 thrd (S & ER)
+Info    : Improving        534 tet. on   2 thrd (S & ER)
+Info    : Improving        430 tet. on   2 thrd (S & ER)
+Info    : Improving        418 tet. on   2 thrd (S & ER)
+Info    : Improving        413 tet. on   2 thrd (S & ER)
+Info    : Improving        415 tet. on   2 thrd (S & ER)
+Info    : Improving        411 tet. on   2 thrd (S & ER)
+Info    : Improving        410 tet. on   2 thrd (GSC)
+Info    : Improving         88 tet. on   2 thrd (S & ER)
+Info    : Improving         66 tet. on   2 thrd (S & ER)
+Info    : Improving         66 tet. on   2 thrd (S & ER)
+Info    : Improving         65 tet. on   2 thrd (S & ER)
+Info    : Improving         65 tet. on   2 thrd (GSC)
+Info    : Improving         60 tet. on   2 thrd (S & ER)
+Info    : Improving         59 tet. on   2 thrd (S & ER)
+Info    : Improving         59 tet. on   2 thrd (GSC)
+Info    :  	Final tet. mesh contains 1417533 tetrahedra
+Info    :  	Final tet. mesh contains 210920 vertices
+Info    : tEmptyMesh  	 = 	    0.388
+Info    : tVerifyBnd  	 = 	    0.076
+Info    : tBndRecovery	 = 	    1.513
+Info    : tConvertMesh	 = 	    0.115
+Info    : tRefine     	 = 	   33.403
+Info    : tOptimize   	 = 	    0.560
+Info    : Done meshing 3D (Wall 36.7197s, CPU 69.3792s)
+Info    : 210920 nodes 1252798 elements
+[mesh] generate(3) done in 37.2s
+[mesh] elements3D=1142193  nodes=210920  time=48.8s
+[mesh]   Tetrahedron 4: n=1142193 minSICN min=0.1745 p1=0.4104 mean=0.7967 neg=0
+Info    : Writing 'meshes/rocket_sf2.su2'...
+Info    : Writing 1142193 elements and 210920 nodes
+Info    : Done writing 'meshes/rocket_sf2.su2'
+[mesh] wrote meshes/rocket_sf2.su2

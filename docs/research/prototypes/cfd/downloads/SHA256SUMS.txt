@@ -1,0 +1,6 @@
+d05122bd8e5a5bff2f7e6f7fc5d35e59897638e3ce85de8c674b14c09c4810b6  downloads/SU2-v8.4.0-linux64.zip
+952151512aba504af5be2a4e94892d5ea09dc0647dd81b2a955389c51e25181a  downloads/SU2-v8.4.0-win64.zip
+ff4381fd00e9984dd6fe2974ca4fdcd5c41a3d8edd4b710cb3964668c8069e60  downloads/SU2-v8.5.0-linux64-mpi.zip
+aadc800cd9df34deff99d4725f5897f620c9f2979f62ab235313311bf501f09b  downloads/SU2-v8.5.0-linux64-omp.zip
+7da985f956de617c41f8a22aaab27fd42f2dfe096342b396a49583b9b3bd5d25  downloads/SU2-v8.5.0-win64-mpi.zip
+4466fe21aedb5e0bad57afd45f829acbdec6ec79fe8c3f8954ddea06a4b4bc11  downloads/SU2-v8.5.0-win64-omp.zip
