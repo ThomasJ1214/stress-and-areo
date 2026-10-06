@@ -1,0 +1,8 @@
+nohup: failed to run command './queue2.sh': Permission denied
+[queue] mesh sf2: [mesh] elements3D=1142193  nodes=210920  time=48.8s
+[queue] finished runs/m2_a0_sf2 wall_s=394.018983112 rc=0 Mon Oct  5 22:30:23 UTC 2026
+[queue] finished runs/m2_a4_sf2 wall_s=335.687397359 rc=0 Mon Oct  5 22:36:02 UTC 2026
+[queue] mesh sf3: [mesh] elements3D=852820  nodes=160210  time=41.4s
+[queue] finished runs/m2_a0_sf3 wall_s=200.379173365 rc=0 Mon Oct  5 22:40:11 UTC 2026
+[queue] finished runs/m2_a4_sf3 wall_s=182.896276228 rc=0 Mon Oct  5 22:43:17 UTC 2026
+[queue] ALL DONE Mon Oct  5 22:43:18 UTC 2026

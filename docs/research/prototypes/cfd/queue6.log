@@ -1,0 +1,16 @@
+[queue6] start Mon Oct  5 23:03:00 UTC 2026
+[queue] finished runs/m01_a4_sf3_roe_lmcorr wall_s=787.077403698 rc=0 Mon Oct  5 23:16:09 UTC 2026
+[queue] finished runs/m01_a4_sf3_inc wall_s=290.983993909 rc=0 Mon Oct  5 23:21:02 UTC 2026
+[queue6] mesh u2.8: [mesh] elements3D=299270  nodes=58003  time=21.3s
+[queue] finished runs/m2_a0_u2.8 wall_s=116.576126171 rc=0 Mon Oct  5 23:23:00 UTC 2026
+[queue] finished runs/m2_a4_u2.8 wall_s=77.821657957 rc=0 Mon Oct  5 23:24:22 UTC 2026
+[queue6] mesh u2.0: [mesh] elements3D=808728  nodes=147946  time=36.3s
+[queue] finished runs/m2_a0_u2.0 wall_s=166.203851988 rc=0 Mon Oct  5 23:27:11 UTC 2026
+[queue] finished runs/m2_a4_u2.0 wall_s=181.192378238 rc=0 Mon Oct  5 23:30:16 UTC 2026
+[queue6] mesh u1.4: [mesh] elements3D=2328130  nodes=408469  time=78.3s
+[queue] finished runs/m2_a0_u1.4 wall_s=940.283037607 rc=0 Mon Oct  5 23:47:28 UTC 2026
+[queue] finished runs/m2_a4_u1.4 wall_s=792.937701464 rc=0 Tue Oct  6 00:00:45 UTC 2026
+[queue] finished runs/rans_m2_a0_bl_sf3 wall_s=125.130756355 rc=0 Tue Oct  6 00:02:52 UTC 2026
+[queue] finished runs/rans_m2_a0_bl_sf3 wall_s=3.443367197 rc=1 Tue Oct  6 00:02:58 UTC 2026
+[queue] finished runs/m2_a0_sf2_K0.3 wall_s=466.088366078 rc=0 Tue Oct  6 00:10:46 UTC 2026
+[queue6] ALL DONE Tue Oct  6 00:10:48 UTC 2026

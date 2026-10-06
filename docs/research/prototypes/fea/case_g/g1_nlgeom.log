@@ -1,0 +1,3608 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Mon Sep 28 09:16:29 2026
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:       664356
+   elements:         2926
+   one-dimensional elements:            0
+   two-dimensional elements:         2926
+   integration points per element:           64
+   degrees of freedom per node:            3
+   layers per element:            8
+
+   distributed facial loads:            0
+   distributed volumetric loads:            0
+   concentrated loads:            0
+   single point constraints:       215664
+   multiple point constraints:       351121
+   terms in all multiple point constraints:      2247169
+   tie constraints:            0
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:            0
+
+   sets:            4
+   terms in all sets:        20998
+
+   materials:            4
+   constants per material and temperature:           21
+   temperature points per material:            1
+   plastic data points per material:            0
+
+   orientations:        23409
+   amplitudes:            2
+   data points in all amplitudes:            2
+   print requests:            1
+   transformations:            0
+   property cards:            0
+
+
+ STEP            1
+
+ *INFO reading *STEP: nonlinear geometric
+       effects are turned on
+
+ Static analysis was selected
+
+ Newton-Raphson iterative procedure is active
+
+ Nonlinear geometric effects are taken into account
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ increment 1 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=0.000000e+00
+ actual step time=5.000000e-02
+ actual total time=5.000000e-02
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 2.604305
+ time avg. forc= 2.604305
+ largest residual force= 0.302922 in node 336 and dof 1
+ largest increment of disp= 9.937626e-02
+ largest correction to disp= 9.937626e-02 in node 7395 and dof 3
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 2.606039
+ time avg. forc= 2.606039
+ largest residual force= 0.000213 in node 7814 and dof 2
+ largest increment of disp= 9.937626e-02
+ largest correction to disp= 3.922163e-04 in node 8037 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 2 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=5.000000e-02
+ actual step time=1.000000e-01
+ actual total time=1.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 5.208502
+ time avg. forc= 3.907271
+ largest residual force= 0.001087 in node 7814 and dof 2
+ largest increment of disp= 9.937652e-02
+ largest correction to disp= 8.819445e-04 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 5.208513
+ time avg. forc= 3.907276
+ largest residual force= 0.000000 in node 7814 and dof 2
+ largest increment of disp= 9.937652e-02
+ largest correction to disp= 7.888928e-07 in node 2772 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 3 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=1.000000e-01
+ actual step time=1.500000e-01
+ actual total time=1.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.808524
+ time avg. forc= 5.207692
+ largest residual force= 0.001581 in node 7814 and dof 2
+ largest increment of disp= 9.937795e-02
+ largest correction to disp= 1.059223e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 7.808539
+ time avg. forc= 5.207697
+ largest residual force= 0.000000 in node 7814 and dof 2
+ largest increment of disp= 9.937795e-02
+ largest correction to disp= 1.216323e-06 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 4 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=1.500000e-01
+ actual step time=2.000000e-01
+ actual total time=2.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 10.407640
+ time avg. forc= 6.507683
+ largest residual force= 0.002360 in node 7814 and dof 2
+ largest increment of disp= 9.938103e-02
+ largest correction to disp= 1.290800e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 10.407664
+ time avg. forc= 6.507689
+ largest residual force= 0.000000 in node 7814 and dof 2
+ largest increment of disp= 9.938103e-02
+ largest correction to disp= 1.956430e-06 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 5 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=2.000000e-01
+ actual step time=2.500000e-01
+ actual total time=2.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 13.007889
+ time avg. forc= 7.807729
+ largest residual force= 0.003626 in node 7888 and dof 2
+ largest increment of disp= 9.938631e-02
+ largest correction to disp= 1.598189e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 13.007925
+ time avg. forc= 7.807736
+ largest residual force= 0.000000 in node 7814 and dof 2
+ largest increment of disp= 9.938631e-02
+ largest correction to disp= 3.278487e-06 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 6 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=2.500000e-01
+ actual step time=3.000000e-01
+ actual total time=3.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 15.612086
+ time avg. forc= 9.108461
+ largest residual force= 0.005772 in node 7888 and dof 2
+ largest increment of disp= 9.939461e-02
+ largest correction to disp= 2.016088e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 15.612143
+ time avg. forc= 9.108470
+ largest residual force= 0.000000 in node 7888 and dof 2
+ largest increment of disp= 9.939461e-02
+ largest correction to disp= 5.766899e-06 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 7 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=3.000000e-01
+ actual step time=3.500000e-01
+ actual total time=3.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 18.223901
+ time avg. forc= 10.410675
+ largest residual force= 0.009549 in node 7888 and dof 2
+ largest increment of disp= 9.940712e-02
+ largest correction to disp= 2.600404e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 18.223997
+ time avg. forc= 10.410688
+ largest residual force= 0.000000 in node 7888 and dof 2
+ largest increment of disp= 9.940712e-02
+ largest correction to disp= 1.074525e-05 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 8 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=3.500000e-01
+ actual step time=4.000000e-01
+ actual total time=4.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 20.848328
+ time avg. forc= 11.715393
+ largest residual force= 0.016539 in node 7888 and dof 2
+ largest increment of disp= 9.942562e-02
+ largest correction to disp= 3.446861e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 20.848494
+ time avg. forc= 11.715414
+ largest residual force= 0.000000 in node 7888 and dof 2
+ largest increment of disp= 9.942562e-02
+ largest correction to disp= 2.150003e-05 in node 8111 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 9 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=4.000000e-01
+ actual step time=4.500000e-01
+ actual total time=4.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 23.492723
+ time avg. forc= 13.024004
+ largest residual force= 0.030350 in node 7888 and dof 2
+ largest increment of disp= 9.945290e-02
+ largest correction to disp= 4.733875e-03 in node 8111 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 23.493026
+ time avg. forc= 13.024038
+ largest residual force= 0.000002 in node 7888 and dof 2
+ largest increment of disp= 9.945290e-02
+ largest correction to disp= 4.763226e-05 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 10 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=4.500000e-01
+ actual step time=5.000000e-01
+ actual total time=5.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 26.167076
+ time avg. forc= 14.338341
+ largest residual force= 0.060472 in node 7888 and dof 2
+ largest increment of disp= 9.949322e-02
+ largest correction to disp= 6.848686e-03 in node 8114 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 26.167676
+ time avg. forc= 14.338401
+ largest residual force= 0.000014 in node 7888 and dof 2
+ largest increment of disp= 9.949322e-02
+ largest correction to disp= 1.219645e-04 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 11 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=5.000000e-01
+ actual step time=5.500000e-01
+ actual total time=5.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 28.885846
+ time avg. forc= 15.660896
+ largest residual force= 0.140514 in node 7888 and dof 2
+ largest increment of disp= 9.955313e-02
+ largest correction to disp= 1.104850e-02 in node 4214 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 28.887229
+ time avg. forc= 15.661022
+ largest residual force= 0.000157 in node 7888 and dof 2
+ largest increment of disp= 9.955313e-02
+ largest correction to disp= 4.063727e-04 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 12 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=5.500000e-01
+ actual step time=6.000000e-01
+ actual total time=6.000000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 31.673682
+ time avg. forc= 16.995410
+ largest residual force= 0.514696 in node 7888 and dof 2
+ largest increment of disp= 9.964120e-02
+ largest correction to disp= 2.312628e-02 in node 4214 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 31.679158
+ time avg. forc= 16.995867
+ largest residual force= 0.006698 in node 7889 and dof 2
+ largest increment of disp= 9.964120e-02
+ largest correction to disp= 2.644640e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 31.679206
+ time avg. forc= 16.995871
+ largest residual force= 0.000000 in node 7889 and dof 2
+ largest increment of disp= 9.964120e-02
+ largest correction to disp= 3.080324e-05 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 7.500000e-02
+
+ the increment size exceeds the maximum allowed and is decreased to 5.000000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 13 attempt 1 
+ increment size= 5.000000e-02
+ sum of previous increments=6.000000e-01
+ actual step time=6.500000e-01
+ actual total time=6.500000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 34.712991
+ time avg. forc= 18.358726
+ largest residual force= 25.225873 in node 7959 and dof 2
+ largest increment of disp= 1.569740e-01
+ largest correction to disp= 1.569740e-01 in node 4214 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 36.072127
+ time avg. forc= 18.463275
+ largest residual force= 540.106912 in node 4438 and dof 2
+ largest increment of disp= 8.101733e-01
+ largest correction to disp= 8.101733e-01 in node 4214 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 34.624899
+ time avg. forc= 18.351950
+ largest residual force= 30.398932 in node 4285 and dof 2
+ largest increment of disp= 8.101733e-01
+ largest correction to disp= 1.933193e-01 in node 4214 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 41.686266
+ time avg. forc= 18.895132
+ largest residual force= 2127.662339 in node 4801 and dof 2
+ largest increment of disp= 1.818626e+00
+ largest correction to disp= 1.818626e+00 in node 1251 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 54.622862
+ time avg. forc= 19.890255
+ largest residual force= 4322.593110 in node 7363 and dof 2
+ largest increment of disp= 2.379510e+00
+ largest correction to disp= 2.379510e+00 in node 2329 and dof 2
+
+ divergence; the increment size is decreased to 1.250000e-02
+ the increment is reattempted
+
+ increment 13 attempt 2 
+ increment size= 1.250000e-02
+ sum of previous increments=6.000000e-01
+ actual step time=6.125000e-01
+ actual total time=6.125000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 32.397430
+ time avg. forc= 18.180606
+ largest residual force= 0.103845 in node 7961 and dof 2
+ largest increment of disp= 2.493915e-02
+ largest correction to disp= 1.048255e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 32.398520
+ time avg. forc= 18.180690
+ largest residual force= 0.000370 in node 7961 and dof 2
+ largest increment of disp= 2.493915e-02
+ largest correction to disp= 6.192817e-04 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 14 attempt 1 
+ increment size= 1.250000e-02
+ sum of previous increments=6.125000e-01
+ actual step time=6.250000e-01
+ actual total time=6.250000e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.140624
+ time avg. forc= 19.249257
+ largest residual force= 0.222675 in node 7961 and dof 2
+ largest increment of disp= 2.652079e-02
+ largest correction to disp= 1.492332e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.143123
+ time avg. forc= 19.249435
+ largest residual force= 0.002494 in node 7961 and dof 2
+ largest increment of disp= 2.652079e-02
+ largest correction to disp= 1.624307e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.143144
+ time avg. forc= 19.249437
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 2.652079e-02
+ largest correction to disp= 1.862412e-05 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 1.875000e-02
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 15 attempt 1 
+ increment size= 1.875000e-02
+ sum of previous increments=6.250000e-01
+ actual step time=6.437500e-01
+ actual total time=6.437500e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 34.893348
+ time avg. forc= 20.292364
+ largest residual force= 132.483456 in node 7961 and dof 2
+ largest increment of disp= 3.750067e-01
+ largest correction to disp= 3.750067e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 103.618851
+ time avg. forc= 24.874064
+ largest residual force= 9739.076646 in node 5413 and dof 2
+ largest increment of disp= 3.980507e+00
+ largest correction to disp= 3.980507e+00 in node 4288 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 41.557310
+ time avg. forc= 20.736628
+ largest residual force= 820.184203 in node 5339 and dof 2
+ largest increment of disp= 3.980507e+00
+ largest correction to disp= 1.101340e+00 in node 4288 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 13852.772059
+ time avg. forc= 941.484278
+ largest residual force= 4369704.998800 in node 7988 and dof 1
+ largest increment of disp= 2.902143e+01
+ largest correction to disp= 2.902143e+01 in node 7912 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 4824.028113
+ time avg. forc= 339.568015
+ largest residual force= 1417043.834511 in node 8379 and dof 3
+ largest increment of disp= 2.902143e+01
+ largest correction to disp= 1.305551e+01 in node 8309 and dof 1
+
+ divergence; the increment size is decreased to 4.687500e-03
+ the increment is reattempted
+
+ increment 15 attempt 2 
+ increment size= 4.687500e-03
+ sum of previous increments=6.250000e-01
+ actual step time=6.296875e-01
+ actual total time=6.296875e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.439541
+ time avg. forc= 20.195444
+ largest residual force= 0.154568 in node 7961 and dof 2
+ largest increment of disp= 1.612478e-02
+ largest correction to disp= 1.255350e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.441437
+ time avg. forc= 20.195570
+ largest residual force= 0.002052 in node 7961 and dof 2
+ largest increment of disp= 1.612478e-02
+ largest correction to disp= 1.486549e-03 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 16 attempt 1 
+ increment size= 4.687500e-03
+ sum of previous increments=6.296875e-01
+ actual step time=6.343750e-01
+ actual total time=6.343750e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.787185
+ time avg. forc= 21.045046
+ largest residual force= 1.689004 in node 7961 and dof 2
+ largest increment of disp= 4.252482e-02
+ largest correction to disp= 4.252482e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.984564
+ time avg. forc= 21.057382
+ largest residual force= 55.044996 in node 7961 and dof 2
+ largest increment of disp= 2.502955e-01
+ largest correction to disp= 2.502955e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 34.018043
+ time avg. forc= 21.059475
+ largest residual force= 203.746731 in node 7291 and dof 2
+ largest increment of disp= 5.664905e-01
+ largest correction to disp= 5.664905e-01 in node 7139 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 54.156983
+ time avg. forc= 22.318158
+ largest residual force= 8570.123239 in node 8264 and dof 2
+ largest increment of disp= 3.176442e+00
+ largest correction to disp= 3.176442e+00 in node 8114 and dof 2
+
+ divergence; the increment size is decreased to 1.171875e-03
+ the increment is reattempted
+
+ increment 16 attempt 2 
+ increment size= 1.171875e-03
+ sum of previous increments=6.296875e-01
+ actual step time=6.308594e-01
+ actual total time=6.308594e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.520782
+ time avg. forc= 21.028396
+ largest residual force= 0.014751 in node 7961 and dof 2
+ largest increment of disp= 7.541209e-03
+ largest correction to disp= 3.942680e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.520957
+ time avg. forc= 21.028407
+ largest residual force= 0.000024 in node 7961 and dof 2
+ largest increment of disp= 7.541209e-03
+ largest correction to disp= 1.635653e-04 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 17 attempt 1 
+ increment size= 1.171875e-03
+ sum of previous increments=6.308594e-01
+ actual step time=6.320312e-01
+ actual total time=6.320312e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.605101
+ time avg. forc= 21.768212
+ largest residual force= 0.016388 in node 7961 and dof 2
+ largest increment of disp= 1.164745e-02
+ largest correction to disp= 4.201947e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.605319
+ time avg. forc= 21.768225
+ largest residual force= 0.000049 in node 7961 and dof 2
+ largest increment of disp= 1.164745e-02
+ largest correction to disp= 2.324052e-04 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.605320
+ time avg. forc= 21.768225
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 1.164745e-02
+ largest correction to disp= 6.584171e-07 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 1.757813e-03
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 18 attempt 1 
+ increment size= 1.757813e-03
+ sum of previous increments=6.320312e-01
+ actual step time=6.337891e-01
+ actual total time=6.337891e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.760726
+ time avg. forc= 22.434475
+ largest residual force= 0.880660 in node 7961 and dof 2
+ largest increment of disp= 3.122008e-02
+ largest correction to disp= 3.122008e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.639614
+ time avg. forc= 22.427747
+ largest residual force= 23.381974 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 1.626522e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.691267
+ time avg. forc= 22.430616
+ largest residual force= 3.174808 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 6.134218e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.724942
+ time avg. forc= 22.432487
+ largest residual force= 2.330985 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 4.965721e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.749463
+ time avg. forc= 22.433849
+ largest residual force= 0.938315 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 3.246650e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 6
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.784061
+ time avg. forc= 22.435772
+ largest residual force= 1.989015 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 4.741669e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 7
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.753129
+ time avg. forc= 22.434053
+ largest residual force= 1.413116 in node 7961 and dof 2
+ largest increment of disp= 1.626522e-01
+ largest correction to disp= 4.013491e-02 in node 8113 and dof 2
+
+ divergence; the increment size is decreased to 4.394531e-04
+ the increment is reattempted
+
+ increment 18 attempt 2 
+ increment size= 4.394531e-04
+ sum of previous increments=6.320312e-01
+ actual step time=6.324707e-01
+ actual total time=6.324707e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.639357
+ time avg. forc= 22.427732
+ largest residual force= 0.005015 in node 7961 and dof 2
+ largest increment of disp= 6.030924e-03
+ largest correction to disp= 2.341609e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.639427
+ time avg. forc= 22.427736
+ largest residual force= 0.000006 in node 7961 and dof 2
+ largest increment of disp= 6.030924e-03
+ largest correction to disp= 8.216439e-05 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 19 attempt 1 
+ increment size= 4.394531e-04
+ sum of previous increments=6.324707e-01
+ actual step time=6.329102e-01
+ actual total time=6.329102e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.676315
+ time avg. forc= 23.019767
+ largest residual force= 0.008384 in node 7961 and dof 2
+ largest increment of disp= 8.454697e-03
+ largest correction to disp= 3.047510e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.676456
+ time avg. forc= 23.019774
+ largest residual force= 0.000029 in node 7961 and dof 2
+ largest increment of disp= 8.454697e-03
+ largest correction to disp= 1.797960e-04 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.676456
+ time avg. forc= 23.019774
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 8.454697e-03
+ largest correction to disp= 5.869511e-07 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 6.591797e-04
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 20 attempt 1 
+ increment size= 6.591797e-04
+ sum of previous increments=6.329102e-01
+ actual step time=6.335693e-01
+ actual total time=6.335693e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.752632
+ time avg. forc= 23.556417
+ largest residual force= 0.623018 in node 7961 and dof 2
+ largest increment of disp= 2.649680e-02
+ largest correction to disp= 2.649680e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.729131
+ time avg. forc= 23.555242
+ largest residual force= 0.969118 in node 7961 and dof 2
+ largest increment of disp= 3.326135e-02
+ largest correction to disp= 3.326135e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.745955
+ time avg. forc= 23.556083
+ largest residual force= 0.458407 in node 7961 and dof 2
+ largest increment of disp= 3.326135e-02
+ largest correction to disp= 2.286004e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.637953
+ time avg. forc= 23.550683
+ largest residual force= 17.941349 in node 7961 and dof 2
+ largest increment of disp= 1.425097e-01
+ largest correction to disp= 1.425097e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.684978
+ time avg. forc= 23.553034
+ largest residual force= 2.625801 in node 7961 and dof 2
+ largest increment of disp= 1.425097e-01
+ largest correction to disp= 5.544854e-02 in node 8113 and dof 2
+
+ divergence; the increment size is decreased to 1.647949e-04
+ the increment is reattempted
+
+ increment 20 attempt 2 
+ increment size= 1.647949e-04
+ sum of previous increments=6.329102e-01
+ actual step time=6.330750e-01
+ actual total time=6.330750e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.691826
+ time avg. forc= 23.553377
+ largest residual force= 0.002817 in node 7961 and dof 2
+ largest increment of disp= 4.380971e-03
+ largest correction to disp= 1.774563e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.691879
+ time avg. forc= 23.553380
+ largest residual force= 0.000005 in node 7961 and dof 2
+ largest increment of disp= 4.380971e-03
+ largest correction to disp= 7.235525e-05 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 21 attempt 1 
+ increment size= 1.647949e-04
+ sum of previous increments=6.330750e-01
+ actual step time=6.332397e-01
+ actual total time=6.332397e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.709323
+ time avg. forc= 24.036996
+ largest residual force= 0.005938 in node 7961 and dof 2
+ largest increment of disp= 6.227889e-03
+ largest correction to disp= 2.586665e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.709484
+ time avg. forc= 24.037004
+ largest residual force= 0.000044 in node 7961 and dof 2
+ largest increment of disp= 6.227889e-03
+ largest correction to disp= 2.238109e-04 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.709485
+ time avg. forc= 24.037004
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 6.227889e-03
+ largest correction to disp= 1.625554e-06 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 2.471924e-04
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 22 attempt 1 
+ increment size= 2.471924e-04
+ sum of previous increments=6.332397e-01
+ actual step time=6.334869e-01
+ actual total time=6.334869e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.779003
+ time avg. forc= 24.479822
+ largest residual force= 3.602346 in node 7961 and dof 2
+ largest increment of disp= 6.409670e-02
+ largest correction to disp= 6.409670e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.752220
+ time avg. forc= 24.478604
+ largest residual force= 1.350136 in node 7961 and dof 2
+ largest increment of disp= 6.409670e-02
+ largest correction to disp= 3.948165e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.737275
+ time avg. forc= 24.477925
+ largest residual force= 0.476160 in node 7961 and dof 2
+ largest increment of disp= 6.409670e-02
+ largest correction to disp= 2.321131e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.805115
+ time avg. forc= 24.481009
+ largest residual force= 9.478218 in node 7961 and dof 2
+ largest increment of disp= 1.041632e-01
+ largest correction to disp= 1.041632e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.754712
+ time avg. forc= 24.478718
+ largest residual force= 3.890514 in node 7961 and dof 2
+ largest increment of disp= 1.041632e-01
+ largest correction to disp= 6.730341e-02 in node 8113 and dof 2
+
+ divergence; the increment size is decreased to 6.179810e-05
+ the increment is reattempted
+
+ increment 22 attempt 2 
+ increment size= 6.179810e-05
+ sum of previous increments=6.332397e-01
+ actual step time=6.333015e-01
+ actual total time=6.333015e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.717511
+ time avg. forc= 24.477027
+ largest residual force= 0.003281 in node 7961 and dof 2
+ largest increment of disp= 3.389996e-03
+ largest correction to disp= 1.928136e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.717636
+ time avg. forc= 24.477032
+ largest residual force= 0.000028 in node 7961 and dof 2
+ largest increment of disp= 3.389996e-03
+ largest correction to disp= 1.774543e-04 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 23 attempt 1 
+ increment size= 6.179810e-05
+ sum of previous increments=6.333015e-01
+ actual step time=6.333633e-01
+ actual total time=6.333633e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.730041
+ time avg. forc= 24.879337
+ largest residual force= 0.032487 in node 7961 and dof 2
+ largest increment of disp= 6.081066e-03
+ largest correction to disp= 6.081066e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.691184
+ time avg. forc= 24.877648
+ largest residual force= 2.532098 in node 7961 and dof 2
+ largest increment of disp= 5.369055e-02
+ largest correction to disp= 5.369055e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.709567
+ time avg. forc= 24.878447
+ largest residual force= 0.515991 in node 7961 and dof 2
+ largest increment of disp= 5.369055e-02
+ largest correction to disp= 2.426739e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.719688
+ time avg. forc= 24.878887
+ largest residual force= 0.187411 in node 7961 and dof 2
+ largest increment of disp= 5.369055e-02
+ largest correction to disp= 1.453894e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.725494
+ time avg. forc= 24.879139
+ largest residual force= 0.060674 in node 7961 and dof 2
+ largest increment of disp= 5.369055e-02
+ largest correction to disp= 8.307851e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 6
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.729701
+ time avg. forc= 24.879322
+ largest residual force= 0.032396 in node 7961 and dof 2
+ largest increment of disp= 5.369055e-02
+ largest correction to disp= 6.076313e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 7
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.817668
+ time avg. forc= 24.883147
+ largest residual force= 17.369429 in node 7961 and dof 2
+ largest increment of disp= 1.411486e-01
+ largest correction to disp= 1.411486e-01 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 8
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.736447
+ time avg. forc= 24.879616
+ largest residual force= 7.859167 in node 7961 and dof 2
+ largest increment of disp= 1.411486e-01
+ largest correction to disp= 9.589027e-02 in node 8113 and dof 2
+
+ divergence; the increment size is decreased to 1.544952e-05
+ the increment is reattempted
+
+ increment 23 attempt 2 
+ increment size= 1.544952e-05
+ sum of previous increments=6.333015e-01
+ actual step time=6.333170e-01
+ actual total time=6.333170e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.720061
+ time avg. forc= 24.878903
+ largest residual force= 0.000261 in node 7961 and dof 2
+ largest increment of disp= 1.373897e-03
+ largest correction to disp= 5.451642e-04 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.720073
+ time avg. forc= 24.878904
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 1.373897e-03
+ largest correction to disp= 1.692851e-05 in node 8113 and dof 2
+
+ convergence
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 24 attempt 1 
+ increment size= 1.544952e-05
+ sum of previous increments=6.333170e-01
+ actual step time=6.333324e-01
+ actual total time=6.333324e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.722899
+ time avg. forc= 25.247403
+ largest residual force= 0.000271 in node 7961 and dof 2
+ largest increment of disp= 1.935989e-03
+ largest correction to disp= 5.556138e-04 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.722916
+ time avg. forc= 25.247404
+ largest residual force= 0.000000 in node 7961 and dof 2
+ largest increment of disp= 1.935989e-03
+ largest correction to disp= 2.370298e-05 in node 8113 and dof 2
+
+ convergence; the increment size is increased to 2.317429e-05
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ increment 25 attempt 1 
+ increment size= 2.317429e-05
+ sum of previous increments=6.333324e-01
+ actual step time=6.333556e-01
+ actual total time=6.333556e-01
+
+ iteration 1
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.730127
+ time avg. forc= 25.586713
+ largest residual force= 0.016051 in node 7961 and dof 2
+ largest increment of disp= 4.277658e-03
+ largest correction to disp= 4.277658e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 2
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.725016
+ time avg. forc= 25.586509
+ largest residual force= 0.047811 in node 7961 and dof 2
+ largest increment of disp= 7.385155e-03
+ largest correction to disp= 7.385155e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 3
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.728046
+ time avg. forc= 25.586630
+ largest residual force= 0.016672 in node 7961 and dof 2
+ largest increment of disp= 7.385155e-03
+ largest correction to disp= 4.360338e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 4
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.731957
+ time avg. forc= 25.586786
+ largest residual force= 0.028456 in node 7961 and dof 2
+ largest increment of disp= 7.385155e-03
+ largest correction to disp= 5.697560e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 5
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.729073
+ time avg. forc= 25.586671
+ largest residual force= 0.015486 in node 7961 and dof 2
+ largest increment of disp= 7.385155e-03
+ largest correction to disp= 4.204062e-03 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 6
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.751116
+ time avg. forc= 25.587553
+ largest residual force= 0.954796 in node 7961 and dof 2
+ largest increment of disp= 3.302516e-02
+ largest correction to disp= 3.302516e-02 in node 8113 and dof 2
+
+ no convergence
+
+ iteration 7
+
+ Decascading the MPC's
+
+ *INFO in cascade: linear MPCs and
+       nonlinear MPCs depend on each other
+       common node: 8935 in direction 2
+
+ Determining the structure of the matrix:
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 61249
+ number of nonzero lower triangular matrix elements
+ 3595644
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 2 cpu(s) for spooles.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ average force= 33.739205
+ time avg. forc= 25.587076
+ largest residual force= 0.279231 in node 7961 and dof 2
+ largest increment of disp= 3.302516e-02
+ largest correction to disp= 1.789324e-02 in node 8113 and dof 2
+
+ divergence; the increment size is decreased to 5.793571e-06
+ the increment is reattempted
+
+
+ *ERROR: increment size smaller than minimum
+ best solution and residuals are in the frd file
+

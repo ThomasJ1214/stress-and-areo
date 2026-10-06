@@ -1,0 +1,774 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Fri Oct 24 20:12:25     2025
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 16931
+ number of nonzero lower triangular matrix elements
+ 968978
+
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+Not reusing csc.
+IPARM_MIXED=0
+globDouble=1
++-------------------------------------------------+
++     PaStiX : Parallel Sparse matriX package     +
++-------------------------------------------------+
+  Version:                                   6.4.0
+  Schedulers:
+    sequential:                            Enabled
+    thread static:                         Started
+    thread dynamic:                       Disabled
+    PaRSEC:                               Disabled
+    StarPU:                               Disabled
+  Number of MPI processes:                       1
+  Number of threads per process:                 2
+  Number of GPUs:                                0
+  MPI communication support:              PastixMpiNone
+  Distribution level:                     2D( 256)
+  Blocking size (min/max):             1024 / 2048
+  Computational models
+    CPU:              AMD Opteron 6180 - Intel MKL
+    GPU:             Nvidia K40 GK1108L - CUDA 8.0
+  Low rank parameters:
+    Strategy                        No compression
+
+  Matrix type:  General
+  Arithmetic:   Double
+  Format:       CSC
+  N:            16931
+  nnz:          1954887
+
++-------------------------------------------------+
+  Ordering subtask :
+    Ordering method is: Scotch
+    Time to compute ordering              5.984402e-02 s
++-------------------------------------------------+
+  Symbolic factorization subtask:
+    Symbol factorization using: Fax Direct
+    Number of nonzeroes in L structure     4489574
+    Fill-in of L                          2.296590
+    Time to compute symbol matrix         1.036096e-02 s
++-------------------------------------------------+
+  Reordering subtask:
+    Split level                                  0
+    Stoping criterion                           -1
+    Time for reordering                   3.767610e-02 s
++-------------------------------------------------+
+  Mapping/Scheduling subtask:
+    Number of non-zeroes in blocked L      8979148
+    Fill-in                               4.593180
+    Number of operations in full-rank: LU        2.92 GFlops
+    Prediction:
+      Model                              AMD 6180  MKL
+      Time to factorize                   4.006876e-01 s
+    Time for mapping/scheduling           1.327038e-03 s
++-------------------------------------------------+
+  Analyze task:
+    Total time for analyze                1.235640e-01 s
++-------------------------------------------------+
+  Factorization task:
+    Factorization used: LU
+    Time to initialize internal csc       2.409291e-01 s
+    Time to initialize coeftab            2.109079e-01 s
+    Time to factorize                     2.905741e-01 s (10.05 GFlop/s)
+    Number of operations                       210.22 MFlops
+    Number of static pivots                      0
+    Memory usage of coeftab                       80.9 Mo
+ Calculating the eigenvalues and the eigenmodes
+
+    Time to solve                         1.003289e-02 s
+    Time for refinement                   3.211021e-03 s
+    Time to solve                         1.414704e-02 s
+    - iteration 1 :
+         total iteration time                   0.0127 s
+         error                                  2.9513e-24
+    - iteration 2 :
+         total iteration time                   0.0134 s
+         error                                  4.0482e-24
+    - iteration 3 :
+         total iteration time                   0.0129 s
+         error                                  2.5883e-24
+    - iteration 4 :
+         total iteration time                   0.0116 s
+         error                                  1.5532e-24
+    - iteration 5 :
+         total iteration time                   0.0113 s
+         error                                  3.473e-25
+    - iteration 6 :
+         total iteration time                   0.0117 s
+         error                                  6.1909e-25
+    - iteration 7 :
+         total iteration time                   0.0115 s
+         error                                  8.9741e-25
+    - iteration 8 :
+         total iteration time                   0.0129 s
+         error                                  2.3034e-24
+    - iteration 9 :
+         total iteration time                   0.0121 s
+         error                                  2.596e-24
+    - iteration 10 :
+         total iteration time                   0.0119 s
+         error                                  1.0257e-24
+    - iteration 11 :
+         total iteration time                   0.0128 s
+         error                                  7.5334e-25
+    - iteration 12 :
+         total iteration time                   0.012 s
+         error                                  2.414e-24
+    - iteration 13 :
+         total iteration time                   0.0169 s
+         error                                  1.0295e-24
+    - iteration 14 :
+         total iteration time                   0.0196 s
+         error                                  3.8352e-25
+    - iteration 15 :
+         total iteration time                   0.0152 s
+         error                                  1.1566e-24
+    - iteration 16 :
+         total iteration time                   0.0151 s
+         error                                  2.2613e-24
+    - iteration 17 :
+         total iteration time                   0.0141 s
+         error                                  2.4584e-24
+    - iteration 18 :
+         total iteration time                   0.0127 s
+         error                                  2.0603e-24
+    - iteration 19 :
+         total iteration time                   0.0123 s
+         error                                  1.0174e-24
+    - iteration 20 :
+         total iteration time                   0.0149 s
+         error                                  1.1332e-24
+    - iteration 21 :
+         total iteration time                   0.0125 s
+         error                                  1.2774e-24
+    - iteration 22 :
+         total iteration time                   0.0118 s
+         error                                  1.6466e-24
+    - iteration 23 :
+         total iteration time                   0.0123 s
+         error                                  2.7553e-24
+    - iteration 24 :
+         total iteration time                   0.0193 s
+         error                                  1.212e-24
+    - iteration 25 :
+         total iteration time                   0.0268 s
+         error                                  1.5238e-24
+    - iteration 26 :
+         total iteration time                   0.0171 s
+         error                                  1.9704e-24
+    - iteration 27 :
+         total iteration time                   0.0163 s
+         error                                  3.0206e-24
+    - iteration 28 :
+         total iteration time                   0.0148 s
+         error                                  1.4443e-24
+    - iteration 29 :
+         total iteration time                   0.0152 s
+         error                                  2.0867e-24
+    - iteration 30 :
+         total iteration time                   0.0164 s
+         error                                  4.0007e-24
+    - iteration 31 :
+         total iteration time                   0.0176 s
+         error                                  4.6914e-24
+    - iteration 32 :
+         total iteration time                   0.0209 s
+         error                                  2.5236e-24
+    - iteration 33 :
+         total iteration time                   0.0153 s
+         error                                  6.6116e-25
+    - iteration 34 :
+         total iteration time                   0.018 s
+         error                                  1.8982e-24
+    - iteration 35 :
+         total iteration time                   0.0183 s
+         error                                  3.2969e-24
+    - iteration 36 :
+         total iteration time                   0.0171 s
+         error                                  4.9669e-25
+    - iteration 37 :
+         total iteration time                   0.0214 s
+         error                                  1.2104e-24
+    - iteration 38 :
+         total iteration time                   0.0158 s
+         error                                  1.7013e-24
+    - iteration 39 :
+         total iteration time                   0.0203 s
+         error                                  7.378e-25
+    - iteration 40 :
+         total iteration time                   0.0169 s
+         error                                  2.8246e-24
+    - iteration 41 :
+         total iteration time                   0.0235 s
+         error                                  3.4874e-24
+    - iteration 42 :
+         total iteration time                   0.0175 s
+         error                                  8.3871e-25
+    - iteration 43 :
+         total iteration time                   0.0165 s
+         error                                  4.8949e-25
+    - iteration 44 :
+         total iteration time                   0.0175 s
+         error                                  7.5506e-25
+    - iteration 45 :
+         total iteration time                   0.0188 s
+         error                                  1.7963e-24
+    - iteration 46 :
+         total iteration time                   0.018 s
+         error                                  1.0215e-24
+    - iteration 47 :
+         total iteration time                   0.0163 s
+         error                                  1.8471e-24
+    - iteration 48 :
+         total iteration time                   0.0147 s
+         error                                  2.1e-24
+    - iteration 49 :
+         total iteration time                   0.0178 s
+         error                                  1.743e-24
+    - iteration 50 :
+         total iteration time                   0.0245 s
+         error                                  1.2812e-24
+    Time for refinement                   9.826939e-01 s
+    Time to solve                         1.132894e-02 s
+    - iteration 1 :
+         total iteration time                   0.0131 s
+         error                                  1.5369e-24
+    - iteration 2 :
+         total iteration time                   0.0154 s
+         error                                  1.5675e-24
+    - iteration 3 :
+         total iteration time                   0.0157 s
+         error                                  3.0279e-24
+    - iteration 4 :
+         total iteration time                   0.0203 s
+         error                                  3.668e-24
+    - iteration 5 :
+         total iteration time                   0.0135 s
+         error                                  8.2019e-25
+    - iteration 6 :
+         total iteration time                   0.0142 s
+         error                                  7.2474e-25
+    - iteration 7 :
+         total iteration time                   0.0144 s
+         error                                  2.0344e-24
+    - iteration 8 :
+         total iteration time                   0.0254 s
+         error                                  3.5063e-24
+    - iteration 9 :
+         total iteration time                   0.0142 s
+         error                                  2.2787e-24
+    - iteration 10 :
+         total iteration time                   0.0136 s
+         error                                  1.5897e-24
+    - iteration 11 :
+         total iteration time                   0.0165 s
+         error                                  1.6634e-24
+    - iteration 12 :
+         total iteration time                   0.0145 s
+         error                                  8.6669e-25
+    - iteration 13 :
+         total iteration time                   0.0205 s
+         error                                  6.3133e-25
+    - iteration 14 :
+         total iteration time                   0.0136 s
+         error                                  1.535e-24
+    - iteration 15 :
+         total iteration time                   0.0139 s
+         error                                  1.6706e-24
+    - iteration 16 :
+         total iteration time                   0.0149 s
+         error                                  2.5183e-24
+    - iteration 17 :
+         total iteration time                   0.0177 s
+         error                                  2.2519e-24
+    - iteration 18 :
+         total iteration time                   0.0173 s
+         error                                  1.3658e-24
+    - iteration 19 :
+         total iteration time                   0.0139 s
+         error                                  4.0623e-25
+    - iteration 20 :
+         total iteration time                   0.0217 s
+         error                                  1.3264e-24
+    - iteration 21 :
+         total iteration time                   0.0208 s
+         error                                  2.5562e-24
+    - iteration 22 :
+         total iteration time                   0.0156 s
+         error                                  1.8927e-24
+    - iteration 23 :
+         total iteration time                   0.0154 s
+         error                                  2.1859e-24
+    - iteration 24 :
+         total iteration time                   0.0135 s
+         error                                  7.5726e-25
+    - iteration 25 :
+         total iteration time                   0.0154 s
+         error                                  6.1492e-25
+    - iteration 26 :
+         total iteration time                   0.0177 s
+         error                                  2.9831e-24
+    - iteration 27 :
+         total iteration time                   0.0129 s
+         error                                  3.3234e-24
+    - iteration 28 :
+         total iteration time                   0.0132 s
+         error                                  2.8083e-24
+    - iteration 29 :
+         total iteration time                   0.0132 s
+         error                                  1.9288e-24
+    - iteration 30 :
+         total iteration time                   0.0148 s
+         error                                  3.5628e-25
+    - iteration 31 :
+         total iteration time                   0.0148 s
+         error                                  2.8569e-24
+    - iteration 32 :
+         total iteration time                   0.0141 s
+         error                                  9.9889e-25
+    - iteration 33 :
+         total iteration time                   0.014 s
+         error                                  1.4786e-24
+    - iteration 34 :
+         total iteration time                   0.0148 s
+         error                                  6.6191e-25
+    - iteration 35 :
+         total iteration time                   0.0152 s
+         error                                  5.1342e-25
+    - iteration 36 :
+         total iteration time                   0.016 s
+         error                                  3.4834e-25
+    - iteration 37 :
+         total iteration time                   0.0186 s
+         error                                  2.8334e-24
+    - iteration 38 :
+         total iteration time                   0.0208 s
+         error                                  3.9836e-24
+    - iteration 39 :
+         total iteration time                   0.0161 s
+         error                                  2.3747e-24
+    - iteration 40 :
+         total iteration time                   0.0147 s
+         error                                  2.4864e-24
+    - iteration 41 :
+         total iteration time                   0.0139 s
+         error                                  3.5217e-24
+    - iteration 42 :
+         total iteration time                   0.0186 s
+         error                                  7.7225e-25
+    - iteration 43 :
+         total iteration time                   0.0166 s
+         error                                  1.2698e-24
+    - iteration 44 :
+         total iteration time                   0.0153 s
+         error                                  1.114e-24
+    - iteration 45 :
+         total iteration time                   0.0176 s
+         error                                  2.7927e-24
+    - iteration 46 :
+         total iteration time                   0.0158 s
+         error                                  3.3355e-25
+    - iteration 47 :
+         total iteration time                   0.0135 s
+         error                                  1.7825e-24
+    - iteration 48 :
+         total iteration time                   0.0133 s
+         error                                  2.7931e-25
+    - iteration 49 :
+         total iteration time                   0.0132 s
+         error                                  4.0796e-25
+    - iteration 50 :
+         total iteration time                   0.0151 s
+         error                                  3.6276e-25
+    Time for refinement                   9.655800e-01 s
+    Time to solve                         1.210093e-02 s
+    Time for refinement                   3.571987e-03 s
+    Time to solve                         1.051617e-02 s
+    Time for refinement                   3.309965e-03 s
+    Time to solve                         1.411080e-02 s
+    Time for refinement                   3.103971e-03 s
+    Time to solve                         1.222110e-02 s
+    Time for refinement                   6.045103e-03 s
+    Time to solve                         1.128101e-02 s
+    - iteration 1 :
+         total iteration time                   0.0193 s
+         error                                  6.915e-25
+    Time for refinement                   2.559805e-02 s
+    Time to solve                         1.801300e-02 s
+    - iteration 1 :
+         total iteration time                   0.015 s
+         error                                  4.7886e-25
+    Time for refinement                   2.285290e-02 s
+    Time to solve                         1.387501e-02 s
+    Time for refinement                   4.688978e-03 s
+    Time to solve                         1.037693e-02 s
+    Time for refinement                   4.461050e-03 s
+    Time to solve                         2.041888e-02 s
+    Time for refinement                   3.164053e-03 s
+    Time to solve                         1.794004e-02 s
+    Time for refinement                   5.609035e-03 s
+    Time to solve                         2.040291e-02 s
+    Time for refinement                   1.479506e-02 s
+    Time to solve                         3.403401e-02 s
+    Time for refinement                   4.377127e-03 s
+    Time to solve                         1.447916e-02 s
+    Time for refinement                   3.221989e-03 s
+    Time to solve                         1.082206e-02 s
+    Time for refinement                   4.685163e-03 s
+    Time to solve                         1.727295e-02 s
+    Time for refinement                   6.099939e-03 s
+    Time to solve                         1.241803e-02 s
+    Time for refinement                   4.691124e-03 s
+    Time to solve                         2.618194e-02 s
+    Time for refinement                   1.107693e-02 s
+    Time to solve                         1.590896e-02 s
+    Time for refinement                   4.567146e-03 s
+    Time to solve                         1.069999e-02 s
+    Time for refinement                   2.978086e-03 s
+    Time to solve                         1.409507e-02 s
+    Time for refinement                   3.165960e-03 s
+    Time to solve                         1.608610e-02 s
+    Time for refinement                   4.592180e-03 s
+    Time to solve                         1.482487e-02 s
+    Time for refinement                   4.312992e-03 s
+    Time to solve                         1.703501e-02 s
+    Time for refinement                   4.144907e-03 s
+    Time to solve                         2.195883e-02 s
+    Time for refinement                   4.469872e-03 s
+    Time to solve                         1.296210e-02 s
+    Time for refinement                   3.079891e-03 s
+    Time to solve                         1.874995e-02 s
+    Time for refinement                   4.796028e-03 s
+    Time to solve                         1.412821e-02 s
+    Time for refinement                   2.951145e-03 s
+    Time to solve                         9.892941e-03 s
+    Time for refinement                   3.410816e-03 s
+    Time to solve                         9.699106e-03 s
+    Time for refinement                   3.123045e-03 s
+    Time to solve                         1.170897e-02 s
+    Time for refinement                   4.989862e-03 s
+    Time to solve                         2.010417e-02 s
+    Time for refinement                   6.549835e-03 s
+    Time to solve                         1.899099e-02 s
+    Time for refinement                   5.013943e-03 s
+    Time to solve                         1.788306e-02 s
+    Time for refinement                   3.144979e-03 s
+    Time to solve                         1.596379e-02 s
+    Time for refinement                   3.233910e-03 s
+    Time to solve                         1.311302e-02 s
+    Time for refinement                   3.371000e-03 s
+    Time to solve                         1.050401e-02 s
+    Time for refinement                   3.633976e-03 s
+    Time to solve                         1.695800e-02 s
+    Time for refinement                   3.285885e-03 s
+    Time to solve                         1.548100e-02 s
+    Time for refinement                   4.592896e-03 s
+    Time to solve                         1.226878e-02 s
+    Time for refinement                   3.376007e-03 s
+    Time to solve                         1.344013e-02 s
+    Time for refinement                   3.183842e-03 s
+    Time to solve                         1.334906e-02 s
+    Time for refinement                   4.599094e-03 s
+    Time to solve                         1.076484e-02 s
+    Time for refinement                   3.236771e-03 s
+    Time to solve                         1.011300e-02 s
+    Time for refinement                   3.437996e-03 s
+    Time to solve                         1.319408e-02 s
+    Time for refinement                   3.453970e-03 s
+    Time to solve                         1.060414e-02 s
+    Time for refinement                   3.236055e-03 s
+    Time to solve                         1.198888e-02 s
+    Time for refinement                   3.633976e-03 s
+    Time to solve                         1.604986e-02 s
+    Time for refinement                   3.932953e-03 s
+    Time to solve                         1.327205e-02 s
+    Time for refinement                   3.255129e-03 s
+    Time to solve                         1.606083e-02 s
+    Time for refinement                   4.249096e-03 s
+    Time to solve                         1.255608e-02 s
+    Time for refinement                   6.088018e-03 s
+    Time to solve                         1.275992e-02 s
+    Time for refinement                   4.287004e-03 s
+    Time to solve                         1.998091e-02 s
+    Time for refinement                   4.924059e-03 s
+    Time to solve                         8.915186e-03 s
+    Time for refinement                   3.109932e-03 s
+    Time to solve                         2.000594e-02 s
+    Time for refinement                   4.781961e-03 s
+    Time to solve                         1.230597e-02 s
+    Time for refinement                   4.384995e-03 s
+    Time to solve                         1.555395e-02 s
+    Time for refinement                   6.933928e-03 s
+    Time to solve                         1.165700e-02 s
+    Time for refinement                   3.422976e-03 s
+    Time to solve                         1.207805e-02 s
+    Time for refinement                   3.862858e-03 s
+    Time to solve                         1.219010e-02 s
+    Time for refinement                   4.178047e-03 s
+    Time to solve                         1.093507e-02 s
+    Time for refinement                   3.133059e-03 s
+    Time to solve                         2.266812e-02 s
+    Time for refinement                   5.923986e-03 s
+    Time to solve                         2.112007e-02 s
+    Time for refinement                   3.901958e-03 s
+    Time to solve                         2.247286e-02 s
+    Time for refinement                   6.081820e-03 s
+    Time to solve                         2.973199e-02 s
+    Time for refinement                   4.772902e-03 s
+    Time to solve                         2.275395e-02 s
+    Time for refinement                   3.682852e-03 s
+    Time to solve                         1.002002e-02 s
+    Time for refinement                   3.875971e-03 s
+    Time to solve                         1.830077e-02 s
+    Time for refinement                   5.120993e-03 s
+    Time to solve                         2.170706e-02 s
+    Time for refinement                   7.888079e-03 s
+    Time to solve                         1.119494e-02 s
+    Time for refinement                   3.700972e-03 s
+    Time to solve                         2.248383e-02 s
+    Time for refinement                   5.410910e-03 s
+    Time to solve                         2.196097e-02 s
+    Time for refinement                   6.757975e-03 s
+    Time to solve                         1.918602e-02 s
+    Time for refinement                   6.253958e-03 s
+    Time to solve                         1.463509e-02 s
+    Time for refinement                   4.601955e-03 s
+    Time to solve                         1.058698e-02 s
+    Time for refinement                   4.127979e-03 s
+    Time to solve                         1.398087e-02 s
+    Time for refinement                   5.790949e-03 s
+    Time to solve                         1.412702e-02 s
+    Time for refinement                   1.276398e-02 s
+    Time to solve                         1.242614e-02 s
+    Time for refinement                   3.062010e-03 s
+    Time to solve                         1.999092e-02 s
+    Time for refinement                   6.493092e-03 s
+    Time to solve                         1.715803e-02 s
+    Time for refinement                   3.482819e-03 s
+    Time to solve                         1.173496e-02 s
+    Time for refinement                   3.726959e-03 s
+    Time to solve                         1.335001e-02 s
+    Time for refinement                   3.486872e-03 s
+    Time to solve                         1.378894e-02 s
+    Time for refinement                   3.798008e-03 s
+    Time to solve                         1.172805e-02 s
+    Time for refinement                   4.827023e-03 s
+    Time to solve                         1.265121e-02 s
+    Time for refinement                   3.882170e-03 s
+    Time to solve                         3.401399e-02 s
+    Time for refinement                   4.073858e-03 s
+    Time to solve                         9.580135e-03 s
+    Time for refinement                   3.757954e-03 s
+    Time to solve                         9.994984e-03 s
+    Time for refinement                   2.894878e-03 s
+    Time to solve                         8.955956e-03 s
+    Time for refinement                   2.942085e-03 s
+    Time to solve                         1.108217e-02 s
+    Time for refinement                   2.887011e-03 s
+    Time to solve                         1.467705e-02 s
+    Time for refinement                   5.416155e-03 s
+    Time to solve                         1.381087e-02 s
+    Time for refinement                   3.550053e-03 s
+    Time to solve                         1.012707e-02 s
+    Time for refinement                   3.589153e-03 s
+    Time to solve                         1.526499e-02 s
+    Time for refinement                   4.559994e-03 s
+    Time to solve                         1.106381e-02 s
+    Time for refinement                   6.917000e-03 s
+    Time to solve                         1.060987e-02 s
+    Time for refinement                   3.456116e-03 s
+    Time to solve                         1.057410e-02 s
+    Time for refinement                   3.602982e-03 s
+    Time to solve                         1.085997e-02 s
+    Time for refinement                   3.589153e-03 s
+    Time to solve                         1.440883e-02 s
+    Time for refinement                   3.251791e-03 s
+U^T*M*U=1.000000 for eigenmode 1
+U^T*M*U=1.000000 for eigenmode 2
+U^T*M*U=1.000000 for eigenmode 3
+U^T*M*U=1.000000 for eigenmode 4
+U^T*M*U=1.000000 for eigenmode 5
+U^T*M*U=1.000000 for eigenmode 6
+U^T*M*U=1.000000 for eigenmode 7
+U^T*M*U=1.000000 for eigenmode 8
+U^T*M*U=1.000000 for eigenmode 9
+U^T*M*U=1.000000 for eigenmode 10
+U^T*M*U=1.000000 for eigenmode 11
+U^T*M*U=1.000000 for eigenmode 12
+U^T*M*U=1.000000 for eigenmode 13
+U^T*M*U=1.000000 for eigenmode 14
+U^T*M*U=1.000000 for eigenmode 15
+U^T*M*U=1.000000 for eigenmode 16
+U^T*M*U=1.000000 for eigenmode 17
+U^T*M*U=1.000000 for eigenmode 18
+U^T*M*U=1.000000 for eigenmode 19
+U^T*M*U=1.000000 for eigenmode 20
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 16931
+ number of nonzero lower triangular matrix elements
+ 968978
+
+wine: Unhandled page fault on write access to 0000000000000000 at address 00000001403A9A93 (thread 0024), starting debugger...
+Unhandled exception: page fault on write access to 0x0000000000000000 in 64-bit code (0x000001403a9a93).
+Register dump:
+ rip:00000001403a9a93 rsp:00007ffffe2fcaa0 rbp:0000000000000000 eflags:00010246 (  R- --  I  Z- -P- )
+ rax:0000000000000a28 rbx:00007fffff9d00b8 rcx:00007fa80b930040 rdx:000000000000002d
+ rsi:0000000000000018 rdi:0000000000000000  r8:000000000000000f  r9:0000000000000000 r10:0000000000000000
+ r11:0000000000000018 r12:0000000000000006 r13:0000000000000002 r14:00007ffffed20040 r15:00007fffff270040
+Stack dump:
+0x007ffffe2fcaa0:  0000000000000000 00007ffffea70bb0
+0x007ffffe2fcab0:  0000000000000004 00006ffffeb738fb
+0x007ffffe2fcac0:  00007ffffea70b10 0000000000000001
+0x007ffffe2fcad0:  0000000000000000 00007ffffea6f740
+0x007ffffe2fcae0:  00007ffffe2fcb10 00006ffffeb16fc2
+0x007ffffe2fcaf0:  00007ffffea70b10 00000000fef4a2a0
+0x007ffffe2fcb00:  00007ffffe2fd8a0 0000000000000006
+0x007ffffe2fcb10:  00007ffffea70bb0 00006ffffeb738fb
+0x007ffffe2fcb20:  0000000000000005 00006ffffeb17bfe
+0x007ffffe2fcb30:  0000000000000004 00007fff00000000
+0x007ffffe2fcb40:  00007fff00000000 00007ffffea70b10
+0x007ffffe2fcb50:  00007ffffe2fcc98 00007ffffe2fcc98
+Backtrace:
+=>0 0x000001403a9a93 in ccx_static (+0x3a9a93) (0000000000000000)
+  1 0x00000140206e32 in ccx_static (+0x206e32) (0x007fa8036ffdc0)
+  2 0x00000142577c77 in ccx_static (+0x2577c77) (0x00000000000004)
+  3 0x000001400010c9 in ccx_static (+0x10c9) (0x000001427f2918)
+  4 0x00000140001416 in ccx_static (+0x1416) (0x007ffffe2fffa0)
+  5 0x006fffffaa93d1 BaseThreadInitThunk+0x11(unknown=<internal error>, entry=<internal error>, arg=<internal error>) [/usr/src/wine-9.0~repack-4build3/dlls/kernel32/thread.c:61] in kernel32 (0x007ffffe2fffa0)
+  6 0x006fffffca598b in ntdll (+0x5598b) (0000000000000000)
+0x000001403a9a93 ccx_static+0x3a9a93: movsd %xmm0, (%rbp,%r9,8)
+Modules:
+Module  Address                                 Debug info      Name (15 modules)
+PE             140000000-       142801000       COFF            ccx_static
+ELF         55f50b33d000-    55f50b342000       Deferred        <wine-loader>
+PE-Wine     6ffffeae0000-    6ffffeed6000       Deferred        ucrtbase
+PE-Wine     6ffffeef0000-    6ffffefad000       Deferred        sechost
+PE-Wine     6ffffefc0000-    6fffff317000       Deferred        msvcrt
+PE-Wine     6fffff330000-    6fffff45c000       Deferred        advapi32
+PE-Wine     6fffff470000-    6fffffa6c000       Deferred        kernelbase
+PE-Wine     6fffffa80000-    6fffffc38000       Dwarf-4         kernel32
+PE-Wine     6fffffc50000-    6ffffffeb000       Dwarf-4         ntdll
+ELF         7fa81c345000-    7fa81c400000       Export          ntdll.so
+ELF         7fa81c400000-    7fa81c612000       Deferred        libc.so.6
+ELF         7fa81c650000-    7fa81c67e000       Deferred        libgcc_s.so.1
+ELF         7fa81c67e000-    7fa81c6b0000       Deferred        liblzma.so.5
+ELF         7fa81c6b0000-    7fa81c6cb000       Deferred        libunwind.so.8
+ELF         7fa81c6e3000-    7fa81c71d000       Deferred        ld-linux-x86-64.so.2
+Threads:
+process  tid      prio    name (all IDs are in hex)
+00000020 (D) Z:\tmp\claude-0\-home-user-stress-and-areo\045926a7-bc8f-54ef-a52e-f5484ae3b45a\scratchpad\research\fea\dhondtwin\calculix_2.23_4win\ccx_static.exe
+	00000024    0 <== 
+	0000013c    0     
+	00000140    0     
+	000007b8    0     
+00000038 services.exe
+	0000003c    0     
+	00000048    0     wine_rpcrt4_server
+	00000054    0     wine_rpcrt4_io
+	00000084    0     wine_rpcrt4_io
+	000000b0    0     wine_rpcrt4_io
+	000000c8    0     wine_rpcrt4_io
+	000000dc    0     
+	000000e8    0     wine_rpcrt4_io
+0000004c winedevice.exe
+	00000050    0     
+	0000005c    0     
+	00000060    0     wine_sechost_service
+	00000064    0     
+	00000068    0     
+	000000d4    0     
+	000000d8    0     
+00000074 winedevice.exe
+	00000078    0     
+	0000008c    0     
+	00000090    0     wine_sechost_service
+	00000094    0     
+	00000098    0     
+	0000009c    0     
+	000000a8    0     
+	000000ac    0     
+000000a0 plugplay.exe
+	000000a4    0     
+	000000b4    0     
+	000000b8    0     wine_sechost_service
+	000000bc    0     wine_rpcrt4_server
+000000c0 svchost.exe
+	000000c4    0     
+	000000cc    0     
+	000000d0    0     wine_sechost_service
+000000e0 rpcss.exe
+	000000e4    0     
+	000000ec    0     
+	000000f0    0     wine_sechost_service
+	000000f4    0     wine_rpcrt4_server
+	000000f8    0     wine_rpcrt4_server
+	000007cc    0     wine_rpcrt4_io
+	000007d0    0     wine_threadpool_worker
+000007bc explorer.exe
+	000007c0    0     
+	000007c8    0     wine_rpcrt4_server
+System information:
+    Wine build: wine-9.0 (Ubuntu 9.0~repack-4build3)
+    Platform: x86_64 (guest: i386)
+    Version: Windows 10
+    Host system: Linux
+    Host version: 6.18.44-fc-v70

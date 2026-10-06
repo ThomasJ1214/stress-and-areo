@@ -1,0 +1,10 @@
+== h=0.02
+Force STRUC[N]: [ 333.639   -5.624 1176.454]   Moment about nose tip [N m]: [  -2.2972 -835.5498   -7.2828]
+normal-force error -3.139 %, axial-force error -42.502 %, pitch-moment error -4.049 %
+CONSERVATIVE: Force [N]: [ 580.266    2.313 1214.579]  Moment [N m]: [  -0.9666 -870.8144    1.4877]
+  normal-force error -0.0000 %, axial -0.0001 %, pitch-moment error +0.0002 %
+== h=0.008
+Force STRUC[N]: [ 514.262    4.147 1192.638]   Moment about nose tip [N m]: [-5.45900e-01 -8.48711e+02  3.19380e+00]
+normal-force error -1.806 %, axial-force error -11.375 %, pitch-moment error -2.538 %
+CONSERVATIVE: Force [N]: [ 580.266    2.313 1214.579]  Moment [N m]: [  -0.9668 -870.8148    1.4876]
+  normal-force error -0.0000 %, axial -0.0001 %, pitch-moment error +0.0002 %

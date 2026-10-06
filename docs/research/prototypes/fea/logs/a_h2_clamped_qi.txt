@@ -1,0 +1,3 @@
+tube mesh: 34958 nodes, 11550 S8R (154 x 75), h=2.0 mm, BC=clamped
+a0 iso: 88.5s  P_cr FE 255221 N  classical 266193 N  ratio 0.9588  | SP-8007 gamma 0.681 -> design 181205 N
+a1 comp: 126.5s  P_cr FE 61549 N  classical 65540 N (m,n)=(4, 6)  ratio 0.9391  | SP-8007 gamma 0.687 (phi 0.426) -> design 45054 N

@@ -1,0 +1,4298 @@
+
+                        S T E P       1
+
+
+     E I G E N V A L U E   O U T P U T
+
+ MODE NO    EIGENVALUE                       FREQUENCY   
+                                     REAL PART            IMAGINARY PART
+                           (RAD/TIME)      (CYCLES/TIME     (RAD/TIME)
+
+      1   0.4815233E+08   0.6939188E+04   0.1104406E+04   0.0000000E+00
+      2   0.3755224E+09   0.1937840E+05   0.3084168E+04   0.0000000E+00
+      3   0.3755239E+09   0.1937844E+05   0.3084174E+04   0.0000000E+00
+      4   0.1250552E+10   0.3536315E+05   0.5628220E+04   0.0000000E+00
+      5   0.1250609E+10   0.3536395E+05   0.5628347E+04   0.0000000E+00
+      6   0.1690874E+10   0.4112023E+05   0.6544488E+04   0.0000000E+00
+      7   0.2979208E+10   0.5458212E+05   0.8687015E+04   0.0000000E+00
+      8   0.2979224E+10   0.5458227E+05   0.8687038E+04   0.0000000E+00
+      9   0.4392153E+10   0.6627332E+05   0.1054773E+05   0.0000000E+00
+     10   0.4392238E+10   0.6627396E+05   0.1054783E+05   0.0000000E+00
+     11   0.5891525E+10   0.7675627E+05   0.1221614E+05   0.0000000E+00
+     12   0.5891915E+10   0.7675881E+05   0.1221654E+05   0.0000000E+00
+     13   0.8939686E+10   0.9454991E+05   0.1504809E+05   0.0000000E+00
+     14   0.8939956E+10   0.9455134E+05   0.1504831E+05   0.0000000E+00
+     15   0.9983489E+10   0.9991741E+05   0.1590235E+05   0.0000000E+00
+     16   0.1033125E+11   0.1016428E+06   0.1617695E+05   0.0000000E+00
+     17   0.1033133E+11   0.1016431E+06   0.1617701E+05   0.0000000E+00
+     18   0.1578149E+11   0.1256244E+06   0.1999374E+05   0.0000000E+00
+     19   0.1578154E+11   0.1256246E+06   0.1999378E+05   0.0000000E+00
+     20   0.1664375E+11   0.1290107E+06   0.2053269E+05   0.0000000E+00
+
+     P A R T I C I P A T I O N   F A C T O R S
+
+MODE NO.   X-COMPONENT     Y-COMPONENT     Z-COMPONENT     X-ROTATION      Y-ROTATION      Z-ROTATION
+
+      1  -0.6442514E-07   0.5158805E-08  -0.3164188E-02  -0.1218007E-06  -0.2980799E-05   0.9563766E-08
+      2   0.2033116E-05   0.1213962E-05  -0.8701336E-07   0.3374056E-01  -0.5672831E-01  -0.6100375E-07
+      3   0.1213674E-05  -0.2048590E-05  -0.5881403E-07  -0.5672804E-01  -0.3374060E-01   0.1201800E-06
+      4  -0.4809701E-08   0.1566160E-06   0.3414981E-07  -0.7923012E-05   0.3028149E-06   0.2623555E-07
+      5   0.1925790E-07  -0.2914645E-07  -0.3724626E-07   0.1621261E-05   0.3201147E-05  -0.3257927E-07
+      6  -0.1378598E-06   0.1128663E-07  -0.1302129E-02  -0.1124967E-06  -0.5631847E-05   0.2284800E-07
+      7   0.1008729E-06  -0.3737409E-09   0.1962663E-06   0.5100843E-06   0.5629112E-05   0.3033751E-07
+      8   0.8982341E-08   0.1218184E-06   0.2244118E-08  -0.6253974E-05   0.1913159E-05  -0.5348085E-06
+      9  -0.6739154E-06  -0.4024221E-05   0.2850778E-07  -0.3410007E-01   0.5795937E-02   0.2123685E-06
+     10  -0.4003477E-05   0.6905528E-06   0.2397665E-06   0.5795716E-02   0.3410107E-01  -0.5058145E-07
+     11   0.1517320E-06   0.4247014E-07   0.3233767E-06   0.2684453E-05   0.1044897E-04  -0.6114801E-06
+     12   0.1250485E-06   0.7309417E-09   0.1698935E-06  -0.3095335E-05   0.6923915E-05   0.9817087E-06
+     13   0.1366362E-07  -0.2457242E-06  -0.2798117E-07   0.1393753E-04   0.3172629E-06  -0.4749029E-07
+     14   0.2819122E-07   0.4144257E-08  -0.3665475E-07   0.7210498E-06   0.3827493E-05  -0.3829359E-07
+     15   0.2072461E-06  -0.1762059E-07   0.8321649E-03   0.1936046E-06   0.8944652E-05  -0.4070456E-07
+     16  -0.1653998E-06  -0.2202838E-07  -0.2607654E-06   0.1076700E-05  -0.1342779E-04   0.2462206E-06
+     17   0.2005746E-08   0.6969012E-07  -0.1079629E-06  -0.1089724E-04  -0.1244361E-05   0.1373681E-05
+     18   0.7249244E-07  -0.1412536E-06   0.1712079E-06   0.9062751E-05   0.5835479E-05   0.6217954E-06
+     19  -0.1233080E-06  -0.9977727E-07  -0.2730319E-06   0.6790834E-05  -0.9871562E-05   0.3891699E-06
+     20   0.5710711E-07   0.1202140E-06   0.4029847E-07  -0.1312735E-04   0.4685387E-05   0.2495510E-06
+
+     E F F E C T I V E   M O D A L   M A S S
+
+MODE NO.   X-COMPONENT     Y-COMPONENT     Z-COMPONENT     X-ROTATION      Y-ROTATION      Z-ROTATION
+
+      1   0.4150598E-14   0.2661327E-16   0.1001209E-04   0.1483540E-13   0.8885160E-11   0.9146563E-16
+      2   0.4133561E-11   0.1473703E-11   0.7571325E-14   0.1138426E-02   0.3218101E-02   0.3721457E-14
+      3   0.1473004E-11   0.4196721E-11   0.3459090E-14   0.3218071E-02   0.1138428E-02   0.1444323E-13
+      4   0.2313323E-16   0.2452858E-13   0.1166209E-14   0.6277412E-10   0.9169686E-13   0.6883043E-15
+      5   0.3708666E-15   0.8495154E-15   0.1387284E-14   0.2628487E-11   0.1024734E-10   0.1061409E-14
+      6   0.1900534E-13   0.1273880E-15   0.1695540E-05   0.1265551E-13   0.3171770E-10   0.5220313E-15
+      7   0.1017534E-13   0.1396822E-18   0.3852048E-13   0.2601860E-12   0.3168690E-10   0.9203645E-15
+      8   0.8068244E-16   0.1483971E-13   0.5036066E-17   0.3911219E-10   0.3660179E-11   0.2860202E-12
+      9   0.4541619E-12   0.1619435E-10   0.8126937E-15   0.1162815E-02   0.3359289E-04   0.4510038E-13
+     10   0.1602783E-10   0.4768631E-12   0.5748799E-13   0.3359032E-04   0.1162883E-02   0.2558483E-14
+     11   0.2302261E-13   0.1803713E-14   0.1045725E-12   0.7206288E-11   0.1091811E-09   0.3739079E-12
+     12   0.1563712E-13   0.5342758E-18   0.2886380E-13   0.9581097E-11   0.4794060E-10   0.9637520E-12
+     13   0.1866945E-15   0.6038039E-13   0.7829459E-15   0.1942548E-09   0.1006557E-12   0.2255327E-14
+     14   0.7947448E-15   0.1717487E-16   0.1343571E-14   0.5199127E-12   0.1464970E-10   0.1466399E-14
+     15   0.4295094E-13   0.3104850E-15   0.6924984E-06   0.3748273E-13   0.8000680E-10   0.1656861E-14
+     16   0.2735709E-13   0.4852493E-15   0.6799861E-13   0.1159283E-11   0.1803056E-09   0.6062458E-13
+     17   0.4023016E-17   0.4856713E-14   0.1165598E-13   0.1187497E-09   0.1548433E-11   0.1886998E-11
+     18   0.5255153E-14   0.1995257E-13   0.2931215E-13   0.8213345E-10   0.3405282E-10   0.3866296E-12
+     19   0.1520485E-13   0.9955504E-14   0.7454640E-13   0.4611542E-10   0.9744773E-10   0.1514532E-12
+     20   0.3261222E-14   0.1445141E-13   0.1623967E-14   0.1723274E-09   0.2195285E-10   0.6227572E-13
+TOTAL     0.2225604E-10   0.2249422E-10   0.1240012E-04   0.5552902E-02   0.5553006E-02   0.4246147E-11
+
+     T O T A L   E F F E C T I V E   M A S S
+
+           X-COMPONENT     Y-COMPONENT     Z-COMPONENT     X-ROTATION      Y-ROTATION      Z-ROTATION
+
+          0.1382833E-04   0.1382833E-04   0.1382833E-04   0.7464618E-02   0.7466590E-02   0.1490997E-01
+
+
+     F R A C T I O N   O F   T O T A L S
+
+           X-COMPONENT     Y-COMPONENT     Z-COMPONENT     X-ROTATION      Y-ROTATION      Z-ROTATION
+
+          0.1609452E-05   0.1626676E-05   0.8967186E+00   0.7438963E+00   0.7437139E+00   0.2847857E-09
+
+
+                        S T E P       2
+
+
+                                INCREMENT     1
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4515910E-05
+
+       974 -5.435569E-19 -6.870496E-19  3.373877E-04
+
+                                INCREMENT     2
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9031820E-05
+
+       974 -2.167769E-18 -2.672283E-18  1.318624E-03
+
+                                INCREMENT     3
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1354773E-04
+
+       974 -4.854769E-18 -5.747966E-18  2.858472E-03
+
+                                INCREMENT     4
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1806364E-04
+
+       974 -8.583197E-18 -9.625259E-18  4.838466E-03
+
+                                INCREMENT     5
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2257955E-04
+
+       974 -1.334077E-17 -1.401289E-17  7.137154E-03
+
+                                INCREMENT     6
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2709546E-04
+
+       974 -1.913151E-17 -1.869126E-17  9.663218E-03
+
+                                INCREMENT     7
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3161137E-04
+
+       974 -2.599650E-17 -2.360427E-17  1.238452E-02
+
+                                INCREMENT     8
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3612728E-04
+
+       974 -3.399813E-17 -2.887829E-17  1.534688E-02
+
+                                INCREMENT     9
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4064319E-04
+
+       974 -4.324463E-17 -3.485837E-17  1.867832E-02
+
+                                INCREMENT    10
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4515910E-04
+
+       974 -5.386791E-17 -4.205815E-17  2.257752E-02
+
+                                INCREMENT    11
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4967501E-04
+
+       974 -6.601436E-17 -5.110912E-17  2.728820E-02
+
+                                INCREMENT    12
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5419092E-04
+
+       974 -7.983116E-17 -6.266943E-17  3.306405E-02
+
+                                INCREMENT    13
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5870683E-04
+
+       974 -9.544452E-17 -7.732140E-17  4.013072E-02
+
+                                INCREMENT    14
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6322274E-04
+
+       974 -1.129518E-16 -9.548687E-17  4.865197E-02
+
+                                INCREMENT    15
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6773865E-04
+
+       974 -1.324133E-16 -1.173784E-16  5.870631E-02
+
+                                INCREMENT    16
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7225456E-04
+
+       974 -1.538263E-16 -1.429749E-16  7.027843E-02
+
+                                INCREMENT    17
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7677047E-04
+
+       974 -1.771536E-16 -1.720129E-16  8.326685E-02
+
+                                INCREMENT    18
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8128638E-04
+
+       974 -2.023170E-16 -2.040982E-16  9.750590E-02
+
+                                INCREMENT    19
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8580229E-04
+
+       974 -2.292135E-16 -2.387341E-16  1.127977E-01
+
+                                INCREMENT    20
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9031820E-04
+
+       974 -2.577293E-16 -2.754263E-16  1.289476E-01
+
+                                INCREMENT    21
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9483411E-04
+
+       974 -2.877490E-16 -3.137698E-16  1.457958E-01
+
+                                INCREMENT    22
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9935002E-04
+
+       974 -3.191671E-16 -3.535058E-16  1.632396E-01
+
+                                INCREMENT    23
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1038659E-03
+
+       974 -3.519134E-16 -3.945310E-16  1.812414E-01
+
+                                INCREMENT    24
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1083818E-03
+
+       974 -3.858997E-16 -4.368759E-16  1.998215E-01
+
+                                INCREMENT    25
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1128978E-03
+
+       974 -4.210838E-16 -4.806776E-16  2.190377E-01
+
+                                INCREMENT    26
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1174137E-03
+
+       974 -4.573842E-16 -5.260956E-16  2.389558E-01
+
+                                INCREMENT    27
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1219296E-03
+
+       974 -4.947384E-16 -5.732177E-16  2.596178E-01
+
+                                INCREMENT    28
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1264455E-03
+
+       974 -5.330548E-16 -6.220000E-16  2.810146E-01
+
+                                INCREMENT    29
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1309614E-03
+
+       974 -5.722080E-16 -6.722528E-16  3.030690E-01
+
+                                INCREMENT    30
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1354773E-03
+
+       974 -6.120660E-16 -7.235762E-16  3.256333E-01
+
+                                INCREMENT    31
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1399932E-03
+
+       974 -6.524661E-16 -7.754756E-16  3.485018E-01
+
+                                INCREMENT    32
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1445091E-03
+
+       974 -6.932524E-16 -8.273005E-16  3.714375E-01
+
+                                INCREMENT    33
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1490250E-03
+
+       974 -7.342827E-16 -8.785290E-16  3.942061E-01
+
+                                INCREMENT    34
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1535409E-03
+
+       974 -7.754349E-16 -9.286327E-16  4.166122E-01
+
+                                INCREMENT    35
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1580569E-03
+
+       974 -8.166007E-16 -9.773269E-16  4.385311E-01
+
+                                INCREMENT    36
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1625728E-03
+
+       974 -8.577733E-16 -1.024497E-15  4.599278E-01
+
+                                INCREMENT    37
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1670887E-03
+
+       974 -8.989527E-16 -1.070324E-15  4.808620E-01
+
+                                INCREMENT    38
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1716046E-03
+
+       974 -9.401727E-16 -1.115190E-15  5.014765E-01
+
+                                INCREMENT    39
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1761205E-03
+
+       974 -9.815418E-16 -1.159595E-15  5.219711E-01
+
+                                INCREMENT    40
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1806364E-03
+
+       974 -1.023175E-15 -1.204128E-15  5.425682E-01
+
+                                INCREMENT    41
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1851523E-03
+
+       974 -1.065100E-15 -1.249340E-15  5.634753E-01
+
+                                INCREMENT    42
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1896682E-03
+
+       974 -1.107499E-15 -1.295628E-15  5.848522E-01
+
+                                INCREMENT    43
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1941841E-03
+
+       974 -1.150366E-15 -1.343279E-15  6.067890E-01
+
+                                INCREMENT    44
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1987000E-03
+
+       974 -1.193781E-15 -1.392326E-15  6.292986E-01
+
+                                INCREMENT    45
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2032159E-03
+
+       974 -1.237718E-15 -1.442653E-15  6.523247E-01
+
+                                INCREMENT    46
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2077319E-03
+
+       974 -1.282191E-15 -1.493990E-15  6.757635E-01
+
+                                INCREMENT    47
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2122478E-03
+
+       974 -1.327104E-15 -1.546154E-15  6.994938E-01
+
+                                INCREMENT    48
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2167637E-03
+
+       974 -1.372492E-15 -1.598778E-15  7.234089E-01
+
+                                INCREMENT    49
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2212796E-03
+
+       974 -1.418299E-15 -1.651823E-15  7.474445E-01
+
+                                INCREMENT    50
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2257955E-03
+
+       974 -1.464486E-15 -1.705220E-15  7.715952E-01
+
+                                INCREMENT    51
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2303114E-03
+
+       974 -1.511120E-15 -1.759104E-15  7.959169E-01
+
+                                INCREMENT    52
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2348273E-03
+
+       974 -1.558161E-15 -1.813830E-15  8.205145E-01
+
+                                INCREMENT    53
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2393432E-03
+
+       974 -1.605622E-15 -1.869666E-15  8.455165E-01
+
+                                INCREMENT    54
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2438591E-03
+
+       974 -1.653530E-15 -1.926912E-15  8.710424E-01
+
+                                INCREMENT    55
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2483750E-03
+
+       974 -1.701791E-15 -1.985798E-15  8.971690E-01
+
+                                INCREMENT    56
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2528910E-03
+
+       974 -1.750350E-15 -2.046283E-15  9.239024E-01
+
+                                INCREMENT    57
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2574069E-03
+
+       974 -1.799084E-15 -2.108163E-15  9.511621E-01
+
+                                INCREMENT    58
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2619228E-03
+
+       974 -1.847860E-15 -2.171047E-15  9.787806E-01
+
+                                INCREMENT    59
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2664387E-03
+
+       974 -1.896446E-15 -2.234297E-15  1.006518E+00
+
+                                INCREMENT    60
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2709546E-03
+
+       974 -1.944720E-15 -2.297235E-15  1.034092E+00
+
+                                INCREMENT    61
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2754705E-03
+
+       974 -1.992357E-15 -2.359075E-15  1.061212E+00
+
+                                INCREMENT    62
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2799864E-03
+
+       974 -2.039249E-15 -2.419167E-15  1.087619E+00
+
+                                INCREMENT    63
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2845023E-03
+
+       974 -2.085165E-15 -2.476982E-15  1.113118E+00
+
+                                INCREMENT    64
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2890182E-03
+
+       974 -2.130037E-15 -2.532290E-15  1.137597E+00
+
+                                INCREMENT    65
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2935341E-03
+
+       974 -2.173703E-15 -2.584982E-15  1.161032E+00
+
+                                INCREMENT    66
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2980501E-03
+
+       974 -2.216136E-15 -2.635235E-15  1.183479E+00
+
+                                INCREMENT    67
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3025660E-03
+
+       974 -2.257431E-15 -2.683319E-15  1.205047E+00
+
+                                INCREMENT    68
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3070819E-03
+
+       974 -2.297479E-15 -2.729479E-15  1.225868E+00
+
+                                INCREMENT    69
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3115978E-03
+
+       974 -2.336239E-15 -2.774175E-15  1.246061E+00
+
+                                INCREMENT    70
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3161137E-03
+
+       974 -2.373888E-15 -2.817462E-15  1.265705E+00
+
+                                INCREMENT    71
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3206296E-03
+
+       974 -2.410317E-15 -2.859475E-15  1.284820E+00
+
+                                INCREMENT    72
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3251455E-03
+
+       974 -2.445526E-15 -2.900078E-15  1.303365E+00
+
+                                INCREMENT    73
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3296614E-03
+
+       974 -2.479516E-15 -2.939164E-15  1.321252E+00
+
+                                INCREMENT    74
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3341773E-03
+
+       974 -2.512205E-15 -2.976379E-15  1.338366E+00
+
+                                INCREMENT    75
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3386932E-03
+
+       974 -2.543701E-15 -3.011480E-15  1.354597E+00
+
+                                INCREMENT    76
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3432092E-03
+
+       974 -2.573896E-15 -3.044385E-15  1.369876E+00
+
+                                INCREMENT    77
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3477251E-03
+
+       974 -2.602817E-15 -3.074960E-15  1.384196E+00
+
+                                INCREMENT    78
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3522410E-03
+
+       974 -2.630654E-15 -3.103502E-15  1.397625E+00
+
+                                INCREMENT    79
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3567569E-03
+
+       974 -2.657407E-15 -3.130444E-15  1.410308E+00
+
+                                INCREMENT    80
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3612728E-03
+
+       974 -2.683129E-15 -3.156140E-15  1.422448E+00
+
+                                INCREMENT    81
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3657887E-03
+
+       974 -2.708093E-15 -3.181374E-15  1.434273E+00
+
+                                INCREMENT    82
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3703046E-03
+
+       974 -2.732244E-15 -3.206609E-15  1.446005E+00
+
+                                INCREMENT    83
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3748205E-03
+
+       974 -2.755852E-15 -3.232332E-15  1.457822E+00
+
+                                INCREMENT    84
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3793364E-03
+
+       974 -2.778810E-15 -3.258759E-15  1.469826E+00
+
+                                INCREMENT    85
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3838523E-03
+
+       974 -2.801172E-15 -3.286027E-15  1.482026E+00
+
+                                INCREMENT    86
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3883683E-03
+
+       974 -2.822937E-15 -3.313837E-15  1.494340E+00
+
+                                INCREMENT    87
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3928842E-03
+
+       974 -2.843917E-15 -3.341863E-15  1.506607E+00
+
+                                INCREMENT    88
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.3974001E-03
+
+       974 -2.864028E-15 -3.369484E-15  1.518613E+00
+
+                                INCREMENT    89
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4019160E-03
+
+       974 -2.883165E-15 -3.396155E-15  1.530130E+00
+
+                                INCREMENT    90
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4064319E-03
+
+       974 -2.901108E-15 -3.421363E-15  1.540948E+00
+
+                                INCREMENT    91
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4109478E-03
+
+       974 -2.917886E-15 -3.444727E-15  1.550910E+00
+
+                                INCREMENT    92
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4154637E-03
+
+       974 -2.933228E-15 -3.465842E-15  1.559923E+00
+
+                                INCREMENT    93
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4199796E-03
+
+       974 -2.947214E-15 -3.484870E-15  1.567967E+00
+
+                                INCREMENT    94
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4244955E-03
+
+       974 -2.959601E-15 -3.501729E-15  1.575081E+00
+
+                                INCREMENT    95
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4290115E-03
+
+       974 -2.970524E-15 -3.516691E-15  1.581336E+00
+
+                                INCREMENT    96
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4335274E-03
+
+       974 -2.979848E-15 -3.529810E-15  1.586811E+00
+
+                                INCREMENT    97
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4380433E-03
+
+       974 -2.987492E-15 -3.541330E-15  1.591552E+00
+
+                                INCREMENT    98
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4425592E-03
+
+       974 -2.993564E-15 -3.551087E-15  1.595559E+00
+
+                                INCREMENT    99
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4470751E-03
+
+       974 -2.997819E-15 -3.559029E-15  1.598762E+00
+
+                                INCREMENT   100
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4515910E-03
+
+       974 -3.000258E-15 -3.564694E-15  1.601033E+00
+
+                                INCREMENT   101
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4561069E-03
+
+       974 -3.000801E-15 -3.567784E-15  1.602200E+00
+
+                                INCREMENT   102
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4606228E-03
+
+       974 -2.999310E-15 -3.567757E-15  1.602073E+00
+
+                                INCREMENT   103
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4651387E-03
+
+       974 -2.995705E-15 -3.564152E-15  1.600483E+00
+
+                                INCREMENT   104
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4696546E-03
+
+       974 -2.990013E-15 -3.556834E-15  1.597315E+00
+
+                                INCREMENT   105
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4741706E-03
+
+       974 -2.982261E-15 -3.545422E-15  1.592533E+00
+
+                                INCREMENT   106
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4786865E-03
+
+       974 -2.972422E-15 -3.530352E-15  1.586195E+00
+
+                                INCREMENT   107
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4832024E-03
+
+       974 -2.960685E-15 -3.511893E-15  1.578448E+00
+
+                                INCREMENT   108
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4877183E-03
+
+       974 -2.947160E-15 -3.490589E-15  1.569512E+00
+
+                                INCREMENT   109
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4922342E-03
+
+       974 -2.931981E-15 -3.467170E-15  1.559648E+00
+
+                                INCREMENT   110
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.4967501E-03
+
+       974 -2.915420E-15 -3.442233E-15  1.549122E+00
+
+                                INCREMENT   111
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5012660E-03
+
+       974 -2.897557E-15 -3.416457E-15  1.538165E+00
+
+                                INCREMENT   112
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5057819E-03
+
+       974 -2.878530E-15 -3.390300E-15  1.526948E+00
+
+                                INCREMENT   113
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5102978E-03
+
+       974 -2.858526E-15 -3.363900E-15  1.515560E+00
+
+                                INCREMENT   114
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5148137E-03
+
+       974 -2.837493E-15 -3.337391E-15  1.504010E+00
+
+                                INCREMENT   115
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5193297E-03
+
+       974 -2.815619E-15 -3.310530E-15  1.492239E+00
+
+                                INCREMENT   116
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5238456E-03
+
+       974 -2.792851E-15 -3.283235E-15  1.480149E+00
+
+                                INCREMENT   117
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5283615E-03
+
+       974 -2.769161E-15 -3.255073E-15  1.467629E+00
+
+                                INCREMENT   118
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5328774E-03
+
+       974 -2.744576E-15 -3.225935E-15  1.454594E+00
+
+                                INCREMENT   119
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5373933E-03
+
+       974 -2.719206E-15 -3.195686E-15  1.441007E+00
+
+                                INCREMENT   120
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5419092E-03
+
+       974 -2.692914E-15 -3.164380E-15  1.426890E+00
+
+                                INCREMENT   121
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5464251E-03
+
+       974 -2.665891E-15 -3.132206E-15  1.412325E+00
+
+                                INCREMENT   122
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5509410E-03
+
+       974 -2.638027E-15 -3.099517E-15  1.397435E+00
+
+                                INCREMENT   123
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5554569E-03
+
+       974 -2.609539E-15 -3.066585E-15  1.382358E+00
+
+                                INCREMENT   124
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5599728E-03
+
+       974 -2.580347E-15 -3.033733E-15  1.367214E+00
+
+                                INCREMENT   125
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5644888E-03
+
+       974 -2.550477E-15 -3.001072E-15  1.352072E+00
+
+                                INCREMENT   126
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5690047E-03
+
+       974 -2.519876E-15 -2.968654E-15  1.336928E+00
+
+                                INCREMENT   127
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5735206E-03
+
+       974 -2.488488E-15 -2.936101E-15  1.321697E+00
+
+                                INCREMENT   128
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5780365E-03
+
+       974 -2.456233E-15 -2.903141E-15  1.306214E+00
+
+                                INCREMENT   129
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5825524E-03
+
+       974 -2.422948E-15 -2.869097E-15  1.290259E+00
+
+                                INCREMENT   130
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5870683E-03
+
+       974 -2.388579E-15 -2.833346E-15  1.273591E+00
+
+                                INCREMENT   131
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5915842E-03
+
+       974 -2.352908E-15 -2.795317E-15  1.255978E+00
+
+                                INCREMENT   132
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.5961001E-03
+
+       974 -2.315910E-15 -2.754524E-15  1.237242E+00
+
+                                INCREMENT   133
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6006160E-03
+
+       974 -2.277529E-15 -2.710695E-15  1.217282E+00
+
+                                INCREMENT   134
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6051319E-03
+
+       974 -2.237712E-15 -2.663803E-15  1.196087E+00
+
+                                INCREMENT   135
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6096479E-03
+
+       974 -2.196607E-15 -2.614066E-15  1.173739E+00
+
+                                INCREMENT   136
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6141638E-03
+
+       974 -2.154161E-15 -2.561780E-15  1.150393E+00
+
+                                INCREMENT   137
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6186797E-03
+
+       974 -2.110589E-15 -2.507543E-15  1.126246E+00
+
+                                INCREMENT   138
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6231956E-03
+
+       974 -2.065988E-15 -2.451761E-15  1.101508E+00
+
+                                INCREMENT   139
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6277115E-03
+
+       974 -2.020451E-15 -2.394975E-15  1.076360E+00
+
+                                INCREMENT   140
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6322274E-03
+
+       974 -1.974183E-15 -2.337513E-15  1.050936E+00
+
+                                INCREMENT   141
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6367433E-03
+
+       974 -1.927210E-15 -2.279522E-15  1.025304E+00
+
+                                INCREMENT   142
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6412592E-03
+
+       974 -1.879641E-15 -2.221042E-15  9.994703E-01
+
+                                INCREMENT   143
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6457751E-03
+
+       974 -1.831570E-15 -2.161980E-15  9.733941E-01
+
+                                INCREMENT   144
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6502910E-03
+
+       974 -1.783065E-15 -2.102187E-15  9.470158E-01
+
+                                INCREMENT   145
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6548070E-03
+
+       974 -1.734208E-15 -2.041580E-15  9.202877E-01
+
+                                INCREMENT   146
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6593229E-03
+
+       974 -1.685108E-15 -1.980146E-15  8.932041E-01
+
+                                INCREMENT   147
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6638388E-03
+
+       974 -1.635831E-15 -1.918021E-15  8.658227E-01
+
+                                INCREMENT   148
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6683547E-03
+
+       974 -1.586567E-15 -1.855558E-15  8.382723E-01
+
+                                INCREMENT   149
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6728706E-03
+
+       974 -1.537466E-15 -1.793230E-15  8.107458E-01
+
+                                INCREMENT   150
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6773865E-03
+
+       974 -1.488718E-15 -1.731633E-15  7.834779E-01
+
+                                INCREMENT   151
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6819024E-03
+
+       974 -1.440444E-15 -1.671406E-15  7.567135E-01
+
+                                INCREMENT   152
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6864183E-03
+
+       974 -1.392827E-15 -1.613103E-15  7.306709E-01
+
+                                INCREMENT   153
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6909342E-03
+
+       974 -1.345942E-15 -1.557036E-15  7.055077E-01
+
+                                INCREMENT   154
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6954501E-03
+
+       974 -1.299877E-15 -1.503456E-15  6.812971E-01
+
+                                INCREMENT   155
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.6999661E-03
+
+       974 -1.254625E-15 -1.452289E-15  6.580166E-01
+
+                                INCREMENT   156
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7044820E-03
+
+       974 -1.210159E-15 -1.403222E-15  6.355544E-01
+
+                                INCREMENT   157
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7089979E-03
+
+       974 -1.166385E-15 -1.355795E-15  6.137301E-01
+
+                                INCREMENT   158
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7135138E-03
+
+       974 -1.123281E-15 -1.309405E-15  5.923274E-01
+
+                                INCREMENT   159
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7180297E-03
+
+       974 -1.080672E-15 -1.263556E-15  5.711306E-01
+
+                                INCREMENT   160
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7225456E-03
+
+       974 -1.038496E-15 -1.217742E-15  5.499603E-01
+
+                                INCREMENT   161
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7270615E-03
+
+       974 -9.966867E-16 -1.171643E-15  5.286997E-01
+
+                                INCREMENT   162
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7315774E-03
+
+       974 -9.551821E-16 -1.125138E-15  5.073076E-01
+
+                                INCREMENT   163
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7360933E-03
+
+       974 -9.139757E-16 -1.078280E-15  4.858160E-01
+
+                                INCREMENT   164
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7406092E-03
+
+       974 -8.730741E-16 -1.031273E-15  4.643131E-01
+
+                                INCREMENT   165
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7451252E-03
+
+       974 -8.324775E-16 -9.844014E-16  4.429152E-01
+
+                                INCREMENT   166
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7496411E-03
+
+       974 -7.922740E-16 -9.378891E-16  4.217350E-01
+
+                                INCREMENT   167
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7541570E-03
+
+       974 -7.524295E-16 -8.919189E-16  4.008510E-01
+
+                                INCREMENT   168
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7586729E-03
+
+       974 -7.129849E-16 -8.465789E-16  3.802874E-01
+
+                                INCREMENT   169
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7631888E-03
+
+       974 -6.739130E-16 -8.017404E-16  3.600050E-01
+
+                                INCREMENT   170
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7677047E-03
+
+       974 -6.352273E-16 -7.571323E-16  3.399095E-01
+
+                                INCREMENT   171
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7722206E-03
+
+       974 -5.968804E-16 -7.124631E-16  3.198720E-01
+
+                                INCREMENT   172
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7767365E-03
+
+       974 -5.589062E-16 -6.673603E-16  2.997600E-01
+
+                                INCREMENT   173
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7812524E-03
+
+       974 -5.212912E-16 -6.216070E-16  2.794714E-01
+
+                                INCREMENT   174
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7857683E-03
+
+       974 -4.840726E-16 -5.750845E-16  2.589658E-01
+
+                                INCREMENT   175
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7902843E-03
+
+       974 -4.473723E-16 -5.279218E-16  2.382844E-01
+
+                                INCREMENT   176
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7948002E-03
+
+       974 -4.112989E-16 -4.804439E-16  2.175576E-01
+
+                                INCREMENT   177
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.7993161E-03
+
+       974 -3.760284E-16 -4.331930E-16  1.969943E-01
+
+                                INCREMENT   178
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8038320E-03
+
+       974 -3.417524E-16 -3.868332E-16  1.768587E-01
+
+                                INCREMENT   179
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8083479E-03
+
+       974 -3.086588E-16 -3.420997E-16  1.574352E-01
+
+                                INCREMENT   180
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8128638E-03
+
+       974 -2.769484E-16 -2.996692E-16  1.389905E-01
+
+                                INCREMENT   181
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8173797E-03
+
+       974 -2.467816E-16 -2.600971E-16  1.217387E-01
+
+                                INCREMENT   182
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8218956E-03
+
+       974 -2.182948E-16 -2.237280E-16  1.058154E-01
+
+                                INCREMENT   183
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8264115E-03
+
+       974 -1.915631E-16 -1.906921E-16  9.126737E-02
+
+                                INCREMENT   184
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8309274E-03
+
+       974 -1.666364E-16 -1.609070E-16  7.805739E-02
+
+                                INCREMENT   185
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8354434E-03
+
+       974 -1.435259E-16 -1.341192E-16  6.608373E-02
+
+                                INCREMENT   186
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8399593E-03
+
+       974 -1.222120E-16 -1.099855E-16  5.521032E-02
+
+                                INCREMENT   187
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8444752E-03
+
+       974 -1.026672E-16 -8.817020E-17  4.530085E-02
+
+                                INCREMENT   188
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8489911E-03
+
+       974 -8.485661E-17 -6.840384E-17  3.624994E-02
+
+                                INCREMENT   189
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8535070E-03
+
+       974 -6.876213E-17 -5.054330E-17  2.800522E-02
+
+                                INCREMENT   190
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8580229E-03
+
+       974 -5.437104E-17 -3.460553E-17  2.057575E-02
+
+                                INCREMENT   191
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8625388E-03
+
+       974 -4.168419E-17 -2.073452E-17  1.402533E-02
+
+                                INCREMENT   192
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8670547E-03
+
+       974 -3.070156E-17 -9.164049E-18  8.452316E-03
+
+                                INCREMENT   193
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8715706E-03
+
+       974 -2.142146E-17 -1.295960E-19  3.960118E-03
+
+                                INCREMENT   194
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8760865E-03
+
+       974 -1.382781E-17  6.187576E-18  6.248925E-04
+
+                                INCREMENT   195
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8806025E-03
+
+       974 -7.871477E-18  9.759514E-18 -1.532843E-03
+
+                                INCREMENT   196
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8851184E-03
+
+       974 -3.477917E-18  1.073699E-17 -2.566392E-03
+
+                                INCREMENT   197
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8896343E-03
+
+       974 -5.357483E-19  9.470252E-18 -2.606737E-03
+
+                                INCREMENT   198
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8941502E-03
+
+       974  1.088437E-18  6.468791E-18 -1.850766E-03
+
+                                INCREMENT   199
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.8986661E-03
+
+       974  1.535035E-18  2.342258E-18 -5.356995E-04
+
+                                INCREMENT   200
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9031820E-03
+
+       974  9.444417E-19 -2.284871E-18  1.095659E-03
+
+                                INCREMENT   201
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9076979E-03
+
+       974 -5.615828E-19 -6.875366E-18  2.832342E-03
+
+                                INCREMENT   202
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9122138E-03
+
+       974 -2.897700E-18 -1.105293E-17  4.528221E-03
+
+                                INCREMENT   203
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9167297E-03
+
+       974 -6.024098E-18 -1.466553E-17  6.124298E-03
+
+                                INCREMENT   204
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9212456E-03
+
+       974 -9.941626E-18 -1.779955E-17  7.656071E-03
+
+                                INCREMENT   205
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9257616E-03
+
+       974 -1.470534E-17 -2.076290E-17  9.244646E-03
+
+                                INCREMENT   206
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9302775E-03
+
+       974 -2.039677E-17 -2.401974E-17  1.107342E-02
+
+                                INCREMENT   207
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9347934E-03
+
+       974 -2.712247E-17 -2.811165E-17  1.335497E-02
+
+                                INCREMENT   208
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9393093E-03
+
+       974 -3.499390E-17 -3.356622E-17  1.629459E-02
+
+                                INCREMENT   209
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9438252E-03
+
+       974 -4.411538E-17 -4.081174E-17  2.005762E-02
+
+                                INCREMENT   210
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9483411E-03
+
+       974 -5.457094E-17 -5.012275E-17  2.474670E-02
+
+                                INCREMENT   211
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9528570E-03
+
+       974 -6.642581E-17 -6.159878E-17  3.039315E-02
+
+                                INCREMENT   212
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9573729E-03
+
+       974 -7.971321E-17 -7.517206E-17  3.696376E-02
+
+                                INCREMENT   213
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9618888E-03
+
+       974 -9.445836E-17 -9.067202E-17  4.438112E-02
+
+                                INCREMENT   214
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9664047E-03
+
+       974 -1.106680E-16 -1.078858E-16  5.255291E-02
+
+                                INCREMENT   215
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9709207E-03
+
+       974 -1.283641E-16 -1.266462E-16  6.140375E-02
+
+                                INCREMENT   216
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9754366E-03
+
+       974 -1.475680E-16 -1.468931E-16  7.090269E-02
+
+                                INCREMENT   217
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9799525E-03
+
+       974 -1.683229E-16 -1.687205E-16  8.108041E-02
+
+                                INCREMENT   218
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9844684E-03
+
+       974 -1.906893E-16 -1.923743E-16  9.203221E-02
+
+                                INCREMENT   219
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9889843E-03
+
+       974 -2.147293E-16 -2.182465E-16  1.039057E-01
+
+                                INCREMENT   220
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9935002E-03
+
+       974 -2.405170E-16 -2.467756E-16  1.168757E-01
+
+                                INCREMENT   221
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.9980161E-03
+
+       974 -2.680872E-16 -2.783947E-16  1.311103E-01
+
+                                INCREMENT   222
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1002532E-02
+
+       974 -2.974780E-16 -3.134174E-16  1.467362E-01
+
+                                INCREMENT   223
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1007048E-02
+
+       974 -3.286640E-16 -3.519837E-16  1.638085E-01
+
+                                INCREMENT   224
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1011564E-02
+
+       974 -3.615755E-16 -3.940025E-16  1.822924E-01
+
+                                INCREMENT   225
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1016080E-02
+
+       974 -3.961014E-16 -4.391408E-16  2.020598E-01
+
+                                INCREMENT   226
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1020596E-02
+
+       974 -4.320952E-16 -4.868847E-16  2.229025E-01
+
+                                INCREMENT   227
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1025112E-02
+
+       974 -4.693613E-16 -5.365446E-16  2.445586E-01
+
+                                INCREMENT   228
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1029627E-02
+
+       974 -5.077183E-16 -5.874207E-16  2.667486E-01
+
+                                INCREMENT   229
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1034143E-02
+
+       974 -5.469563E-16 -6.388492E-16  2.892126E-01
+
+                                INCREMENT   230
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1038659E-02
+
+       974 -5.869193E-16 -6.903047E-16  3.117444E-01
+
+                                INCREMENT   231
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1043175E-02
+
+       974 -6.274549E-16 -7.414317E-16  3.342126E-01
+
+                                INCREMENT   232
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1047691E-02
+
+       974 -6.684716E-16 -7.921181E-16  3.565685E-01
+
+                                INCREMENT   233
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1052207E-02
+
+       974 -7.098746E-16 -8.423912E-16  3.788374E-01
+
+                                INCREMENT   234
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1056723E-02
+
+       974 -7.516232E-16 -8.924542E-16  4.010966E-01
+
+                                INCREMENT   235
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1061239E-02
+
+       974 -7.937038E-16 -9.425579E-16  4.234446E-01
+
+                                INCREMENT   236
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1065755E-02
+
+       974 -8.360554E-16 -9.928920E-16  4.459681E-01
+
+                                INCREMENT   237
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1070271E-02
+
+       974 -8.787120E-16 -1.043592E-15  4.687139E-01
+
+                                INCREMENT   238
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1074787E-02
+
+       974 -9.215380E-16 -1.094638E-15  4.916715E-01
+
+                                INCREMENT   239
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1079302E-02
+
+       974 -9.645740E-16 -1.145853E-15  5.147693E-01
+
+                                INCREMENT   240
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1083818E-02
+
+       974 -1.007698E-15 -1.196959E-15  5.378868E-01
+
+                                INCREMENT   241
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1088334E-02
+
+       974 -1.050877E-15 -1.247578E-15  5.608784E-01
+
+                                INCREMENT   242
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1092850E-02
+
+       974 -1.094055E-15 -1.297397E-15  5.836055E-01
+
+                                INCREMENT   243
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1097366E-02
+
+       974 -1.137220E-15 -1.346213E-15  6.059693E-01
+
+                                INCREMENT   244
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1101882E-02
+
+       974 -1.180303E-15 -1.393932E-15  6.279373E-01
+
+                                INCREMENT   245
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1106398E-02
+
+       974 -1.223481E-15 -1.440701E-15  6.495588E-01
+
+                                INCREMENT   246
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1110914E-02
+
+       974 -1.266728E-15 -1.486929E-15  6.709645E-01
+
+                                INCREMENT   247
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1115430E-02
+
+       974 -1.310177E-15 -1.533048E-15  6.923511E-01
+
+                                INCREMENT   248
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1119946E-02
+
+       974 -1.353952E-15 -1.579723E-15  7.139524E-01
+
+                                INCREMENT   249
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1124462E-02
+
+       974 -1.398160E-15 -1.627550E-15  7.360025E-01
+
+                                INCREMENT   250
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1128978E-02
+
+       974 -1.442924E-15 -1.677057E-15  7.586988E-01
+
+                                INCREMENT   251
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1133493E-02
+
+       974 -1.488244E-15 -1.728571E-15  7.821697E-01
+
+                                INCREMENT   252
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1138009E-02
+
+       974 -1.534173E-15 -1.782198E-15  8.064555E-01
+
+                                INCREMENT   253
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1142525E-02
+
+       974 -1.580658E-15 -1.837872E-15  8.315042E-01
+
+                                INCREMENT   254
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1147041E-02
+
+       974 -1.627672E-15 -1.895213E-15  8.571831E-01
+
+                                INCREMENT   255
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1151557E-02
+
+       974 -1.675065E-15 -1.953787E-15  8.833041E-01
+
+                                INCREMENT   256
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1156073E-02
+
+       974 -1.722743E-15 -2.013065E-15  9.096577E-01
+
+                                INCREMENT   257
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1160589E-02
+
+       974 -1.770529E-15 -2.072534E-15  9.360472E-01
+
+                                INCREMENT   258
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1165105E-02
+
+       974 -1.818329E-15 -2.131867E-15  9.623190E-01
+
+                                INCREMENT   259
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1169621E-02
+
+       974 -1.866007E-15 -2.190793E-15  9.883807E-01
+
+                                INCREMENT   260
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1174137E-02
+
+       974 -1.913549E-15 -2.249232E-15  1.014205E+00
+
+                                INCREMENT   261
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1178653E-02
+
+       974 -1.960725E-15 -2.307264E-15  1.039819E+00
+
+                                INCREMENT   262
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1183168E-02
+
+       974 -2.007590E-15 -2.364957E-15  1.065280E+00
+
+                                INCREMENT   263
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1187684E-02
+
+       974 -2.054035E-15 -2.422528E-15  1.090643E+00
+
+                                INCREMENT   264
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1192200E-02
+
+       974 -2.099937E-15 -2.479977E-15  1.115935E+00
+
+                                INCREMENT   265
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1196716E-02
+
+       974 -2.145189E-15 -2.537169E-15  1.141123E+00
+
+                                INCREMENT   266
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1201232E-02
+
+       974 -2.189736E-15 -2.593994E-15  1.166106E+00
+
+                                INCREMENT   267
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1205748E-02
+
+       974 -2.233307E-15 -2.649871E-15  1.190715E+00
+
+                                INCREMENT   268
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1210264E-02
+
+       974 -2.275917E-15 -2.704244E-15  1.214728E+00
+
+                                INCREMENT   269
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1214780E-02
+
+       974 -2.317211E-15 -2.756611E-15  1.237903E+00
+
+                                INCREMENT   270
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1219296E-02
+
+       974 -2.357191E-15 -2.806322E-15  1.260011E+00
+
+                                INCREMENT   271
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1223812E-02
+
+       974 -2.395599E-15 -2.852915E-15  1.280871E+00
+
+                                INCREMENT   272
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1228328E-02
+
+       974 -2.432462E-15 -2.896175E-15  1.300380E+00
+
+                                INCREMENT   273
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1232843E-02
+
+       974 -2.467780E-15 -2.936047E-15  1.318532E+00
+
+                                INCREMENT   274
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1237359E-02
+
+       974 -2.501498E-15 -2.972801E-15  1.335411E+00
+
+                                INCREMENT   275
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1241875E-02
+
+       974 -2.533726E-15 -3.006845E-15  1.351181E+00
+
+                                INCREMENT   276
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1246391E-02
+
+       974 -2.564572E-15 -3.038721E-15  1.366054E+00
+
+                                INCREMENT   277
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1250907E-02
+
+       974 -2.594143E-15 -3.068997E-15  1.380257E+00
+
+                                INCREMENT   278
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1255423E-02
+
+       974 -2.622550E-15 -3.098270E-15  1.393992E+00
+
+                                INCREMENT   279
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1259939E-02
+
+       974 -2.649844E-15 -3.126866E-15  1.407409E+00
+
+                                INCREMENT   280
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1264455E-02
+
+       974 -2.676136E-15 -3.155083E-15  1.420583E+00
+
+                                INCREMENT   281
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1268971E-02
+
+       974 -2.701425E-15 -3.182784E-15  1.433516E+00
+
+                                INCREMENT   282
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1273487E-02
+
+       974 -2.725847E-15 -3.209970E-15  1.446147E+00
+
+                                INCREMENT   283
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1278003E-02
+
+       974 -2.749266E-15 -3.236398E-15  1.458374E+00
+
+                                INCREMENT   284
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1282518E-02
+
+       974 -2.771709E-15 -3.261795E-15  1.470089E+00
+
+                                INCREMENT   285
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1287034E-02
+
+       974 -2.793257E-15 -3.285946E-15  1.481209E+00
+
+                                INCREMENT   286
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1291550E-02
+
+       974 -2.813749E-15 -3.308822E-15  1.491699E+00
+
+                                INCREMENT   287
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1296066E-02
+
+       974 -2.833264E-15 -3.330452E-15  1.501586E+00
+
+                                INCREMENT   288
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1300582E-02
+
+       974 -2.851940E-15 -3.351106E-15  1.510958E+00
+
+                                INCREMENT   289
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1305098E-02
+
+       974 -2.869721E-15 -3.371110E-15  1.519945E+00
+
+                                INCREMENT   290
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1309614E-02
+
+       974 -2.886580E-15 -3.390761E-15  1.528695E+00
+
+                                INCREMENT   291
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1314130E-02
+
+       974 -2.902707E-15 -3.410493E-15  1.537337E+00
+
+                                INCREMENT   292
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1318646E-02
+
+       974 -2.917968E-15 -3.430416E-15  1.545950E+00
+
+                                INCREMENT   293
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1323162E-02
+
+       974 -2.932252E-15 -3.450528E-15  1.554534E+00
+
+                                INCREMENT   294
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1327678E-02
+
+       974 -2.945615E-15 -3.470640E-15  1.563005E+00
+
+                                INCREMENT   295
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1332193E-02
+
+       974 -2.957839E-15 -3.490291E-15  1.571192E+00
+
+                                INCREMENT   296
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1336709E-02
+
+       974 -2.968762E-15 -3.508885E-15  1.578860E+00
+
+                                INCREMENT   297
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1341225E-02
+
+       974 -2.978276E-15 -3.525717E-15  1.585741E+00
+
+                                INCREMENT   298
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1345741E-02
+
+       974 -2.986083E-15 -3.540083E-15  1.591569E+00
+
+                                INCREMENT   299
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1350257E-02
+
+       974 -2.992154E-15 -3.551548E-15  1.596120E+00
+
+                                INCREMENT   300
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1354773E-02
+
+       974 -2.996328E-15 -3.559490E-15  1.599240E+00
+
+                                INCREMENT   301
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1359289E-02
+
+       974 -2.998524E-15 -3.563854E-15  1.600863E+00
+
+                                INCREMENT   302
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1363805E-02
+
+       974 -2.998713E-15 -3.564640E-15  1.601009E+00
+
+                                INCREMENT   303
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1368321E-02
+
+       974 -2.996843E-15 -3.562119E-15  1.599773E+00
+
+                                INCREMENT   304
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1372837E-02
+
+       974 -2.993049E-15 -3.556644E-15  1.597293E+00
+
+                                INCREMENT   305
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1377353E-02
+
+       974 -2.987302E-15 -3.548485E-15  1.593723E+00
+
+                                INCREMENT   306
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1381868E-02
+
+       974 -2.979713E-15 -3.538050E-15  1.589196E+00
+
+                                INCREMENT   307
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1386384E-02
+
+       974 -2.970307E-15 -3.525636E-15  1.583795E+00
+
+                                INCREMENT   308
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1390900E-02
+
+       974 -2.959086E-15 -3.511162E-15  1.577549E+00
+
+                                INCREMENT   309
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1395416E-02
+
+       974 -2.946103E-15 -3.494573E-15  1.570423E+00
+
+                                INCREMENT   310
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1399932E-02
+
+       974 -2.931412E-15 -3.475844E-15  1.562342E+00
+
+                                INCREMENT   311
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1404448E-02
+
+       974 -2.914959E-15 -3.454593E-15  1.553213E+00
+
+                                INCREMENT   312
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1408964E-02
+
+       974 -2.896934E-15 -3.430714E-15  1.542961E+00
+
+                                INCREMENT   313
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1413480E-02
+
+       974 -2.877229E-15 -3.404097E-15  1.531556E+00
+
+                                INCREMENT   314
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1417996E-02
+
+       974 -2.856032E-15 -3.374959E-15  1.519035E+00
+
+                                INCREMENT   315
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1422512E-02
+
+       974 -2.833481E-15 -3.343490E-15  1.505517E+00
+
+                                INCREMENT   316
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1427028E-02
+
+       974 -2.809602E-15 -3.310286E-15  1.491191E+00
+
+                                INCREMENT   317
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1431543E-02
+
+       974 -2.784665E-15 -3.275863E-15  1.476297E+00
+
+                                INCREMENT   318
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1436059E-02
+
+       974 -2.758834E-15 -3.240951E-15  1.461095E+00
+
+                                INCREMENT   319
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1440575E-02
+
+       974 -2.732298E-15 -3.206067E-15  1.445824E+00
+
+                                INCREMENT   320
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1445091E-02
+
+       974 -2.705112E-15 -3.171779E-15  1.430674E+00
+
+                                INCREMENT   321
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1449607E-02
+
+       974 -2.677356E-15 -3.138359E-15  1.415749E+00
+
+                                INCREMENT   322
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1454123E-02
+
+       974 -2.649112E-15 -3.105833E-15  1.401062E+00
+
+                                INCREMENT   323
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1458639E-02
+
+       974 -2.620381E-15 -3.073957E-15  1.386536E+00
+
+                                INCREMENT   324
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1463155E-02
+
+       974 -2.591081E-15 -3.042298E-15  1.372020E+00
+
+                                INCREMENT   325
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1467671E-02
+
+       974 -2.561129E-15 -3.010504E-15  1.357321E+00
+
+                                INCREMENT   326
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1472187E-02
+
+       974 -2.530474E-15 -2.978005E-15  1.342241E+00
+
+                                INCREMENT   327
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1476703E-02
+
+       974 -2.498978E-15 -2.944314E-15  1.326608E+00
+
+                                INCREMENT   328
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1481218E-02
+
+       974 -2.466641E-15 -2.909158E-15  1.310310E+00
+
+                                INCREMENT   329
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1485734E-02
+
+       974 -2.433356E-15 -2.872404E-15  1.293301E+00
+
+                                INCREMENT   330
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1490250E-02
+
+       974 -2.399068E-15 -2.834077E-15  1.275603E+00
+
+                                INCREMENT   331
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1494766E-02
+
+       974 -2.363872E-15 -2.794341E-15  1.257294E+00
+
+                                INCREMENT   332
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1499282E-02
+
+       974 -2.327741E-15 -2.753440E-15  1.238474E+00
+
+                                INCREMENT   333
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1503798E-02
+
+       974 -2.290662E-15 -2.711535E-15  1.219239E+00
+
+                                INCREMENT   334
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1508314E-02
+
+       974 -2.252647E-15 -2.668845E-15  1.199648E+00
+
+                                INCREMENT   335
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1512830E-02
+
+       974 -2.213629E-15 -2.625341E-15  1.179704E+00
+
+                                INCREMENT   336
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1517346E-02
+
+       974 -2.173676E-15 -2.580808E-15  1.159343E+00
+
+                                INCREMENT   337
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1521862E-02
+
+       974 -2.132612E-15 -2.534892E-15  1.138443E+00
+
+                                INCREMENT   338
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1526378E-02
+
+       974 -2.090464E-15 -2.487241E-15  1.116843E+00
+
+                                INCREMENT   339
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1530893E-02
+
+       974 -2.047218E-15 -2.437408E-15  1.094378E+00
+
+                                INCREMENT   340
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1535409E-02
+
+       974 -2.002792E-15 -2.385069E-15  1.070907E+00
+
+                                INCREMENT   341
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1539925E-02
+
+       974 -1.957188E-15 -2.329978E-15  1.046356E+00
+
+                                INCREMENT   342
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1544441E-02
+
+       974 -1.910595E-15 -2.272162E-15  1.020731E+00
+
+                                INCREMENT   343
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1548957E-02
+
+       974 -1.862971E-15 -2.211949E-15  9.941342E-01
+
+                                INCREMENT   344
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1553473E-02
+
+       974 -1.814507E-15 -2.149729E-15  9.667540E-01
+
+                                INCREMENT   345
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1557989E-02
+
+       974 -1.765488E-15 -2.086154E-15  9.388426E-01
+
+                                INCREMENT   346
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1562505E-02
+
+       974 -1.716021E-15 -2.022023E-15  9.106835E-01
+
+                                INCREMENT   347
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1567021E-02
+
+       974 -1.666270E-15 -1.957920E-15  8.825536E-01
+
+                                INCREMENT   348
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1571537E-02
+
+       974 -1.616559E-15 -1.894521E-15  8.546874E-01
+
+                                INCREMENT   349
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1576053E-02
+
+       974 -1.566970E-15 -1.832275E-15  8.272504E-01
+
+                                INCREMENT   350
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1580569E-02
+
+       974 -1.517639E-15 -1.771329E-15  8.003263E-01
+
+                                INCREMENT   351
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1585084E-02
+
+       974 -1.468687E-15 -1.711738E-15  7.739196E-01
+
+                                INCREMENT   352
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1589600E-02
+
+       974 -1.420156E-15 -1.653422E-15  7.479733E-01
+
+                                INCREMENT   353
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1594116E-02
+
+       974 -1.372085E-15 -1.596054E-15  7.223973E-01
+
+                                INCREMENT   354
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1598632E-02
+
+       974 -1.324509E-15 -1.539499E-15  6.971010E-01
+
+                                INCREMENT   355
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1603148E-02
+
+       974 -1.277475E-15 -1.483527E-15  6.720244E-01
+
+                                INCREMENT   356
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1607664E-02
+
+       974 -1.231010E-15 -1.428192E-15  6.471593E-01
+
+                                INCREMENT   357
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1612180E-02
+
+       974 -1.185168E-15 -1.373549E-15  6.225591E-01
+
+                                INCREMENT   358
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1616696E-02
+
+       974 -1.140032E-15 -1.319901E-15  5.983311E-01
+
+                                INCREMENT   359
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1621212E-02
+
+       974 -1.095647E-15 -1.267581E-15  5.746174E-01
+
+                                INCREMENT   360
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1625728E-02
+
+       974 -1.052083E-15 -1.216942E-15  5.515646E-01
+
+                                INCREMENT   361
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1630244E-02
+
+       974 -1.009358E-15 -1.168241E-15  5.292903E-01
+
+                                INCREMENT   362
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1634759E-02
+
+       974 -9.675149E-16 -1.121614E-15  5.078539E-01
+
+                                INCREMENT   363
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1639275E-02
+
+       974 -9.264914E-16 -1.077013E-15  4.872365E-01
+
+                                INCREMENT   364
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1643791E-02
+
+       974 -8.862133E-16 -1.034132E-15  4.673347E-01
+
+                                INCREMENT   365
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1648307E-02
+
+       974 -8.466128E-16 -9.925126E-16  4.479716E-01
+
+                                INCREMENT   366
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1652823E-02
+
+       974 -8.075273E-16 -9.515636E-16  4.289207E-01
+
+                                INCREMENT   367
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1657339E-02
+
+       974 -7.688959E-16 -9.106417E-16  4.099409E-01
+
+                                INCREMENT   368
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1661855E-02
+
+       974 -7.305490E-16 -8.691913E-16  3.908140E-01
+
+                                INCREMENT   369
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1666371E-02
+
+       974 -6.924460E-16 -8.267922E-16  3.713797E-01
+
+                                INCREMENT   370
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1670887E-02
+
+       974 -6.545193E-16 -7.832209E-16  3.515599E-01
+
+                                INCREMENT   371
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1675403E-02
+
+       974 -6.168094E-16 -7.384975E-16  3.313687E-01
+
+                                INCREMENT   372
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1679919E-02
+
+       974 -5.793367E-16 -6.928865E-16  3.109064E-01
+
+                                INCREMENT   373
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1684434E-02
+
+       974 -5.421892E-16 -6.467740E-16  2.903386E-01
+
+                                INCREMENT   374
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1688950E-02
+
+       974 -5.054991E-16 -6.006717E-16  2.698649E-01
+
+                                INCREMENT   375
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1693466E-02
+
+       974 -4.693681E-16 -5.550505E-16  2.496835E-01
+
+                                INCREMENT   376
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1697982E-02
+
+       974 -4.339079E-16 -5.103475E-16  2.299595E-01
+
+                                INCREMENT   377
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1702498E-02
+
+       974 -3.992541E-16 -4.668304E-16  2.108013E-01
+
+                                INCREMENT   378
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1707014E-02
+
+       974 -3.654574E-16 -4.246142E-16  1.922514E-01
+
+                                INCREMENT   379
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1711530E-02
+
+       974 -3.326112E-16 -3.836754E-16  1.742928E-01
+
+                                INCREMENT   380
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1716046E-02
+
+       974 -3.007695E-16 -3.438717E-16  1.568682E-01
+
+                                INCREMENT   381
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1720562E-02
+
+       974 -2.699918E-16 -3.050420E-16  1.399087E-01
+
+                                INCREMENT   382
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1725078E-02
+
+       974 -2.403388E-16 -2.670983E-16  1.233663E-01
+
+                                INCREMENT   383
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1729594E-02
+
+       974 -2.119014E-16 -2.300372E-16  1.072414E-01
+
+                                INCREMENT   384
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1734109E-02
+
+       974 -1.847785E-16 -1.940425E-16  9.160104E-02
+
+                                INCREMENT   385
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1738625E-02
+
+       974 -1.591086E-16 -1.594785E-16  7.658266E-02
+
+                                INCREMENT   386
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1743141E-02
+
+       974 -1.350255E-16 -1.268398E-16  6.238243E-02
+
+                                INCREMENT   387
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1747657E-02
+
+       974 -1.126783E-16 -9.671337E-17  4.923015E-02
+
+                                INCREMENT   388
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1752173E-02
+
+       974 -9.220123E-17 -6.967862E-17  3.735513E-02
+
+                                INCREMENT   389
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1756689E-02
+
+       974 -7.370881E-17 -4.621920E-17  2.694965E-02
+
+                                INCREMENT   390
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1761205E-02
+
+       974 -5.726112E-17 -2.665104E-17  1.813703E-02
+
+                                INCREMENT   391
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1765721E-02
+
+       974 -4.288697E-17 -1.103853E-17  1.095061E-02
+
+                                INCREMENT   392
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1770237E-02
+
+       974 -3.055587E-17  7.741881E-19  5.327676E-03
+
+                                INCREMENT   393
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1774753E-02
+
+       974 -2.019665E-17  9.158120E-18  1.119673E-03
+
+                                INCREMENT   394
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1779269E-02
+
+       974 -1.169329E-17  1.466553E-17 -1.883236E-03
+
+                                INCREMENT   395
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1783784E-02
+
+       974 -4.911944E-18  1.790543E-17 -3.917965E-03
+
+                                INCREMENT   396
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1788300E-02
+
+       974  2.718976E-19  1.945550E-17 -5.211171E-03
+
+                                INCREMENT   397
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1792816E-02
+
+       974  3.987831E-18  1.979347E-17 -5.945889E-03
+
+                                INCREMENT   398
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1797332E-02
+
+       974  6.340042E-18  1.923104E-17 -6.238372E-03
+
+                                INCREMENT   399
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1801848E-02
+
+       974  7.399468E-18  1.789082E-17 -6.129267E-03
+
+                                INCREMENT   400
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1806364E-02
+
+       974  7.218415E-18  1.571818E-17 -5.590385E-03
+
+                                INCREMENT   401
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1810880E-02
+
+       974  5.824199E-18  1.253693E-17 -4.545179E-03
+
+                                INCREMENT   402
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1815396E-02
+
+       974  3.231007E-18  8.126858E-18 -2.898300E-03
+
+                                INCREMENT   403
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1819912E-02
+
+       974 -5.428422E-19  2.294612E-18 -5.678233E-04
+
+                                INCREMENT   404
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1824428E-02
+
+       974 -5.474242E-18 -5.051996E-18  2.486757E-03
+
+                                INCREMENT   405
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1828944E-02
+
+       974 -1.152388E-17 -1.385704E-17  6.246773E-03
+
+                                INCREMENT   406
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1833459E-02
+
+       974 -1.863811E-17 -2.391216E-17  1.063074E-02
+
+                                INCREMENT   407
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1837975E-02
+
+       974 -2.675396E-17 -3.488378E-17  1.550579E-02
+
+                                INCREMENT   408
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1842491E-02
+
+       974 -3.580662E-17 -4.637421E-17  2.071207E-02
+
+                                INCREMENT   409
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1847007E-02
+
+       974 -4.574571E-17 -5.800312E-17  2.609523E-02
+
+                                INCREMENT   410
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1851523E-02
+
+       974 -5.654707E-17 -6.949312E-17  3.154049E-02
+
+                                INCREMENT   411
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1856039E-02
+
+       974 -6.821919E-17 -8.073664E-17  3.700130E-02
+
+                                INCREMENT   412
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1860555E-02
+
+       974 -8.081795E-17 -9.184886E-17  4.251666E-02
+
+                                INCREMENT   413
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1865071E-02
+
+       974 -9.442935E-17 -1.031652E-16  4.821326E-02
+
+                                INCREMENT   414
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1869587E-02
+
+       974 -1.091787E-16 -1.152092E-16  5.429165E-02
+
+                                INCREMENT   415
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1874103E-02
+
+       974 -1.252157E-16 -1.286164E-16  6.099880E-02
+
+                                INCREMENT   416
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1878619E-02
+
+       974 -1.426852E-16 -1.440548E-16  6.859197E-02
+
+                                INCREMENT   417
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1883134E-02
+
+       974 -1.617278E-16 -1.621204E-16  7.730061E-02
+
+                                INCREMENT   418
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1887650E-02
+
+       974 -1.824486E-16 -1.832562E-16  8.729354E-02
+
+                                INCREMENT   419
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1892166E-02
+
+       974 -2.049191E-16 -2.076944E-16  9.865715E-02
+
+                                INCREMENT   420
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1896682E-02
+
+       974 -2.291606E-16 -2.354484E-16  1.113889E-01
+
+                                INCREMENT   421
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1901198E-02
+
+       974 -2.551695E-16 -2.663279E-16  1.254065E-01
+
+                                INCREMENT   422
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1905714E-02
+
+       974 -2.828887E-16 -2.999920E-16  1.405710E-01
+
+                                INCREMENT   423
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1910230E-02
+
+       974 -3.122511E-16 -3.360442E-16  1.567186E-01
+
+                                INCREMENT   424
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1914746E-02
+
+       974 -3.431805E-16 -3.740989E-16  1.736947E-01
+
+                                INCREMENT   425
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1919262E-02
+
+       974 -3.755981E-16 -4.138705E-16  1.913827E-01
+
+                                INCREMENT   426
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1923778E-02
+
+       974 -4.094456E-16 -4.552040E-16  2.097231E-01
+
+                                INCREMENT   427
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1928294E-02
+
+       974 -4.446618E-16 -4.981028E-16  2.287173E-01
+
+                                INCREMENT   428
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1932809E-02
+
+       974 -4.812062E-16 -5.426872E-16  2.484172E-01
+
+                                INCREMENT   429
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1937325E-02
+
+       974 -5.190347E-16 -5.891521E-16  2.689015E-01
+
+                                INCREMENT   430
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1941841E-02
+
+       974 -5.580897E-16 -6.376701E-16  2.902452E-01
+
+                                INCREMENT   431
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1946357E-02
+
+       974 -5.983034E-16 -6.883430E-16  3.124873E-01
+
+                                INCREMENT   432
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1950873E-02
+
+       974 -6.395742E-16 -7.410691E-16  3.356045E-01
+
+                                INCREMENT   433
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1955389E-02
+
+       974 -6.817667E-16 -7.956079E-16  3.594975E-01
+
+                                INCREMENT   434
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1959905E-02
+
+       974 -7.247146E-16 -8.515053E-16  3.839905E-01
+
+                                INCREMENT   435
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1964421E-02
+
+       974 -7.682453E-16 -9.081752E-16  4.088477E-01
+
+                                INCREMENT   436
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1968937E-02
+
+       974 -8.121826E-16 -9.648993E-16  4.338021E-01
+
+                                INCREMENT   437
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1973453E-02
+
+       974 -8.563232E-16 -1.021047E-15  4.585913E-01
+
+                                INCREMENT   438
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1977969E-02
+
+       974 -9.005044E-16 -1.076044E-15  4.829948E-01
+
+                                INCREMENT   439
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1982484E-02
+
+       974 -9.446247E-16 -1.129522E-15  5.068648E-01
+
+                                INCREMENT   440
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1987000E-02
+
+       974 -9.886162E-16 -1.181360E-15  5.301443E-01
+
+                                INCREMENT   441
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1991516E-02
+
+       974 -1.032452E-15 -1.231613E-15  5.528705E-01
+
+                                INCREMENT   442
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.1996032E-02
+
+       974 -1.076118E-15 -1.280646E-15  5.751618E-01
+
+                                INCREMENT   443
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2000548E-02
+
+       974 -1.119723E-15 -1.328839E-15  5.971907E-01
+
+                                INCREMENT   444
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2005064E-02
+
+       974 -1.163308E-15 -1.376733E-15  6.191499E-01
+
+                                INCREMENT   445
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2009580E-02
+
+       974 -1.206941E-15 -1.424764E-15  6.412157E-01
+
+                                INCREMENT   446
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2014096E-02
+
+       974 -1.250668E-15 -1.473309E-15  6.635179E-01
+
+                                INCREMENT   447
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2018612E-02
+
+       974 -1.294578E-15 -1.522532E-15  6.861207E-01
+
+                                INCREMENT   448
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2023128E-02
+
+       974 -1.338664E-15 -1.572418E-15  7.090182E-01
+
+                                INCREMENT   449
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2027644E-02
+
+       974 -1.382954E-15 -1.622861E-15  7.321456E-01
+
+                                INCREMENT   450
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2032160E-02
+
+       974 -1.427406E-15 -1.673656E-15  7.554022E-01
+
+                                INCREMENT   451
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2036675E-02
+
+       974 -1.472008E-15 -1.724464E-15  7.786824E-01
+
+                                INCREMENT   452
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2041191E-02
+
+       974 -1.516745E-15 -1.775273E-15  8.019070E-01
+
+                                INCREMENT   453
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2045707E-02
+
+       974 -1.561658E-15 -1.825851E-15  8.250480E-01
+
+                                INCREMENT   454
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2050223E-02
+
+       974 -1.606733E-15 -1.876429E-15  8.481427E-01
+
+                                INCREMENT   455
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2054739E-02
+
+       974 -1.651999E-15 -1.927251E-15  8.712919E-01
+
+                                INCREMENT   456
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2059255E-02
+
+       974 -1.697576E-15 -1.978710E-15  8.946440E-01
+
+                                INCREMENT   457
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2063771E-02
+
+       974 -1.743411E-15 -2.031212E-15  9.183665E-01
+
+                                INCREMENT   458
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2068287E-02
+
+       974 -1.789625E-15 -2.085165E-15  9.426116E-01
+
+                                INCREMENT   459
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2072803E-02
+
+       974 -1.836123E-15 -2.140839E-15  9.674813E-01
+
+                                INCREMENT   460
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2077319E-02
+
+       974 -1.882934E-15 -2.198301E-15  9.930006E-01
+
+                                INCREMENT   461
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2081835E-02
+
+       974 -1.929948E-15 -2.257309E-15  1.019103E+00
+
+                                INCREMENT   462
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2086350E-02
+
+       974 -1.976975E-15 -2.317577E-15  1.045629E+00
+
+                                INCREMENT   463
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2090866E-02
+
+       974 -2.023934E-15 -2.378414E-15  1.072350E+00
+
+                                INCREMENT   464
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2095382E-02
+
+       974 -2.070542E-15 -2.439184E-15  1.098990E+00
+
+                                INCREMENT   465
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2099898E-02
+
+       974 -2.116647E-15 -2.499140E-15  1.125266E+00
+
+                                INCREMENT   466
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2104414E-02
+
+       974 -2.162008E-15 -2.557660E-15  1.150928E+00
+
+                                INCREMENT   467
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2108930E-02
+
+       974 -2.206528E-15 -2.614282E-15  1.175785E+00
+
+                                INCREMENT   468
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2113446E-02
+
+       974 -2.250004E-15 -2.668628E-15  1.199725E+00
+
+                                INCREMENT   469
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2117962E-02
+
+       974 -2.292329E-15 -2.720697E-15  1.222719E+00
+
+                                INCREMENT   470
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2122478E-02
+
+       974 -2.333447E-15 -2.770489E-15  1.244808E+00
+
+                                INCREMENT   471
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2126994E-02
+
+       974 -2.373373E-15 -2.818356E-15  1.266077E+00
+
+                                INCREMENT   472
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2131510E-02
+
+       974 -2.412079E-15 -2.864408E-15  1.286623E+00
+
+                                INCREMENT   473
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2136025E-02
+
+       974 -2.449402E-15 -2.908942E-15  1.306524E+00
+
+                                INCREMENT   474
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2140541E-02
+
+       974 -2.485479E-15 -2.951930E-15  1.325814E+00
+
+                                INCREMENT   475
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2145057E-02
+
+       974 -2.520174E-15 -2.993374E-15  1.344465E+00
+
+                                INCREMENT   476
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2149573E-02
+
+       974 -2.553459E-15 -3.033056E-15  1.362394E+00
+
+                                INCREMENT   477
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2154089E-02
+
+       974 -2.585253E-15 -3.070732E-15  1.379472E+00
+
+                                INCREMENT   478
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2158605E-02
+
+       974 -2.615556E-15 -3.105941E-15  1.395557E+00
+
+                                INCREMENT   479
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2163121E-02
+
+       974 -2.644369E-15 -3.138386E-15  1.410523E+00
+
+                                INCREMENT   480
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2167637E-02
+
+       974 -2.671555E-15 -3.168066E-15  1.424294E+00
+
+                                INCREMENT   481
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2172153E-02
+
+       974 -2.697278E-15 -3.194791E-15  1.436866E+00
+
+                                INCREMENT   482
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2176669E-02
+
+       974 -2.721456E-15 -3.218942E-15  1.448320E+00
+
+                                INCREMENT   483
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2181185E-02
+
+       974 -2.744387E-15 -3.240843E-15  1.458816E+00
+
+                                INCREMENT   484
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2185700E-02
+
+       974 -2.766071E-15 -3.261036E-15  1.468577E+00
+
+                                INCREMENT   485
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2190216E-02
+
+       974 -2.786671E-15 -3.280335E-15  1.477851E+00
+
+                                INCREMENT   486
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2194732E-02
+
+       974 -2.806295E-15 -3.299200E-15  1.486880E+00
+
+                                INCREMENT   487
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2199248E-02
+
+       974 -2.825160E-15 -3.318201E-15  1.495859E+00
+
+                                INCREMENT   488
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2203764E-02
+
+       974 -2.843266E-15 -3.337662E-15  1.504907E+00
+
+                                INCREMENT   489
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2208280E-02
+
+       974 -2.860613E-15 -3.357693E-15  1.514057E+00
+
+                                INCREMENT   490
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2212796E-02
+
+       974 -2.877229E-15 -3.378049E-15  1.523249E+00
+
+                                INCREMENT   491
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2217312E-02
+
+       974 -2.893058E-15 -3.398540E-15  1.532350E+00
+
+                                INCREMENT   492
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2221828E-02
+
+       974 -2.908020E-15 -3.418625E-15  1.541181E+00
+
+                                INCREMENT   493
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2226344E-02
+
+       974 -2.922006E-15 -3.437897E-15  1.549551E+00
+
+                                INCREMENT   494
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2230860E-02
+
+       974 -2.934962E-15 -3.455867E-15  1.557294E+00
+
+                                INCREMENT   495
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2235375E-02
+
+       974 -2.946726E-15 -3.472266E-15  1.564291E+00
+
+                                INCREMENT   496
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2239891E-02
+
+       974 -2.957270E-15 -3.486984E-15  1.570489E+00
+
+                                INCREMENT   497
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2244407E-02
+
+       974 -2.966594E-15 -3.499913E-15  1.575897E+00
+
+                                INCREMENT   498
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2248923E-02
+
+       974 -2.974563E-15 -3.511351E-15  1.580575E+00
+
+                                INCREMENT   499
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2253439E-02
+
+       974 -2.981204E-15 -3.521353E-15  1.584604E+00
+
+                                INCREMENT   500
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2257955E-02
+
+       974 -2.986435E-15 -3.530162E-15  1.588056E+00
+
+                                INCREMENT   501
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2262471E-02
+
+       974 -2.990257E-15 -3.537806E-15  1.590964E+00
+
+                                INCREMENT   502
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2266987E-02
+
+       974 -2.992479E-15 -3.544148E-15  1.593299E+00
+
+                                INCREMENT   503
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2271503E-02
+
+       974 -2.993211E-15 -3.549000E-15  1.594961E+00
+
+                                INCREMENT   504
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2276019E-02
+
+       974 -2.992235E-15 -3.551955E-15  1.595785E+00
+
+                                INCREMENT   505
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2280535E-02
+
+       974 -2.989362E-15 -3.552361E-15  1.595564E+00
+
+                                INCREMENT   506
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2285050E-02
+
+       974 -2.984538E-15 -3.549705E-15  1.594076E+00
+
+                                INCREMENT   507
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2289566E-02
+
+       974 -2.977653E-15 -3.543606E-15  1.591124E+00
+
+                                INCREMENT   508
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2294082E-02
+
+       974 -2.968654E-15 -3.533578E-15  1.586569E+00
+
+                                INCREMENT   509
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2298598E-02
+
+       974 -2.957514E-15 -3.519456E-15  1.580356E+00
+
+                                INCREMENT   510
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2303114E-02
+
+       974 -2.944341E-15 -3.501404E-15  1.572526E+00
+
+                                INCREMENT   511
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2307630E-02
+
+       974 -2.929081E-15 -3.479801E-15  1.563212E+00
+
+                                INCREMENT   512
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2312146E-02
+
+       974 -2.911950E-15 -3.455108E-15  1.552618E+00
+
+                                INCREMENT   513
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2316662E-02
+
+       974 -2.893139E-15 -3.428030E-15  1.540987E+00
+
+                                INCREMENT   514
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2321178E-02
+
+       974 -2.872675E-15 -3.399028E-15  1.528569E+00
+
+                                INCREMENT   515
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2325694E-02
+
+       974 -2.850828E-15 -3.368806E-15  1.515577E+00
+
+                                INCREMENT   516
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2330210E-02
+
+       974 -2.827708E-15 -3.337662E-15  1.502168E+00
+
+                                INCREMENT   517
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2334725E-02
+
+       974 -2.803367E-15 -3.305922E-15  1.488424E+00
+
+                                INCREMENT   518
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2339241E-02
+
+       974 -2.777970E-15 -3.273586E-15  1.474352E+00
+
+                                INCREMENT   519
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2343757E-02
+
+       974 -2.751570E-15 -3.240518E-15  1.459905E+00
+
+                                INCREMENT   520
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2348273E-02
+
+       974 -2.724112E-15 -3.206528E-15  1.445005E+00
+
+                                INCREMENT   521
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2352789E-02
+
+       974 -2.695787E-15 -3.171508E-15  1.429573E+00
+
+                                INCREMENT   522
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2357305E-02
+
+       974 -2.666487E-15 -3.135269E-15  1.413568E+00
+
+                                INCREMENT   523
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2361821E-02
+
+       974 -2.636373E-15 -3.097891E-15  1.396997E+00
+
+                                INCREMENT   524
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2366337E-02
+
+       974 -2.605500E-15 -3.059510E-15  1.379935E+00
+
+                                INCREMENT   525
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2370853E-02
+
+       974 -2.574004E-15 -3.020533E-15  1.362512E+00
+
+                                INCREMENT   526
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2375369E-02
+
+       974 -2.541804E-15 -2.981312E-15  1.344894E+00
+
+                                INCREMENT   527
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2379885E-02
+
+       974 -2.509156E-15 -2.942281E-15  1.327255E+00
+
+                                INCREMENT   528
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2384400E-02
+
+       974 -2.476020E-15 -2.903819E-15  1.309742E+00
+
+                                INCREMENT   529
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2388916E-02
+
+       974 -2.442477E-15 -2.866116E-15  1.292441E+00
+
+                                INCREMENT   530
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2393432E-02
+
+       974 -2.408474E-15 -2.829144E-15  1.275358E+00
+
+                                INCREMENT   531
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2397948E-02
+
+       974 -2.374010E-15 -2.792715E-15  1.258408E+00
+
+                                INCREMENT   532
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2402464E-02
+
+       974 -2.338963E-15 -2.756340E-15  1.241428E+00
+
+                                INCREMENT   533
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2406980E-02
+
+       974 -2.303157E-15 -2.719531E-15  1.224193E+00
+
+                                INCREMENT   534
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2411496E-02
+
+       974 -2.266592E-15 -2.681503E-15  1.206458E+00
+
+                                INCREMENT   535
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2416012E-02
+
+       974 -2.228971E-15 -2.641767E-15  1.187987E+00
+
+                                INCREMENT   536
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2420528E-02
+
+       974 -2.190387E-15 -2.599781E-15  1.168598E+00
+
+                                INCREMENT   537
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2425044E-02
+
+       974 -2.150637E-15 -2.555302E-15  1.148181E+00
+
+                                INCREMENT   538
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2429560E-02
+
+       974 -2.109695E-15 -2.508207E-15  1.126716E+00
+
+                                INCREMENT   539
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2434075E-02
+
+       974 -2.067682E-15 -2.458672E-15  1.104266E+00
+
+                                INCREMENT   540
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2438591E-02
+
+       974 -2.024517E-15 -2.406942E-15  1.080962E+00
+
+                                INCREMENT   541
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2443107E-02
+
+       974 -1.980363E-15 -2.353545E-15  1.056968E+00
+
+                                INCREMENT   542
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2447623E-02
+
+       974 -1.935328E-15 -2.298753E-15  1.032454E+00
+
+                                INCREMENT   543
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2452139E-02
+
+       974 -1.889439E-15 -2.243011E-15  1.007559E+00
+
+                                INCREMENT   544
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2456655E-02
+
+       974 -1.842791E-15 -2.186483E-15  9.823722E-01
+
+                                INCREMENT   545
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2461171E-02
+
+       974 -1.795479E-15 -2.129278E-15  9.569185E-01
+
+                                INCREMENT   546
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2465687E-02
+
+       974 -1.747598E-15 -2.071287E-15  9.311680E-01
+
+                                INCREMENT   547
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2470203E-02
+
+       974 -1.699094E-15 -2.012333E-15  9.050540E-01
+
+                                INCREMENT   548
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2474719E-02
+
+       974 -1.650088E-15 -1.952242E-15  8.785015E-01
+
+                                INCREMENT   549
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2479235E-02
+
+       974 -1.600662E-15 -1.890957E-15  8.514601E-01
+
+                                INCREMENT   550
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2483751E-02
+
+       974 -1.550924E-15 -1.828439E-15  8.239327E-01
+
+                                INCREMENT   551
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2488266E-02
+
+       974 -1.500956E-15 -1.764919E-15  7.959952E-01
+
+                                INCREMENT   552
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2492782E-02
+
+       974 -1.450974E-15 -1.700761E-15  7.678009E-01
+
+                                INCREMENT   553
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2497298E-02
+
+       974 -1.401142E-15 -1.636563E-15  7.395708E-01
+
+                                INCREMENT   554
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2501814E-02
+
+       974 -1.351621E-15 -1.572988E-15  7.115686E-01
+
+                                INCREMENT   555
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2506330E-02
+
+       974 -1.302649E-15 -1.510714E-15  6.840663E-01
+
+                                INCREMENT   556
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2510846E-02
+
+       974 -1.254374E-15 -1.450330E-15  6.573069E-01
+
+                                INCREMENT   557
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2515362E-02
+
+       974 -1.206920E-15 -1.392339E-15  6.314708E-01
+
+                                INCREMENT   558
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2519878E-02
+
+       974 -1.160428E-15 -1.336950E-15  6.066515E-01
+
+                                INCREMENT   559
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2524394E-02
+
+       974 -1.114892E-15 -1.284143E-15  5.828478E-01
+
+                                INCREMENT   560
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2528910E-02
+
+       974 -1.070351E-15 -1.233727E-15  5.599700E-01
+
+                                INCREMENT   561
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2533426E-02
+
+       974 -1.026753E-15 -1.185250E-15  5.378631E-01
+
+                                INCREMENT   562
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2537941E-02
+
+       974 -9.840219E-16 -1.138256E-15  5.163385E-01
+
+                                INCREMENT   563
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2542457E-02
+
+       974 -9.420836E-16 -1.092266E-15  4.952104E-01
+
+                                INCREMENT   564
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2546973E-02
+
+       974 -9.008839E-16 -1.046892E-15  4.743291E-01
+
+                                INCREMENT   565
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2551489E-02
+
+       974 -8.603551E-16 -1.001864E-15  4.536047E-01
+
+                                INCREMENT   566
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2556005E-02
+
+       974 -8.204903E-16 -9.571066E-16  4.330168E-01
+
+                                INCREMENT   567
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2560521E-02
+
+       974 -7.812422E-16 -9.127356E-16  4.126094E-01
+
+                                INCREMENT   568
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2565037E-02
+
+       974 -7.426311E-16 -8.689135E-16  3.924706E-01
+
+                                INCREMENT   569
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2569553E-02
+
+       974 -7.046569E-16 -8.259113E-16  3.727050E-01
+
+                                INCREMENT   570
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2574069E-02
+
+       974 -6.673468E-16 -7.838985E-16  3.534008E-01
+
+                                INCREMENT   571
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2578585E-02
+
+       974 -6.306872E-16 -7.429766E-16  3.346025E-01
+
+                                INCREMENT   572
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2583101E-02
+
+       974 -5.946544E-16 -7.030983E-16  3.162919E-01
+
+                                INCREMENT   573
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2587616E-02
+
+       974 -5.591840E-16 -6.639993E-16  2.983848E-01
+
+                                INCREMENT   574
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2592132E-02
+
+       974 -5.242389E-16 -6.253407E-16  2.807411E-01
+
+                                INCREMENT   575
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2596648E-02
+
+       974 -4.897578E-16 -5.866753E-16  2.631898E-01
+
+                                INCREMENT   576
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2601164E-02
+
+       974 -4.556766E-16 -5.475763E-16  2.455622E-01
+
+                                INCREMENT   577
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2605680E-02
+
+       974 -4.220020E-16 -5.077082E-16  2.277270E-01
+
+                                INCREMENT   578
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2610196E-02
+
+       974 -3.887271E-16 -4.669015E-16  2.096212E-01
+
+                                INCREMENT   579
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2614712E-02
+
+       974 -3.559199E-16 -4.252478E-16  1.912697E-01
+
+                                INCREMENT   580
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2619228E-02
+
+       974 -3.236953E-16 -3.830215E-16  1.727902E-01
+
+                                INCREMENT   581
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2623744E-02
+
+       974 -2.921874E-16 -3.407444E-16  1.543816E-01
+
+                                INCREMENT   582
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2628260E-02
+
+       974 -2.615773E-16 -2.990602E-16  1.362983E-01
+
+                                INCREMENT   583
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2632776E-02
+
+       974 -2.320540E-16 -2.586661E-16  1.188153E-01
+
+                                INCREMENT   584
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2637291E-02
+
+       974 -2.037978E-16 -2.202281E-16  1.021902E-01
+
+                                INCREMENT   585
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2641807E-02
+
+       974 -1.769743E-16 -1.842781E-16  8.662934E-02
+
+                                INCREMENT   586
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2646323E-02
+
+       974 -1.517127E-16 -1.511573E-16  7.226460E-02
+
+                                INCREMENT   587
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2650839E-02
+
+       974 -1.281163E-16 -1.210046E-16  5.914489E-02
+
+                                INCREMENT   588
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2655355E-02
+
+       974 -1.062433E-16 -9.375977E-17  4.724315E-02
+
+                                INCREMENT   589
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2659871E-02
+
+       974 -8.612292E-17 -6.923393E-17  3.647742E-02
+
+                                INCREMENT   590
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2664387E-02
+
+       974 -6.776348E-17 -4.716279E-17  2.674100E-02
+
+                                INCREMENT   591
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2668903E-02
+
+       974 -5.118197E-17 -2.731681E-17  1.793539E-02
+
+                                INCREMENT   592
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2673419E-02
+
+       974 -3.637498E-17 -9.527427E-18  9.999114E-03
+
+                                INCREMENT   593
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2677935E-02
+
+       974 -2.336625E-17  6.203669E-18  2.926208E-03
+
+                                INCREMENT   594
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2682451E-02
+
+       974 -1.217186E-17  1.975958E-17 -3.229206E-03
+
+                                INCREMENT   595
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2686966E-02
+
+       974 -2.839254E-18  3.087096E-17 -8.363474E-03
+
+                                INCREMENT   596
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2691482E-02
+
+       974  4.609553E-18  3.923287E-17 -1.234682E-02
+
+                                INCREMENT   597
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2695998E-02
+
+       974  1.014915E-17  4.454038E-17 -1.505484E-02
+
+                                INCREMENT   598
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2700514E-02
+
+       974  1.379478E-17  4.659698E-17 -1.640151E-02
+
+                                INCREMENT   599
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2705030E-02
+
+       974  1.558202E-17  4.536200E-17 -1.636688E-02
+
+                                INCREMENT   600
+
+
+ displacements (vx,vy,vz) for set CEN and time  0.2709546E-02
+
+       974  1.559218E-17  4.101503E-17 -1.501339E-02

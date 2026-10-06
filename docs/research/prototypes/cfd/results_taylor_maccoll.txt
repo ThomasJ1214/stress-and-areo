@@ -1,0 +1,4 @@
+M=2.000 theta_c=10.0000 deg -> beta=31.2061 deg, Mc=1.8340, pc/pinf=1.29252, Cp_cone=0.10447, modNewtonian Cp=0.04997
+M=2.000 theta_c=9.4623 deg -> beta=31.0063 deg, Mc=1.8468, pc/pinf=1.26748, Cp_cone=0.09553, modNewtonian Cp=0.04479
+M=3.000 theta_c=9.4623 deg -> beta=21.4070 deg, Mc=2.7310, pc/pinf=1.50296, Cp_cone=0.07984, modNewtonian Cp=0.04745
+M=1.500 theta_c=9.4623 deg -> beta=42.5128 deg, Mc=1.3850, pc/pinf=1.17821, Cp_cone=0.11315, modNewtonian Cp=0.04141

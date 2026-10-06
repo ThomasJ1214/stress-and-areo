@@ -1,0 +1,90 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Mon Sep 28 09:16:29 2026
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 1 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 16931
+ number of nonzero lower triangular matrix elements
+ 968978
+
+ Using up to 1 cpu(s) for setting up the structure of the matrix.
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the symmetric stiffness/mass contributions.
+
+ Factoring the system of equations using the symmetric spooles solver
+ Using up to 1 cpu(s) for spooles.
+
+ Calculating the eigenvalues and the eigenmodes
+
+U^T*M*U=1.000000 for eigenmode 1
+U^T*M*U=1.000000 for eigenmode 2
+U^T*M*U=1.000000 for eigenmode 3
+U^T*M*U=1.000000 for eigenmode 4
+U^T*M*U=1.000000 for eigenmode 5
+U^T*M*U=1.000000 for eigenmode 6
+U^T*M*U=1.000000 for eigenmode 7
+U^T*M*U=1.000000 for eigenmode 8
+U^T*M*U=1.000000 for eigenmode 9
+U^T*M*U=1.000000 for eigenmode 10
+U^T*M*U=1.000000 for eigenmode 11
+U^T*M*U=1.000000 for eigenmode 12
+U^T*M*U=1.000000 for eigenmode 13
+U^T*M*U=1.000000 for eigenmode 14
+U^T*M*U=1.000000 for eigenmode 15
+U^T*M*U=1.000000 for eigenmode 16
+U^T*M*U=1.000000 for eigenmode 17
+U^T*M*U=1.000000 for eigenmode 18
+U^T*M*U=1.000000 for eigenmode 19
+U^T*M*U=1.000000 for eigenmode 20
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+
+ Using up to 1 cpu(s) for the stress calculation.
+

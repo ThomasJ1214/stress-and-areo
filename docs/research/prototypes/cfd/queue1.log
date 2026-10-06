@@ -1,0 +1,6 @@
+[queue] MG test done Mon Oct  5 22:15:17 UTC 2026
+[queue] finished runs/m2_a0_sf2_mg3 wall_s=128.163046424 rc=0 Mon Oct  5 22:17:26 UTC 2026
+[queue] mesh sf1.4: 
+[queue] finished runs/m2_a4_sf1.4_mg3 wall_s=.010635341 rc=1 Mon Oct  5 22:17:34 UTC 2026
+[queue] finished runs/m2_a0_sf1.4_mg3 wall_s=.008766460 rc=1 Mon Oct  5 22:17:37 UTC 2026
+[queue] ALL DONE Mon Oct  5 22:17:37 UTC 2026

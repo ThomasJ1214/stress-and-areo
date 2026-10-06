@@ -1,0 +1,1 @@
+Barrowman: lm=0.0854 CNa_fins=5.960/rad x_f=0.9300 m; CNa=7.960/rad CN(4deg, linear)=0.5557 x_cp=0.7466 m = 7.466 D

@@ -1,0 +1,285 @@
+
+************************************************************
+
+CalculiX Version 2.23, Copyright(C) 1998-2025 Guido Dhondt
+CalculiX comes with ABSOLUTELY NO WARRANTY. This is free
+software, and you are welcome to redistribute it under
+certain conditions, see gpl.htm
+
+************************************************************
+
+You are using an executable made on Fri Oct 24 20:12:25     2025
+ Decascading the MPC's
+
+ Determining the structure of the matrix:
+ Using up to 2 cpu(s) for setting up the structure of the matrix.
+ number of equations
+ 108150
+ number of nonzero lower triangular matrix elements
+ 6367872
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+Not reusing csc.
+IPARM_MIXED=1
+globDouble=0
++-------------------------------------------------+
++     PaStiX : Parallel Sparse matriX package     +
++-------------------------------------------------+
+  Version:                                   6.4.0
+  Schedulers:
+    sequential:                            Enabled
+    thread static:                         Started
+    thread dynamic:                       Disabled
+    PaRSEC:                               Disabled
+    StarPU:                               Disabled
+  Number of MPI processes:                       1
+  Number of threads per process:                 2
+  Number of GPUs:                                0
+  MPI communication support:              PastixMpiNone
+  Distribution level:                     2D( 128)
+  Blocking size (min/max):             1024 / 2048
+  Computational models
+    CPU:              AMD Opteron 6180 - Intel MKL
+    GPU:             Nvidia K40 GK1108L - CUDA 8.0
+  Low rank parameters:
+    Strategy                        No compression
+
+  Matrix type:  General
+  Arithmetic:   Double
+  Format:       CSC
+  N:            108150
+  nnz:          12843894
+
++-------------------------------------------------+
+  Ordering subtask :
+    Ordering method is: Scotch
+    Time to compute ordering              2.243562e-01 s
++-------------------------------------------------+
+  Symbolic factorization subtask:
+    Symbol factorization using: Fax Direct
+    Number of nonzeroes in L structure    42303738
+    Fill-in of L                          3.293685
+    Time to compute symbol matrix         5.249596e-02 s
++-------------------------------------------------+
+  Reordering subtask:
+    Split level                                  0
+    Stoping criterion                           -1
+    Time for reordering                   1.121650e-01 s
++-------------------------------------------------+
+  Mapping/Scheduling subtask:
+    Number of non-zeroes in blocked L     84607476
+    Fill-in                               6.587370
+    Number of operations in full-rank: LU       58.26 GFlops
+    Prediction:
+      Model                              AMD 6180  MKL
+      Time to factorize                   6.642962e+00 s
+    Time for mapping/scheduling           4.860878e-03 s
++-------------------------------------------------+
+  Analyze task:
+    Total time for analyze                4.957399e-01 s
++-------------------------------------------------+
+  Factorization task:
+    Factorization used: LU
+    Time to initialize internal csc       2.375958e+00 s
+    Time to initialize coeftab            1.522913e+00 s
+    Time to factorize                     2.499526e+00 s (23.31 GFlop/s)
+    Number of operations                       -8637379409.00  Flops
+    Number of static pivots                      0
+    Memory usage of coeftab                        374 Mo
+    Time to solve                         5.543303e-02 s
+    - iteration 1 :
+         total iteration time                   0.074 s
+         error                                  2.9829e-07
+    - iteration 2 :
+         total iteration time                   0.0773 s
+         error                                  7.4687e-10
+    - iteration 3 :
+         total iteration time                   0.0862 s
+         error                                  1.9858e-12
+    - iteration 4 :
+         total iteration time                   0.0979 s
+         error                                  6.0356e-15
+    Time for refinement                   3.728130e-01 s
+________________________________________
+
+CSC Conversion Time: 0.196012
+Init Time: 0.510599
+Factorize Time: 6.423144
+Solve Time: 0.444353
+Clean up Time: 0.000000
+---------------------------------
+Sum: 7.574109
+
+Total PaStiX Time: 7.574109
+CCX without PaStiX Time: 6.009083
+Share of PaStiX Time: 0.557609
+Total Time: 13.583192
+Reusability: 0 : 1 
+________________________________________
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the symmetric stiffness/mass contributions.
+
+Not reusing csc.
+IPARM_MIXED=0
+globDouble=1
++-------------------------------------------------+
++     PaStiX : Parallel Sparse matriX package     +
++-------------------------------------------------+
+  Version:                                   6.4.0
+  Schedulers:
+    sequential:                            Enabled
+    thread static:                         Started
+    thread dynamic:                       Disabled
+    PaRSEC:                               Disabled
+    StarPU:                               Disabled
+  Number of MPI processes:                       1
+  Number of threads per process:                 2
+  Number of GPUs:                                0
+  MPI communication support:              PastixMpiNone
+  Distribution level:                     2D( 256)
+  Blocking size (min/max):             1024 / 2048
+  Computational models
+    CPU:              AMD Opteron 6180 - Intel MKL
+    GPU:             Nvidia K40 GK1108L - CUDA 8.0
+  Low rank parameters:
+    Strategy                        No compression
+
+  Matrix type:  General
+  Arithmetic:   Double
+  Format:       CSC
+  N:            108150
+  nnz:          12843894
+
++-------------------------------------------------+
+  Ordering subtask :
+    Ordering method is: Scotch
+    Time to compute ordering              1.809192e-01 s
++-------------------------------------------------+
+  Symbolic factorization subtask:
+    Symbol factorization using: Fax Direct
+    Number of nonzeroes in L structure    42303738
+    Fill-in of L                          3.293685
+    Time to compute symbol matrix         5.287504e-02 s
++-------------------------------------------------+
+  Reordering subtask:
+    Split level                                  0
+    Stoping criterion                           -1
+    Time for reordering                   1.024802e-01 s
++-------------------------------------------------+
+  Mapping/Scheduling subtask:
+    Number of non-zeroes in blocked L     84607476
+    Fill-in                               6.587370
+    Number of operations in full-rank: LU       58.26 GFlops
+    Prediction:
+      Model                              AMD 6180  MKL
+      Time to factorize                   6.642962e+00 s
+    Time for mapping/scheduling           3.209114e-03 s
++-------------------------------------------------+
+  Analyze task:
+    Total time for analyze                4.450891e-01 s
++-------------------------------------------------+
+  Factorization task:
+    Factorization used: LU
+    Time to initialize internal csc       1.245991e+00 s
+    Time to initialize coeftab            4.938970e-01 s
+    Time to factorize                     5.369143e+00 s (10.85 GFlop/s)
+    Number of operations                       -8637379409.00  Flops
+    Number of static pivots                      0
+    Memory usage of coeftab                        748 Mo
+ Calculating the buckling factors and buckling modes:
+
+    Time to solve                         8.589888e-02 s
+    Time for refinement                   1.628590e-02 s
+    Time to solve                         1.036401e-01 s
+    Time for refinement                   1.703405e-02 s
+    Time to solve                         7.927489e-02 s
+    Time for refinement                   2.105284e-02 s
+    Time to solve                         1.057200e-01 s
+    Time for refinement                   2.753496e-02 s
+    Time to solve                         8.849096e-02 s
+    Time for refinement                   2.992511e-02 s
+    Time to solve                         8.449507e-02 s
+    Time for refinement                   1.624799e-02 s
+    Time to solve                         9.805298e-02 s
+    Time for refinement                   1.590490e-02 s
+    Time to solve                         8.744407e-02 s
+    Time for refinement                   1.537609e-02 s
+    Time to solve                         9.537005e-02 s
+    Time for refinement                   1.716185e-02 s
+    Time to solve                         1.061790e-01 s
+    Time for refinement                   2.417183e-02 s
+    Time to solve                         8.533502e-02 s
+    Time for refinement                   2.230597e-02 s
+    Time to solve                         1.091352e-01 s
+    Time for refinement                   3.179002e-02 s
+    Time to solve                         1.194019e-01 s
+    Time for refinement                   1.557398e-02 s
+    Time to solve                         1.201792e-01 s
+    Time for refinement                   1.682305e-02 s
+    Time to solve                         1.205349e-01 s
+    Time for refinement                   2.194405e-02 s
+    Time to solve                         1.188960e-01 s
+    Time for refinement                   1.855183e-02 s
+sigma=1.000000,d[0]=61.154840
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+ Using up to 2 cpu(s) for the stress calculation.
+
+
+  The numbers below are estimated upper bounds
+
+  number of:
+
+   nodes:      1169256
+   elements:         5408
+   one-dimensional elements:            0
+   two-dimensional elements:         5150
+   integration points per element:           64
+   degrees of freedom per node:            3
+   layers per element:            8
+
+   distributed facial loads:            0
+   distributed volumetric loads:            0
+   concentrated loads:          824
+   single point constraints:       374920
+   multiple point constraints:       618001
+   terms in all multiple point constraints:      3955201
+   tie constraints:            0
+   dependent nodes tied by cyclic constraints:            0
+   dependent nodes in pre-tension constraints:            0
+
+   sets:            4
+   terms in all sets:        36874
+
+   materials:            4
+   constants per material and temperature:           21
+   temperature points per material:            1
+   plastic data points per material:            0
+
+   orientations:        41201
+   amplitudes:            2
+   data points in all amplitudes:            2
+   print requests:            0
+   transformations:            0
+   property cards:            0
+
+
+ STEP            1
+
+ Buckling analysis was selected
+
+
+ Job finished
+
+________________________________________
+
+Total CalculiX Time: 33.484329
+________________________________________

@@ -1,0 +1,10 @@
+nodes {'2.8': 58003, '2.0': 147946, '1.4': 408469}, r21=1.403, r32=1.366
+AoA0 nose.CFx                     coarse=0.07907 medium=0.08594 fine=0.09024  p=1.45 f_ext=0.09739 GCI_fine=9.91%  exact=0.09553 err_fine=-5.54%
+AoA0 nose_Cp_area_avg_x>0.2Ln     coarse=0.08094 medium=0.08722 fine=0.09096  p=1.59 f_ext=0.09647 GCI_fine=7.57%  exact=0.09553 err_fine=-4.78%
+AoA0 CFx                          coarse=0.18073 medium=0.26258 fine=0.29339  p=3.00 f_ext=0.31197 GCI_fine=7.92%
+AoA4 CFz                          coarse=0.52191 medium=0.55117 fine=0.56692  p=1.90 f_ext=0.58527 GCI_fine=4.05%
+AoA4 x_cp                         coarse=7.01973 medium=7.17863 fine=7.21928  p=4.19 f_ext=7.23326 GCI_fine=0.24%
+AoA4 nose.CFz                     coarse=0.10828 medium=0.11526 fine=0.12210  p=0.06 f_ext=0.47205 GCI_fine=358.28%
+AoA4 fins.CFz                     coarse=0.27171 medium=0.30826 fine=0.33282  p=1.22 f_ext=0.38312 GCI_fine=18.89%
+AoA4 CFx                          coarse=0.17990 medium=0.26219 fine=0.29510  p=2.82 f_ext=0.31703 GCI_fine=9.29%
+AoA4 base.CFx                     coarse=0.01615 medium=0.06508 fine=0.08749  p=2.40 f_ext=0.10644 GCI_fine=27.06%

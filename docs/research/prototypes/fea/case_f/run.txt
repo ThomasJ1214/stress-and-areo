@@ -1,0 +1,4 @@
+centre node r = 0.48204751172680066
+f1 (2597 nodes, 0.90s): w0 FE 0.19323 theory 0.19273 | sigma_r edge FE 9.256 theory 9.204 | centre FE 5.977 theory 5.983
+f2 SS static (0.89s): w0 FE 0.78749 theory 0.78575 | centre sigma FE 15.197 theory 15.187
+f2 dyn (11.39s): f1 FE 1104.4 Hz exact 1107.2 Hz; 600 time pts, peak |w| 1.60220 at t=4.561e-04s -> DLF 2.035 (undamped step SDOF = 2.0)
