@@ -1,4 +1,5 @@
 """Layering guard: lower layers must not import GUI / rendering stacks (spec §4 dependency rule)."""
+
 import ast
 from pathlib import Path
 

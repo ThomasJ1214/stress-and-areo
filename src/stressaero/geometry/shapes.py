@@ -48,8 +48,9 @@ def _f(shape: Shape, x: np.ndarray, radius: float, length: float, k: float) -> n
             length = radius
         if k < 0.001:
             return radius * x / length
-        rho = np.sqrt(max(0.0, (length**2 + radius**2) * (((2 - k) * length) ** 2 + (k * radius) ** 2)
-                          / (4 * (k * radius) ** 2)))
+        rho = np.sqrt(
+            max(0.0, (length**2 + radius**2) * (((2 - k) * length) ** 2 + (k * radius) ** 2) / (4 * (k * radius) ** 2))
+        )
         lam = length / k
         y0 = np.sqrt(max(0.0, rho * rho - lam * lam))
         return np.sqrt(np.maximum(0.0, rho * rho - (lam - x) ** 2)) - y0
@@ -119,8 +120,9 @@ def profile_radius(shape: Shape, x, length: float, r_fore: float, r_aft: float, 
     return float(out) if scalar else out
 
 
-def profile(shape: Shape, length: float, r_fore: float, r_aft: float, param: float, clipped: bool,
-            n: int = 128) -> tuple[np.ndarray, np.ndarray]:
+def profile(
+    shape: Shape, length: float, r_fore: float, r_aft: float, param: float, clipped: bool, n: int = 128
+) -> tuple[np.ndarray, np.ndarray]:
     """Sampled profile ``(x, r)`` with ``n`` points from 0 to ``length``."""
     xs = np.linspace(0.0, length, n)
     rs = np.asarray(profile_radius(shape, xs, length, r_fore, r_aft, param, clipped), dtype=float)

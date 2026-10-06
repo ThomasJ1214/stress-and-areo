@@ -36,45 +36,120 @@ DEG = math.pi / 180.0
 COMPONENT_TAGS = frozenset(k.value for k in Kind) - {Kind.ROCKET.value}
 
 FINISH_ROUGHNESS = {  # ExternalComponent.Finish (m)
-    "rough": 500e-6, "roughunfinished": 250e-6, "unfinished": 150e-6, "normal": 60e-6, "smooth": 20e-6,
-    "optimum": 5e-6, "polished": 2e-6, "finishpolished": 0.5e-6, "mirror": 0.0,
+    "rough": 500e-6,
+    "roughunfinished": 250e-6,
+    "unfinished": 150e-6,
+    "normal": 60e-6,
+    "smooth": 20e-6,
+    "optimum": 5e-6,
+    "polished": 2e-6,
+    "finishpolished": 0.5e-6,
+    "mirror": 0.0,
 }
 
 # ClusterConfiguration.java unit-spacing points (scaled by 2*outerRadius*clusterScale)
 _R5 = 1.0 / (2 * math.sin(2 * math.pi / 10))
 _S2, _S3 = math.sqrt(2), math.sqrt(3)
 CLUSTERS: dict[str, list[float]] = {
-    "single": [0, 0], "double": [-0.5, 0, 0.5, 0], "3-row": [-1, 0, 0, 0, 1, 0],
+    "single": [0, 0],
+    "double": [-0.5, 0, 0.5, 0],
+    "3-row": [-1, 0, 0, 0, 1, 0],
     "4-row": [-1.5, 0, -0.5, 0, 0.5, 0, 1.5, 0],
     "3-ring": [-0.5, -1 / (2 * _S3), 0.5, -1 / (2 * _S3), 0, 1 / _S3],
     "4-ring": [-0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, -0.5],
-    "5-ring": [0, _R5] + [c for i in range(1, 5)
-                          for c in (_R5 * math.sin(2 * math.pi * i / 5), _R5 * math.cos(2 * math.pi * i / 5))],
+    "5-ring": [0, _R5]
+    + [c for i in range(1, 5) for c in (_R5 * math.sin(2 * math.pi * i / 5), _R5 * math.cos(2 * math.pi * i / 5))],
     "6-ring": [0, 1, _S3 / 2, 0.5, _S3 / 2, -0.5, 0, -1, -_S3 / 2, -0.5, -_S3 / 2, 0.5],
     "3-star": [0, 0, 0, 1, _S3 / 2, -0.5, -_S3 / 2, -0.5],
     "4-star": [0, 0, -1 / _S2, 1 / _S2, 1 / _S2, 1 / _S2, 1 / _S2, -1 / _S2, -1 / _S2, -1 / _S2],
-    "5-star": [0, 0, 0, 1] + [c for i in range(1, 5)
-                              for c in (math.sin(2 * math.pi * i / 5), math.cos(2 * math.pi * i / 5))],
+    "5-star": [0, 0, 0, 1]
+    + [c for i in range(1, 5) for c in (math.sin(2 * math.pi * i / 5), math.cos(2 * math.pi * i / 5))],
     "6-star": [0, 0, 0, 1, _S3 / 2, 0.5, _S3 / 2, -0.5, 0, -1, -_S3 / 2, -0.5, -_S3 / 2, 0.5],
     "9-grid": [-1.4, 1.4, 0, 1.4, 1.4, 1.4, -1.4, 0, 0, 0, 1.4, 0, -1.4, -1.4, 0, -1.4, 1.4, -1.4],
-    "9-star": [0, 0, 1.4, 0, 1.4 / _S2, -1.4 / _S2, 0, -1.4, -1.4 / _S2, -1.4 / _S2, -1.4, 0,
-               -1.4 / _S2, 1.4 / _S2, 0, 1.4, 1.4 / _S2, 1.4 / _S2],
+    "9-star": [
+        0,
+        0,
+        1.4,
+        0,
+        1.4 / _S2,
+        -1.4 / _S2,
+        0,
+        -1.4,
+        -1.4 / _S2,
+        -1.4 / _S2,
+        -1.4,
+        0,
+        -1.4 / _S2,
+        1.4 / _S2,
+        0,
+        1.4,
+        1.4 / _S2,
+        1.4 / _S2,
+    ],
 }
 
 _DEG_FIELDS = frozenset({"angleoffset", "rotation", "radialdirection", "cant", "clusterrotation"})
-_AUTO_FIELDS = frozenset({"radius", "aftradius", "foreradius", "outerradius", "innerradius", "packedradius", "cd",
-                          "linelength"})
-_BOOL_FIELDS = frozenset({"isflipped", "shapeclipped", "aftshouldercapped", "foreshouldercapped", "motormount",
-                          "overridesubcomponents", "overridesubcomponentsmass", "overridesubcomponentscg",
-                          "overridesubcomponentscd", "isdrogue"})
-_STR_FIELDS = frozenset({"name", "id", "shape", "crosssection", "clusterconfiguration", "masscomponenttype",
-                         "deployevent", "separationevent", "finish", "comment", "color", "linestyle", "designer",
-                         "revision", "referencetype", "designtype", "kitname", "material", "filletmaterial",
-                         "linematerial", "preset", "radiusoffset", "tabposition"})
-_STRUCTURED = frozenset({"subcomponents", "motormount", "appearance", "insideappearance", "inside-appearance",
-                         "finpoints", "deploymentconfiguration", "separationconfiguration", "motorconfiguration",
-                         "flightconfiguration", "preset"})
-KNOWN_ELEMENTS = frozenset("""
+_AUTO_FIELDS = frozenset(
+    {"radius", "aftradius", "foreradius", "outerradius", "innerradius", "packedradius", "cd", "linelength"}
+)
+_BOOL_FIELDS = frozenset(
+    {
+        "isflipped",
+        "shapeclipped",
+        "aftshouldercapped",
+        "foreshouldercapped",
+        "motormount",
+        "overridesubcomponents",
+        "overridesubcomponentsmass",
+        "overridesubcomponentscg",
+        "overridesubcomponentscd",
+        "isdrogue",
+    }
+)
+_STR_FIELDS = frozenset(
+    {
+        "name",
+        "id",
+        "shape",
+        "crosssection",
+        "clusterconfiguration",
+        "masscomponenttype",
+        "deployevent",
+        "separationevent",
+        "finish",
+        "comment",
+        "color",
+        "linestyle",
+        "designer",
+        "revision",
+        "referencetype",
+        "designtype",
+        "kitname",
+        "material",
+        "filletmaterial",
+        "linematerial",
+        "preset",
+        "radiusoffset",
+        "tabposition",
+    }
+)
+_STRUCTURED = frozenset(
+    {
+        "subcomponents",
+        "motormount",
+        "appearance",
+        "insideappearance",
+        "inside-appearance",
+        "finpoints",
+        "deploymentconfiguration",
+        "separationconfiguration",
+        "motorconfiguration",
+        "flightconfiguration",
+        "preset",
+    }
+)
+KNOWN_ELEMENTS = frozenset(
+    """
 aftradius aftshouldercapped aftshoulderlength aftshoulderradius aftshoulderthickness angleoffset appearance
 axialoffset baseheight cant cd clusterconfiguration clusterrotation clusterscale color comment cordlength
 crosssection deployaltitude deploydelay deployevent deploymentconfiguration designer designtype diameter
@@ -88,7 +163,8 @@ radialposition radius radiusoffset referencetype revision rootchord rotation scr
 separationconfiguration separationdelay separationevent shape shapeclipped shapeparameter striplength
 stripwidth subcomponents sweeplength tabheight tablength tabposition thickness tipchord kitname
 customreference isdrogue
-""".split())
+""".split()
+)
 
 
 def fnum(s: str | None, default: float | None = None) -> float | None:
@@ -154,16 +230,29 @@ class _Ctx:
         key = (parent_tag, tag)
         if key not in self._unknown_seen:
             self._unknown_seen.add(key)
-            self.issues.append(Issue(Severity.WARNING, "ORK_UNKNOWN_ELEMENT",
-                                     f"Unknown element <{tag}> in <{parent_tag}> was ignored", cid))
+            self.issues.append(
+                Issue(
+                    Severity.WARNING,
+                    "ORK_UNKNOWN_ELEMENT",
+                    f"Unknown element <{tag}> in <{parent_tag}> was ignored",
+                    cid,
+                )
+            )
 
 
 def _instance_count(c: Component) -> int:
     k = c.kind
     if k in FINS or k is Kind.TUBEFINSET:
         return int(c.values.get("instancecount", c.values.get("fincount", 1)) or 1)
-    if k in (Kind.LAUNCHLUG, Kind.RAILBUTTON, Kind.BULKHEAD, Kind.CENTERINGRING, Kind.PODSET, Kind.PARALLELSTAGE,
-             Kind.BOOSTERSET):
+    if k in (
+        Kind.LAUNCHLUG,
+        Kind.RAILBUTTON,
+        Kind.BULKHEAD,
+        Kind.CENTERINGRING,
+        Kind.PODSET,
+        Kind.PARALLELSTAGE,
+        Kind.BOOSTERSET,
+    ):
         return int(c.values.get("instancecount", 1) or 1)
     if k is Kind.INNERTUBE:
         cfg = c.values.get("clusterconfiguration", "single") or "single"
@@ -185,8 +274,13 @@ def _placement(c: Component) -> AxialPlacement:
 
 
 def _parse_motormount(el: Element) -> dict[str, Any]:
-    mm: dict[str, Any] = {"ignitionevent": "automatic", "ignitiondelay": 0.0, "overhang": 0.0, "motors": {},
-                          "ignition_overrides": {}}
+    mm: dict[str, Any] = {
+        "ignitionevent": "automatic",
+        "ignitiondelay": 0.0,
+        "overhang": 0.0,
+        "motors": {},
+        "ignition_overrides": {},
+    }
     for ch in el:
         if ch.tag == "ignitionevent":
             mm["ignitionevent"] = (ch.text or "").strip()
@@ -225,12 +319,14 @@ def _parse_component(el: Element, parent: Component | None, path: str, ctx: _Ctx
         elif tag == "separationconfiguration":
             c.separation_overrides[ch.get("configid", "")] = {k.tag: (k.text or "").strip() for k in ch}
         elif tag in ("motorconfiguration", "flightconfiguration"):
-            c.values.setdefault("_flightconfigs", []).append({
-                "id": ch.get("configid"),
-                "default": ch.get("default") == "true",
-                "name": ch.findtext("name"),
-                "stages": {int(s.get("number", "0")): s.get("active") == "true" for s in ch.findall("stage")},
-            })
+            c.values.setdefault("_flightconfigs", []).append(
+                {
+                    "id": ch.get("configid"),
+                    "default": ch.get("default") == "true",
+                    "name": ch.findtext("name"),
+                    "stages": {int(s.get("number", "0")): s.get("active") == "true" for s in ch.findall("stage")},
+                }
+            )
         elif tag in ("appearance", "insideappearance", "inside-appearance"):
             d: dict[str, Any] = {}
             paint = ch.find("paint")
@@ -314,7 +410,13 @@ def parse_document(xml: bytes) -> ParsedDocument:
             c.id = f"{c.id}#{c.path}"
             ctx.issues.append(Issue(Severity.WARNING, "ORK_DUPLICATE_ID", f"duplicate component id in {c.name}", c.id))
         by_id[c.id] = c
-    rocket = Rocket(root=root, by_id=by_id, issues=ctx.issues, stage_count=max(ctx.stage_counter, 1),
-                    flight_config_entries=root.values.pop("_flightconfigs", []))
-    return ParsedDocument(version=root_el.get("version", ""), creator=root_el.get("creator", ""),
-                          rocket=rocket, root_element=root_el)
+    rocket = Rocket(
+        root=root,
+        by_id=by_id,
+        issues=ctx.issues,
+        stage_count=max(ctx.stage_counter, 1),
+        flight_config_entries=root.values.pop("_flightconfigs", []),
+    )
+    return ParsedDocument(
+        version=root_el.get("version", ""), creator=root_el.get("creator", ""), rocket=rocket, root_element=root_el
+    )

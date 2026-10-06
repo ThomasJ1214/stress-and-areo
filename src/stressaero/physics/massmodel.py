@@ -38,8 +38,11 @@ from stressaero.geometry.components import (
 )
 from stressaero.geometry.shapes import Shape
 
-PROVENANCE = Provenance(Tier.ENGINEERING_OR, "mass.or_compat.24_12",
-                        references=("OpenRocket 24.12 MassCalculation / RocketComponent.getComponentMass",))
+PROVENANCE = Provenance(
+    Tier.ENGINEERING_OR,
+    "mass.or_compat.24_12",
+    references=("OpenRocket 24.12 MassCalculation / RocketComponent.getComponentMass",),
+)
 CROSS_SECTION_VOLUME = {"square": 1.00, "rounded": 0.99, "airfoil": 0.85}
 _N_FRUSTA = 128
 
@@ -93,8 +96,12 @@ def _symmetric(c: Component) -> tuple[float, float]:
     parts = [(0.0, length / 2) if vol < 1e-10 else (rho * vol, cgx / vol)]
 
     def shoulder(prefix: str) -> tuple[float, float, float, bool]:
-        return (c.num(prefix + "shoulderradius"), c.num(prefix + "shoulderlength"),
-                c.num(prefix + "shoulderthickness"), bool(c.values.get(prefix + "shouldercapped", False)))
+        return (
+            c.num(prefix + "shoulderradius"),
+            c.num(prefix + "shoulderlength"),
+            c.num(prefix + "shoulderthickness"),
+            bool(c.values.get(prefix + "shouldercapped", False)),
+        )
 
     sh = {"fore": shoulder("fore"), "aft": shoulder("aft")}
     if c.kind is Kind.NOSECONE and c.values.get("isflipped"):
@@ -103,8 +110,12 @@ def _symmetric(c: Component) -> tuple[float, float]:
         radius, sl, st, cap = sh[side]
         ir = max(radius - st, 0.0)
         if sl > 0.001:
-            parts.append((math.pi * max(radius * radius - ir * ir, 0.0) * sl * rho,
-                          -sl / 2 if side == "fore" else length + sl / 2))
+            parts.append(
+                (
+                    math.pi * max(radius * radius - ir * ir, 0.0) * sl * rho,
+                    -sl / 2 if side == "fore" else length + sl / 2,
+                )
+            )
         if cap:
             xc = (-sl + st - sl) / 2 if side == "fore" else (length + sl - st + length + sl) / 2
             parts.append((math.pi * ir * ir * st * rho, xc))
@@ -224,8 +235,9 @@ def component_mass_cg(c: Component) -> tuple[float, float]:
     if k is Kind.RAILBUTTON:
         od, idd = c.num("outerdiameter"), c.num("innerdiameter")
         h, bh, fh, sh = c.num("height"), c.num("baseheight"), c.num("flangeheight"), c.num("screwheight")
-        vol = math.pi * ((od / 2) ** 2 * fh + (idd / 2) ** 2 * (h - fh - bh) + (od / 2) ** 2 * bh
-                         + 2.0 / 3 * (od / 2) ** 2 * sh)
+        vol = math.pi * (
+            (od / 2) ** 2 * fh + (idd / 2) ** 2 * (h - fh - bh) + (od / 2) ** 2 * bh + 2.0 / 3 * (od / 2) ** 2 * sh
+        )
         return vol * n * _rho(c.material), sep_mid
     if k in RINGS:
         ro, ri = c.resolved["outer_radius"], c.resolved["inner_radius"]

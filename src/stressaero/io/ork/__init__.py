@@ -31,13 +31,20 @@ class OrkImport:
         return self.rocket.issues
 
 
-def load_ork(source: Path | str | bytes, *, name: str | None = None,
-             emulate_or_stale_positions: bool = True) -> OrkImport:
+def load_ork(
+    source: Path | str | bytes, *, name: str | None = None, emulate_or_stale_positions: bool = True
+) -> OrkImport:
     """Read, parse and resolve an OpenRocket document from a path or bytes."""
     container = read_container(source)
     doc = parse_document(container.xml)
     resolve(doc.rocket, emulate_or_stale_positions=emulate_or_stale_positions)
     source_name = name or (Path(source).name if not isinstance(source, bytes | bytearray) else "rocket.ork")
-    return OrkImport(rocket=doc.rocket, format_version=doc.version, creator=doc.creator, container=container,
-                     source_name=source_name, configurations=parse_configurations(doc),
-                     simulations=parse_simulations(doc, doc.rocket.issues))
+    return OrkImport(
+        rocket=doc.rocket,
+        format_version=doc.version,
+        creator=doc.creator,
+        container=container,
+        source_name=source_name,
+        configurations=parse_configurations(doc),
+        simulations=parse_simulations(doc, doc.rocket.issues),
+    )

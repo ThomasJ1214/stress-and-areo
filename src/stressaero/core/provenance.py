@@ -46,8 +46,10 @@ class ValidityBand:
     def contains(self, mach: float | None = None, aoa_rad: float | None = None) -> bool:
         if mach is not None and self.mach is not None and not (self.mach[0] <= mach <= self.mach[1]):
             return False
-        if aoa_rad is not None and self.aoa_rad is not None and not (
-            self.aoa_rad[0] <= abs(aoa_rad) <= self.aoa_rad[1]
+        if (
+            aoa_rad is not None
+            and self.aoa_rad is not None
+            and not (self.aoa_rad[0] <= abs(aoa_rad) <= self.aoa_rad[1])
         ):
             return False
         return True

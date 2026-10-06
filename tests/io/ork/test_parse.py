@@ -9,14 +9,28 @@ from stressaero.io.ork.parse import parse_document
 from tests.oracle_data import find, iter_cases
 
 OR_CLASS_TO_KIND = {
-    "Rocket": {Kind.ROCKET}, "AxialStage": {Kind.STAGE}, "ParallelStage": {Kind.PARALLELSTAGE, Kind.BOOSTERSET},
-    "PodSet": {Kind.PODSET}, "NoseCone": {Kind.NOSECONE}, "BodyTube": {Kind.BODYTUBE},
-    "Transition": {Kind.TRANSITION}, "TrapezoidFinSet": {Kind.TRAPEZOIDFINSET},
-    "EllipticalFinSet": {Kind.ELLIPTICALFINSET}, "FreeformFinSet": {Kind.FREEFORMFINSET},
-    "TubeFinSet": {Kind.TUBEFINSET}, "LaunchLug": {Kind.LAUNCHLUG}, "RailButton": {Kind.RAILBUTTON},
-    "InnerTube": {Kind.INNERTUBE}, "TubeCoupler": {Kind.TUBECOUPLER}, "EngineBlock": {Kind.ENGINEBLOCK},
-    "CenteringRing": {Kind.CENTERINGRING}, "Bulkhead": {Kind.BULKHEAD}, "MassComponent": {Kind.MASSCOMPONENT},
-    "ShockCord": {Kind.SHOCKCORD}, "Parachute": {Kind.PARACHUTE}, "Streamer": {Kind.STREAMER},
+    "Rocket": {Kind.ROCKET},
+    "AxialStage": {Kind.STAGE},
+    "ParallelStage": {Kind.PARALLELSTAGE, Kind.BOOSTERSET},
+    "PodSet": {Kind.PODSET},
+    "NoseCone": {Kind.NOSECONE},
+    "BodyTube": {Kind.BODYTUBE},
+    "Transition": {Kind.TRANSITION},
+    "TrapezoidFinSet": {Kind.TRAPEZOIDFINSET},
+    "EllipticalFinSet": {Kind.ELLIPTICALFINSET},
+    "FreeformFinSet": {Kind.FREEFORMFINSET},
+    "TubeFinSet": {Kind.TUBEFINSET},
+    "LaunchLug": {Kind.LAUNCHLUG},
+    "RailButton": {Kind.RAILBUTTON},
+    "InnerTube": {Kind.INNERTUBE},
+    "TubeCoupler": {Kind.TUBECOUPLER},
+    "EngineBlock": {Kind.ENGINEBLOCK},
+    "CenteringRing": {Kind.CENTERINGRING},
+    "Bulkhead": {Kind.BULKHEAD},
+    "MassComponent": {Kind.MASSCOMPONENT},
+    "ShockCord": {Kind.SHOCKCORD},
+    "Parachute": {Kind.PARACHUTE},
+    "Streamer": {Kind.STREAMER},
 }
 
 
@@ -51,8 +65,11 @@ def test_dual_parachute_details():
 
 def test_cant_converted_to_radians():
     doc = _parse(find("Simulation scripting"))
-    canted = [c for c in doc.rocket.root.walk() if c.kind in {Kind.TRAPEZOIDFINSET, Kind.FREEFORMFINSET}
-              and c.values.get("cant")]
+    canted = [
+        c
+        for c in doc.rocket.root.walk()
+        if c.kind in {Kind.TRAPEZOIDFINSET, Kind.FREEFORMFINSET} and c.values.get("cant")
+    ]
     assert canted, "expected a canted fin set"
     assert all(abs(c.values["cant"]) < math.radians(30) for c in canted)
 

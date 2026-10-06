@@ -45,8 +45,7 @@ def run_probe(jar: Path, files: list[Path]) -> str:
         listing = Path(td) / "files.txt"
         listing.write_text("\n".join(str(f) for f in files), encoding="utf-8")
         res = subprocess.run(
-            ["java", "-Djava.awt.headless=true", "-cp", os.pathsep.join([str(jar), td]),
-             "ORProbe", f"@{listing}"],
+            ["java", "-Djava.awt.headless=true", "-cp", os.pathsep.join([str(jar), td]), "ORProbe", f"@{listing}"],
             check=True,
             capture_output=True,
             text=True,

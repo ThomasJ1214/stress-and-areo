@@ -397,9 +397,15 @@ class _Resolver:
         for key, value in pairs:
             v = c.values.get(key)
             if isinstance(v, AutoValue) and v.cached is not None and abs(v.cached - value) > 1e-9:
-                issues.append(Issue(Severity.INFO, "ORK_STALE_AUTO",
-                                    f"{c.name}: automatic {key} saved as {v.cached:.6g} m resolves to {value:.6g} m;"
-                                    " using the resolved value", c.id))
+                issues.append(
+                    Issue(
+                        Severity.INFO,
+                        "ORK_STALE_AUTO",
+                        f"{c.name}: automatic {key} saved as {v.cached:.6g} m resolves to {value:.6g} m;"
+                        " using the resolved value",
+                        c.id,
+                    )
+                )
 
 
 def resolve(rocket: Rocket, *, emulate_or_stale_positions: bool = True) -> _Resolver:

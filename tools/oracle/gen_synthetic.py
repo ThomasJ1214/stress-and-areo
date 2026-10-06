@@ -1,5 +1,6 @@
 """Generate a synthetic .ork (format 1.10) exercising shapes/components not present in the example files.
 Writes a ZIP container (rocket.ork first entry) and a plain-XML twin."""
+
 import os
 import uuid
 import zipfile
@@ -8,7 +9,7 @@ U = lambda: str(uuid.uuid4())
 FG = '<material type="bulk" density="1850.0" group="Composites">Fiberglass</material>'
 CB = '<material type="bulk" density="680.0" group="PaperProducts">Cardboard</material>'
 PLA = '<material type="bulk" density="1250.0" group="Plastics">PLA</material>'
-CFG = 'b0000000-0000-4000-8000-000000000001'
+CFG = "b0000000-0000-4000-8000-000000000001"
 xml = f'''<?xml version='1.0' encoding='utf-8'?>
 <openrocket version="1.10" creator="synthetic-generator">
   <rocket>
@@ -66,7 +67,7 @@ xml = f'''<?xml version='1.0' encoding='utf-8'?>
               <ellipticalfinset><name>Elliptical fins</name><id>{U()}</id><instancecount>4</instancecount><fincount>4</fincount>
                 <radiusoffset method="surface">0.0</radiusoffset><angleoffset method="relative">0.0</angleoffset><rotation>0.0</rotation>
                 <axialoffset method="bottom">0.0</axialoffset><finish>normal</finish>{PLA}<thickness>0.003</thickness><crosssection>rounded</crosssection>
-                <cant>0.0</cant><filletradius>0.005</filletradius>{FG.replace('material','filletmaterial')}<rootchord>0.12</rootchord><height>0.07</height></ellipticalfinset>
+                <cant>0.0</cant><filletradius>0.005</filletradius>{FG.replace("material", "filletmaterial")}<rootchord>0.12</rootchord><height>0.07</height></ellipticalfinset>
               <railbutton><name>Buttons</name><id>{U()}</id><instancecount>2</instancecount><instanceseparation>0.3</instanceseparation>
                 <angleoffset method="relative">180.0</angleoffset><axialoffset method="middle">0.0</axialoffset><finish>normal</finish>
                 <material type="bulk" density="1420.0" group="Plastics">Delrin</material><outerdiameter>0.0097</outerdiameter><innerdiameter>0.008</innerdiameter>
@@ -93,8 +94,8 @@ xml = f'''<?xml version='1.0' encoding='utf-8'?>
   </simulations>
 </openrocket>
 '''
-out = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'samples', 'synthetic')
-open(os.path.join(out, 'synthetic_shapes_plain.ork'), 'w').write(xml)
-with zipfile.ZipFile(os.path.join(out, 'synthetic_shapes.ork'), 'w', zipfile.ZIP_DEFLATED) as z:
-    z.writestr('rocket.ork', xml)
-print('written')
+out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "samples", "synthetic")
+open(os.path.join(out, "synthetic_shapes_plain.ork"), "w").write(xml)
+with zipfile.ZipFile(os.path.join(out, "synthetic_shapes.ork"), "w", zipfile.ZIP_DEFLATED) as z:
+    z.writestr("rocket.ork", xml)
+print("written")
